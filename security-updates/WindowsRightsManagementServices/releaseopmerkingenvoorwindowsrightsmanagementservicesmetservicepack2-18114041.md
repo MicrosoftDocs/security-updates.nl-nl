@@ -30,8 +30,8 @@ De volgende tabel bevat de hardwarevereisten voor het uitvoeren van RMS met SP2.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vereist</th>
-<th>Aanbevolen</th>
+<th style="border:1px solid black;" >Vereist</th>
+<th style="border:1px solid black;" >Aanbevolen</th>
 </tr>
 </thead>
 <tbody>
@@ -66,8 +66,8 @@ De volgende tabel bevat de softwarevereisten voor het uitvoeren van RMS met SP2.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Onderdeel</th>
-<th>Vereist</th>
+<th style="border:1px solid black;" >Onderdeel</th>
+<th style="border:1px solid black;" >Vereist</th>
 </tr>
 </thead>
 <tbody>
@@ -117,8 +117,8 @@ De volgende tabel bevat de infrastructuurvereisten voor servers waarop RMS met S
 </colgroup>
 <thead>
 <tr class="header">
-<th>Onderdeel</th>
-<th>Vereisten</th>
+<th style="border:1px solid black;" >Onderdeel</th>
+<th style="border:1px solid black;" >Vereisten</th>
 </tr>
 </thead>
 <tbody>
@@ -156,8 +156,8 @@ De volgende tabel bevat de gebruikersrechten en -machtigingen die nodig zijn voo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Activiteit</th>
-<th>Accountvereisten</th>
+<th style="border:1px solid black;" >Activiteit</th>
+<th style="border:1px solid black;" >Accountvereisten</th>
 </tr>
 </thead>
 <tbody>
@@ -204,8 +204,8 @@ Als u RMS in een clusterinstallatie gebruikt, moet u de problemen hebben verholp
 </colgroup>
 <thead>
 <tr class="header">
-<th>Voorwaarde</th>
-<th>Aanbevolen</th>
+<th style="border:1px solid black;" >Voorwaarde</th>
+<th style="border:1px solid black;" >Aanbevolen</th>
 </tr>
 </thead>
 <tbody>

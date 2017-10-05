@@ -28,10 +28,10 @@ In de volgende tabel vindt u informatie over uitgesloten toepassingen.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -133,10 +133,10 @@ In de volgende tabel vindt u informatie over de berichtenwachtrij.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -184,10 +184,10 @@ In de volgende tabel vindt u informatie over het type certificaat dat voor de cl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -235,10 +235,10 @@ In de volgende tabel vindt u informatie over het huidige serverlicentieverlening
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -280,10 +280,10 @@ In de volgende tabel vindt u informatie over de locaties waar de clusterbeleidsr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -337,10 +337,10 @@ In de volgende tabel vindt u informatie over de servers in het cluster.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -388,10 +388,10 @@ In de volgende tabel vindt u informatie over de uitgesloten rechtenaccountcertif
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -457,10 +457,10 @@ In de volgende tabel vindt u informatie over het actieve serverlicentieverlening
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -520,10 +520,10 @@ In volgende tabel vindt u informatie over de persoonlijke sleutel van het actiev
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -607,10 +607,10 @@ In de volgende tabel vindt u informatie over de accounts van Microsoft® .NET Pa
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -658,10 +658,10 @@ In de volgende tabel vindt u informatie over invoegtoepassingen.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -757,10 +757,10 @@ In de volgende tabel vindt u informatie over de versies van de invoegtoepassing 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -802,10 +802,10 @@ In de volgende tabel vindt u informatie over de eigenschappen van de invoegtoepa
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -865,10 +865,10 @@ In de volgende tabel vindt u informatie over de typen invoegtoepassingen.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -916,10 +916,10 @@ In de volgende tabel vindt u informatie over sjablonen voor rechtenbeleid.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -967,10 +967,10 @@ In de volgende tabel vindt u informatie over de vertrouwde certificeringsinstant
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -1030,10 +1030,10 @@ In de volgende tabel wordt informatie weergegeven over de e-maildomeinen die ver
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -1075,10 +1075,10 @@ In de volgende tabel vindt u informatie over de vertrouwde gebruikersdomeinen en
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -1156,10 +1156,10 @@ In de volgende tabel vindt u informatie over de XrML-serverlicentieverleningscer
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>

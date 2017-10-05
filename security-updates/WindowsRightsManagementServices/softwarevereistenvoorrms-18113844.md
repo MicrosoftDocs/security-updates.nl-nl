@@ -21,8 +21,8 @@ In de volgende tabel staan de softwarevereisten voor RMS-servers.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Software</th>
-<th>Vereist</th>
+<th style="border:1px solid black;" >Software</th>
+<th style="border:1px solid black;" >Vereist</th>
 </tr>
 </thead>
 <tbody>

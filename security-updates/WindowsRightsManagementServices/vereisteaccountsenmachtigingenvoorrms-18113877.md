@@ -21,8 +21,8 @@ In de volgende tabel vindt u de gebruikersrechten en machtigingen die nodig zijn
 </colgroup>
 <thead>
 <tr class="header">
-<th>Activiteit</th>
-<th>Gebruikersaccount en machtigingen</th>
+<th style="border:1px solid black;" >Activiteit</th>
+<th style="border:1px solid black;" >Gebruikersaccount en machtigingen</th>
 </tr>
 </thead>
 <tbody>

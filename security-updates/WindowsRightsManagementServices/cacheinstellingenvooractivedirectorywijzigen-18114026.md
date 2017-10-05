@@ -33,10 +33,10 @@ In de volgende tabel vindt u een overzicht van vermeldingen waarmee het gedrag v
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Type</th>
-<th>Standaardwaarde</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Type</th>
+<th style="border:1px solid black;" >Standaardwaarde</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>

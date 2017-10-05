@@ -24,9 +24,9 @@ Als u de domeincontroller hebt geïnstalleerd, de databaseservers hebt ingesteld
 </colgroup>
 <thead>
 <tr class="header">
-<th>Infrastructuuronderdeel</th>
-<th>De server voorbereiden voor de installatie van RMS</th>
-<th>Opmerkingen voor implementatie in een productieomgeving</th>
+<th style="border:1px solid black;" >Infrastructuuronderdeel</th>
+<th style="border:1px solid black;" >De server voorbereiden voor de installatie van RMS</th>
+<th style="border:1px solid black;" >Opmerkingen voor implementatie in een productieomgeving</th>
 </tr>
 </thead>
 <tbody>

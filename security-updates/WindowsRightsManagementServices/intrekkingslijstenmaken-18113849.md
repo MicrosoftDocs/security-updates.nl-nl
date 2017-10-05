@@ -175,8 +175,8 @@ Gebruik de volgende informatie om de invoerparameters voor de opdracht te voltoo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -222,8 +222,8 @@ De retourcode van RLsigner.exe biedt basisinformatie over eventuele fouten. In d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Retourcode</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Retourcode</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>

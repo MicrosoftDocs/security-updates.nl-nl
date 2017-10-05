@@ -21,8 +21,8 @@ In de volgende tabel ziet u welke rechten voor een sjabloon voor het rechtenbele
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rechten</th>
-<th>XrML-elementen</th>
+<th style="border:1px solid black;" >Rechten</th>
+<th style="border:1px solid black;" >XrML-elementen</th>
 </tr>
 </thead>
 <tbody>

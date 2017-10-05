@@ -28,9 +28,9 @@ De volgende procedure is een voorbeeld van de onderdelen die in een migratiesche
 </colgroup>
 <thead>
 <tr class="header">
-<th>Server</th>
-<th>Stap</th>
-<th>Opmerkingen</th>
+<th style="border:1px solid black;" >Server</th>
+<th style="border:1px solid black;" >Stap</th>
+<th style="border:1px solid black;" >Opmerkingen</th>
 </tr>
 </thead>
 <tbody>

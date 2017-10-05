@@ -58,8 +58,8 @@ Gebruik de volgende controlelijst om één RMS-server te implementeren.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Stap</th>
-<th>Zie</th>
+<th style="border:1px solid black;" >Stap</th>
+<th style="border:1px solid black;" >Zie</th>
 </tr>
 </thead>
 <tbody>
@@ -107,8 +107,8 @@ Gebruik de volgende controlelijst om basiscertificerings- en licentieclusters te
 </colgroup>
 <thead>
 <tr class="header">
-<th>Stap</th>
-<th>Zie</th>
+<th style="border:1px solid black;" >Stap</th>
+<th style="border:1px solid black;" >Zie</th>
 </tr>
 </thead>
 <tbody>
@@ -170,8 +170,8 @@ Gebruik de volgende controlelijst om de basisversie van RMS in forests te implem
 </colgroup>
 <thead>
 <tr class="header">
-<th>Stap</th>
-<th>Zie</th>
+<th style="border:1px solid black;" >Stap</th>
+<th style="border:1px solid black;" >Zie</th>
 </tr>
 </thead>
 <tbody>
@@ -219,8 +219,8 @@ Gebruik de volgende controlelijst om een sjabloon voor rechtenbeleid te implemen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Stap</th>
-<th>Zie</th>
+<th style="border:1px solid black;" >Stap</th>
+<th style="border:1px solid black;" >Zie</th>
 </tr>
 </thead>
 <tbody>
@@ -260,8 +260,8 @@ Gebruik de volgende controlelijst om een nieuwe versie van de RMS-client te impl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Stap</th>
-<th>Zie</th>
+<th style="border:1px solid black;" >Stap</th>
+<th style="border:1px solid black;" >Zie</th>
 </tr>
 </thead>
 <tbody>
@@ -293,8 +293,8 @@ Gebruik de volgende controlelijst om een vertrouwd gebruikersdomein toe te voege
 </colgroup>
 <thead>
 <tr class="header">
-<th>Stap</th>
-<th>Zie</th>
+<th style="border:1px solid black;" >Stap</th>
+<th style="border:1px solid black;" >Zie</th>
 </tr>
 </thead>
 <tbody>
@@ -326,8 +326,8 @@ Gebruik de volgende controlelijst om een vertrouwd uitgiftedomein toe te voegen.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Stap</th>
-<th>Zie</th>
+<th style="border:1px solid black;" >Stap</th>
+<th style="border:1px solid black;" >Zie</th>
 </tr>
 </thead>
 <tbody>

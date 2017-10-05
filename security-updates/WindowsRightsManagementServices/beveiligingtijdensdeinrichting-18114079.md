@@ -24,9 +24,9 @@ In de volgende tabel worden de accounts beschreven die tijdens de inrichting wor
 </colgroup>
 <thead>
 <tr class="header">
-<th>Account</th>
-<th>Doel</th>
-<th>Machtigingen</th>
+<th style="border:1px solid black;" >Account</th>
+<th style="border:1px solid black;" >Doel</th>
+<th style="border:1px solid black;" >Machtigingen</th>
 </tr>
 </thead>
 <tbody>

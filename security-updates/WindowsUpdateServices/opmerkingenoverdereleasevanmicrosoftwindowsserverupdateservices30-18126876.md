@@ -171,8 +171,8 @@ Zorg dat de WSUS 3.0-server voldoet aan de vereisten in deze lijst voordat u WSU
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vereiste</th>
-<th>Details</th>
+<th style="border:1px solid black;" >Vereiste</th>
+<th style="border:1px solid black;" >Details</th>
 </tr>
 </thead>
 <tbody>
@@ -255,8 +255,8 @@ Met behulp van de opdrachtregelparameters voor WSUS kunt u een installatie zonde
 </colgroup>
 <thead>
 <tr class="header">
-<th>Optie</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Optie</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -295,8 +295,8 @@ In de volgende tabel vindt u de opdrachtregeleigenschappen voor WSUS 3.0.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Eigenschap</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Eigenschap</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -564,8 +564,8 @@ WSUS 3.0 ondersteunt Windows Server 2008 zowel in 32-bits als in 64-bits versies
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vereist</th>
-<th>Details</th>
+<th style="border:1px solid black;" >Vereist</th>
+<th style="border:1px solid black;" >Details</th>
 </tr>
 </thead>
 <tbody>

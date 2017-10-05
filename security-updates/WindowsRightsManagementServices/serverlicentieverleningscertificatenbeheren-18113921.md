@@ -24,9 +24,9 @@ In RMS worden drie gebeurtenissen in het systeemlogboek vastgelegd die u in de g
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gebeurtenis-id</th>
-<th>Gebeurtenisnaam</th>
-<th>Gebeurtenistype</th>
+<th style="border:1px solid black;" >Gebeurtenis-id</th>
+<th style="border:1px solid black;" >Gebeurtenisnaam</th>
+<th style="border:1px solid black;" >Gebeurtenistype</th>
 </tr>
 </thead>
 <tbody>

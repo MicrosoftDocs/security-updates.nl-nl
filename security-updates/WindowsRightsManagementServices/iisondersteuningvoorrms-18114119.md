@@ -34,9 +34,9 @@ In de volgende tabel zijn de virtuele mappen opgenomen die in IIS worden gemaakt
 </colgroup>
 <thead>
 <tr class="header">
-<th>Virtuele map</th>
-<th>Service</th>
-<th>Webservicebestand</th>
+<th style="border:1px solid black;" >Virtuele map</th>
+<th style="border:1px solid black;" >Service</th>
+<th style="border:1px solid black;" >Webservicebestand</th>
 </tr>
 </thead>
 <tbody>

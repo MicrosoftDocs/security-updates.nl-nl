@@ -202,9 +202,9 @@ In de volgende tabel wordt de vereiste software voor elk ondersteund besturingss
 </colgroup>
 <thead>
 <tr class="header">
-<th>Besturingssysteem</th>
-<th>Vereisten</th>
-<th>Downloads</th>
+<th style="border:1px solid black;" >Besturingssysteem</th>
+<th style="border:1px solid black;" >Vereisten</th>
+<th style="border:1px solid black;" >Downloads</th>
 </tr>
 </thead>
 <tbody>

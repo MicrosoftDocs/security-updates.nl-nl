@@ -34,11 +34,11 @@ In de volgende tabel vindt u een overzicht van vermeldingen die u kunt toevoegen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Type</th>
-<th>Standaardwaarde</th>
-<th>Beschrijving</th>
-<th>Opmerkingen</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Type</th>
+<th style="border:1px solid black;" >Standaardwaarde</th>
+<th style="border:1px solid black;" >Beschrijving</th>
+<th style="border:1px solid black;" >Opmerkingen</th>
 </tr>
 </thead>
 <tbody>

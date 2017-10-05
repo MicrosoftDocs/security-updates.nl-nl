@@ -21,8 +21,8 @@ In volgende tabel vindt u de sleutels die in een RMS-systeem worden gebruikt.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Sleutel</th>
-<th>Gebruik</th>
+<th style="border:1px solid black;" >Sleutel</th>
+<th style="border:1px solid black;" >Gebruik</th>
 </tr>
 </thead>
 <tbody>

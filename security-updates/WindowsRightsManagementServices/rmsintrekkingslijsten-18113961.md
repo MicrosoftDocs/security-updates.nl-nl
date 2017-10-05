@@ -31,8 +31,8 @@ In de volgende tabel worden de entiteiten beschreven die u kunt opgeven in een i
 </colgroup>
 <thead>
 <tr class="header">
-<th>Entiteit</th>
-<th>Id</th>
+<th style="border:1px solid black;" >Entiteit</th>
+<th style="border:1px solid black;" >Id</th>
 </tr>
 </thead>
 <tbody>
@@ -79,8 +79,8 @@ Intrekkingslijsten zijn XrML-bestanden waarin de volgende parameters worden opge
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>

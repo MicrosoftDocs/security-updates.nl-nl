@@ -30,9 +30,9 @@ Als u MSDE 2000 als uw databaseserver wilt gebruiken, dient u er wel rekening me
 </colgroup>
 <thead>
 <tr class="header">
-<th>Infrastructuuronderdeel</th>
-<th>Procedure voor het instellen van een domeincontroller en een databaseserver</th>
-<th>Opmerkingen voor implementatie in een productieomgeving</th>
+<th style="border:1px solid black;" >Infrastructuuronderdeel</th>
+<th style="border:1px solid black;" >Procedure voor het instellen van een domeincontroller en een databaseserver</th>
+<th style="border:1px solid black;" >Opmerkingen voor implementatie in een productieomgeving</th>
 </tr>
 </thead>
 <tbody>

@@ -25,8 +25,8 @@ De volgende tabel bevat de Active Directory-kenmerken die worden opgeslagen in d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tabel</th>
-<th>Kenmerk</th>
+<th style="border:1px solid black;" >Tabel</th>
+<th style="border:1px solid black;" >Kenmerk</th>
 </tr>
 </thead>
 <tbody>

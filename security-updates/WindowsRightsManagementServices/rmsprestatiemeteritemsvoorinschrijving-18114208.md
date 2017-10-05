@@ -21,8 +21,8 @@ In de volgende tabel vindt u de beschikbare prestatiemeteritems voor de prestati
 </colgroup>
 <thead>
 <tr class="header">
-<th>Item</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Item</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>

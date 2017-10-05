@@ -28,10 +28,10 @@ In de volgende tabel vindt u informatie over de hardware-id's voor alle computer
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -73,10 +73,10 @@ In de volgende tabel vindt u informatie over Microsoft® .NET Passport voor gebr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -112,10 +112,10 @@ In de volgende tabel worden gecertificeerde gebruikers gekoppeld aan de bijbehor
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -157,10 +157,10 @@ In de volgende tabel vindt u informatie over gebruikersgegevens.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -262,10 +262,10 @@ In de volgende tabel vindt u een overzicht van de id's van alle geverifieerde en
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Gegevenstype</th>
-<th>Null-waarden</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Gegevenstype</th>
+<th style="border:1px solid black;" >Null-waarden</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>

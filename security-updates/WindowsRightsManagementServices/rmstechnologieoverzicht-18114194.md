@@ -21,8 +21,8 @@ In een RMS-systeem zijn zowel server- als clienttechnologieën opgenomen. De RMS
 </colgroup>
 <thead>
 <tr class="header">
-<th>Technologie</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Technologie</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>

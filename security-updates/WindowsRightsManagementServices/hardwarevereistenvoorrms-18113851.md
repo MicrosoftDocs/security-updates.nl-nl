@@ -21,8 +21,8 @@ De volgende tabel bevat de minimale hardwarevereisten en aanbevelingen voor het 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vereist</th>
-<th>Aanbevolen</th>
+<th style="border:1px solid black;" >Vereist</th>
+<th style="border:1px solid black;" >Aanbevolen</th>
 </tr>
 </thead>
 <tbody>

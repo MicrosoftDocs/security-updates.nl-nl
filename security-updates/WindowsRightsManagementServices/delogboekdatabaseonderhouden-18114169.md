@@ -47,9 +47,9 @@ Aan de hand van een voorbeeld van een bedrijf met 5000 werknemers die allemaal R
 </colgroup>
 <thead>
 <tr class="header">
-<th>Handeling</th>
-<th>Toename van logboek</th>
-<th>Cumulatieve grootte van logboek</th>
+<th style="border:1px solid black;" >Handeling</th>
+<th style="border:1px solid black;" >Toename van logboek</th>
+<th style="border:1px solid black;" >Cumulatieve grootte van logboek</th>
 </tr>
 </thead>
 <tbody>

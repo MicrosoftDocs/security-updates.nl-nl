@@ -23,8 +23,8 @@ De grootte van een normale logboekvermelding is ongeveer 300 bytes. In de volgen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Veld</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Veld</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>

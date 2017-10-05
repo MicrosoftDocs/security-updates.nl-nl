@@ -26,9 +26,9 @@ In de volgende tabel worden de rechten beschreven die met serverlicentieverlenin
 </colgroup>
 <thead>
 <tr class="header">
-<th>Hiermee wordt het recht toegewezen voor het uitgeven van</th>
-<th>Serverlicentieverleningscertificaat dat is verleend aan een basiscertificeringsserver</th>
-<th>Serverlicentieverleningscertificaat dat is verleend aan een licentieserver</th>
+<th style="border:1px solid black;" >Hiermee wordt het recht toegewezen voor het uitgeven van</th>
+<th style="border:1px solid black;" >Serverlicentieverleningscertificaat dat is verleend aan een basiscertificeringsserver</th>
+<th style="border:1px solid black;" >Serverlicentieverleningscertificaat dat is verleend aan een licentieserver</th>
 </tr>
 </thead>
 <tbody>

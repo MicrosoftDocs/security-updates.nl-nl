@@ -22,9 +22,9 @@ De volgende tabel bevat de certificaten en licenties die door RMS worden gebruik
 </colgroup>
 <thead>
 <tr class="header">
-<th>Certificaat of licentie</th>
-<th>Doel</th>
-<th>Inhoud</th>
+<th style="border:1px solid black;" >Certificaat of licentie</th>
+<th style="border:1px solid black;" >Doel</th>
+<th style="border:1px solid black;" >Inhoud</th>
 </tr>
 </thead>
 <tbody>

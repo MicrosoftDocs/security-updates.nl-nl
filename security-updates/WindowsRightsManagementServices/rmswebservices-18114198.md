@@ -30,8 +30,8 @@ In de volgende tabel worden de RMS-webservices beschreven.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Service</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Service</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>

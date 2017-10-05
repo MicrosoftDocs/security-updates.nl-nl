@@ -23,8 +23,8 @@ In de volgende tabel worden de parameters beschreven die worden opgenomen in de 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>

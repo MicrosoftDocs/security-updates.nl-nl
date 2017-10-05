@@ -85,10 +85,10 @@ We raden u aan RMS met SP2 gedurende de volgende upgrade-ronde te installeren om
 </colgroup>
 <thead>
 <tr class="header">
-<th>RMS Server-versie</th>
-<th>Ondersteunde functies met versie 1-clients</th>
-<th>Ondersteunde functies met SP2-clients</th>
-<th>Ondersteunde functies in omgevingen met gemengde clients</th>
+<th style="border:1px solid black;" >RMS Server-versie</th>
+<th style="border:1px solid black;" >Ondersteunde functies met versie 1-clients</th>
+<th style="border:1px solid black;" >Ondersteunde functies met SP2-clients</th>
+<th style="border:1px solid black;" >Ondersteunde functies in omgevingen met gemengde clients</th>
 </tr>
 </thead>
 <tbody>

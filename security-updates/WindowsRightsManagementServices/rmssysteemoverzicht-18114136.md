@@ -23,8 +23,8 @@ In de volgende tabel worden de servertypen en de bijbehorende functies beschreve
 </colgroup>
 <thead>
 <tr class="header">
-<th>Server of cluster</th>
-<th>Functie</th>
+<th style="border:1px solid black;" >Server of cluster</th>
+<th style="border:1px solid black;" >Functie</th>
 </tr>
 </thead>
 <tbody>

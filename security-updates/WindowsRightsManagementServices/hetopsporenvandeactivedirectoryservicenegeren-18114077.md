@@ -52,9 +52,9 @@ In de onderstaande tabel vindt u de vermeldingen die u kunt toevoegen om service
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Type</th>
-<th>Waarde</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Type</th>
+<th style="border:1px solid black;" >Waarde</th>
 </tr>
 </thead>
 <tbody>
@@ -107,9 +107,9 @@ In de onderstaande tabel vindt u de registersleutels die u op een RMS-clientcomp
 </colgroup>
 <thead>
 <tr class="header">
-<th>Naam</th>
-<th>Type</th>
-<th>Waarde</th>
+<th style="border:1px solid black;" >Naam</th>
+<th style="border:1px solid black;" >Type</th>
+<th style="border:1px solid black;" >Waarde</th>
 </tr>
 </thead>
 <tbody>

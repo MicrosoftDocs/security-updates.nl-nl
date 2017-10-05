@@ -86,10 +86,10 @@ Omdat RMS SP1 vele verbeteringen bevat en grotere prestaties levert, raden we u 
 </colgroup>
 <thead>
 <tr class="header">
-<th>RMS Server-versie</th>
-<th>Ondersteunde functies met v1-clients</th>
-<th>Ondersteunde functies met SP1-clients</th>
-<th>Ondersteunde functies in gemengde (v1 en SP1) client-omgevingen</th>
+<th style="border:1px solid black;" >RMS Server-versie</th>
+<th style="border:1px solid black;" >Ondersteunde functies met v1-clients</th>
+<th style="border:1px solid black;" >Ondersteunde functies met SP1-clients</th>
+<th style="border:1px solid black;" >Ondersteunde functies in gemengde (v1 en SP1) client-omgevingen</th>
 </tr>
 </thead>
 <tbody>

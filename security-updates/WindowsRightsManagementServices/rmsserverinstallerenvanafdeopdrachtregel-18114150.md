@@ -35,8 +35,8 @@ In de volgende tabel wordt de syntaxis van elke opdracht beschreven.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Definitie</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Definitie</th>
 </tr>
 </thead>
 <tbody>

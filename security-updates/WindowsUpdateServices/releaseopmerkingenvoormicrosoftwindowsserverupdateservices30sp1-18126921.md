@@ -149,8 +149,8 @@ Controleer of de WSUS 3.0 SP1-server aan deze lijst met vereisten voldoet voorda
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vereiste</th>
-<th>Details</th>
+<th style="border:1px solid black;" >Vereiste</th>
+<th style="border:1px solid black;" >Details</th>
 </tr>
 </thead>
 <tbody>
@@ -237,8 +237,8 @@ U kunt WSUS 3.0 SP1-installaties zonder toezicht uitvoeren met behulp van het WS
 </colgroup>
 <thead>
 <tr class="header">
-<th>Optie</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Optie</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -277,8 +277,8 @@ In de volgende tabel worden de opdrachtregeleigenschappen voor WSUS 3.0 SP1 weer
 </colgroup>
 <thead>
 <tr class="header">
-<th>Eigenschap</th>
-<th>Beschrijving</th>
+<th style="border:1px solid black;" >Eigenschap</th>
+<th style="border:1px solid black;" >Beschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -529,8 +529,8 @@ WSUS 3.0 SP1 ondersteunt zowel de 32-bits als de 64 bits versie van Windows Serv
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vereiste</th>
-<th>Details</th>
+<th style="border:1px solid black;" >Vereiste</th>
+<th style="border:1px solid black;" >Details</th>
 </tr>
 </thead>
 <tbody>

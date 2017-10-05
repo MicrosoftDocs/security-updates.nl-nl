@@ -27,8 +27,8 @@ In de volgende tabel wordt de standaard-ACL (Access Control List) van deze servi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gebruiker of groep</th>
-<th>Standaardmachtiging</th>
+<th style="border:1px solid black;" >Gebruiker of groep</th>
+<th style="border:1px solid black;" >Standaardmachtiging</th>
 </tr>
 </thead>
 <tbody>

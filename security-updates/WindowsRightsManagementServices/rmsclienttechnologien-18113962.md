@@ -23,10 +23,10 @@ Voor clientcomputers in een RMS-implementatie worden de volgende technologieën 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Technologie</th>
-<th>Beschrijving</th>
-<th>Uitgegeven door</th>
-<th>Meer informatie</th>
+<th style="border:1px solid black;" >Technologie</th>
+<th style="border:1px solid black;" >Beschrijving</th>
+<th style="border:1px solid black;" >Uitgegeven door</th>
+<th style="border:1px solid black;" >Meer informatie</th>
 </tr>
 </thead>
 <tbody>

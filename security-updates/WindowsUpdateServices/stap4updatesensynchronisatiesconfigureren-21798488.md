@@ -75,7 +75,7 @@ Tijdens de procedures voor stap 3 hebt u het configureren van de upstream-server
     </colgroup>
     <thead>
     <tr class="header">
-    <th><img src="images/Dd939924.Important(WS.10).gif" />Belangrijk</th>
+    <th style="border:1px solid black;" ><img src="images/Dd939924.Important(WS.10).gif" />Belangrijk</th>
     </tr>
     </thead>
     <tbody>

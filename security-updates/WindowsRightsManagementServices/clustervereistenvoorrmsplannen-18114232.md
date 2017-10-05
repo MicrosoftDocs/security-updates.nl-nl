@@ -21,8 +21,8 @@ Als u RMS in een clusterinstallatie gebruikt, moet u weten hoe u met de volgende
 </colgroup>
 <thead>
 <tr class="header">
-<th>Voorwaarde</th>
-<th>Aanbevolen</th>
+<th style="border:1px solid black;" >Voorwaarde</th>
+<th style="border:1px solid black;" >Aanbevolen</th>
 </tr>
 </thead>
 <tbody>

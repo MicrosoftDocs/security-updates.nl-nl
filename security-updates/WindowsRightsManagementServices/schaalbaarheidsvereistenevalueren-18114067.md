@@ -31,10 +31,10 @@ Bij het plannen van de capaciteit kunt u de volgende cijfers gebruiken om de geb
 </colgroup>
 <thead>
 <tr class="header">
-<th>Transactie</th>
-<th>Frequentie</th>
-<th>Gebruikte bandbreedte van client naar server (KB)</th>
-<th>Gebruikte bandbreedte van server naar client (KB)</th>
+<th style="border:1px solid black;" >Transactie</th>
+<th style="border:1px solid black;" >Frequentie</th>
+<th style="border:1px solid black;" >Gebruikte bandbreedte van client naar server (KB)</th>
+<th style="border:1px solid black;" >Gebruikte bandbreedte van server naar client (KB)</th>
 </tr>
 </thead>
 <tbody>
@@ -74,9 +74,9 @@ De volgende tabel bevat basislijngegevens over het bandbreedtegebruik van RMS-tr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Transactie</th>
-<th>Gebruikte bandbreedte van RMS naar globale catalogus (bytes)</th>
-<th>Gebruikte bandbreedte van globale catalogus naar RMS (bytes)</th>
+<th style="border:1px solid black;" >Transactie</th>
+<th style="border:1px solid black;" >Gebruikte bandbreedte van RMS naar globale catalogus (bytes)</th>
+<th style="border:1px solid black;" >Gebruikte bandbreedte van globale catalogus naar RMS (bytes)</th>
 </tr>
 </thead>
 <tbody>
