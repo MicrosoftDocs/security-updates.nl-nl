@@ -1,0 +1,153 @@
+---
+TOCTitle: 'Procedures voor het implementeren van de RMS-client'
+Title: 'Procedures voor het implementeren van de RMS-client'
+ms:assetid: 'c84f1724-cf71-4385-9003-ff68bc23c927'
+ms:contentKeyID: 18114171
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747749(v=WS.10)'
+---
+
+Procedures voor het implementeren van de RMS-client
+===================================================
+
+Als u Microsoft Windows XP of Microsoft Windows 2000 gebruikt, moet de RMS-client (Rights Management Services) worden geïnstalleerd voordat u RMS-functies kunt gaan gebruiken, zoals Information Rights Management in Microsoft® Office 2003 en de invoegtoepassing Rights Management voor Internet Explorer. De RMS-client is geïntegreerd in Windows Vista®.
+
+Veel organisaties willen zelf de clientsoftware op hun eigen systemen installeren. Systems Management Server (SMS) of Groepsbeleid kan worden gebruikt voor het implementeren van de RMS-client met Service Pack 2 (SP2) client.
+
+Voordat u begint met de implementatie, moet u eerst de RMS-client downloaden op [http://go.microsoft.com/fwlink/?LinkId=67736](http://go.microsoft.com/fwlink/?linkid=67736).
+
+| ![](images/Cc747749.Important(WS.10).gif)Belangrijk                       |
+|--------------------------------------------------------------------------------------------------------|
+| De RMS-client is geïntegreerd in Windows Vista. Daarom is geen afzonderlijke installatie meer vereist. |
+
+De installatiebestanden uitpakken
+---------------------------------
+
+Nadat u het bestand WindowsRightsManagementServicesSP2-KB917275-Client-NLD.exe hebt gedownload, moet u de Microsoft® Windows®-installatiebestanden in het uitvoerbare pakketbestand uitpakken..
+
+Dit kunt u met de volgende opdracht vanaf de opdrachtprompt doen:
+
+`WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe /x <path>`
+
+waarbij &lt;pad&gt; de map is waarnaar u de bestanden wilt uitpakken.
+
+Deze opdracht pakt de volgende bestanden in de opgegeven map uit:
+
+-   Bootstrap.exe
+    Dit is een wrapper-bestand dat door het uitvoerbare bestand wordt gebruikt om de andere bestanden te installeren. Dit bestand wordt niet gebruikt wanneer de RMS met SP2-client met behulp van SMS of Groepsbeleid wordt geïnstalleerd.
+-   MSDrmClient.msi
+    Dit is het installatiebestand voor de RMS met SP2-client. Bij deze installatie wordt een vorige versie van de RMS-client van de computer verwijderd. Dit programma moet eerst op de clientcomputers worden geïnstalleerd.
+-   RMClientBackCompat.msi
+    Dit is het installatiebestand dat de nieuwe RMS met SP2-client identificeert voor toepassingen met RMS-ondersteuning (zoals Microsoft Office Professional 2003 of Microsoft Office 2007) die afhankelijk zijn van de vorige versie van de RMS-client, zodat in plaats daarvan de RMS met SP2-client kan worden gebruikt. Dit programma moet pas op de clientcomputers worden geïnstalleerd als het bestand MSDrmClient.msi is geïnstalleerd.
+
+| ![](images/Cc747749.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                 |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| U moet er altijd voor zorgen dat de twee Windows-installatiebestanden goed zijn geïnstalleerd, ongeacht de installatiemethode die u gebruikt. Als er zich een fout voordoet waardoor het bestand MSDrmClient.msi niet kan worden geïnstalleerd, mag u het bestand RMClientBackCompat.msi niet installeren. |
+
+RMS-clients implementeren met behulp van een installatie zonder toezicht
+------------------------------------------------------------------------
+
+Het uitpakken van de bestanden om de Windows-installatiebestanden te installeren is optioneel. U kunt ook de RMS-client implementeren met behulp van een installatiemethode zonder toezicht. Dit kunt u met de volgende opdracht vanaf de opdrachtprompt doen:
+
+`WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q`
+
+Met deze opdracht wordt de installatie zonder toezicht van de RMS-client gestart.
+
+| ![](images/Cc747749.note(WS.10).gif)Opmerking                                                                                                                             |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Omdat dit een installatie zonder toezicht is, geeft het installatieprogramma niet aan wanneer deze is voltooid. Installaties zonder toezicht worden meestal in een batch- of scriptbestand uitgevoerd. |
+
+RMS-clients met behulp van SMS implementeren
+--------------------------------------------
+
+**De RMS-client met behulp van SMS implementeren**
+1.  Open de beheerdersconsole van SMS.
+
+2.  Vouw de sitedatabase uit die u wilt gebruiken.
+
+3.  Klik in het linkerdeelvenster met de rechtermuisknop op **Packages** (Pakketten) kies **New** (Nieuw) en klik op **Package From Definition** (Pakket uit definitie).
+
+4.  Maak pakketten van de bestanden MSDRMClient.msi en RMClientBackCompat.msi. De pakketten moeten de volgende eigenschappen hebben:
+
+    **Algemeen**:
+
+    -   Typ voor **Command line** (Opdrachtregel) het volgende:
+        `msiexec.exe /q ALLUSERS=2 /m MSIDGHOG /i "<file_name>.msi"`
+        | ![](images/Cc747749.note(WS.10).gif)Opmerking                                                                    |
+        |-----------------------------------------------------------------------------------------------------------------------------------------------|
+        | MSIDGHOG is een willekeurige waarde. Vervang &lt;bestandsnaam&gt; door de naam van het Windows-installatiebestand dat dit pakket installeert. |
+
+    -   Selecteer voor **Run** (Uitvoeren) de optie **Hidden** (Verborgen).
+    -   Selecteer voor **After running** (Na uitvoering) de optie **No action required** (Geen actie vereist).
+    -   Selecteer voor **Category** (Categorie) de optie **Administrative Software** (Beheersoftware).
+
+    **Vereisten:**
+
+    -   Typ **445 KB** voor **Estimated disk space** (Geschatte schijfruimte).
+    -   Selecteer **Unknown** (Onbekend) voor **Maximum allowed run time** (Maximum toegestane uitvoertijd).
+    -   Schakel het selectievakje **This program can run on any platform** (Dit programma kan op elk platform worden uitgevoerd) in.
+
+    **Omgeving:**
+
+    -   Selecteer voor **Program can run** (Programma kan worden uitgevoerd) de optie **Whether or not a user is logged on** (Ongeacht of een gebruiker is aangemeld of niet).
+    -   Selecteer voor **Run mode** (Uitvoeringsmodus) de optie **Run with administrative rights** (Met beheerrechten uitvoeren).
+    -   Selecteer voor **Drive mode** (Stationsmodus) de optie **Runs with UNC name** (Wordt uitgevoerd met UNC-naam).
+
+    **Geavanceerd:**
+
+    -   Schakel het selectievakje **Run another program first** (Eerst een ander programma uitvoeren) uit.
+    -   Schakel het selectievakje **Suppress program notification** (Programmamelding onderdrukken) bij **When the program is assigned to a computer** (Wanneer het programma aan een computer is toegewezen) uit.
+    -   Schakel het selectievakje **Disable this program on computers where it is advertised** (Dit programma uitschakelen op computers waar het wordt geadverteerd) uit.
+
+5.  Stel de betreffende **Access Accounts and Distribution Points** (Toegangsaccounts en distributiepunten) voor uw organisatie in.
+
+6.  Maak een aankondiging voor de betreffende collectie. Het wordt aangeraden het programma **Per-system unattended** in een SMS-implementatie te gebruiken.
+
+7.  Plan deze aankondiging al naargelang de behoefte binnen uw organisatie.
+
+RMS-clients met behulp van Groepsbeleid implementeren
+-----------------------------------------------------
+
+U kunt met de functie Installatie en onderhoud van software van Groepsbeleid de RMS-client op de doelcomputers implementeren.
+
+Groepsbeleid is de aanbevolen methode om de implementatie van de RMS-clients actief te beheren voor kleine tot middelgrote organisaties die nog niet met een professionele updatebeheeroplossing werken, zoals Systems Management Server (SMS) 2003.
+
+Wanneer u met Groepsbeleid een programma distribueert, kunt u het programma aan computers toewijzen. Het programma wordt geïnstalleerd wanneer de computer wordt opgestart en kan worden gebruikt door alle gebruikers die zich bij de computer aanmelden. Zie 'Een infrastructuur van Groepsbeleid ontwerpen' (<http://go.microsoft.com/fwlink/?linkid=24328>) voor meer informatie over Groepsbeleid. Bij deze procedure wordt ervan uitgegaan dat u de GPMC (Group Policy Management Console) gebruikt. Zie 'Group Policy Management Console with Service Pack 1' op (<http://go.microsoft.com/fwlink/?linkid=21813>) voor het downloaden van GPMC.
+
+De volgende procedure geeft richtlijnen voor beheerders die niet weten hoe zij software op basis van Groepsbeleid moeten distribueren. U kunt deze stappen aan de situatie binnen uw bedrijf aanpassen.
+
+**De RMS-client met behulp van Groepsbeleid implementeren**
+1.  Open op een domeincontroller de MMC-module (Microsoft Management Console) **Active Directory - gebruikers en computers**.
+
+2.  Maak een nieuwe organisatie-eenheid of selecteer een bestaande organisatie-eenheid.
+
+    Als u een nieuwe organisatie-eenheid maakt, moet u de computers toevoegen waarop u de RMS-client wilt installeren.
+
+3.  Klik met de rechtermuisknop op de organisatie-eenheid en kies **Eigenschappen**.
+
+4.  Klik op het tabblad **Groepsbeleid**.
+
+5.  Klik op **Nieuw** om een nieuw groepsbeleidsobject te maken.
+
+6.  Klik op **Bewerken** om het nieuwe groepsbeleidsobject te bewerken.
+
+7.  Klik in de consolestructuur op **Computerconfiguratie, Software-instellingen** en selecteer **Software-installatie**.
+
+8.  Klik in het detailvenster met de rechtermuisknop op **Nieuw** (New) en klik vervolgens op **Package** (Pakket)
+
+9.  Geef een pad voor het bestand MSDRMclient.msi in een gedeelde netwerkmap op waartoe de clientcomputers toegang hebben.
+
+10. Klik op **OK** om het pakket toe te wijzen.
+
+11. Herhaal stap 5 tot en met 10 om een groepsbeleidsobject te maken waarmee het bestand RMClientBackCompat.msi wordt geïnstalleerd.
+
+| ![](images/Cc747749.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                                                           |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Deze stappen dienen alleen als richtlijn voor gebruikers die niet veel ervaring hebben met Groepsbeleid. Als u als beheerder de kneepjes van Groepsbeheer kent, kunt u aan de hand van uw eigen procedures het pakket MSDrmClient.msi distribueren. Deze stappen zijn voor een domeincontroller met Windows Server 2003. Voor een Windows 2000-domein kunnen de procedures en de termen anders zijn. |
+
+Een upgrade uitvoeren vanaf een vorige versie
+---------------------------------------------
+
+        ```
+| ![](images/Cc747749.note(WS.10).gif)Opmerking                         |
+|----------------------------------------------------------------------------------------------------|
+| Dit script werkt niet met Windows Vista omdat de RMS-client in het besturingssysteem is ingebouwd. |

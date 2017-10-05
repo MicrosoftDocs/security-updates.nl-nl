@@ -1,0 +1,35 @@
+---
+TOCTitle: SMS of Groepsbeleid instellen voor de implementatie van clients
+Title: SMS of Groepsbeleid instellen voor de implementatie van clients
+ms:assetid: '9e37c27b-8cc1-40c6-adb7-0937aa64c8db'
+ms:contentKeyID: 18114104
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747703(v=WS.10)'
+---
+
+SMS of Groepsbeleid instellen voor de implementatie van clients
+===============================================================
+
+Als u RMS implementeert, moeten gebruikers over een toepassing met RMS-ondersteuning beschikken om inhoud te kunnen beveiligen en met door RMS beveiligde inhoud te kunnen werken.
+
+Een toepassing biedt RMS-ondersteuning als hierin bij bewerkingen de RMS-client is geïntegreerd. Voor versies vóór Windows Vista® is de RMS-client beschikbaar als een Windows-onderdeel dat afzonderlijk via het Microsoft Downloadcentrum kan worden gedownload. Als u de client echter niet afzonderlijk naar elke clientcomputer in uw organisatie wilt downloaden, kunt u Microsoft Systems Management Server (SMS), Groepsbeleid of scripts gebruiken waarmee u de levering van de RMS-client naar de clientcomputers kunt automatiseren.
+
+| ![](images/Cc747703.Important(WS.10).gif)Belangrijk                       |
+|--------------------------------------------------------------------------------------------------------|
+| De RMS-client is geïntegreerd in Windows Vista. Daarom is geen afzonderlijke installatie meer vereist. |
+
+Wanneer u de RMS-client wilt distribueren via SMS, gaat u als volgt te werk:
+
+-   Maak een nieuw pakketdefinitiebestand.
+-   Pak de Windows-installatiebestanden uit het bestand WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe uit. Dit doet u door eerst het bestand WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe op te slaan. Installeer dit bestand echter niet. Voor dit voorbeeld wordt het bestand opgeslagen in c:\\mapnaam. Open een opdrachtpromptvenster en voer daarin de volgende opdracht in:
+    `c:\folder_name\WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe /x/t:c:\folder_name`
+    Met deze opdracht worden de bestanden MSDrmClient.msi en RMClientBackCompat.msi vanuit het EXE-bestand uitgepakt en in *c:\\mapnaam* geplaatst.
+-   Gebruik de Windows-installatiebestanden voor de pakketdefinitie en bron.
+-   Kondig de beschikbaarheid van de pakketten via het netwerk aan.
+
+| ![](images/Cc747703.note(WS.10).gif)Opmerking                                                                                                                                      |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Voor het installeren van software zijn beheerdersrechten vereist. Afhankelijk van het beveiligingsbeleid van uw organisatie moet de RMS-clientsoftware mogelijk door een systeembeheerder worden geïnstalleerd. |
+
+Zie de Systems Management Server 2003 Concepts, Planning , and Deployment Guide ([http://go.microsoft.com/fwlink/?LinkId=17401](http://go.microsoft.com/fwlink/?linkid=17401)) voor meer informatie over het gebruik van SMS voor het distribueren van software.
+
+Zie de onderwerpen over het implementeren van software met behulp van Groepsbeleid ([http://go.microsoft.com/fwlink/?LinkID=38997](http://go.microsoft.com/fwlink/?linkid=38997)) voor meer informatie over het implementeren van clientsoftware via Groepsbeleid.

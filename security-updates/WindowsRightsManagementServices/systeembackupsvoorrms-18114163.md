@@ -1,0 +1,19 @@
+---
+TOCTitle: 'Systeemback-ups voor RMS'
+Title: 'Systeemback-ups voor RMS'
+ms:assetid: 'c29894da-ee00-428c-8d48-80d8e5a83678'
+ms:contentKeyID: 18114163
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747746(v=WS.10)'
+---
+
+Systeemback-ups voor RMS
+========================
+
+Voordat u de infrastructuur instelt en RMS installeert, maakt u een back-up van de volgende onderdelen:
+
+-   Als u een bestaande SQL Server-database gebruikt als host van de configuratie- en logboekdatabases, maakt u een back-up van alle databases en serverinstellingen. Als u een eerdere versie van RMS bijwerkt of RMS opnieuw installeert, maakt u in elk geval een back-up van de vorige configuratie- en logboekdatabases.
+-   Maak een back-up van de systeemstatus van de server waarop u RMS wilt installeren. Met deze back-up worden de registersleutels en -waarden opgeslagen die de vereiste informatie bevatten om indien nodig de server te herstellen.
+-   Gebruik de module Certificaten om uw certificaten naar een bestand te exporteren. De module Certificaten wordt tevens gebruikt om een back-up te maken van de gegevens in de persoonlijke sleutel voor RMS naar een PKCS \#12-bestand dat met een wachtwoord is gecodeerd. Als u RMS bijwerkt of opnieuw installeert en u hebt standaardsoftwarecodering gebruikt om de persoonlijke sleutel voor RMS te beveiligen, is die persoonlijke sleutel gecodeerd en opgeslagen met de back-up van de configuratiedatabase.
+-   Als u een HSM (Hardware Security Module) gebruikt om de persoonlijke sleutel te beveiligen, moet u een back-up van de configuratie maken met de door de fabrikant aanbevolen methoden.
+
+De back-upbestanden moeten op een beveiligde opslaglocatie worden bewaard, samen met het wachtwoord dat is gebruikt voor het coderen van de persoonlijke sleutels.

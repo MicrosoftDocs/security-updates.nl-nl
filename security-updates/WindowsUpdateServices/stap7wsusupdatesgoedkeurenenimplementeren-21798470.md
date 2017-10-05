@@ -1,0 +1,59 @@
+---
+TOCTitle: 'Stap 7: WSUS-updates goedkeuren en implementeren'
+Title: 'Stap 7: WSUS-updates goedkeuren en implementeren'
+ms:assetid: 'c4e58e17-d5e3-4194-8f26-b459e0c03b86'
+ms:contentKeyID: 21798470
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Dd939909(v=WS.10)'
+---
+
+Stap 7: WSUS-updates goedkeuren en implementeren
+================================================
+
+Tijdens deze stap keurt u een update goed voor computers in de testgroep voor Windows Server Update Services 3.0 Service Pack 2 (WSUS 3.0 SP2). Computers in de groep maken gedurende de volgende 24 uur automatisch verbinding met de WSUS-server voor het ophalen van de update. U kunt de rapportagefunctie van WSUS gebruiken om na te gaan of deze updates zijn geïmplementeerd op de testcomputers. Wanneer de testen zijn gelukt, kunt u de updates goedkeuren voor de toepasselijke computergroepen binnen uw organisatie.
+
+Procedures voor stap 7
+----------------------
+
+-   Een update goedkeuren en implementeren
+-   De status van een update controleren.
+
+**Een update goedkeuren en implementeren**
+1.  Klik op **Updates** in de WSUS-beheerconsole. Er wordt een updateoverzicht weergegeven voor **Alle updates**, **Essentiële updates**, **Beveiligingsupdates** en **Updates van WSUS**.
+
+2.  Klik in de sectie **Alle updates** op **Nog te installeren updates**.
+
+3.  Selecteer in de lijst met updates de updates die u wilt goedkeuren voor installatie op de testcomputergroep. In het onderste deelvenster van het paneel Updates wordt informatie weergegeven over de geselecteerde update. Als u in de lijst meerdere aangrenzende updates wilt selecteren, houdt u de toets **SHIFT** ingedrukt terwijl u op de updates klikt. Als u meerdere updates wilt selecteren die niet aan elkaar grenzen, houdt u de toets **CTRL** ingedrukt, terwijl u op de updates klikt.
+
+4.  Klik met de rechtermuisknop op de selectie en klik op **Goedkeuren**.
+
+5.  Selecteer in het dialoogvenster **Updates goedkeuren** de testgroep en klik vervolgens op de pijl omlaag.
+
+6.  Klik op **Goedgekeurd voor installatie** en klik op **OK**.
+
+7.  Het venster Voortgang goedkeuring wordt weergegeven, waarin u de voortgang van de verschillende taken met betrekking tot het goedkeuren van updates kunt volgen. Wanneer de procedure voor goedkeuring is voltooid, klikt u op **Sluiten**.
+
+Na een periode van 24 uur kunt u de rapportagefunctie van WSUS gebruiken om na te gaan of de updates op de computers in de testgroep zijn geïmplementeerd.
+
+**De status van een update controleren**
+1.  Klik op **Rapporten** in het navigatievenster van de WSUS-beheerconsole.
+
+2.  Klik op de pagina **Rapporten** op **Overzicht van status van update**. Het venster **Updaterapport** wordt weergegeven.
+
+3.  Als u de lijst met updates wilt filteren, selecteert u de gewenste criteria (bijvoorbeeld **Updates opnemen in deze categorieën** en vervolgens klikt u op **Rapport uitvoeren** op de taakbalk van het venster.
+
+4.  Het deelvenster **Updaterapport** wordt geopend. U kunt de status van afzonderlijke updates controleren door een update te selecteren in het linkerdeelvenster. In de laatste sectie van het deelvenster wordt het statusoverzicht van de update getoond.
+
+5.  U kunt dit rapport opslaan of afdrukken door op het desbetreffende pictogram op de werkbalk te klikken.
+
+6.  Wanneer de testen zijn gelukt, kunt u de updates goedkeuren voor installatie op de toepasselijke computergroepen binnen uw organisatie.
+
+Aanvullende bronnen
+-------------------
+
+[Stapsgewijze handleiding voor Windows Server Update Services 3.0 SP2](https://technet.microsoft.com/4b504edc-93b3-45b0-a7e8-d0107f1a4442)
+
+Bezoek de volgende websites voor meer informatie over WSUS 3.0 SP2:
+
+De WSUS Deployment Guide op [http://go.microsoft.com/fwlink/?LinkId=139832](http://go.microsoft.com/fwlink/?linkid=139832).
+
+De WSUS Operations Guide op [http://go.microsoft.com/fwlink/?LinkId=139838](http://go.microsoft.com/fwlink/?linkid=139838).

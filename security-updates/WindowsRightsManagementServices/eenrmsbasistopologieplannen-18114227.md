@@ -1,0 +1,20 @@
+---
+TOCTitle: 'Een RMS-basistopologie plannen'
+Title: 'Een RMS-basistopologie plannen'
+ms:assetid: 'fec3201e-201f-4faf-910e-fa44132af83d'
+ms:contentKeyID: 18114227
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747755(v=WS.10)'
+---
+
+Een RMS-basistopologie plannen
+==============================
+
+De basistopologie voor RMS bestaat uit een of meer fysieke servers die dienst doen als basiscertificeringscluster. Het cluster wordt gebruikt voor certificering, licentieverlening en uitgifte binnen de organisatie. Met uitzondering van de kleinste distributies worden meestal meerdere fysieke servers als cluster achter een enkele URL geconfigureerd. Dit cluster wordt gemaakt door de eerste server in te richten als basiscertificeringsserver en vervolgens servers aan het cluster toe te voegen tot het aantal basiscertificeringsservers de schaal heeft bereikt die nodig is om de beoogde activiteit te ondersteunen. Deze topologie wordt in de volgende afbeelding geïllustreerd.
+
+![](images/Cc747755.a3332719-4d25-4694-a89a-7c31fd97ca3b(WS.10).gif)
+
+Wanneer u servers samenvoegt tot een cluster, delen zij dezelfde configuratie- en logboekdatabases. Dat zijn SQL Server-databases. SQL Server kan zich of op de basiscertificeringsserver of op een afzonderlijke server bevinden.
+
+Taakverdeling wordt voor alle servers ingesteld die onderdeel zijn van het basiscertificeringscluster. Alle aanvragen voor certificaten in licenties worden aan het basiscertificeringscluster doorgegeven via de gemeenschappelijke URL die u hebt opgegeven tijdens het configureren van de eerste server in dat cluster.
+
+Als u slechts een klein aantal clients ondersteunt, kunt u RMS op een enkele server instellen met een lokale database. De server is verantwoordelijk voor alle certificering en licentieverlening binnen de organisatie. Bij deze configuratie doen alle fouten zich op één enkel punt voor, het regelmatig maken van back-ups wordt daarom aangeraden.

@@ -1,0 +1,61 @@
+---
+TOCTitle: 'Stap 2: WSUS op de server installeren'
+Title: 'Stap 2: WSUS op de server installeren'
+ms:assetid: 'f593532c-e92e-47f3-914a-38a6c2519e94'
+ms:contentKeyID: 18127013
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc708622(v=WS.10)'
+---
+
+Stap 2: WSUS op de server installeren
+=====================================
+
+Nadat u hebt gecontroleerd of uw computers voldoen aan de vereisten voor de installatie van WSUS, kunt u WSUS installeren. U moet zich aanmelden bij de server waarop u WSUS wilt installeren met een account die lid is van de lokale groep Administrators. Alleen leden van de lokale groep Administrators kunnen WSUS installeren.
+
+Voor de volgende procedure worden de standaardinstallatieopties van WSUS voor Windows Server 2003 gebruikt. Dit betekent dat als databasesoftware het programma Windows SQL Server 2000 Desktop Engine (WMSDE) wordt geïnstalleerd, dat updates lokaal worden opgeslagen en dat de standaardwebsite van IIS op poort 80 wordt gebruikt. In het Engelstalige document 'Deploying Microsoft Windows Server Update Services' worden de procedures beschreven voor aangepaste installatie, waarbij bijvoorbeeld een ander besturingssysteem, andere databasesoftware of een website op een poort met een ander nummer wordt gebruikt.
+
+**WSUS installeren onder Windows Server 2003**
+1.  Dubbelklik op het installatieprogrammabestand **WSUSSetup.exe**.
+
+    | ![](images/Cc708622.note(WS.10).gif)Opmerking                                                                                                                                            |
+    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | De meest recente versie van WSUSSetup.exe is beschikbaar op de [Microsoft-website](http://go.microsoft.com/fwlink/?linkid=47374) voor Windows Server Update Services op http://go.microsoft.com/fwlink/?LinkId=24384. |
+
+2.  Klik op de **Welkomstpagina** van de wizard op **Volgende**.
+
+3.  Lees de gebruiksrechtovereenkomst, klik op **Ik ga akkoord met de voorwaarden van de gebruiksrechtovereenkomst** en klik op **Volgende**.
+
+4.  Op de pagina **Selecteer de bron voor updates** kunt u opgeven waar clients updates kunnen ophalen. Als u het selectievakje **Updates lokaal opslaan** inschakelt, worden de updates op de WSUS-server opgeslagen en kunt u in het bestandssysteem een locatie selecteren waar de updates moeten worden opgeslagen. Als u opgeeft dat de updates niet lokaal moeten worden opgeslagen, maken clientcomputers verbinding met Microsoft Updates om goedgekeurde updates op te halen.
+
+    Zorg ervoor dat de standaardopties geselecteerd blijven en klik op **Volgende**.
+
+    ![](images/Cc708622.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
+
+5.  Op de pagina **Opties voor database** selecteert u de software die moet worden gebruikt om de WSUS-database te beheren. Als u WSUS installeert op een computer met Windows Server 2003, biedt het installatieprogramma van WSUS u standaard aan het programma WMSDE te installeren.
+
+    Als u WMSDE niet kunt gebruiken, moet u een SQL Server-instantie opgeven die WSUS kan gebruiken. Klik daartoe op **Een bestaande databaseserver op deze computer gebruiken** en typ in het vak **Naam van SQL-instantie selecteren** de naam van de instantie. Raadpleeg het Engelstalige document 'Deploying Microsoft Windows Server Update Services' als u wilt weten welke opties er naast WMSDE nog meer zijn voor databasesoftware.
+
+    Zorg ervoor dat de standaardopties geselecteerd blijven en klik op **Volgende**.
+
+    ![](images/Cc708622.bc0b73ad-b338-437c-a3c7-0299e819840d(WS.10).gif)
+
+6.  Op de pagina **Website selecteren** kunt u opgeven welke website WSUS moet gebruiken. Op deze pagina worden ook, op basis van de website die u selecteert, twee belangrijke URL's vermeld: de URL waarnaar u WSUS-clientcomputers verwijst voor het ophalen van updates en de URL voor de WSUS-console waar u WSUS kunt configureren.
+
+    Als er al een website op poort 80 aanwezig is, moet u de WSUS-website mogelijk maken op een aangepaste poort. Raadpleeg het Engelstalige document 'Deploying Microsoft Windows Server Update Services' voor meer informatie over het uitvoeren van WSUS op een aangepaste poort.
+
+    Zorg ervoor dat de standaardoptie geselecteerd blijft en klik op **Volgende**.
+
+    ![](images/Cc708622.64ed7643-a050-4f54-bf9f-04cf7931adc0(WS.10).gif)
+
+7.  Op de pagina **Instellingen voor updates kopiëren** kunt u opgeven welke rol deze WSUS-server speelt bij het beheer van updates. Als dit de eerste WSUS-server in het netwerk is of als u het beheer van updates wilt spreiden, slaat u dit venster over.
+
+    Als u het beheer van updates centraal wilt regelen en als dit niet de eerste WSUS-server in het netwerk is, schakelt u het selectievakje in en typt u in het vak **Servernaam** de naam van een extra WSUS-server. Raadpleeg het Engelstalige document 'Deploying Microsoft Windows Server Update Services' voor meer informatie over rollen van servers bij het beheer van updates.
+
+    Zorg ervoor dat de standaardoptie geselecteerd blijft en klik op **Volgende**.
+
+    ![](images/Cc708622.f26e09d5-983c-418d-8511-8960850403ef(WS.10).gif)
+
+8.  Bekijk op de pagina **Microsoft Windows Server Update Services kan nu worden geïnstalleerd** de opties die u hebt geselecteerd en klik op **Volgende**.
+
+    ![](images/Cc708622.20de7d09-3d30-4867-9253-6f353dd1923d(WS.10).gif)
+
+9.  Als op de laatste pagina van de wizard wordt bevestigd dat WSUS is geïnstalleerd, klikt u op **Voltooien**.

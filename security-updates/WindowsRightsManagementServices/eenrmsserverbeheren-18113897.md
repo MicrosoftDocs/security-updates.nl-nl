@@ -1,0 +1,374 @@
+---
+TOCTitle: 'Een RMS-server beheren'
+Title: 'Een RMS-server beheren'
+ms:assetid: '1533426b-89c2-43e0-8068-ca97ddab8606'
+ms:contentKeyID: 18113897
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc720205(v=WS.10)'
+---
+
+Een RMS-server beheren
+======================
+
+Het beheren van een RMS-server is het uitvoeren van beheertaken nadat RMS in een organisatie is geïmplementeerd. Dit onderwerp bevat informatie over het beheer van uw RMS-server, procedures voor algemene beheertaken, aanvullende bronnen met informatie en praktische tips.
+
+In dit onderwerp
+
+-   [RMS beheren](https://technet.microsoft.com/9b573c55-c14c-436c-b3c5-7ba445de1562)
+-   [Procedures voor RMS ...](https://technet.microsoft.com/82032075-f361-438f-a2c4-93ab29ae6cff)
+-   [RMS-bronnen](https://technet.microsoft.com/d91221cf-e38e-4add-b7b9-50e63aad9a28)
+
+De terminologie die in deze gids wordt gebruikt
+-----------------------------------------------
+
+**accountcertificering**  
+Het proces waarin gebruikersaccounts worden geassocieerd met sleutelparen in het rechtenaccountcertificaat of RAC.
+
+<!-- -->
+
+**accountcertificeringsservice**  
+Een webservice van RMS waarmee rechtenaccountcertificaten worden gemaakt en gedistribueerd. Zie ook accountcertificering.
+
+<!-- -->
+
+**activeringsproxyservice**  
+Een RMS-webservice die clientactivering met RMS-versie 1.0 ondersteunt. Gebruikt om aanvragen voor computeractivering door te sturen naar de activeringsservice van Microsoft. De activeringsservice genereert een unieke lockbox en een bijbehorend RMS-computercertificaat, dat de activeringsproxyservice op de RMS-server vervolgens doorstuurt naar de client die de aanvraag heeft verzonden. Zie ook lockbox.
+
+<!-- -->
+
+**beheerservice**  
+Een RMS-webservice die als host dient voor de beheerwebsite. Hiermee kunt u RMS beheren en de configuratiedatabase voor het cluster bijwerken.
+
+<!-- -->
+
+**toepassingsmanifest**  
+Een XML-document met een beschrijving van de modules van gekoppelde toepassingen met RMS-ondersteuning en toepassingen die kunnen worden uitgevoerd in de omgeving. Elke toepassing die gegevens schrijft naar de API van een RMS-client, zodat door RMS beveiligde inhoud kan worden gemaakt of gebruikt, moet bij het uitvoeren een manifest bieden.
+
+<!-- -->
+
+**kenmerk**  
+In Active Directory is een kenmerk een eigenschap van een object. Voor elke objectklasse geeft het schema aan welke kenmerken een instantie van de klasse moet hebben en welke extra kenmerken de instantie moet hebben.
+
+<!-- -->
+
+**koppelen (binding)**  
+Het mechanisme voor het toepassen van rechten in een RMS-systeem. Hierbij controleert de RMS-client de voorwaarden van een gebruikslicentie tegen de rechten die worden aangevraagd. Als aan de voorwaarden wordt voldaan, worden de rechten toegezegd.
+
+<!-- -->
+
+**certificaat**  
+Een digitaal bestand dat algemeen wordt gebruikt voor verificatie en om informatie in open netwerken te beveiligen. Met een certificaat wordt een openbare sleutel veilig gekoppeld aan de entiteit die de bijbehorende persoonlijke sleutel bevat. Certificaten worden digitaal ondertekend door de uitgever van het certificaat, de certification authority (CA), en kunnen worden uitgegeven voor een gebruiker, een computer of een service. Zie ook persoonlijke sleutel; openbare sleutel.
+
+<!-- -->
+
+**clientinschrijving**  
+Het maken van het clientlicentieverleningscertificaat, waardoor de computer of het apparaat van de gebruiker uitgiftelicenties kan maken die worden geaccepteerd door een licentieserver.
+
+<!-- -->
+
+**clientlicentieverleningscertificaat**  
+Het certificaat dat wordt gemaakt door een RMS-server en dat naar RMS-clientcomputers wordt gekopieerd. Hiermee kunnen gebruikers beveiligde inhoud off line uitgeven, zonder dat ze zijn aangesloten op het netwerk met RMS-ondersteuning. Het clientlicentiecertificaat bevat de sleutel die de RMS-client gebruikt om uitgiftelicenties digitaal te ondertekenen.
+
+<!-- -->
+
+**voorwaarde**  
+Een set vastgestelde restricties en parameters die deel uitmaken van de rechtengroep die is opgenomen in een uitgiftelicentie. Deze worden van kracht bij gebruik. Een tijdsvoorwaarde is een veelvoorkomende voorwaarde waarmee de gebruiker een verloopdatum voor door RMS beveiligde informatie kan instellen.
+
+<!-- -->
+
+**configuratiedatabase**  
+De database met RMS-configuratiegegevens voor een server of cluster.
+
+<!-- -->
+
+**inhoud gebruiken**  
+Gebruiksrechten voor beveiligde inhoud decoderen en uitoefenen.
+
+<!-- -->
+
+**inhoudsleutel**  
+De sleutel die wordt gebruikt voor het coderen en decoderen van beveiligde inhoud tijdens de uitgifte en het gebruik. Deze sleutel wordt ook wel symmetrische sleutel genoemd. RMS gebruikt 128-bits AES-inhoudssleutels.
+
+<!-- -->
+
+**eigenaar van de inhoud**  
+De persoon of organisatie die het toegangsbeleid voor beveiligde inhoud vaststelt.
+
+<!-- -->
+
+**decodering**  
+Het proces waarin gecodeerde gegevens weer leesbaar worden gemaakt door cijfertekst om te zetten in normale tekst.
+
+<!-- -->
+
+**digitale handtekening**  
+Een manier waarop degene die een bericht, bestand of andere digitale gegevens heeft opgesteld zijn identiteit aan die gegevens kan koppelen. Tijdens het proces van digitale ondertekening worden deze gegevens, evenals bepaalde geheime gegevens die het eigendom zijn van de afzender, omgezet in een code die een digitale handtekening wordt genoemd. Een digitale handtekening wordt gebruikt bij publieke sleutels. Digitale handtekeningen voorkomen tevens niet-afwijzing en bieden integriteitsservices.
+
+<!-- -->
+
+**DRMRemote-service**  
+Een RMS-webservice waarmee services worden weergegeven via .NET Remoting. Deze service wordt gebruikt voor communicatie tussen verschillende RMS-servers.
+
+<!-- -->
+
+**codering**  
+Tijdens dit proces worden gegevens omgezet zodat alleen een specifieke ontvanger de gegevens kan lezen. Codering is een effectieve manier om gegevens te beveiligen. Om een gecodeerd bestand te decoderen, moet de ontvanger een geheime sleutel of wachtwoord hebben. Zie ook codering met openbare sleutels.
+
+<!-- -->
+
+**inschrijving**  
+Het proces waarbij de basiscertificeringsserver een serverlicentieverleningscertificaat ontvangt dat is ondertekend door de inschrijvingsservice van Microsoft.
+
+<!-- -->
+
+**inschrijvingsaanvraag**  
+Een aanvraag voor een serverlicentieverleningscertificaat die door de RMS-basiscertificeringsserver wordt verzonden naar de inschrijvingsservice van Microsoft.
+
+<!-- -->
+
+**uitsluiting**  
+Het door de RMS-server gebruikte proces waarbij een gebruikslicentie voor een client op basis van uitsluitingsbeleid wordt geweigerd. Zie ook uitsluitingslijst.
+
+<!-- -->
+
+**uitsluitingslijst**  
+De lijst met principals die geen licenties kunnen ontvangen van de RMS-licentieservice.
+
+<!-- -->
+
+**uitsluitingsbeleid**  
+Instellingen in de RMS-configuratiedatabase die bepalend zijn voor de manier waarop uitsluiting wordt geregeld in de organisatie.
+
+<!-- -->
+
+**eXtensible Rights Markup Language**  
+Het op XML gebaseerde formaat dat door RMS voor alle ondersteunde licenties wordt gebruikt: computercertificaten, RAC's, CLC's, gebruikslicenties, uitgiftelicenties en serverlicentieverleningscertificaten die documenten zijn die het RMS-beleid voor beveiligde inhoud bepalen.
+
+<!-- -->
+
+**uitgiftelicentie**  
+De gegevens van het RMS-beleid dat wordt toegepast op de beveiligde inhoud.
+
+<!-- -->
+
+**licentiecluster**  
+Een of meer servers met de licentie- en uitgifteservices van RMS buiten het basiscertificeringscluster. Deze servers gebruiken een gewone database en verbindings-URL en moeten gebruikmaken van een software- of hardwarematige oplossing voor taakverdeling als er meer dan een server wordt gebruikt. RMS-server(s) in een licentiecluster mogen niet zoals certificerings- of basisclusters gebruikerscertificaten uitgeven.
+
+<!-- -->
+
+**licentieserver**  
+Een server met de licentie- en uitgifteservices van RMS buiten het basiscertificeringscluster.
+
+<!-- -->
+
+**licentieservice**  
+Een RMS-webservice waarmee gebruikslicenties kunnen worden uitgegeven.
+
+<!-- -->
+
+**lockbox**  
+De softwaremodule waarmee het geldige gebruik van beveiligde inhoud kan worden geverifieerd, informatie kan worden gecodeerd en gedecodeerd, en vertrouwde software kan worden beveiligd tegen wijzigingen en weergave. Dit wordt ook wel een beveiligde opslagplaats genoemd.
+
+<!-- -->
+
+**registratieservice**  
+Een listener-service van RMS waarmee vastgelegde gegevens van de berichtenwachtrij naar de logboekdatabase voor de RMS-server of het RMS-cluster worden overgedragen.
+
+<!-- -->
+
+**computeractivering**  
+Het verkrijgen van een unieke lockbox en een computercertificaat voor een computer in RMS versie 1.0. In RMS versie 1.0 SP1 is computeractivering het verkrijgen van een computercertificaat voor iedere gebruiker van dat systeem.
+
+<!-- -->
+
+**manifest**  
+Het ondertekende XML-document waarmee de bibliotheken of programma's worden herkend die kunnen, niet kunnen of wellicht kunnen worden geladen in de verwerkingsruimte van de toepassing.
+
+<!-- -->
+
+**activeringsservice van Microsoft**  
+Een door Microsoft gehoste webservice waarmee RMS-computercertificaten en lockboxes worden uitgegeven naar aanleiding van aanvragen door clients met RMS-versie 1.0.
+
+<!-- -->
+
+**inschrijvingsservice van Microsoft**  
+Een door Microsoft gehoste webservice waarmee een serverlicentieverleningscertificaat naar de basiscertificeringsserver in een RMS-installatie wordt verzonden.
+
+<!-- -->
+
+**precertificering**  
+Een functie van de RMS-certificeringsservice waarmee een toepassing namens een gebruiker een rechtenaccountcertificaat kan aanvragen bij de RMS-server. Rechtenaccountcertificaten die zijn verkregen met precertificering bevatten alleen de openbare sleutel van de gebruiker.
+
+<!-- -->
+
+**principal**  
+Een entiteit (bijvoorbeeld een gebruiker, groep of beheerder van beveiligde inhoud) met een vastgelegde rol in het RMS-beveiligingsschema. Objecten kunnen worden gekoppeld aan een object.
+
+<!-- -->
+
+**persoonlijke sleutel**  
+De geheime helft van een cryptografisch sleutelpaar, dat wordt gebruikt met een algoritme voor een openbare sleutel. Persoonlijke sleutels worden meestal gebruikt om een symmetrische sessiesleutel te decoderen, gegevens digitaal te ondertekenen, of om een bericht te decoderen dat is gecodeerd met de bijbehorende openbare sleutel. Zie ook openbare sleutel; codering met openbare sleutels.
+
+<!-- -->
+
+**inrichten**  
+Een RMS-server configureren voor gebruik in een organisatie.
+
+<!-- -->
+
+**openbare sleutel**  
+De niet-geheime helft van een cryptografisch sleutelpaar, dat wordt gebruikt met een algoritme voor een openbare sleutel. Openbare sleutels worden meestal gebruikt bij het coderen van een sessiesleutel, het verifiëren van een digitale handtekening, of het coderen van gegevens die kunnen worden gedecodeerd met de bijbehorende persoonlijke sleutel. Zie ook persoonlijke sleutel; codering met openbare sleutels.
+
+<!-- -->
+
+**codering met openbare sleutels**  
+Een coderingsmethode die gebruikmaakt van twee coderingssleutels die wiskundig aan elkaar gerelateerd zijn. Een sleutel wordt de persoonlijke sleutel genoemd. Deze sleutel is vertrouwelijk. De andere sleutel wordt de openbare sleutel genoemd. Deze sleutel wordt uitgegeven aan alle potentiële correspondenten. Normaal gesproken gebruikt de afzender de openbare sleutel van de ontvanger om een bericht te coderen. De ontvanger heeft als enige de bijbehorende persoonlijke sleutel om het bericht te decoderen. Vanwege de complexiteit van de relatie tussen de openbare sleutel en de persoonlijke sleutel is het, mits de sleutels lang genoeg zijn, computertechnisch vrijwel onhaalbaar om de sleutels van elkaar te onderscheiden. Dit wordt ook wel asymmetrische codering genoemd. Zie ook persoonlijke sleutel; openbare sleutel.
+
+<!-- -->
+
+**uitgiftelicentie**  
+De licentie die wordt gemaakt wanneer door RMS beveiligde inhoud wordt uitgegeven. Hierin wordt onder andere bepaald wie toegang heeft tot de inhoud, welke rechten zijn toegekend en onder welke voorwaarden de inhoud toegankelijk is. Dit wordt ook wel Issuance License genoemd.
+
+<!-- -->
+
+**uitgifteservice**  
+Een RMS-service waarmee uitgiftelicenties kunnen worden ondertekend en clientlicentieverleningscertificaten kunnen worden uitgegeven. Zie ook clientlicentieverleningscertificaat, uitgiftelicentie.
+
+<!-- -->
+
+**RAC**  
+Zie definitie voor rechtenaccountcertificaat.
+
+<!-- -->
+
+**intrekking**  
+Een proces waarbij entiteiten worden weergegeven met de aanduiding dat ze ongeldige licenties hebben.
+
+<!-- -->
+
+**intrekkingslijst**  
+Een XrML-document waarin de certificaten en licenties worden weergegeven die zijn ingetrokken door de uitgever. Zie ook intrekking.
+
+<!-- -->
+
+**recht**  
+Een handeling die opgegeven gebruikers kunnen uitvoeren voor inhoud die wordt beveiligd met RMS-technologie. Deze rechten kunnen verder worden beperkt door het gebruik van voorwaarden.
+
+<!-- -->
+
+**rechtenaccountcertificaat (RAC)**  
+Het certificaat dat het computercertificaat van RMS-activering gebruikt om de account en sleutel van een gebruiker te koppelen aan bepaalde computers of groepen computers. De onderdelen van het certificaat worden gebruikt om gebruikers de mogelijkheid te bieden beveiligde inhoud te gebruiken. In de RMS SDK wordt dit ook wel GIC (Group Identity Certificate; groepsidentiteitscertificaat) genoemd.
+
+<!-- -->
+
+**rechtenbeheer**  
+Een technologie die permanente beveiliging van digitale gegevens biedt door codering, certificaten en verificatie. Gemachtigde ontvangers of gebruikers moeten een licentie verkrijgen om de beveiligde bestanden te kunnen gebruiken, overeenkomstig de rechten of bedrijfsregels die zijn ingesteld door de eigenaar van de inhoud.
+
+<!-- -->
+
+**Rights Management Services-client**  
+Een set API's van RMS die op elke clientcomputer in een RMS-systeem moeten worden geïnstalleerd. Dit is een voorwaarde voor computeractivering en is vereist bij het gebruik van toepassingen met RMS-ondersteuning.
+
+<!-- -->
+
+**sjabloon voor het rechtenbeleid**  
+Beschrijft een standaardset gebruikers, rechten en voorwaarden die kunnen worden toegepast op inhoud die wordt beveiligd met RMS-technologie. Wanneer een gebruiker een sjabloon voor het rechtenbeleid toepast op inhoud, worden de in de sjabloon beschreven rechten en voorwaarden onderdeel van de uitgiftelicentie.
+
+<!-- -->
+
+**RMS activeren**  
+In RMS 1.0 is dit het plaatsen van een lockbox op de computer van een eindgebruiker. Dit kan alleen worden gedaan door de RMS-activeringsservice en is essentieel bij het gebruik van RMS-technologie. In RMS versie 1.0 SP1 is dit het verkrijgen van een machinecertificaat voor een gebruiker van die computer. Hiervoor is geen verbinding nodig met de RMS-activeringsservice. Dit wordt ook wel activering genoemd.
+
+<!-- -->
+
+**RMS-certificeringsservice**  
+Een door Microsoft gehoste webservice waarmee rechtenaccountcertificaten worden verleend aan gebruikers gebaseerd op de Microsoft .NET Passport-referenties.
+
+<!-- -->
+
+**RMS-client**  
+Een set API's van RMS die op elke clientcomputer in een RMS-systeem moeten worden geïnstalleerd. Dit is een voorwaarde voor computeractivering en is vereist bij het gebruik van toepassingen met RMS-ondersteuning.
+
+<!-- -->
+
+**RMS-computercertificaat**  
+Het certificaat dat op de computer van een eindgebruiker wordt geplaatst tijdens de RMS-activering. De openbare sleutel van dit certificaat wordt gebruikt voor het coderen van de persoonlijke sleutel van de gebruiker, die zich in de rechtenaccountcertificaten van de gebruiker bevindt.
+
+<!-- -->
+
+**toepassing met RMS-ondersteuning**  
+Een toepassing die is uitgebreid door het gebruik van de Rights Management Services SDK. Hiermee kunnen gebruikers rechten opgeven voor de inhoud die ze maken.
+
+<!-- -->
+
+**computer met RMS-ondersteuning**  
+Een computer waarop het RMS-clientonderdeel is geïnstalleerd en waarvoor de RMS-computeractivering is uitgevoerd zodat de inhoud die wordt beveiligd met RMS, kan worden verwerkt.
+
+<!-- -->
+
+**door RMS beveiligde inhoud**  
+Digitale gegevens die worden beveiligd met RMS-technologie.
+
+<!-- -->
+
+**basiscertificeringscluster**  
+Een of meer servers in een RMS-installatie met services voor beheer, inschrijving, accountcertificering, activeringsproxy, licentieverlening en uitgifte. Deze servers gebruiken een gewone database en verbindings-URL en moeten gebruikmaken van een software- of hardwarematige oplossing voor taakverdeling. Per Active Directory-forest kan slechts één basiscertificeringscluster bestaan.
+
+<!-- -->
+
+**basiscertificeringsserver**  
+De primaire server in een RMS-installatie met services voor beheer, inschrijving, accountcertificering, activeringsproxy, licentieverlening en uitgifte. Per Active Directory-forest kan slechts één basiscertificeringsserver bestaan.
+
+<!-- -->
+
+**basisbeveiliging**  
+Een vertrouwde entiteit die de basis vormt voor het vaststellen van het vertrouwen van andere certificaten. Alle certificaatproviders en de uiteindelijke gebruiker moeten de basisbeveiliging vertrouwen.
+
+<!-- -->
+
+**beveiligings-id (SID)**  
+Een Windows-gegevensstructuur waarmee gebruikers-, groeps- en computeraccounts van Windows kunnen worden geïdentificeerd. Iedere account op een netwerk krijgt een eigen unieke SID als de account wordt gemaakt. Interne processen van Windows verwijzen naar de SID van een account en niet naar de gebruikersnaam of groepsnaam van een account.
+
+<!-- -->
+
+**serverlicentieverleningscertificaat**  
+Het certificaat waarmee de referenties van de RMS-server worden vastgesteld. Hiermee wordt de certificering geldig en kan deze worden uitgevoerd. Het licentieverleningscertificaat bevat de openbare sleutel die wordt gebruikt om inhoudssleutels in uitgiftelicenties te coderen.
+
+<!-- -->
+
+**serverservice**  
+Een RMS-webservice die wordt gebruikt door een andere service.
+
+<!-- -->
+
+**serviceverbindingspunt**  
+Een Active Directory-object dat verwijst naar de URL van het basiscertificeringscluster van een RMS-installatie. De RMS-client gebruikt de informatie om RMS-services te zoeken.
+
+<!-- -->
+
+**subinschrijving**  
+Een deel van het inrichtingsproces voor een licentieserver, waarbij de licentieserver een serverlicentieverleningscertificaat ontvangt van het basiscertificeringscluster.
+
+<!-- -->
+
+**aanvraag voor subinschrijving**  
+Een aanvraag die wordt verzonden door een licentieserver naar het basiscertificeringscluster voor een serverlicentieverleningscertificaat.
+
+<!-- -->
+
+**subinschrijvingsservice**  
+Een RMS-webservice op de basiscertificeringsserver die reageert op de aanvragen voor serverlicentieverleningscertificaten. Deze worden verzonden door licentieservers tijdens het uitvoeren van de inrichting.
+
+<!-- -->
+
+**supergebruiker**  
+Een lid van een groep supergebruikers.
+
+<!-- -->
+
+**groep supergebruikers**  
+Een optionele gebruikersgroep die is opgegeven door de beheerder voor elk RMS-cluster. Leden van deze groep ontvangen eigenaarslicenties van de RMS-server wanneer de inhoud wordt geopend die met deze server is uitgegeven.
+
+<!-- -->
+
+**gebruikslicentie**  
+De licentie waarin de rechten en voorwaarden zijn vastgelegd die bepalen of een gebruiker beveiligde inhoud kan gebruiken. Dit wordt ook wel een eindgebruikerslicentie genoemd.

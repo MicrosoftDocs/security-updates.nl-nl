@@ -1,0 +1,27 @@
+---
+TOCTitle: Het wachtwoord voor de persoonlijke sleutel opnieuw instellen
+Title: Het wachtwoord voor de persoonlijke sleutel opnieuw instellen
+ms:assetid: 'f71df255-fe19-4e07-810e-87309a5e8e88'
+ms:contentKeyID: 18114238
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747800(v=WS.10)'
+---
+
+Het wachtwoord voor de persoonlijke sleutel opnieuw instellen
+=============================================================
+
+Als u deze procedure wilt uitvoeren, moet u lokaal zijn aangemeld bij de beheerwebsite met een domeingebruikersaccount die lid is van de groep Administrators op de computer die u benadert. Ook leden van de groep Domeinbeheerders kunnen deze procedure uitvoeren. Uit veiligheidsoverwegingen kunt u het beste **Uitvoeren als** gebruiken om deze procedure uit te voeren.
+
+Als u de pagina **Algemeen beheer** wilt openen, klikt u op **Start**, wijst u **Alle programma's** en **Windows RMS** aan en klikt u op **Windows RMS-beheer**.
+
+Het wachtwoord voor de persoonlijke sleutel opnieuw instellen
+-------------------------------------------------------------
+
+#### Het wachtwoord voor de persoonlijke sleutel opnieuw instellen
+
+1.  Open de pagina **Algemeen beheer** en klik naast de website waarop u het wachtwoord voor de persoonlijke sleutel opnieuw wilt instellen op **RMS op deze website beheren**.
+
+2.  Klik in het gedeelte **Beheerkoppelingen** op **Beveiligingsinstellingen**.
+
+3.  Typ in het gedeelte **Wachtwoord opnieuw instellen** bij **Nieuw wachtwoord voor persoonlijke-sleutelbeveiliging**, het nieuwe wachtwoord voor de persoonlijke sleutel voor de server. Typ het nieuwe wachtwoord nogmaals en klik op **Wachtwoord opnieuw instellen**.
+
+Zie '[Het wachtwoord voor de persoonlijke sleutel opnieuw instellen](https://technet.microsoft.com/ceba927e-a7fd-4b06-bb70-5e5d9d6d099c)' eerder in dit onderwerp voor meer informatie over het uitvoeren van deze procedure.

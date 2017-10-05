@@ -1,0 +1,20 @@
+---
+TOCTitle: Ondersteuning van databaseserver voor RMS
+Title: Ondersteuning van databaseserver voor RMS
+ms:assetid: 'c9844783-e6c4-49b4-8e7f-0f0377143b44'
+ms:contentKeyID: 18114132
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747664(v=WS.10)'
+---
+
+Ondersteuning van databaseserver voor RMS
+=========================================
+
+Voor het uitvoeren van de configuratie- en logboekdatabases en de database met de adreslijstservices gebruikt RMS een databaseserver, zoals SQL Server of Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) versie A. U kunt MSDE 2000 alleen in een implementatie met één server gebruiken. Als u het effect van storingen wilt beperken, kunt u een databaseservercluster implementeren.
+
+Ter ondersteuning van de vereisten voor logboekregistratie kunt u de configuratie- en logboekdatabases op verschillende databaseservers uitvoeren. Voor een basiscertificeringsserver of -cluster en licentieclusters kunt u ook een aparte databaseserver of een apart databaseservercluster implementeren. Zie 'Een RMS-server implementeren' in deze documentatie voor meer informatie over deze opties.
+
+Standaard zijn aan de RMS-servicegroep uitvoeringsmachtigingen toegewezen voor de opgeslagen procedures voor deze databases. De gebruikersaccount waarmee voor het inrichten is aangemeld, beschikt over eigenaarsmachtigingen voor deze databases.
+
+| ![](images/Cc747664.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| U wordt aangeraden Microsoft SQL Server Desktop Engine alleen in testomgevingen te gebruiken voor ondersteuning van RMS-databases, omdat Microsoft SQL Server Desktop Engine niet over de noodzakelijke hulpprogramma's beschikt om een database in het gehele bedrijf te kunnen uitvoeren en ondersteunen. Aangezien MSDE externe netwerken niet ondersteunt, moet u MSDE op dezelfde server als RMS installeren en kunt u geen extra RMS-servers aan het RMS-cluster toevoegen. In de gebruiksvoorwaarden voor Microsoft SQL Server Desktop Engine wordt aangegeven dat u hulpprogramma's voor SQL Server-clients niet kunt gebruiken voor het bewerken van een Microsoft SQL Server Desktop Engine-database. Door deze beperking kunt u geen back-up maken van de RMS-configuratiedatabase en deze herstellen en geen logboekgegevens weergeven of gegevens wijzigen die in de configuratiedatabase zijn opgeslagen. |

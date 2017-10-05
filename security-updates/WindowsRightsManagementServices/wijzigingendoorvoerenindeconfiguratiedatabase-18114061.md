@@ -1,0 +1,17 @@
+---
+TOCTitle: Wijzigingen doorvoeren in de configuratiedatabase
+Title: Wijzigingen doorvoeren in de configuratiedatabase
+ms:assetid: '6a7bec73-09e4-4060-b551-5990836df4bc'
+ms:contentKeyID: 18114061
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747606(v=WS.10)'
+---
+
+Wijzigingen doorvoeren in de configuratiedatabase
+=================================================
+
+De configuratiewijzigingen die u via de beheerwebsite doorvoert, worden toegepast in de configuratiedatabase voor de server of het cluster. U wordt sterk aangeraden eventuele configuratiewijzigingen door te voeren via de beheerwebsite en gegevens niet handmatig te wijzigen in de configuratiedatabase. Er zijn echter twee gevallen waarin u moet afwijken van deze regel:
+
+-   **De logboekdatabase naar een andere server verplaatsen.** Standaard wordt de logboekdatabase op dezelfde server geïnstalleerd als de configuratiedatabase. Als u de logboekdatabase verplaatst naar een andere server, moet u dit aangeven in de configuratiedatabase. Zie '[De logboekdatabase verplaatsen](https://technet.microsoft.com/34ea8045-dc94-422e-9601-29927cfc1534)' eerder in dit onderwerp voor meer informatie over het verplaatsen van een logboekdatabase en het wijzigen van de locatie van de configuratiedatabase.
+-   **Gebruikerssleutels verwijderen die aan rechtenaccountcertificaten zijn gekoppeld**. Als u een gebruikersaccount verwijdert uit Active Directory of een rechtenaccountcertificaat uitsluit of intrekt via de beheerwebsite, worden de gebruikerssleutels die in de configuratiedatabase aan het rechtenaccountcertificaat zijn gekoppeld, niet verwijderd. Niet-actieve gebruikerssleutels moet u handmatig uit de configuratiedatabase verwijderen, deels om beveiligingsredenen maar ook om het aantal licenties voor clienttoegang (CAL's) te traceren. Zie '[Gebruikersaccounts verwijderen](https://technet.microsoft.com/bf73b141-d4d1-4807-a773-3aaff58b0db6)' eerder in dit onderwerp voor meer informatie over het verwijderen van gebruikerssleutels uit de configuratiedatabase. Zie '[Rechtenaccountcertificaten traceren](https://technet.microsoft.com/5bb0f3cf-fc44-4e60-a93f-c789d6f8a902)' eerder in dit onderwerp voor meer informatie over het traceren van licenties voor clienttoegang.
+
+Neem contact op met de beheerder van de databaseserver als u wijzigingen rechtstreeks wilt doorvoeren in een configuratiedatabase.

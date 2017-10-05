@@ -1,0 +1,35 @@
+---
+TOCTitle: Beveiliging tijdens normale bewerkingen van RMS
+Title: Beveiliging tijdens normale bewerkingen van RMS
+ms:assetid: '98f3d584-6320-4aa1-9959-7133cfdb6df7'
+ms:contentKeyID: 18114068
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747609(v=WS.10)'
+---
+
+Beveiliging tijdens normale bewerkingen van RMS
+===============================================
+
+Als u RMS hebt geïnstalleerd en ingericht, worden de RMS-webservices uitgevoerd als IIS-toepassingen, waarbij verschillende systeembronnen worden aangesproken waarvoor verificatie en machtigingen zijn vereist. Alle systeembronnen vereisen verificatie en kunnen anders niet worden geconfigureerd. Op de rest van deze pagina wordt beschreven hoe er wordt geverifieerd in RMS.
+
+De RMS-webservices worden uitgevoerd in de context van een IIS-toepassingengroep. Elke toepassingengroep in IIS heeft een unieke identiteit die overeenkomt met een gebruikersaccount voor een domein, een lokale gebruikersaccount, de lokale account voor Network Service of de lokale account voor Local System. Aan elk van deze accounts zijn andere machtigingen voor het systeem toegekend. Als RMS is ingericht, kunt u RMS-webservices uitvoeren als de lokale systeemaccount of als een domeingebruikersaccount. Deze account wordt de toepassingengroepsidentiteit voor de RMS-toepassingengroep. De toepassingengroep voor de website voor algemeen beheer is de groep DRMS-toepassingen. De toepassingengroep voor de website die u inricht wordt \_DRMSAppPool1 genoemd. De logboekregistratieservice van RMS wordt uitgevoerd als een afzonderlijke Windows-service waarvoor dezelfde account wordt gebruikt als voor de RMS-toepassingengroepsidentiteit.
+
+De bronnen waartoe RMS-webservices toegang moet hebben, bestaan uit verschillende bestanden en mappen op het systeem, databases en opgeslagen procedures in de databaseserver, het lokale register, Active Directory, de cache voor assemblage, het geheugen en andere processen die op het systeem worden uitgevoerd. De registratieservice van RMS heeft tevens toegang nodig tot de wachtrij voor logboekregistratie op het lokale systeem. Elk van deze bronnen beschikt over eigen DACL's waarin wordt gedefinieerd wie over machtigingen beschikt voor toegang tot de bron en wat met de bron kan worden gedaan.
+
+Alle vereiste machtigingen zijn toegewezen aan de lokale RMS-servicegroep die is gemaakt tijdens het inrichten van RMS, waardoor het toewijzen van machtigingen en het beheer van serviceaccounts aanzienlijk wordt vereenvoudigd. Omdat de RMS-serviceaccount lid van deze groep is, ontvangt deze account alle machtigingen die aan de groep zijn toegewezen.
+
+Hieronder volgt een overzicht van de machtigingen die zijn toegewezen aan de RMS-servicegroep:
+
+-   leesmachtigingen voor de virtuele hoofdmappen;
+-   schrijfmachtigingen voor de cachemap voor de assemblage;
+-   schrijfmachtigingen voor de tijdelijke systeemmap;
+-   schrijfmachtigingen voor de wachtrij voor logboekregistratie;
+-   leesmachtigingen voor Active Directory.
+
+Als u Microsoft SQL Server 2000 als databaseserver gebruikt, moet u er rekening mee houden dat de machtigingen op een iets andere manier worden toegewezen dan bij Windows Server 2003. Bij het inrichten van RMS wordt er een aanmelding gemaakt voor de RMS-serviceaccount op de SQL Server. Als u RMS inricht met een lokale systeemaccount, wordt er een aanmelding voor SQL Server gemaakt met de notatie *DOMEIN\\computernaam*, waarbij *DOMEIN* de naam is van het Active Directory-domein waarvan de computer lid is en waarbij *computernaam* de naam van de server is. Er wordt een SQL-rol genaamd rms\_service gemaakt waaraan alle noodzakelijke machtigingen worden toegewezen. De aanmelding voor de RMS-serviceaccount wordt aan deze groep toegevoegd, maar er worden niet expliciet machtigingen aan de RMS-serviceaccount toegewezen.
+
+Daarnaast wijst SQL Server voor elke database een database-eigenaar (DBO) toe. Tijdens het inrichten wordt als volgt het eigendom van een database toegewezen:
+
+-   DBO voor de configuratiedatabase wordt aan de domeinaccount gegeven die is gebruikt voor het inrichten van RMS.
+-   DBO voor de directoryservices en logboekdatabases wordt gegeven aan de RMS-serviceaccount.
+
+De machtigingen voor de bronnen die door RMS zijn gemaakt, zijn allemaal met zorg geselecteerd tijdens het ontwerpen van RMS met het oog op veiligheid. Er mag geen reden zijn de machtigingen te wijzigen die zijn toegewezen tijdens het inrichten van een van de bronnen. Als u de gebruikersaccount of het wachtwoord van de serviceaccount moet wijzigen na het inrichten, kunt u dit doen vanaf de RMS-webpagina Algemeen beheer. Zie 'De RMS-serviceaccount wijzigen' in 'Een RMS-server beheren' in deze documentatie voor meer informatie.

@@ -1,0 +1,17 @@
+---
+TOCTitle: 'Logboekregistratie in- en uitschakelen'
+Title: 'Logboekregistratie in- en uitschakelen'
+ms:assetid: '50ccd827-2d39-41e7-a395-3d5f5836869b'
+ms:contentKeyID: 18113977
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747565(v=WS.10)'
+---
+
+Logboekregistratie in- en uitschakelen
+======================================
+
+U schakelt logboekregistratie voor het huidige cluster of de huidige server in via de pagina **Logboekinstellingen**. Wanneer u logboekregistratie uitschakelt, worden vanuit de RMS-webservices geen vastgelegde gegevens meer naar de wachtrij voor logboekregistratieberichten verstuurd. De service van de logboekregistratie-listener wordt eveneens uitgeschakeld. Windows RMS ondersteunt het uitschakelen van logboekregistratie met het beheerprogramma van Windows Server 2003 Services niet.
+
+Message Queuing verzendt RMS-loggegevens naar de databaseserver. Als er geen verbinding met de databaseserver is, slaat Message Queuing de loggegevens in een lokale cache op tot de verbinding is hersteld. De eerste keer dat u logboekregistratie inschakelt, dient u ervoor te zorgen dat de RMS-server een verbinding met de databaseserver heeft en dat de databaseservice is gestart. Als u SQL Server als databaseserver heeft, kunt u op de volgende manier controleren of er logbestanden in de database worden gemaakt:
+
+-   Ga naar de logboekdatabase in SQL Server Enterprise Manager, vouw **Databases** uit en vouw vervolgens de database met de logboekdatabase van RMS uit.
+-   Klik op de logboekdatabase, klik op **Tabellen**, klik met de rechtermuisknop op **DRMS\_log\_master** en klik vervolgens op **Tabel openen - alle rijen ophalen**. Als er logboekbestanden worden gemaakt, worden er een of meer logboekbestanden weergegeven.

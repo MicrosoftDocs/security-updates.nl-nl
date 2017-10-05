@@ -1,0 +1,36 @@
+---
+TOCTitle: Servers uit gebruik nemen
+Title: Servers uit gebruik nemen
+ms:assetid: '52005e2e-9563-4ba0-906c-3cc76f9c378f'
+ms:contentKeyID: 18113979
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747568(v=WS.10)'
+---
+
+Servers uit gebruik nemen
+=========================
+
+Het kan voorkomen dat u een RMS-server uit gebruik moet nemen, bijvoorbeeld in de volgende gevallen:
+
+-   Als er problemen met de apparatuur optreden of upgrades worden uitgevoerd en bepaalde servers als gevolg daarvan worden vervangen.
+-   Als er een afname in licentie- en uitgifteverkeer is waardoor bepaalde servers uit bedrijf worden genomen.
+-   Als servers van bepaalde locaties moeten worden verwijderd als gevolg van een wettelijke regel en daardoor een volledig cluster uit bedrijf wordt genomen.
+-   Als verkoopafdelingen of andere onderdelen van een organisatie worden samengevoegd waardoor apparatuur wordt verplaatst.
+-   Als een organisatie fuseert met een andere organisatie waarin RMS eveneens wordt uitgevoerd, waardoor een van beide RMS-installaties overbodig wordt.
+
+Voordat u een server uit gebruik neemt, moet u back-ups maken van alle RMS-databases die door de server worden gebruikt. De configuratiedatabase is de belangrijkste database. Zie 'Een back-up van het RMS-systeem maken en het RMS-systeem herstellen' in het gedeelte 'Een RMS-implementatie plannen' van deze documentatie voor meer informatie over het maken van een back-up van de database. .
+
+Wanneer u een back-up van de databases hebt gemaakt, kunt u de server verwijderen. De vereisten waaraan u moet voldoen als u een RMS-server wilt verwijderen, zijn afhankelijk van de rol van de server en de topologie van de RMS-installatie:
+
+-   **Eén server verwijderen uit een cluster**. Als de RMS-server die u uit gebruik wilt nemen zich in een cluster bevindt waarin andere RMS-servers nog actief en vereist zijn, moet u de inrichting en installatie van RMS op deze server ongedaan maken, de hardware uit het cluster verwijderen en de databases archiveren.
+    | ![](images/Cc747568.note(WS.10).gif)Opmerking                                                                                                                    |
+    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Alleen op servers in het basiscertificeringscluster moet u de inrichting ongedaan maken voordat u de installatie van RMS ongedaan maakt. Deze procedure is niet vereist voor licentieservers. |
+
+-   **Een zelfstandige server uit gebruik nemen**. Als u een zelfstandige RMS-server (een server die niet deel uitmaakt van een cluster met meerdere servers) door een nieuwe server wilt vervangen, gaat u als volgt te werk: maak de inrichting en installatie van RMS ongedaan en verwijder de server uit het netwerk. Vervolgens moet u RMS onmiddellijk installeren en inrichten op de nieuwe server. Stel de nieuwe RMS-server zo in dat hierop dezelfde URL en configuratiedatabase worden gebruikt als op de RMS-server die u uit gebruik hebt genomen. Pas als de nieuwe server is geïnstalleerd en ingericht, kunnen gebruikers weer werken met inhoud die is uitgegeven met de oude server.
+    | ![](images/Cc747568.Important(WS.10).gif)Belangrijk                                                                                                                                                                                      |
+    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Als op de oude RMS-server een hardwarebeveiligingsmodule wordt gebruikt, moet u de beveiligingsomgeving naar de nieuwe server verplaatsen voordat u RMS hierop installeert en inricht. Raadpleeg de documentatie voor de hardwarebeveiligingsmodule voor instructies. |
+
+-   **Een RMS-installatie vervangen door een andere, bestaande RMS-installatie**. In sommige gevallen moet u een RMS-installatie uit gebruik nemen en vervangen door een andere, bestaande RMS-installatie, bijvoorbeeld bij een fusie tussen bedrijven die beide gebruikmaken van RMS.
+
+Wanneer u de inrichting en installatie van een server ongedaan maakt, wordt deze verwijderd uit de ClusterServer-tabel van de configuratiedatabase en wordt de database met directoryservices verwijderd uit SQL Server. Zie '[De inrichting van RMS ongedaan maken](https://technet.microsoft.com/9fa63daa-5fb9-4afd-8371-b38248619857)' en '[De installatie van RMS ongedaan maken](https://technet.microsoft.com/885e3b4f-ea32-466f-9f7f-d8440b0f7c28)' verderop in dit onderwerp voor instructies over het ongedaan maken van de inrichting en installatie van RMS.

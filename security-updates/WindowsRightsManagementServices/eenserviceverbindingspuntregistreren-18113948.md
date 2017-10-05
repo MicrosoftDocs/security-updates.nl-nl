@@ -1,0 +1,25 @@
+---
+TOCTitle: Een serviceverbindingspunt registreren
+Title: Een serviceverbindingspunt registreren
+ms:assetid: '630cc3c3-9ed9-4423-8874-cbaceb43b353'
+ms:contentKeyID: 18113948
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc720283(v=WS.10)'
+---
+
+Een serviceverbindingspunt registreren
+======================================
+
+Een serviceverbindingspunt registreren
+--------------------------------------
+
+Als u een serviceverbindingspunt van een RMS-server in een subdomein registreert, ontvangt u mogelijk de foutmelding dat de registratie is mislukt. De registratie is in veel gevallen waarschijnlijk geslaagd, maar de registratie vindt eerst plaats in het hoofddomein en het kost tijd om dit te repliceren naar het subdomein waar de RMS-server het serviceverbindingspuntobject zoekt. Zodra het serviceverbindingspuntobject naar alle globale-catalogusservers in het forest is gerepliceerd, zal het bericht niet meer worden weergegeven. Wacht een tijdje voordat u probeert dit probleem op te lossen als u dit bericht ontvangt, om te zien of het probleem is opgelost.
+
+#### Een serviceverbindingspunt registreren
+
+1.  Meld u aan bij de server waarop u een serviceverbindingspunt moet registreren. Gebruik hiervoor een domeinaccount met voldoende rechten om een containerobject te maken onder de servicescontainer in de configuratiecontainer van het Active Directory-forest. De vooraf gedefinieerde beveiligingsgroep, **Ondernemingsadministrators**, is een voorbeeld van een account met de vereiste rechten.
+
+2.  Open de pagina **Algemeen beheer** en klik op de koppeling **RMS op deze website beheren**.
+
+3.  Klik op de introductiepagina van de **beheerwebsite** op de koppeling **Serviceverbindingspunt voor RMS**.
+
+4.  Klik op de pagina **Serviceverbindingspunt voor RMS** op de knop **URL registreren**.

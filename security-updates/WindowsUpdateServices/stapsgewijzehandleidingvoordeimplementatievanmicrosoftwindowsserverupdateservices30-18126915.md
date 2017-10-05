@@ -1,0 +1,23 @@
+---
+TOCTitle: 'Stapsgewijze handleiding voor de implementatie van Microsoft Windows Server Update Services 3.0'
+Title: 'Stapsgewijze handleiding voor de implementatie van Microsoft Windows Server Update Services 3.0'
+ms:assetid: 'a68a19d2-630e-45d6-b596-d24dac987b64'
+ms:contentKeyID: 18126915
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc708519(v=WS.10)'
+---
+
+Stapsgewijze handleiding voor de implementatie van Microsoft Windows Server Update Services 3.0
+===============================================================================================
+
+Microsoft WSUS 3.0 (Windows Server Update Services) biedt een veelomvattende oplossing voor het beheer van updates binnen een netwerk. Dit document bevat stapsgewijze instructies voor het uitvoeren van basistaken die nodig zijn om WSUS 3.0 in uw netwerk te implementeren. U kunt met hulp van deze handleiding de volgende taken uitvoeren:
+
+-   WSUS 3.0 installeren
+-   WSUS 3.0 configureren voor het ophalen van updates bij Microsoft
+-   Clientcomputers configureren voor het installeren van updates van WSUS 3.0
+-   Updates goedkeuren, beheren en distribueren
+
+Hoewel WSUS 3.0 een uitgebreide en veelzijdige oplossing voor het beheer van updates is, wordt in deze handleiding slechts één manier beschreven om deze taken uit te voeren. Als er opties beschikbaar zijn om een taak op andere manieren uit te voeren, worden deze extra opties vermeld.
+
+| ![](images/Cc708519.note(WS.10).gif)Opmerking                                                                         |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Zie [http://go.microsoft.com/fwlink/?LinkId=71190](http://go.microsoft.com/fwlink/?linkid=71190) als u een kopie van dit document wilt downloaden. |

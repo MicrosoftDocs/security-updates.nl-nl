@@ -1,0 +1,29 @@
+---
+TOCTitle: De service Uit bedrijf nemen inschakelen
+Title: De service Uit bedrijf nemen inschakelen
+ms:assetid: '45226e85-b50d-41cc-aca7-0f603f8509d5'
+ms:contentKeyID: 18113906
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc720261(v=WS.10)'
+---
+
+De service Uit bedrijf nemen inschakelen
+========================================
+
+Voor het uit bedrijf nemen van het RMS-systeem is de persoonlijke sleutel nodig waarmee alle gepubliceerde gegevens worden beveiligd. Deze persoonlijke sleutel ligt opgeslagen in de configuratiedatabase, is gecodeerd met Data Protection API (DPAPI) en is gekoppeld aan het wachtwoord dat tijdens de inrichting is opgegeven. Als de persoonlijke sleutel van RMS op een hardwarebeveiligingsmodule (HSM) wordt opgeslagen, wordt de persoonlijke sleutel in de HSM opgeslagen in plaats van de configuratiedatabase.
+
+| ![](images/Cc720261.Caution(WS.10).gif)Waarschuwing                                                                                                                                                                                        |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Voordat u het RMS-systeem uit bedrijf neemt, moet u ervoor zorgen dat u het wachtwoord kent van uw persoonlijke sleutel. Als u dit wachtwoord niet kent, moet u het wachtwoord van de persoonlijke sleutel opnieuw instellen voordat u de RMS-server uit bedrijf neemt. |
+
+De eerste stap om het RMS-systeem te verwijderen is het uit bedrijf nemen van de servers in het cluster. Aangezien het uit bedrijf nemen een licentiefunctie is, kan een ingeschreven RMS-licentieserver uit bedrijf worden genomen zonder dat dit gevolgen heeft voor het RMS-basiscluster of voor een ander ingeschreven RMS-licentiecluster. Daarom moet u het RMS-basiscluster en eventuele licentieclusters afzonderlijk uit bedrijf nemen omdat elk licentiecluster zijn eigen persoonlijke sleutel heeft waarmee uitgiftelicenties zijn gemaakt.
+
+Schakel als volgt de service Uit bedrijf nemen in:
+
+1.  Open de Windows RMS-beheerwebsite.
+2.  Klik op **RMS op deze website beheren** en vervolgens op **Beveiligingsinstellingen**.
+3.  Schakel het selectievakje **RMS-installatie uit bedrijf nemen** in.
+4.  Klik op **OK** in het dialoogvenster waarin wordt gevraagd het uit bedrijf nemen te bevestigen.
+
+Wanneer u een server uit bedrijf neemt, kan deze niet worden hersteld als standaard-RMS-configuratie. Deze procedure is onherroepelijk.
+
+Nadat u RMS uit bedrijf hebt genomen, moet u RMS eerst volledig verwijderen via het onderdeel **Software** in het Configuratiescherm, voordat u een nieuw exemplaar van RMS gaat installeren.

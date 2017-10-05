@@ -1,0 +1,31 @@
+---
+TOCTitle: Beheer op afstand van RMS inschakelen
+Title: Beheer op afstand van RMS inschakelen
+ms:assetid: '00f17054-5f5d-47e2-89c1-7a593b930bb3'
+ms:contentKeyID: 18113859
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc720181(v=WS.10)'
+---
+
+Beheer op afstand van RMS inschakelen
+=====================================
+
+Internet Explorer 6.0 of hoger dient op de computer te zijn geïnstalleerd om RMS op deze computer extern te kunnen beheren.
+
+Beheer op afstand van RMS inschakelen
+-------------------------------------
+
+#### Beheer op afstand van RMS inschakelen
+
+1.  Meld u aan bij de server die u op afstand wilt beheren.
+
+2.  Open de module **Internet Information Services (IIS) Manager** vanuit **Systeembeheer**.
+
+3.  Vouw het item uit dat staat voor de website waarop u RMS hebt ingericht.
+
+4.  Klik met de rechtermuisknop op de map **\_wmcs** en klik op **Eigenschappen**. Klik op het tabblad **Mapbeveiliging** onder **Beveiligde communicatie** op **Bewerken**, klik op **Beveiligd Kanaal vereisen** en klik op **OK**. Hiermee wordt SSL-bescherming (Secure Sockets Layer) op de RMS-webservices toegepast. Zie de IIS Help voor meer informatie over het beheer van websites met IIS.
+
+    | ![](images/Cc720181.Important(WS.10).gif)Belangrijk                                                                                                                                                                                                               |
+    |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | U kunt RMS-webservices beveiligen met SSL als aanvullende beveiliging en om via externe HTTP toegang tot de webpagina's voor RMS-beheer mogelijk te maken. Als u SSL wilt inschakelen voor de RMS-webservices, dient u een geldig SSL\_webservercertificaat op te halen en dit te installeren. |
+
+5.  Klik met de rechtermuisknop op de map **Admin** en klik op **Eigenschappen**. Klik op het tabblad **Mapbeveiliging** onder **IP-adres en domeinnaambeperkingen** op **Bewerken**. Klik vervolgens onder **IP-adres en domeinnaambeperkingen** op **Toegang verleend** om alle computers toestemming te geven een verbinding met deze website aan te vragen.

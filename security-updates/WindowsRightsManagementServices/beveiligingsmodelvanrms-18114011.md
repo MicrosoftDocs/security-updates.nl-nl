@@ -1,0 +1,22 @@
+---
+TOCTitle: Beveiligingsmodel van RMS
+Title: Beveiligingsmodel van RMS
+ms:assetid: '665db831-366d-4dca-9bb3-cc2912481fe1'
+ms:contentKeyID: 18114011
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747598(v=WS.10)'
+---
+
+Beveiligingsmodel van RMS
+=========================
+
+Tijdens bewerkingen biedt RMS toegang tot verschillende bronnen, waaronder de databaseserver, Active Directory, de berichtenwachtrij en de lokale vaste schijf. Daarnaast worden door het installatieprogramma van RMS bepaalde bronnen gemaakt en beschikbaar gesteld, zoals SOAP-vermeldingen, webpagina's en wachtrijen voor logboekregistratieberichten, die vereist zijn voor het uitvoeren van bewerkingen. Door het installatieprogramma van RMS worden DACL's geconfigureerd voor de bronnen die hierin worden gemaakt en beschikbaar gesteld. Ook wordt IIS-verificatie ingesteld voor elke bron.
+
+Dit gedeelte bevat informatie over de wijze waarop de gebruikte bronnen worden beveiligd in RMS en hoe tijdens de verschillende fases van de bewerkingen (installatie, inrichting en normale bewerkingen) in RMS toegang tot de bronnen wordt gekregen.
+
+Dit gedeelte bevat de volgende onderwerpen:
+
+-   [RMS-beveiligingsgroepen](https://technet.microsoft.com/25749a83-8c12-48ec-96ad-296d31fd55d4)
+-   [Beveiligingsmodi voor RMS](https://technet.microsoft.com/d7792293-5bb2-4232-9d48-e81e87ab6219)
+-   [Beveiliging tijdens het installeren van RMS](https://technet.microsoft.com/0a3d40b2-f27e-4e63-baff-a9c8433f5f91)
+-   [Beveiliging tijdens de inrichting](https://technet.microsoft.com/9f1282c5-5642-4870-a9a4-c3a485f8ff76)
+-   [Beveiliging tijdens normale bewerkingen van RMS](https://technet.microsoft.com/98f3d584-6320-4aa1-9959-7133cfdb6df7)

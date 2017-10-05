@@ -1,0 +1,20 @@
+---
+TOCTitle: Met door RMS beveiligde inhoud distribueren
+Title: Met door RMS beveiligde inhoud distribueren
+ms:assetid: '98612cfb-4fd6-47f9-8b9f-025a93834cd9'
+ms:contentKeyID: 18114098
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747696(v=WS.10)'
+---
+
+Met door RMS beveiligde inhoud distribueren
+===========================================
+
+Als u inhoud uitgeeft, past u rechten en voorwaarden op ongecodeerde inhoud en het rechtenbeleid op de inhoud toe. Vervolgens distribueert u de inhoud. Distribueren kan onder andere inhouden dat u de inhoud intern naar een andere gebruiker, interne server of vertrouwde externe bedrijfspartner moet versturen.
+
+Een auteur kan door RMS beveiligde inhoud naar het bedrijfsnetwerk (on line) of lokaal (off line) distribueren. Auteurs kunnen in een uitgiftelicentie tevens instellen dat iedereen met een geldig rechtenaccountcertificaat een gebruikslicentie voor een deel van de door RMS beveiligde inhoud kan aanvragen.
+
+Dit gedeelte bevat de volgende onderwerpen:
+
+-   [On line uitgifte](https://technet.microsoft.com/962c4e83-cf34-4c61-9589-31d24b0299fb)
+-   [Off line uitgifte](https://technet.microsoft.com/f6384ed2-f917-442e-aa63-c1394a1c4d06)
+-   [De groep Iedereen opgeven in een uitgiftelicentie](https://technet.microsoft.com/86f1db8b-5cbc-4c0c-955d-810c20375758)

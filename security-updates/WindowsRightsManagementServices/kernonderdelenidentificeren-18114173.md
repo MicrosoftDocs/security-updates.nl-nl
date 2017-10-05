@@ -1,0 +1,18 @@
+---
+TOCTitle: Kernonderdelen identificeren
+Title: Kernonderdelen identificeren
+ms:assetid: 'c9ec225b-0e51-42f5-aff6-0aecb62e3b27'
+ms:contentKeyID: 18114173
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747751(v=WS.10)'
+---
+
+Kernonderdelen identificeren
+============================
+
+Bij het bepalen van een juiste topologie is het van belang dat u de basisonderdelen van een RMS-implementatie begrijpt, evenals de rol die deze onderdelen spelen. De volgende lijst bevat een overzicht van de servers die deel uitmaken van een RMS-implementatie:
+
+-   Basiscertificeringsservers. De basiscertificeringsserver is het eerste onderdeel van een RMS-implementatie. Alle andere onderdelen zijn daarvan afhankelijk. De basiscertificeringsserver voert alle RMS-services uit, inclusief de service voor accountcertificering die als proxy fungeert voor het doorgeven van rechtenaccountcertificaten naar RMS-clients die zich binnen de organisatie bevinden. Er kan slechts één basiscertificeringsserver bestaan binnen elk Active Directory-forest. U kunt echter meerdere servers aan de installatie toevoegen om een basiscertificeringscluster te maken dat kan worden ingezet voor redundantie en taakverdeling. Alle servers die onderdeel zijn van het basiscertificeringscluster, gebruiken dezelfde configuratiedatabase die is gedefinieerd tijdens het inrichten van de eerste certificeringsserver in de installatie.
+-   Licentieservers. Een licentieserver is optioneel en is geen onderdeel van het basiscertificeringscluster. De licentieserver wordt echter als subinschrijving onder de basiscertificeringsserver ingeschreven. Een licentieserver is van de basiscertificeringsserver afhankelijk voor certificering en andere services (de licentieserver kan geen accountcertificeringsservices verlenen). Maar de licentieserver voert wel licentieservices uit om zowel uitgiftelicenties als gebruikslicenties te kunnen verstrekken. U kunt meerdere servers aan de installatie toevoegen om redundantie en taakverdeling in te stellen en een licentiecluster te maken. Alle servers die onderdeel zijn van het licentiecluster, gebruiken dezelfde configuratiedatabase die tijdens het inrichten van de eerste licentieserver van dit cluster is gedefinieerd.
+-   Servers die infrastructuuronderdelen uitvoeren. Extra servers binnen de implementatie kunnen de benodigde infrastructuur verzorgen, onder andere onderdelen als SQL Server 2000 en Active Directory. Waar u deze onderdelen inzet en het aantal benodigde servers hangt af van uw vereisten.
+
+De RMS-topologie die u voor uw organisatie ontwerpt, moet voor de inzet van elk van deze onderdelen geschikt zijn.

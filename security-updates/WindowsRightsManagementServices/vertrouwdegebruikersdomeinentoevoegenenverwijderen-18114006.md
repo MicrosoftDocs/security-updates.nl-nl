@@ -1,0 +1,25 @@
+---
+TOCTitle: Vertrouwde gebruikersdomeinen toevoegen en verwijderen
+Title: Vertrouwde gebruikersdomeinen toevoegen en verwijderen
+ms:assetid: '7c440b15-01c4-49f1-b43c-00f67f3388c1'
+ms:contentKeyID: 18114006
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747571(v=WS.10)'
+---
+
+Vertrouwde gebruikersdomeinen toevoegen en verwijderen
+======================================================
+
+Standaard worden in RMS geen aanvragen verwerkt van gebruikers met rechtenaccountcertificaten die door een andere RMS-installatie zijn uitgegeven. Als u toch wilt dat dergelijke aanvragen worden verwerkt, kunt u gebruikersdomeinen aan de lijst met vertrouwde gebruikersdomeinen toevoegen.
+
+Voor elk vertrouwd domein kunt u ook bepaalde gebruikers of gebruikersgroepen toevoegen en verwijderen. Daarnaast kunt u een vertrouwd gebruikersdomein verwijderen. U kunt het basiscertificeringscluster voor dit Active Directory-forest echter niet verwijderen als vertrouwd gebruikersdomein. Elke RMS-server in een implementatie, inclusief de basiscertificeringsserver, vertrouwt het basiscertificeringscluster in het eigen forest.
+
+U kunt als volgt vertrouwde gebruikersdomeinen beheren:
+
+-   Als u externe gebruikers standaard wilt ondersteunen, kunt u de Microsoft® .NET Passport-service toevoegen aan de lijst met vertrouwde domeinen. Wanneer u dit doet, kunnen met een RMS-server in uw organisatie licentieaanvragen worden verwerkt waarin een rechtenaccountcertificaat is opgenomen dat is uitgegeven door de Microsoft .NET Passport-service.
+-   Als u externe gebruikers uit een RMS-installatie van een andere organisatie wilt vertrouwen, kunt u de organisatie toevoegen aan de lijst met vertrouwde gebruikersdomeinen. Wanneer u dit doet, kunnen door een RMS-server licentieaanvragen worden verwerkt waarin een rechtenaccountcertificaat is opgenomen dat is uitgegeven door een RMS-server uit de andere organisatie.
+-   Op dezelfde wijze kunt u de RMS-installatie uit een ander Active Directory-forest in uw organisatie aan de lijst met vertrouwde gebruikersdomeinen toevoegen om licentieaanvragen van gebruikers uit dit Active Directory-forest te kunnen verwerken. Als u dit doet, kunnen met een RMS-server in het huidige forest licentieaanvragen worden verwerkt waarin een rechtenaccountcertificaat is opgenomen dat is uitgegeven met een RMS-server uit het andere forest.
+-   U kunt voor elk vertrouwd gebruikersdomein opgeven welke e-maildomeinen worden vertrouwd. U kunt voor vertrouwde Passport-domeinen opgeven welke e-mailgebruikers of -domeinen niet worden vertrouwd.
+
+Als u een RMS-installatie wilt toevoegen aan de lijst met vertrouwde gebruikersdomeinen, moet u het serverlicentieverleningscertificaat voor die RMS-installatie importeren. De beheerder moet het serverlicentieverleningscertificaat eerst exporteren en naar u versturen. Vervolgens kunt u het bestand importeren door de bestandslocatie op te geven. Als de gebruiker die is aangemeld het bestand wil opslaan, moet deze over machtigingen voor de gedeelde map beschikken. De persoonlijke-sleutelgegevens worden niet geïmporteerd wanneer u een vertrouwd gebruikersdomein instelt.
+
+Zie '[Een vertrouwd gebruikersdomein toevoegen](https://technet.microsoft.com/ed672e58-6272-4ac0-a434-d1d938037e93)' verderop in dit onderwerp voor stapsgewijze instructies voor het instellen van vertrouwde gebruikersdomeinen.

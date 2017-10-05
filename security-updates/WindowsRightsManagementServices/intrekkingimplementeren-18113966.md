@@ -1,0 +1,27 @@
+---
+TOCTitle: Intrekking implementeren
+Title: Intrekking implementeren
+ms:assetid: '4735f060-7197-4ae2-830a-f91bcc4de30a'
+ms:contentKeyID: 18113966
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747554(v=WS.10)'
+---
+
+Intrekking implementeren
+========================
+
+Certificaten en licenties kunnen worden ingetrokken door elke principal in de vertrouwensketen voor het certificaat of de licentie. Certificaten of licenties die zijn uitgegeven door een basiscertificeringsserver, kunnen worden ingetrokken door dezelfde basiscertificeringsserver. Daarnaast kunnen de certificaten worden ingetrokken door een derde partij die wordt opgegeven door de RMS-beheerder.
+
+Als u een door uw RMS-server uitgegeven certificaat of licentie wilt intrekken, kunt u een intrekkingslijst maken en distribueren en vervolgens verplicht stellen in een sjabloon voor het rechtenbeleid, zoals wordt beschreven in de volgende procedure:
+
+1.  Maak een intrekkingslijst met de principals die moeten worden ingetrokken. Dit is een tekstbestand zonder opmaak in XML-indeling waarin XrML-taal wordt gebruikt. Zie '[Intrekkingslijsten maken](https://technet.microsoft.com/1ef75199-3344-4225-84de-a863a777696a)' verderop in dit onderwerp voor meer informatie.
+2.  Genereer een sleutelpaar voor de intrekkingslijst. Gebruik vervolgens het hulpprogramma Revocation List Signing, dat voor dit doel is meegeleverd, om het bestand te ondertekenen met de persoonlijke sleutel. Zie 'Een handtekening invoegen in een intrekkingslijst' verderop in dit gedeelte voor meer informatie. U moet dit proces automatiseren zodat het regelmatig, bij voorkeur dagelijks, wordt uitgevoerd.
+3.  Sla het intrekkingslijstbestand op een locatie op die toegankelijk is voor alle gebruikers die het bestand moeten gebruiken. U kunt het bestand het beste op een locatie opslaan die zowel via het netwerk als via internet toegankelijk is, bij voorkeur op een website. In dat geval hoeven gebruikers niet op het bedrijfsnetwerk te zijn aangesloten om het bestand te kunnen openen.
+4.  Maak een sjabloon voor het rechtenbeleid waarin een vereiste voor de intrekkingslijst is opgenomen. Zie '[Sjablonen voor het rechtenbeleid maken en wijzigen](https://technet.microsoft.com/6014176f-ef71-4d29-b3e3-da129c18563d)' verderop in dit onderwerp voor meer informatie.
+
+U kunt ook het serverlicentieverleningscertificaat van de basiscertificeringsserver intrekken. Omdat dit certificaat wordt uitgegeven met de inschrijvingsservice van Microsoft, kan Microsoft het serverlicentieverleningscertificaat van de basiscertificeringsserver intrekken. In dat geval voegt Microsoft het serverlicentieverleningscertificaat toe aan de eigen intrekkingslijst en wordt deze lijst algemeen beschikbaar gesteld.
+
+Daarnaast kan het licentieverleningscertificaat voor uw basiscertificeringsserver door een derde instantie worden ingetrokken als uw RMS-beheerder deze optie tijdens het inrichten heeft ingeschakeld. Als u deze optie gebruikt, moet een intrekkingslijst met het betreffende serverlicentieverleningscertificaat, dat is ondertekend met de persoonlijke sleutel van de derde instantie, beschikbaar worden gesteld aan clients. Zie '[Serverlicentieverleningscertificaten intrekken](https://technet.microsoft.com/8020861d-d196-4431-8282-044675ef5616)' verderop in dit onderwerp voor meer informatie.
+
+| ![](images/Cc747554.Caution(WS.10).gif)Waarschuwing                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ga zorgvuldig te werk wanneer u intrekking implementeert. U moet op basis van het vernieuwingsinterval dat u opgeeft, een intrekkingslijst regelmatig vernieuwen. Zo voorkomt u dat deze automatisch verloopt en gebruikers niet meer kunnen werken met inhoud waarvoor de lijst vereist is. Kies het interval voor het vernieuwen van de intrekkingslijst zorgvuldig om te voorkomen dat gebruikers onbedoeld niet meer kunnen werken met inhoud. Zorg er tevens voor dat de intrekkingslijst zowel via het netwerk als buiten het netwerk om toegankelijk is voor gebruikers. Zie '[Intrekkingsbeleid definiëren](https://technet.microsoft.com/e2fffe9f-def7-439b-a8aa-43f8a065813d)' eerder in dit onderwerp voor meer informatie. |

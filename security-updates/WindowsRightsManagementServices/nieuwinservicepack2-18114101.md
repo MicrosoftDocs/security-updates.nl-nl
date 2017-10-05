@@ -1,0 +1,18 @@
+---
+TOCTitle: Nieuw in Service Pack 2
+Title: Nieuw in Service Pack 2
+ms:assetid: 'a944cb73-d900-42bb-b7aa-92916dead408'
+ms:contentKeyID: 18114101
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747629(v=WS.10)'
+---
+
+Nieuw in Service Pack 2
+=======================
+
+Rights Management Services (RMS) met Service Pack 2 (SP2) ondersteunt de volgende functies:
+
+-   **Native ondersteuning voor Microsoft® SQL Server™ 2005**. Eerdere releases van RMS konden uitsluitend via een indirecte oplossing werken met SQL Server 2005. Zie artikel 913372 in de Microsoft Knowledge Base ([http://go.microsoft.com/fwlink/?LinkId=68638](http://go.microsoft.com/fwlink/?linkid=68638)) voor meer informatie over deze oplossing. In RMS met SP2 is dit probleem opgelost.
+-   **Microsoft Office SharePoint® Server 2007**. In deze versie wordt Office SharePoint Server 2007 ondersteund. Wanneer documenten worden gedownload, past de documentbibliotheek van Office SharePoint Server 2007 op die documenten automatisch RMS-machtigingen toe op basis van de Office SharePoint Server 2007-rechten. Dit wordt bereikt door de RMS met SP2-client te installeren op de Office SharePoint Server 2007-server. Het wordt afgeraden RMS met SP2-server en Office SharePoint Server 2007 op dezelfde computer te installeren.
+-   **Verbeterde beveiliging van berichten naar de logboekdatabase**. In deze release worden alle Message Queuing-berichten van de RMS-servers naar de RMS-logboekdatabase digitaal ondertekend.
+-   **Grotere omvang van serverbatches**. In deze versie kan een toepassing met RMS-ondersteuning met een enkele licentieaanvraag bij de RMS-server meerdere gebruikslicenties ophalen voor verschillende gebruikersaccounts. Zo worden de prestaties verbeterd omdat de overhead wordt verminderd die ontstaat door meerdere licentieaanvragen voor dezelfde hoeveelheid met rechten beveiligde inhoud.
+-   **Verbeterde groepsuitbreiding naar andere forests**. In deze versie wordt RMS-groepsuitbreiding naar andere forests gerealiseerd met een SOAP-aanvraag (Simple Object Access Protocol) naar een nieuwe ASP.NET-webservice die wordt uitgevoerd op de RMS-server.

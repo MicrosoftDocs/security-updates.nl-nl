@@ -1,0 +1,14 @@
+---
+TOCTitle: 'RMS-computersleutels'
+Title: 'RMS-computersleutels'
+ms:assetid: '56e59ec2-f681-4ca2-98c7-72218ab9e9d9'
+ms:contentKeyID: 18113985
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747572(v=WS.10)'
+---
+
+RMS-computersleutels
+====================
+
+Een RMS SP1-clientcomputer heeft een sleutelpaar met RSA-sleutels van 1024 bits. Deze sleutels worden computersleutels genoemd.
+
+Met de openbare computersleutel wordt de persoonlijke sleutel van een rechtenaccountcertificaat gecodeerd. Het RMS-computercertificaat bevat de openbare sleutel van de computer. De lockbox bevat de persoonlijke computersleutel waarmee het rechtenaccountcertificaat kan worden gedecodeerd, zodat de persoonlijke sleutel van de gebruiker kan worden gebruikt.

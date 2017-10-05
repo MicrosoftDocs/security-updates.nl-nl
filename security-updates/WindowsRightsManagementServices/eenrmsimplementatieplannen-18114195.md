@@ -1,0 +1,21 @@
+---
+TOCTitle: 'Een RMS-implementatie plannen'
+Title: 'Een RMS-implementatie plannen'
+ms:assetid: 'db48fba3-675f-4598-bdd5-6ee4c7c0e70f'
+ms:contentKeyID: 18114195
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747766(v=WS.10)'
+---
+
+Een RMS-implementatie plannen
+=============================
+
+U plant een implementatie van Microsoft® Windows® Rights Management Services (RMS) door te bepalen hoe u het rechtenbeveiligingsbeleid binnen uw organisatie instelt en hoe u de infrastructuur en organisatie voorbereidt voor RMS.
+
+Dit onderwerp behandelt het basisontwerp dat aan een RMS-systeem ten grondslag ligt, en de ondersteunende infrastructuur, mogelijke netwerktopologieën en de voorbereidingen die u op clients dient te treffen.
+
+**In dit onderwerp**
+
+-   [Infrastructuurvereisten voor RMS](https://technet.microsoft.com/a132ed26-77e7-4061-9850-8dd246cee2b9)
+-   [Uw RMS-topologie bepalen](https://technet.microsoft.com/bf516f7d-b3a1-4e7f-971f-bfab1db41812)
+-   [Beveiliging plannen voor RMS](https://technet.microsoft.com/eb0fa784-1246-44aa-be31-2c332db7d09c)
+-   [Systeemherstel plannen](https://technet.microsoft.com/a7779ffd-7a94-4e13-b846-0ffd00608e02)

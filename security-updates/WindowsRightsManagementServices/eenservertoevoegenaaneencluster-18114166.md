@@ -1,0 +1,45 @@
+---
+TOCTitle: Een server toevoegen aan een cluster
+Title: Een server toevoegen aan een cluster
+ms:assetid: 'db635238-5528-4bec-9cc6-8244e2b3d733'
+ms:contentKeyID: 18114166
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747690(v=WS.10)'
+---
+
+Een server toevoegen aan een cluster
+====================================
+
+Als u deze procedure wilt uitvoeren, moet u lokaal zijn aangemeld bij de beheerwebsite met een domeingebruikersaccount die lid is van de groep Administrators op de computer die u benadert. Ook leden van de groep Domeinbeheerders kunnen deze procedure uitvoeren. Uit veiligheidsoverwegingen kunt u het beste **Uitvoeren als** gebruiken om deze procedure uit te voeren.
+
+Als u de pagina **Algemeen beheer** wilt openen, klikt u op **Start**, wijst u **Alle programma's** en **Windows RMS** aan en klikt u op **Windows RMS-beheer**.
+
+Op elke server kunt u RMS slechts op één website inrichten. Als u RMS wilt inrichten op een andere website dan de standaardwebsite, gebruikt u Internet Information Services Manager om de website toe te voegen voordat u deze inrichtingsprocedure start. Als de website die u wilt inrichten niet voorkomt in de lijst met websites, sluit u de pagina **Algemeen beheer**. Voeg de website toe en begin opnieuw met de inrichtingsprocedure.
+
+Als u RMS implementeert in een omgeving waarin het functieniveau van het Active Directory-domein de native modus van Microsoft Windows 2000 gebruikt, is RMS mogelijk niet in staat om het kenmerk **memberOf** op Active Directory-objecten te lezen bij een poging om het groepslidmaatschap uit te breiden. RMS kan het kenmerk **memberOf** alleen lezen wanneer de RMS-serviceaccount een domeinaccount gebruikt die lid is van de Pre-Windows 2000-compatibele toegangsgroep in uw forest.
+
+Een server toevoegen aan een cluster.
+-------------------------------------
+
+#### Een server toevoegen aan een cluster
+
+1.  Nadat u RMS hebt geïnstalleerd op een server die u wilt onderbrengen in een basiscertificeringscluster of een licentiecluster, opent u de pagina **Algemeen beheer**.
+
+2.  Klik naast de website waarop u RMS wilt inrichten op **Deze server aan een cluster toevoegen**. U kunt de standaardwebsite of een andere website die u in Internet Information Services (IIS) voor dit doel hebt gemaakt, selecteren.
+
+    | ![](images/Cc747690.Warning(WS.10).gif)Waarschuwing                                                                                                                                                                                                                                    |
+    |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | De uitvoering van andere websites of diensten op dezelfde server als RMS wordt niet ondersteund. Doet u dit toch, dan zouden meerdere toepassingen en services kunnen worden uitgevoerd onder dezelfde account als RMS. Hierdoor kunnen de persoonlijke sleutels worden blootgesteld aan ontoelaatbare bewerkingen. |
+
+3.  Typ in het gedeelte **RMS-serviceaccount** de accountnaam, met de indeling domeinnaam\\gebruikersnaam, en het wachtwoord van de RMS-serviceaccount waaronder RMS actief moet zijn voor de meeste normale bewerkingen. Dit moet een domeinaccount zijn. Alle servers in een cluster moeten actief zijn onder dezelfde RMS-serviceaccount.
+
+    | ![](images/Cc747690.Important(WS.10).gif)Belangrijk                                                                                                                                                                                      |
+    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Uit veiligheidsoverwegingen kunt u het beste een speciale domeingebruikersaccount zonder speciale machtigingen maken die wordt gebruikt als RMS-serviceaccount. Gebruik als RMS-serviceaccount niet de domeinaccount waarmee RMS met Service Pack 1 is geïnstalleerd. |
+
+4.  Geef in het gedeelte **Configuratiedatabase** de naam op van de databaseserver en de naam van de configuratiedatabase voor dit cluster. De database die u selecteert, bepaalt in welk cluster deze server wordt opgenomen.
+
+5.  Selecteer in het gedeelte **Persoonlijke-sleutelbeveiliging** het mechanisme dat door dit cluster moet worden gebruikt voor de beveiliging van de persoonlijke sleutel. Geef voor de standaardsoftwarebeveiliging voor persoonlijke sleutels het wachtwoord op dat is gebruikt om de persoonlijke sleutel te coderen bij de inrichting van de eerste server in dit cluster.
+
+6.  Klik op **Verzenden**.
+
+    Als er foutberichten verschijnen, sluit de pagina dan niet. Herstel in plaats daarvan de fouten. Gebruik IISReset vanaf de opdrachtregel om IIS te stoppen en opnieuw te starten, ga terug naar de vorige pagina, geef de inrichtingsgegevens opnieuw op en klik nogmaals op **Verzenden**. Als u het foutbericht ontvangt dat de time-out voor de aanvraag is verlopen, sluit u het venster. Controleer of het systeem voldoet aan de minimale hardwarevereisten en probeer de server opnieuw in te richten.

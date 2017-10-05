@@ -1,0 +1,33 @@
+---
+TOCTitle: Een vertrouwd uitgiftedomein toevoegen
+Title: Een vertrouwd uitgiftedomein toevoegen
+ms:assetid: '731416d8-ddf4-4d4a-9f1a-bbd1ea48fe3c'
+ms:contentKeyID: 18114024
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747624(v=WS.10)'
+---
+
+Een vertrouwd uitgiftedomein toevoegen
+======================================
+
+Als u deze procedure wilt uitvoeren, moet u lokaal zijn aangemeld bij de beheerwebsite met een domeingebruikersaccount die lid is van de groep Administrators op de computer die u benadert. Ook leden van de groep Domeinbeheerders kunnen deze procedure uitvoeren. Uit veiligheidsoverwegingen kunt u het beste **Uitvoeren als** gebruiken om deze procedure uit te voeren.
+
+Als u de pagina **Algemeen beheer** wilt openen, klikt u op **Start**, wijst u **Alle programma's** en **Windows RMS** aan en klikt u op **Windows RMS-beheer**.
+
+Als u de persoonlijke sleutel van RMS beveiligt met een hardwarebeveiligingsmodule en een serverlicentieverleningscertificaat wilt importeren vanuit een RMS-installatie waarin gebruik wordt gemaakt van softwarebeveiliging voor persoonlijke sleutels, moet u op de pagina **Beveiligingsinstellingen** van elke RMS-server in het cluster een wachtwoord voor persoonlijke sleutels opgeven voordat u het certificaat importeert.
+
+Een vertrouwd uitgiftedomein toevoegen
+--------------------------------------
+
+#### Een vertrouwd uitgiftedomein toevoegen
+
+1.  Open de pagina **Algemeen beheer** en klik naast de website waarop u een vertrouwd uitgiftedomein wilt toevoegen op **RMS op deze website beheren**.
+
+2.  Klik in het gedeelte **Beheerkoppelingen** op **Vertrouwensbeleid**.
+
+3.  Klik in het gedeelte **Vertrouwde uitgiftedomeinen** op **Bladeren**. Zoek het certificaat van het uitgiftedomein dat u wilt toevoegen en dubbelklik erop. Typ bij **Wachtwoord voor decoderen van het bestand dat u wilt importeren** het wachtwoord dat nodig is om dit bestand te decoderen en klik op **Importeren**.
+
+    Het met een wachtwoord gecodeerde bestand bevat het licentieverleningscertificaat, een persoonlijke sleutel (als de sleutel is opgeslagen in de software) en sjablonen voor het rechtenbeleid.
+
+4.  De naam van het domein verschijnt in de lijst **Vertrouwde uitgiftedomeinen**.
+
+Zie '[Vertrouwde uitgiftedomeinen toevoegen en verwijderen](https://technet.microsoft.com/d87b502d-5497-4ccd-badf-f6807d587cee)' eerder in dit onderwerp voor meer informatie over het uitvoeren van deze procedure.

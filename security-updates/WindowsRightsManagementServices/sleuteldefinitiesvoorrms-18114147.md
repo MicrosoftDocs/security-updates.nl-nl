@@ -1,0 +1,62 @@
+---
+TOCTitle: Sleuteldefinities voor RMS
+Title: Sleuteldefinities voor RMS
+ms:assetid: 'b052305c-1db7-434a-bad9-26d704156776'
+ms:contentKeyID: 18114147
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747729(v=WS.10)'
+---
+
+Sleuteldefinities voor RMS
+==========================
+
+In volgende tabel vindt u de sleutels die in een RMS-systeem worden gebruikt.
+
+###  
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sleutel</th>
+<th>Gebruik</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Serversleutels</td>
+<td style="border:1px solid black;"><strong>Openbare sleutel</strong>
+Hiermee wordt de inhoudssleutel in een uitgiftelicentie gecodeerd zodat de inhoudssleutel alleen met de RMS-server kan worden opgehaald en gebruikslicenties alleen met de Windows RMS-server kunnen worden uitgegeven op basis van deze uitgiftelicentie.
+<strong>Persoonlijke sleutel</strong>
+Hiermee worden de certificaten en licenties ondertekend die door de server worden uitgegeven.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Computersleutels</td>
+<td style="border:1px solid black;"><strong>Openbare sleutel</strong>
+Hiermee wordt de persoonlijke sleutel van een rechtenaccountcertificaat gecodeerd.
+<strong>Persoonlijke sleutel</strong>
+Hiermee wordt een rechtenaccountcertificaat gedecodeerd.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Clientlicentiesleutels</td>
+<td style="border:1px solid black;"><strong>Openbare sleutel</strong>
+Hiermee wordt de symmetrische inhoudsleutel gecodeerd in de uitgiftelicenties die met het clientlicentiecertificaat worden uitgegeven.
+<strong>Persoonlijke sleutel</strong>
+Hiermee worden uitgiftelicenties ondertekend die lokaal worden uitgegeven als de gebruiker niet is aangesloten op het netwerk.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Gebruikerssleutels</td>
+<td style="border:1px solid black;"><strong>Openbare sleutel</strong>
+Hiermee wordt de inhoudssleutel in een gebruikslicentie gecodeerd zodat alleen een bepaalde gebruiker met deze licentie kan werken met door RMS beveiligde inhoud.
+<strong>Persoonlijke sleutel</strong>
+Hiermee kan een gebruiker door RMS beveiligde inhoud verwerken.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Inhoudssleutels</td>
+<td style="border:1px solid black;">Hiermee wordt door RMS beveiligde inhoud gecodeerd wanneer deze door de auteur wordt uitgegeven.</td>
+</tr>
+</tbody>
+</table>

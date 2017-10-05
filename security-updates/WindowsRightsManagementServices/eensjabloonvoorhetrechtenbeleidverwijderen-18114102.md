@@ -1,0 +1,25 @@
+---
+TOCTitle: Een sjabloon voor het rechtenbeleid verwijderen
+Title: Een sjabloon voor het rechtenbeleid verwijderen
+ms:assetid: '9c9a1496-cf55-4c65-a4c6-9fe245edce00'
+ms:contentKeyID: 18114102
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747701(v=WS.10)'
+---
+
+Een sjabloon voor het rechtenbeleid verwijderen
+===============================================
+
+Als u deze procedure wilt uitvoeren, moet u lokaal zijn aangemeld bij de beheerwebsite met een domeingebruikersaccount die lid is van de groep Administrators op de computer die u benadert. Ook leden van de groep Domeinbeheerders kunnen deze procedure uitvoeren. Uit veiligheidsoverwegingen kunt u het beste **Uitvoeren als** gebruiken om deze procedure uit te voeren.
+
+Als u de pagina **Algemeen beheer** wilt openen, klikt u op **Start**, wijst u **Alle programma's** en **Windows RMS** aan en klikt u op **Windows RMS-beheer**.
+
+Sjablonen voor het rechtenbeleid verwijderen
+--------------------------------------------
+
+#### Een sjabloon voor het rechtenbeleid verwijderen
+
+1.  Open de pagina **Algemeen beheer** en klik naast de website waarvan u een sjabloon voor het rechtenbeleid wilt verwijderen op **RMS op deze website beheren**.
+
+2.  Klik in het gedeelte **Beheerkoppelingen** op **Sjablonen voor het rechtenbeleid**.
+
+3.  Schakel het selectievakje in van elke sjabloon voor het rechtenbeleid die u wilt verwijderen en klik op **Alle geselecteerde sjablonen voor rechtenbeleid verwijderen**.

@@ -1,0 +1,14 @@
+---
+TOCTitle: 'RMS-logboekregistratie-listener'
+Title: 'RMS-logboekregistratie-listener'
+ms:assetid: 'e81ea57d-1a7d-4c02-abfc-dbc1597e176b'
+ms:contentKeyID: 18114188
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747709(v=WS.10)'
+---
+
+RMS-logboekregistratie-listener
+===============================
+
+De logboekregistratie-listener wordt geïnstalleerd met het installatieprogramma van RMS. Deze service wordt uitgevoerd op basiscertificerings- en licentieservers. In elke RMS-webservice worden de ontvangen en verzonden aanvragen en antwoorden vastgelegd, waarna de gegevens met Message Queuing worden doorgestuurd naar de wachtrij voor logboekregistratieberichten. Vervolgens worden deze gegevens met de service van de logboekregistratie-listener van de berichtenwachtrij doorgestuurd naar de logboekdatabase voor het cluster.
+
+U kunt de functie voor logboekregistratie in- en uitschakelen via de beheerwebsite. Wanneer u deze functie uitschakelt, worden in deze services geen logboekregistraties meer uitgevoerd en wordt de service van de logboekregistratie-listener uitgeschakeld.

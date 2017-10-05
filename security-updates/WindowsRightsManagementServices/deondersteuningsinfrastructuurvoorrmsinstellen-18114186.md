@@ -1,0 +1,19 @@
+---
+TOCTitle: De ondersteuningsinfrastructuur voor RMS instellen
+Title: De ondersteuningsinfrastructuur voor RMS instellen
+ms:assetid: 'e5b874df-d5b5-4365-8dce-e98662b57270'
+ms:contentKeyID: 18114186
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747705(v=WS.10)'
+---
+
+De ondersteuningsinfrastructuur voor RMS instellen
+==================================================
+
+Als u RMS implementeert, moet u niet alleen de productonderdelen installeren, maar moet u ook de infrastructuur op de server en op de client instellen om het installeren en testen van alle onderdelen te ondersteunen.
+
+Ook dient u aan te geven welke delen van de bestaande infrastructuur moeten worden aangepast om de installatie en het gebruik van RMS te ondersteunen. U hoeft wellicht alleen maar de bijbehorende accounts toe te voegen, maar het kan ook zijn dat u uitgebreidere wijzigingen in de infrastructuur moet doorvoeren, zoals de integratie van databases en Active Directory.
+
+Dit gedeelte bevat de volgende onderwerpen:
+
+-   [Een basisinfrastructuur instellen](https://technet.microsoft.com/3a0a3a47-e755-4455-bb22-0e05053723e4)
+-   [De basisinfrastructuur voor ondersteuning van clusters uitbreiden](https://technet.microsoft.com/78f0f2f0-a075-409c-9f46-26eb62d1d05b)

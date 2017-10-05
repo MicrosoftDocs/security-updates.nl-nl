@@ -1,0 +1,16 @@
+---
+TOCTitle: Het wachtwoord voor de persoonlijke sleutel opnieuw instellen
+Title: Het wachtwoord voor de persoonlijke sleutel opnieuw instellen
+ms:assetid: 'ceba927e-a7fd-4b06-bb70-5e5d9d6d099c'
+ms:contentKeyID: 18114137
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747675(v=WS.10)'
+---
+
+Het wachtwoord voor de persoonlijke sleutel opnieuw instellen
+=============================================================
+
+Als u een server inricht, moet u een methode selecteren voor het beveiligen van de persoonlijke sleutel van RMS. Hebt u de standaardoptie voor softwarebeveiliging van persoonlijke sleutels geselecteerd, dan hebt u een sterk wachtwoord opgegeven dat is gebruikt voor het coderen van de persoonlijke serversleutel in de configuratiedatabase. Als het wachtwoord is kwijtgeraakt of is vergeten, kan een lid van de groep supergebruikers het wachtwoord opnieuw instellen, zoals beschreven in '[Het wachtwoord voor de persoonlijke sleutel opnieuw instellen](https://technet.microsoft.com/f71df255-fe19-4e07-810e-87309a5e8e88)' verderop in dit onderwerp.
+
+Als u RMS in een geclusterde omgeving uitvoert, moet u op elke front-endserver met RMS in uw installatie de persoonlijke sleutel opnieuw instellen. Als u dit niet doet, werken deze servers niet omdat deze de serversleutel in de configuratiedatabase dan niet kunnen configureren.
+
+Zie Windows Server 2003 Help en ondersteuning voor meer informatie over sterke wachtwoorden.

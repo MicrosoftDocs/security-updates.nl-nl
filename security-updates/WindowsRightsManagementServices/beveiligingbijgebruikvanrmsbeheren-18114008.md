@@ -1,0 +1,25 @@
+---
+TOCTitle: Beveiliging bij gebruik van RMS beheren
+Title: Beveiliging bij gebruik van RMS beheren
+ms:assetid: '62050812-de4f-4392-8d63-f2f89aa01ed4'
+ms:contentKeyID: 18114008
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747584(v=WS.10)'
+---
+
+Beveiliging bij gebruik van RMS beheren
+=======================================
+
+De beveiligingsmaatregelen die u op uw RMS-server en ondersteunende infrastructuur toepast, dragen ertoe bij dat het RMS-systeem inhoud beschermt. Als een database of een gebruikersaccount met verhoogde machtigingen zonder toestemming wordt gewijzigd, loopt de inhoud die door het RMS-systeem wordt beschermd mogelijk gevaar. De onderwerpen in deze sectie bieden richtlijnen voor beveiligingsmaatregelen voor uw RMS-systeem. Als onderdeel van uw RMS-implementatie dient u een risicoanalyse uit te voeren en een noodplan voor beveiligingsproblemen op te stellen waarin uw reactie op noodsituaties in uw organisatie worden vastgelegd.
+
+Dit gedeelte bevat de volgende onderwerpen:
+
+-   [Praktische tips voor beveiliging met RMS](https://technet.microsoft.com/762037ce-9bee-4d89-bb14-7dd1c004dca3)
+-   [RMS-servers beveiligen](https://technet.microsoft.com/7e6c4d3a-6cfb-4e96-9dda-ead83f961a6e)
+-   [De databases beveiligen die door RMS worden gebruikt](https://technet.microsoft.com/65802f9a-81bc-4398-968a-00c9b1dca2fa)
+-   [De persoonlijke sleutel van RMS wijzigen](https://technet.microsoft.com/da32137e-394a-42b2-9552-ba20f4547c23)
+-   [Machtigingen instellen voor het bestand van de subinschrijvingsservice](https://technet.microsoft.com/737bb69b-fe26-4057-9569-e632f7bbf295)
+-   [De groep supergebruikers gebruiken](https://technet.microsoft.com/0febcb3e-7124-4e51-971a-1013b928d33b)
+-   [Het wachtwoord voor de persoonlijke sleutel opnieuw instellen](https://technet.microsoft.com/ceba927e-a7fd-4b06-bb70-5e5d9d6d099c)
+-   [Het wachtwoord voor de RMS-serviceaccount wijzigen](https://technet.microsoft.com/435c9cef-b622-48b3-9d4d-4bf5cac7d52d)
+-   [De RMS-serviceaccount wijzigen](https://technet.microsoft.com/f257d66d-b823-41e4-bcb7-7c90eb295238)
+-   [RMS-servers uit bedrijf nemen](https://technet.microsoft.com/11badb02-62c1-455c-96b7-935bbcb496bc)

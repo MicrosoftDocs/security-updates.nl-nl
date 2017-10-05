@@ -1,0 +1,27 @@
+---
+TOCTitle: 'Uw RMS-ontwerp controleren'
+Title: 'Uw RMS-ontwerp controleren'
+ms:assetid: '0ed1dd67-8e07-47c9-9e2e-0104438bd19f'
+ms:contentKeyID: 18113838
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc720185(v=WS.10)'
+---
+
+Uw RMS-ontwerp controleren
+==========================
+
+Voordat u met de implementatie begint, controleert u eerst of er binnen uw RMS-plan met het volgende rekening is gehouden:
+
+-   Is er een clienttoepassing met RMS-ondersteuning geselecteerd en zijn er implementatieplannen aanwezig?
+-   Is er een methode voor het distribueren van de RMS-client?
+-   Is er een databaseserver geïnstalleerd die kan worden benaderd?
+-   Is er een RMS-topologie geselecteerd? Dit kan een basistopologie of een gedistribueerde topologie zijn.
+-   Is Active Directory geïnstalleerd op domeincontrollers met Windows 2000 Service Pack 3 (SP3) of hoger en is er voor alle gebruikers een contactobject met een e-mailkenmerk geconfigureerd? Is Windows Server 2003 met de nieuwste updates geïnstalleerd? Zijn Message Queuing, Internet Information Services en ASP.NET versie 1.1 ingeschakeld?
+
+| ![](images/Cc720185.note(WS.10).gif)Opmerking                                                                                                                                                 |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Als u RMS op een 64-bits computer wilt installeren, lees dan de speciale instructies voor het instellen van een configuratie door in 'Softwarevereisten voor RMS' in 'Een RMS-implementatie plannen' in deze documentatie. |
+
+-   Zijn er methoden voor taakverdeling en serverovername bij storingen gedefinieerd?
+-   Is DNS-registratie geconfigureerd voor de RMS-servers?
+-   Zijn er regels opgesteld voor het maken van back-ups en herstel van gegevens?
+-   Is de juiste beveiliging voor uw organisatie ingesteld?

@@ -1,0 +1,14 @@
+---
+TOCTitle: Rechtenaccountcertificaten
+Title: Rechtenaccountcertificaten
+ms:assetid: '2ff315cc-211d-4e6e-85e8-56867c2abd94'
+ms:contentKeyID: 18113863
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc720230(v=WS.10)'
+---
+
+Rechtenaccountcertificaten
+==========================
+
+Binnen organisaties moet worden aangegeven welke gebruikers in het RMS-systeem worden vertrouwd. Daarom worden in RMS rechtenaccountcertificaten uitgegeven die gebruikersaccounts aan bepaalde computers koppelen. Het rechtenaccountcertificaat van de gebruiker moet worden opgenomen in aanvragen voor clientlicentieverleningscertificaten en gebruikslicenties. Met een clientlicentieverleningscertificaat kan een auteur door RMS beveiligde inhoud, zoals bestanden en e-mailberichten, off line uitgeven. Met een gebruikslicentie kan een gebruiker werken met door RMS beveiligde inhoud. Elk rechtenaccountcertificaat bevat de openbare sleutel van de gebruiker. Met deze sleutel worden gegevens gecodeerd die bestemd zijn voor die gebruiker.
+
+Er zijn twee soorten rechtenaccountcertificaten: standaardcertificaten en tijdelijke certificaten. U kunt voor beide soorten de geldigheidsduur opgeven. Voor standaardcertificaten geeft u de geldigheidsduur op in dagen (de standaardinstelling is 365 dagen). Voor tijdelijke certificaten geeft u de geldigheidsduur op in minuten (de standaardinstelling is 15 minuten). Met tijdelijke accountcertificaten kunnen gebruikers tijdelijk met inhoud werken, bijvoorbeeld bij een kiosk, als ze geen toegang hebben tot de computer die ze doorgaans gebruiken. Zo wordt voorkomen dat een andere gebruiker vanaf deze computer op een later tijdstip met de inhoud kan werken.

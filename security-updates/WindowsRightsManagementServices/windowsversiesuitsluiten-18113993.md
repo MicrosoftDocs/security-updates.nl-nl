@@ -1,0 +1,31 @@
+---
+TOCTitle: 'Windows-versies uitsluiten'
+Title: 'Windows-versies uitsluiten'
+ms:assetid: '73cb4953-91a3-4fab-890f-7e52e20acf0c'
+ms:contentKeyID: 18113993
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747561(v=WS.10)'
+---
+
+Windows-versies uitsluiten
+==========================
+
+Als u deze procedure wilt uitvoeren, moet u lokaal zijn aangemeld bij de beheerwebsite met een domeingebruikersaccount die lid is van de groep Administrators op de computer die u benadert. Ook leden van de groep Domeinbeheerders kunnen deze procedure uitvoeren. Uit veiligheidsoverwegingen kunt u het beste **Uitvoeren als** gebruiken om deze procedure uit te voeren.
+
+Als u de pagina **Algemeen beheer** wilt openen, klikt u op **Start**, wijst u **Alle programma's** en **Windows RMS** aan en klikt u op **Windows RMS-beheer**.
+
+Deze voorwaarden worden afgedwongen door de client op het moment dat de gebruikslicentie aan de beveiligde inhoud wordt gebonden.
+
+Windows-versies uitsluiten
+--------------------------
+
+#### Windows-versies uitsluiten
+
+1.  Open de pagina **Algemeen beheer** en klik naast de website waarop u Windows-versies wilt uitsluiten op **RMS op deze website beheren**.
+
+2.  Klik in het gedeelte **Beheerkoppelingen** op **Uitsluitingsbeleid**.
+
+3.  Klik in het gedeelte Windows-versies uitsluiten op **Inschakelen** om Microsoft® Windows 98 Tweede Editie en Microsoft® Windows Millennium Edition uit te sluiten.
+
+    Klik op **Uitschakelen** om de uitsluiting van deze Windows-versies uit te schakelen.
+
+Zie '[Windows-versies uitsluiten](https://technet.microsoft.com/8b8a184d-ac0e-4a43-822c-d2fae2faf484)' eerder in dit onderwerp voor meer informatie over het uitvoeren van deze procedure.

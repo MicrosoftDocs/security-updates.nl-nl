@@ -1,0 +1,17 @@
+---
+TOCTitle: Logboekregistratie voor RMS inschakelen
+Title: Logboekregistratie voor RMS inschakelen
+ms:assetid: '8de77548-f125-40b8-9fb9-40d0d9ec65e2'
+ms:contentKeyID: 18114042
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc747592(v=WS.10)'
+---
+
+Logboekregistratie voor RMS inschakelen
+=======================================
+
+Gebeurtenissen en berichten van RMS kunnen worden geregistreerd in een tabel op de databaseserver. De logboekregistratie wordt uitgevoerd door een Message Queuing-listener die met RMS wordt geïnstalleerd. De logboekregistratie voor het huidige cluster of de huidige server kan op de pagina Logboekinstellingen van de RMS-beheerwebsite worden in- of uitgeschakeld. Wanneer u logboekregistratie uitschakelt, worden vanuit de RMS-webservices geen vastgelegde gegevens meer naar de wachtrij voor logboekregistratieberichten verstuurd. De service van de logboekregistratie-listener wordt eveneens uitgeschakeld.
+
+In dit gedeelte worden de volgende bewerkingen beschreven:
+
+-   [Logboekregistratie in- of uitschakelen](https://technet.microsoft.com/8e672f95-566f-4070-9a2a-2f70f087148f)
+-   [De naam van de logboekdatabase wijzigen](https://technet.microsoft.com/e0e8dc95-767f-4b84-8966-914ab083471b)

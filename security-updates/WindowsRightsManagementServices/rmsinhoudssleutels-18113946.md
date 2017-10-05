@@ -1,0 +1,16 @@
+---
+TOCTitle: 'RMS-inhoudssleutels'
+Title: 'RMS-inhoudssleutels'
+ms:assetid: '63c814bf-2809-477e-a2db-d90370442075'
+ms:contentKeyID: 18113946
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc720284(v=WS.10)'
+---
+
+RMS-inhoudssleutels
+===================
+
+Als een auteur door RMS beveiligde inhoud uitgeeft, wordt met een toepassing met RMS-ondersteuning een symmetrische inhoudssleutel gemaakt die wordt gebruikt voor het coderen van de inhoud. In RMS wordt de inhoudssleutel met behulp van de Advanced Encryption Standard (AES) gemaakt.
+
+De inhoudssleutel wordt opgenomen in de uitgiftelicentie en gecodeerd met de openbare sleutel van de RMS-server waarmee de licentie is uitgegeven.
+
+Wanneer deze server een aanvraag voor een gebruikslicentie ontvangt, wordt de inhoudsleutel gedecodeerd met de persoonlijke sleutel van de server. Vervolgens wordt de inhoudsleutel opnieuw gecodeerd met de openbare sleutel van de gebruiker (die wordt opgegeven in een aanvraag). De inhoudssleutel wordt opgenomen in de gebruikslicentie.

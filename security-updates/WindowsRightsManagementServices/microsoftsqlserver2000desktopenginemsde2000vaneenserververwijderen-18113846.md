@@ -1,0 +1,25 @@
+---
+TOCTitle: 'Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) van een server verwijderen'
+Title: 'Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) van een server verwijderen'
+ms:assetid: '1864fa81-3298-4e34-a061-9f81b28d8284'
+ms:contentKeyID: 18113846
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc720203(v=WS.10)'
+---
+
+Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) van een server verwijderen
+===============================================================================
+
+MSDE 2000 verwijderen van een server
+------------------------------------
+
+Voer de volgende stappen uit om MSDE 2000 te verwijderen van een server:
+
+#### MSDE 2000 verwijderen van een server
+
+1.  Meld u aan bij de computer als lokale beheerder
+
+2.  Klik op **Start**, wijs **Configuratiescherm** aan en klik op **Software**.
+
+3.  Klik op **Programma's wijzigen of verwijderen**.
+
+4.  Klik op het programma Microsoft SQL Server 2000 Desktop Engine en klik vervolgens op **Verwijderen**.

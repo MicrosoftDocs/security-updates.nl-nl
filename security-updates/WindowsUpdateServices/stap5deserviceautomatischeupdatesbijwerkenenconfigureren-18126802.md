@@ -1,0 +1,86 @@
+---
+TOCTitle: 'Stap 5: De service Automatische updates bijwerken en configureren'
+Title: 'Stap 5: De service Automatische updates bijwerken en configureren'
+ms:assetid: '4ac8d574-f48e-4d9d-86c9-9aeb0f57e750'
+ms:contentKeyID: 18126802
+ms:mtpsurl: 'https://technet.microsoft.com/nl-nl/library/Cc720533(v=WS.10)'
+---
+
+Stap 5: De service Automatische updates bijwerken en configureren
+=================================================================
+
+Op WSUS-clientcomputers dient een compatibele versie van Automatische updates aanwezig te zijn. Het installatieprogramma van WSUS configureert IIS automatisch om de meest recente versie van Automatische updates te installeren op elke clientcomputer die verbinding maakt met de WSUS-server.
+
+| ![](images/Cc720533.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Hoewel de meeste versies van Automatische updates naar de WSUS-server kunnen worden verwezen en in staat zijn om zichzelf automatisch bij te werken naar de versie die met WSUS compatibel is, kan de versie van Automatische updates die bij Windows XP zonder servicepacks wordt geleverd, zichzelf niet automatisch bijwerken. Als er in uw netwerkomgeving een computer met Windows XP zonder servicepacks aanwezig is en als u nog nooit gebruik hebt gemaakt van SUS (Software Update Services), raadpleegt u het Engelstalige document 'Deploying Microsoft Windows Server Update Services' voor instructies. |
+
+Wat de beste manier is om Automatische updates te configureren hangt af van uw netwerkomgeving. In een Active Directory-omgeving kunt u een op Active Directory gebaseerd groepsbeleidsobject gebruiken. In een omgeving zonder Active Directory kunt u het lokale groepsbeleidsobject gebruiken. Maar of u nu gebruikmaakt van het lokale groepsbeleidsobject of van een groepsbeleidsobject dat op een domeincontroller is opgeslagen, u moet de clientcomputers naar de WSUS-server verwijzen en vervolgens Automatische updates configureren.
+
+Bij de volgende instructies wordt aangenomen dat op uw netwerk Active Ditectory wordt uitgevoerd. Ook wordt aangenomen dat u de module Groepsbeleid hebt geïnstalleerd en gebruikt voor het beheer van uw netwerk. U dient een nieuw groepsbeleidsobject te maken voor WSUS-instellingen en dit groepsbeleidsobject te koppelen op domeinniveau.
+
+Zie de pagina over [groepsbeleid](http://go.microsoft.com/fwlink/?linkid=47375) op http://go.microsoft.com/fwlink/?LinkID=14232 voor meer informatie over groepsbeleid.
+
+Stap 5 omvat de volgende procedures:
+
+-   De WSUS-beheersjabloon laden
+-   Automatische updates configureren
+-   De clientcomputers naar de WSUS-server verwijzen
+-   Het detecteren handmatig starten op de clientcomputer
+
+Voer de volgende drie procedures uit voor een op Active Directory gebaseerd groepsbeleidsobject.
+
+**De WSUS-beheersjabloon toevoegen**
+1.  Klik in de Groepsbeleidsobjecteditor op een van de knooppunten bij **Beheersjablonen**.
+
+2.  Klik in het menu **Actie** op **Sjablonen toevoegen/verwijderen**.
+
+3.  Klik op **Toevoegen**.
+
+4.  Klik in het dialoogvenster **Beleidssjablonen** op **wuau.adm** en klik vervolgens op **Openen**.
+
+5.  Klik in het dialoogvenster **Sjablonen toevoegen/verwijderen** op **Sluiten**.
+
+**Het gedrag van Automatische updates configureren**
+1.  Vouw in de Groepsbeleidsobjecteditor achtereenvolgens **Computerconfiguratie**, **Beheersjablonen** en **Windows-onderdelen** uit en klik op **Windows Update**.
+
+2.  Dubbelklik in het detailvenster op **Automatische updates configureren**.
+
+3.  Klik op **Ingeschakeld** en klik vervolgens op een van de volgende opties:
+
+    -   **Downloaden en installeren melden.** Als u deze optie selecteert, krijgt een lid van de groep Administrators dat zich heeft aangemeld, een melding voordat de updates worden gedownload of geïnstalleerd.
+    -   **Automatisch en installeren melden.** Als u deze optie selecteert, worden de updates automatisch gedownload en krijgt vervolgens een lid van de groep Administrators dat zich heeft aangemeld, een melding voordat de updates worden geïnstalleerd.
+    -   **Automatisch en installatie plannen.** Als Automatische updates is geconfigureerd om een geplande installatie uit te voeren, moet u ook de dag en het tijdstip voor de terugkerende geplande installatie opgeven.
+    -   **Lokale beheerder toestaan instellingen te selecteren.** Als u deze optie selecteert, kunnen lokale beheerders het item Automatische updates in het Configuratiescherm gebruiken om zelf een optie voor de configuratie te selecteren. Ze kunnen bijvoorbeeld voor de terugkerende geplande installatie een tijdstip kiezen dat hun het beste uitkomt. Het is lokale beheerders niet toegestaan Automatische updates uit te schakelen.
+
+4.  Klik op **OK**.
+
+| ![](images/Cc720533.note(WS.10).gif)Opmerking                                                                                                               |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| De optie **Lokale beheerder toestaan instellingen te selecteren** wordt alleen weergegeven als Automatische updates zichzelf heeft bijgewerkt naar de versie die compatibel is met WSUS. |
+
+**De clientcomputer naar de WSUS-server verwijzen**
+1.  Vouw in de Groepsbeleidsobjecteditor achtereenvolgens **Computerconfiguratie**, **Beheersjablonen** en **Windows-onderdelen** uit en klik op **Windows Update**.
+
+2.  Dubbelklik in het detailvenster op **Locatie van Microsoft-updateservice in intranet**.
+
+3.  Klik op **Ingeschakeld** en typ zowel in het vak **Stel de updateservice in het intranet in voor het detecteren van updates** als in het vak **Intranetserver voor statistische gegevens** de HTTP-URL van dezelfde WSUS-server. Typ bijvoorbeeld **http://***servernaam* in beide vakken.
+
+4.  Klik op **OK**.
+
+| ![](images/Cc720533.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Als u het lokale groepsbeleidsobject gebruikt om deze computer naar de WSUS-server te verwijzen, wordt deze instelling onmiddellijk van kracht en wordt deze computer binnen 20 minuten in de WSUS-beheerconsole weergegeven. U kunt dit proces nog versnellen door handmatig een detectiecyclus te starten. |
+
+Nadat u een clientcomputer hebt geconfigureerd, duurt het enkele minuten voordat deze computer op de pagina **Computers** in de WSUS-console wordt weergegeven. Voor clientcomputers die zijn geconfigureerd met een op Active Directory gebaseerd groepsbeleidsobject, is dat ongeveer 20 minuten nadat het groepsbeleid is vernieuwd (dat wil zeggen nadat de nieuwe instellingen op de clientcomputer zijn geconfigureerd). Het groepsbeleid wordt standaard elke 90 minuten (met een marge van 0 tot 30 minuten) op de achtergrond vernieuwd. Als u het groepsbeleid eerder wilt vernieuwen, geeft u op de clientcomputer de opdrachtprompt weer en typt u de volgende tekst: **gpupdate /force**.
+
+Voor clientcomputers die zijn geconfigureerd met het lokale groepsbeleidsobject, wordt groepsbeleid onmiddellijk toegepast en duurt het ongeveer 20 minuten.
+
+Als het groepsbeleid eenmaal is toegepast, kunt u het detecteren handmatig starten. Als u deze stap uitvoert, hoeft u niet 20 minuten te wachten voordat de clientcomputer verbinding maakt met de WSUS-server.
+
+**Detectie door de WSUS-server handmatig starten**
+1.  Klik op de clientcomputer op **Start** en klik vervolgens op **Uitvoeren**.
+
+2.  Typ **cmd** en klik op **OK**.
+
+3.  Typ **wuauclt.exe /detectnow** achter de opdrachtprompt. Met deze opdrachtregeloptie geeft u Automatische updates de opdracht onmiddellijk verbinding te maken met de WSUS-server.
