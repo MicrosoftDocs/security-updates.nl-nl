@@ -11,7 +11,7 @@ On line uitgifte
 
 In het volgende schema wordt het proces van on line uitgifte beschreven.
 
-![](images/Cc747694.897e47b6-fffe-4b11-bc9f-be58539b9f19(WS.10).gif)
+![alt text](images/Cc747694.897e47b6-fffe-4b11-bc9f-be58539b9f19(WS.10).gif "Onlinepublicatieproces")
 
 Het proces voor on line uitgifte omvat de volgende stappen:
 
