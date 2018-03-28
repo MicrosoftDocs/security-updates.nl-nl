@@ -15,7 +15,7 @@ Houd er rekening mee dat, net als de basiscertificeringsserver, licentieservers 
 
 Hoewel u de RMS-installatie zo kunt instellen dat uitsluitend de certificeringsservices vanuit de basisinstallatie worden uitgevoerd en de volledige licentieverleningsservice vanuit een of meer licentieservers of -clusters wordt uitgevoerd, is dat niet de gangbare configuratie. Over het algemeen vergroot u het aantal fysieke servers in het basiscertificeringscluster om aan de prestatie- en redundantie-eisen te voldoen, in plaats van het inzetten van afzonderlijke licentieservers (tenzij het verlenen van licenties op afdelingsniveau moet worden ondersteund). Deze implementatie wordt in het volgende diagram geïllustreerd.
 
-![](images/Cc747657.01fa5a85-5711-41aa-932a-124049d34186(WS.10).gif)
+![alt text](images/Cc747657.01fa5a85-5711-41aa-932a-124049d34186(WS.10).gif "Gedistribueerde topologie")
 
 Het bouwen van een gedistribueerde topologie kan meer beheerkosten betekenen voor uw organisatie, omdat een gedistribueerde topologie per definitie complexer is. Als uw organisatie meervoudige licentieclusters en meervoudige forests heeft, kan het nodig zijn het register van de RMS-clientcomputers handmatig te wijzigen zodat u zeker weet dat de licenties bij de juiste RMS-server worden aangevraagd. Bovendien kunnen zich vertrouwensproblemen voordoen tussen domeinen. Het is dan noodzakelijk de domeinen verder te configureren om de consumptie van door RMS beveiligde inhoud mogelijk te maken.
 
