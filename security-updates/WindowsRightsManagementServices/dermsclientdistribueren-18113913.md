@@ -29,7 +29,11 @@ Windows Update is de eenvoudigste manier om de RMS-client op een computer te ins
 
 Als u de clientinstallatie zoveel mogelijk wilt beheren, kunt u de software ophalen en vervolgens een script uitvoeren om de integriteit van de software bij elke stap van het installatieproces te controleren. Dit script kan worden geschreven en toegevoegd aan een groepsbeleidsobject als een opstartscript. Met deze methode hoeft de gebruiker geen lokale systeembeheerder op de computer te zijn en wordt de RMS-client automatisch geïnstalleerd na het opnieuw opstarten.
 
-        ```
+Hier ziet u een voorbeeld van een script:
+
+`Set objShell = Wscript.CreateObject("Wscript.Shell")`  
+`objShell.run "WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q"`  
+
 Zie [SMS of Groepsbeleid instellen voor de implementatie van clients](https://technet.microsoft.com/9e37c27b-8cc1-40c6-adb7-0937aa64c8db) verderop in dit onderwerp voor informatie over het distribueren van de RMS-client met behulp van Groepsbeleid.
 
 Zie [Procedures voor het implementeren van de RMS-client](https://technet.microsoft.com/c84f1724-cf71-4385-9003-ff68bc23c927) verderop in dit onderwerp voor procedures voor het implementeren van de RMS-client.
