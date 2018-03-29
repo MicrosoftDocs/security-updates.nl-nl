@@ -43,13 +43,13 @@ Onderstaand ziet u een voorbeeld van een intrekkingslijstbestand.
             <ID type="MS-GUID">{d6373cba-01f1-4f32-ac58-260f580af0f8}</ID>
         </OBJECT>
         </DESCRIPTOR>
-    <ISSUER>
+    &lt;ISSUER&gt;
         <OBJECT type="Revocation-List">
             <ID type="acsii-tag">External revocation authority</ID>
             <NAME>Revocation list name</NAME>
             <ADDRESS type="URL">https://somedomain.com/revocation_list_file</ADDRESS>
         </OBJECT>
-        <PUBLICKEY>...</PUBLICKEY>
+       <PUBLICKEY&>...</PUBLICKEY>
         </ISSUER>
     <REVOCATIONLIST>
         <REVOKE>...<\REVOKE>
@@ -86,7 +86,7 @@ Zie de volgende voorbeelden voor meer informatie over het opgeven van REVOKE-ele
 
 #### Principals intrekken op basis van een openbare sleutel
 
-In dit voorbeeld wordt een principal ingetrokken op basis van de openbare sleutel. De inhoud van de code <PUBLICKEY> is in dit geval afkomstig uit het knooppunt <BODY><ISSUEDPRINCIPALS><PRINCIPAL><PUBLICKEY> van het certificaat waarmee de sleutel is uitgegeven.
+In dit voorbeeld wordt een principal ingetrokken op basis van de openbare sleutel. De inhoud van de code &lt;PUBLICKEY&gt; is in dit geval afkomstig uit het knooppunt <BODY><ISSUEDPRINCIPALS><PRINCIPAL>&lt;PUBLICKEY&gt; van het certificaat waarmee de sleutel is uitgegeven.
 
 ```
    <REVOKE category="principal" type="principal-key">
@@ -145,7 +145,7 @@ Als u wilt voorkomen dat een toepassing bepaalde met rechten beveiligde inhoud o
 <span id="BKMK_4"></span>
 #### Certificaten en licenties intrekken op basis van de openbare sleutel van de uitgever
 
-In dit voorbeeld worden alle certificaten en licenties ingetrokken die zijn uitgegeven door de eigenaar van de opgegeven openbare sleutel. De inhoud van de code <PUBLICKEY> is in dit geval het knooppunt <BODY><ISSUER><PUBLICKEY> van de certificaten of licenties die u intrekt.
+In dit voorbeeld worden alle certificaten en licenties ingetrokken die zijn uitgegeven door de eigenaar van de opgegeven openbare sleutel. De inhoud van de code &lt;PUBLICKEY&gt; is in dit geval het knooppunt &lt;BODY&gt;&lt;ISSUER&gt;&lt;PUBLICKEY&gt; van de certificaten of licenties die u intrekt.
 
 ```
 <REVOKE category="license" type="issuer-key">
@@ -166,7 +166,7 @@ AAn0kEAWU+1AFWtuUmBYL8Jza8tLhUv/BCmgcq/Pc08Au3DvXkH65s+0MEyZjM+71j3F1xaXUSst+wH2
 <span id="BKMK_5"></span>
 #### Certificaten en licenties intrekken op basis van de uitgever-id
 
-In dit voorbeeld wordt een verzameling certificaten of licenties ingetrokken op basis van de id van de uitgever. De inhoud van de code <ID> is in dit geval het knooppunt <BODY><ISSUER><OBJECT><ID> van de certificaten of licenties die u intrekt.
+In dit voorbeeld wordt een verzameling certificaten of licenties ingetrokken op basis van de id van de uitgever. De inhoud van de code <ID> is in dit geval het knooppunt <BODY>&lt;ISSUER&gt;<OBJECT><ID> van de certificaten of licenties die u intrekt.
 
 ```
     <REVOKE category="license" type="issuer-id">
