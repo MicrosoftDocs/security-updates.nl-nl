@@ -36,7 +36,10 @@ Als u het serverlicentieverleningscertificaat van een RMS-installatie wilt ophal
 1.  Open SQL Query Analyzer en maak een verbinding met de configuratiedatabase van de basiscertificeringsserver.
 2.  Klik in het menu **Query** op **Results in Text**.
 3.  Klik in het menu **Tools** op **Options** om het dialoogvenster **Options** te openen. Klik op de tab **Results** en stel **Maximum characters per column** in op **8192**.
-        ```
+4. Typ de volgende queryreeksen in het dialoogvenster Query.
+
+    ```select DRMS_XrML_Certificate.s_certificate from DRMS_XrML_Certificate, DRMS_LicensorCertificate, DRMS_ClusterConfiguration where DRMS_ClusterConfiguration.CurrentLicensorCertID = DRMS_LicensorCertificate.i_CertID and DRMS_LicensorCertificate.i_CertificateID = DRMS_XrML_Certificate.i_CertificateID```
+    
 1.  Kopieer de resultaten uit het venster **Results** naar een teksteditor zoals Kladblok. Sla de resultaten op in een XML-bestand.
 
 Zie '[Intrekkingslijsten maken](https://technet.microsoft.com/1ef75199-3344-4225-84de-a863a777696a)' eerder in dit onderwerp voor meer informatie over de wijze waarop u deze gegevens in een intrekkingslijst gebruikt.

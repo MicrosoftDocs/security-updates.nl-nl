@@ -145,9 +145,33 @@ De volgende procedure geeft richtlijnen voor beheerders die niet weten hoe zij s
 | Deze stappen dienen alleen als richtlijn voor gebruikers die niet veel ervaring hebben met Groepsbeleid. Als u als beheerder de kneepjes van Groepsbeheer kent, kunt u aan de hand van uw eigen procedures het pakket MSDrmClient.msi distribueren. Deze stappen zijn voor een domeincontroller met Windows Server 2003. Voor een Windows 2000-domein kunnen de procedures en de termen anders zijn. |
 
 Een upgrade uitvoeren vanaf een vorige versie
----------------------------------------------
+-----------------------------------------------------
 
-        ```
+Het mogelijk een installatiemethode zonder toezicht te gebruiken in een script om te detecteren of de RMS met SP2-client is geïnstalleerd. Als de client niet is geïnstalleerd, zal het script een upgrade uitvoeren van de bestaande client of de RMS met SP2-client installeren. Het script is als volgt:
+
+```
+Set objShell = Wscript.CreateObject("Wscript.Shell")
+Set objWindowsInstaller = Wscript.CreateObject("WindowsInstaller.Installer") 
+Set colProducts = objWindowsInstaller.Products 
+
+Voor elk product in colProducts 
+strProductName = objWindowsInstaller.ProductInfo (product, "ProductNaam")
+
+if strProductName = "Windows Rights Management Client met Service Pack 2" then
+strInstallFlag = "False"
+Exit For
+else
+strInstallFlag = "True"
+end if
+Next
+
+if strInstallFlag = "True" then
+objShell.run "WindowsRightsManagementServicesSP2-KB917275-Client-NLD.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q "
+else
+wscript.echo "Geen installatie vereist"
+end if
+```
+
 | ![](images/Cc747749.note(WS.10).gif)Opmerking                         |
 |----------------------------------------------------------------------------------------------------|
 | Dit script werkt niet met Windows Vista omdat de RMS-client in het besturingssysteem is ingebouwd. |

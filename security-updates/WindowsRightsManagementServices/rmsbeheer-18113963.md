@@ -86,8 +86,16 @@ U kunt tracering toepassen als u het bestand Web.config of Machine.config aanpas
 **Tracering inschakelen**
 1.  Open het bestand Machine.config of Web.config en voeg onder het gedeelte &lt;system.diagnostics&gt; de volgende regels toe aan het bestand:
 
-    
-        ```
+    ```
+    <system.diagnostics>
+    <switches>
+    <add name="Microsoft Windows Rights Management Services-Global" value="4" />
+    <add name="Microsoft Windows Rights Management Services-TimeStamps" value="1" /> 
+    <add name="Microsoft Windows Rights Management Services-Indents" value="0" /> 
+    </switches>
+    <trace autoflush="false" indentsize="4"/>
+    </system.diagnostics>
+    ```
 2.  Typ IISRESET achter de opdrachtprompt om IIS opnieuw te starten.
 
 3.  Nadat u de benodigde gegevens hebt verzameld, verwijdert u de regels die u in stap 1 hebt toegevoegd uit het CONFIG-bestand.
