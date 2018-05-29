@@ -102,7 +102,7 @@ U kunt tracering toepassen als u het bestand Web.config of Machine.config aanpas
 
 4.  Typ IISRESET achter de opdrachtprompt om IIS opnieuw te starten.
 
-| ![](images/Cc747547.Important(WS.10).gif)Belangrijk                                                                                                                                                                                                                                                           |
+| ![](/security-updates/images/Cc747547.Important(WS.10).gif)Belangrijk                                                                                                                                                                                                                                                           |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als u tracering op een RMS-server gebruikt, kunnen er problemen met de prestaties optreden, zoals langere vertragingen bij het verkrijgen van gebruikslicenties en het uitgeven van rechtenaccountcertificaten. Gebruik tracering alleen in bepaalde omstandigheden om een diagnose van bestaande problemen te maken en deze op te lossen. |
 

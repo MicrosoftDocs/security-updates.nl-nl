@@ -28,7 +28,7 @@ WSUS 3.0 SP2 is standaard geconfigureerd om updates op te halen vanaf Microsoft 
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Opmerking</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939815.note(WS.10).gif" />Opmerking</th>
 </tr>
 </thead>
 <tbody>
@@ -70,7 +70,7 @@ Stap 3 omvat de volgende procedures:
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Opmerking</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939815.note(WS.10).gif" />Opmerking</th>
 </tr>
 </thead>
 <tbody>
@@ -118,7 +118,7 @@ Bij de volgende twee procedures wordt aangenomen dat u de WSUS-beheermodule gebr
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Opmerking</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939815.note(WS.10).gif" />Opmerking</th>
 </tr>
 </thead>
 <tbody>

@@ -11,7 +11,7 @@ Stap 5: De service Automatische updates bijwerken en configureren
 
 Op WSUS-clientcomputers dient een compatibele versie van Automatische updates aanwezig te zijn. Het installatieprogramma van WSUS configureert IIS automatisch om de meest recente versie van Automatische updates te installeren op elke clientcomputer die verbinding maakt met de WSUS-server.
 
-| ![](images/Cc720533.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ![](/security-updates/images/Cc720533.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Hoewel de meeste versies van Automatische updates naar de WSUS-server kunnen worden verwezen en in staat zijn om zichzelf automatisch bij te werken naar de versie die met WSUS compatibel is, kan de versie van Automatische updates die bij Windows XP zonder servicepacks wordt geleverd, zichzelf niet automatisch bijwerken. Als er in uw netwerkomgeving een computer met Windows XP zonder servicepacks aanwezig is en als u nog nooit gebruik hebt gemaakt van SUS (Software Update Services), raadpleegt u het Engelstalige document 'Deploying Microsoft Windows Server Update Services' voor instructies. |
 
@@ -55,7 +55,7 @@ Voer de volgende drie procedures uit voor een op Active Directory gebaseerd groe
 
 4.  Klik op **OK**.
 
-| ![](images/Cc720533.note(WS.10).gif)Opmerking                                                                                                               |
+| ![](/security-updates/images/Cc720533.note(WS.10).gif)Opmerking                                                                                                               |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | De optie **Lokale beheerder toestaan instellingen te selecteren** wordt alleen weergegeven als Automatische updates zichzelf heeft bijgewerkt naar de versie die compatibel is met WSUS. |
 
@@ -68,7 +68,7 @@ Voer de volgende drie procedures uit voor een op Active Directory gebaseerd groe
 
 4.  Klik op **OK**.
 
-| ![](images/Cc720533.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                   |
+| ![](/security-updates/images/Cc720533.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                   |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als u het lokale groepsbeleidsobject gebruikt om deze computer naar de WSUS-server te verwijzen, wordt deze instelling onmiddellijk van kracht en wordt deze computer binnen 20 minuten in de WSUS-beheerconsole weergegeven. U kunt dit proces nog versnellen door handmatig een detectiecyclus te starten. |
 

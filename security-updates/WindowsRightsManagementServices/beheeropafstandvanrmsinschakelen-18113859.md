@@ -24,7 +24,7 @@ Beheer op afstand van RMS inschakelen
 
 4.  Klik met de rechtermuisknop op de map **\_wmcs** en klik op **Eigenschappen**. Klik op het tabblad **Mapbeveiliging** onder **Beveiligde communicatie** op **Bewerken**, klik op **Beveiligd Kanaal vereisen** en klik op **OK**. Hiermee wordt SSL-bescherming (Secure Sockets Layer) op de RMS-webservices toegepast. Zie de IIS Help voor meer informatie over het beheer van websites met IIS.
 
-    | ![](images/Cc720181.Important(WS.10).gif)Belangrijk                                                                                                                                                                                                               |
+    | ![](/security-updates/images/Cc720181.Important(WS.10).gif)Belangrijk                                                                                                                                                                                                               |
     |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | U kunt RMS-webservices beveiligen met SSL als aanvullende beveiliging en om via externe HTTP toegang tot de webpagina's voor RMS-beheer mogelijk te maken. Als u SSL wilt inschakelen voor de RMS-webservices, dient u een geldig SSL\_webservercertificaat op te halen en dit te installeren. |
 

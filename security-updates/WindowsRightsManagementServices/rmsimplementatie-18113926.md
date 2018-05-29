@@ -77,7 +77,7 @@ Met de volgende procedure kunt u de installatie van RMS volledig ongedaan maken.
 
 6.  Als op de RMS-clients Windows XP of Windows 2000 wordt uitgevoerd, verwijdert u de RMS-client van de clientcomputers.
 
-| ![](images/Cc720274.Important(WS.10).gif)Belangrijk                                                                                                                                               |
+| ![](/security-updates/images/Cc720274.Important(WS.10).gif)Belangrijk                                                                                                                                               |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als u dit hebt gedaan, kunt u niet langer met rechten beveiligde inhoud openen. Als RMS wordt gebruikt voor het beveiligen van gegevens, moet u eerst RMS uit bedrijf nemen voordat u een RMS-installatie ongedaan gaat maken. |
 

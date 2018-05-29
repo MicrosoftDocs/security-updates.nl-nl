@@ -32,7 +32,7 @@ Lockbox-versies uitsluiten
 
 6.  Plak het versienummer in **Minimumversie van RM-lockbox** en klik op **Bijwerken**.
 
-    | ![](images/Cc720270.note(WS.10).gif)Opmerking                                      |
+    | ![](/security-updates/images/Cc720270.note(WS.10).gif)Opmerking                                      |
     |-----------------------------------------------------------------------------------------------------------------|
     | Als u uitsluiting op basis van de versie van lockbox wilt uitschakelen, dient u op **Uitschakelen** te klikken. |
 

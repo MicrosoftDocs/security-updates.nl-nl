@@ -26,7 +26,7 @@ U kunt een CSP op twee manieren gebruiken:
     - of -
 -   Gebruik een software-CSP van derden die u op de server hebt geïnstalleerd.
 
-| ![](images/Cc720280.note(WS.10).gif)Opmerking                                   |
+| ![](/security-updates/images/Cc720280.note(WS.10).gif)Opmerking                                   |
 |--------------------------------------------------------------------------------------------------------------|
 | Als u een hardwarebeveiligingsmodule wilt gebruiken, moet u een CSP selecteren die deze modules ondersteunt. |
 

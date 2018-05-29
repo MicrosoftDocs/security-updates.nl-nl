@@ -57,6 +57,6 @@ Als het serverlicentieverleningscertificaat van het basiscertificeringscluster i
 
 Zowel bij intrekking door Microsoft als bij intrekking door een derde partij is de intrekkingslijst van toepassing op alle koppelingsaanvragen, omdat de lijst is ondertekend met de persoonlijke sleutel van een principal uit de vertrouwensketen van de gebruikslicentie. Als gevolg daarvan mislukken alle koppelingsaanvragen waarin gebruikslicenties zijn opgenomen die door de RMS-installatie zijn uitgegeven met het ingetrokken serverlicentieverleningscertificaat.
 
-| ![](images/Cc747578.note(WS.10).gif)Opmerking                                                               |
+| ![](/security-updates/images/Cc747578.note(WS.10).gif)Opmerking                                                               |
 |------------------------------------------------------------------------------------------------------------------------------------------|
 | Microsoft zal een serverlicentieverleningscertificaat echter alleen intrekken wanneer hiertoe opdracht wordt gegeven door een rechtbank. |

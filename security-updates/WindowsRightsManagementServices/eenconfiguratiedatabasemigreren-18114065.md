@@ -18,7 +18,7 @@ Voordat u begint met de migratie van de configuratiedatabase, moet u over de vol
 -   De accountnaam en het accountwachtwoord dat oorspronkelijk werd gebruikt om de servers in te richten in de RMS-cluster die gebruikt maakt van deze database.
 -   Als een op software gebaseerde cryptografieprovider (CSP) wordt gebruikt voor het opslaan van de persoonlijke RMS-sleutel: het wachtwoord voor de persoonlijke RMS-sleutel dat oorspronkelijk werd opgegeven tijdens het inrichten. Als een hardwarebeveiligingsmodule (HSM) wordt gebruikt voor het opslaan van het wachtwoord voor de persoonlijke RMS-sleutel, hebt u deze informatie niet nodig.
 
-| ![](images/Cc747607.note(WS.10).gif)Opmerking                                                                                                                                                            |
+| ![](/security-updates/images/Cc747607.note(WS.10).gif)Opmerking                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Voor het migreren van de configuratiedatabase is geen nieuw serverlicentieverleningscertificaat of een nieuwe persoonlijke sleutel van de server nodig omdat RMS de instellingen bewaart van de oorspronkelijke configuratiedatabase. |
 
@@ -29,7 +29,7 @@ Voer de volgende stappen uit om een configuratiedatabase te migreren:
 -   Werk de RMS-configuratiedatabase bij zodat deze de nieuwe databaseservernaam weergeeft.
 -   Werk de web.config-bestanden en het register bij van elk van de servers in de RMS-cluster zodat die gebruikmaken van de nieuwe databaseservernaam
 
-| ![](images/Cc747607.Important(WS.10).gif)Belangrijk                                                                          |
+| ![](/security-updates/images/Cc747607.Important(WS.10).gif)Belangrijk                                                                          |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | In dit onderwerp wordt ervan uitgegaan dat de RMS-databases al zijn gekopieerd naar de nieuwe databaseserver die als host fungeert voor de RMS-databases. |
 
@@ -130,7 +130,7 @@ U werkt als volgt de web.config-bestanden bij op alle servers in de RMS-cluster:
 
 Werk tot slot het register van elk van de servers in de RMS-cluster bij met de nieuwe databaseservernaam:
 
-| ![](images/Cc747607.Caution(WS.10).gif)Waarschuwing                                                                                                          |
+| ![](/security-updates/images/Cc747607.Caution(WS.10).gif)Waarschuwing                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Het onoordeelkundig bewerken van het register kan ernstige gevolgen hebben voor uw systeem. Maak een back-up van alle belangrijke gegevens op de computer voordat u het register wijzigt. |
 

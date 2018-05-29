@@ -13,11 +13,11 @@ Als u deze procedure wilt uitvoeren, moet u lokaal zijn aangemeld bij de beheerw
 
 De computer waarop u RMS installeert, moet een lidserver in een domein of een domeincontroller zijn. U kunt RMS niet implementeren op een zelfstandige server in een werkgroep.
 
-| ![](images/Cc747689.Important(WS.10).gif)Belangrijk                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ![](/security-updates/images/Cc747689.Important(WS.10).gif)Belangrijk                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Voltooi eerst de inrichting en installatie op de eerste basiscertificeringsserver, voordat u RMS op een andere server inricht. Zie '[De eerste basiscertificeringsserver inrichten](https://technet.microsoft.com/debc42f3-74ff-4c99-b7a4-4921fccdabc2)', '[Een licentieserver inrichten](https://technet.microsoft.com/4d67b898-0ba9-4eef-ab7d-ee0ca55a688e)' of '[Een server toevoegen aan een cluster](https://technet.microsoft.com/db635238-5528-4bec-9cc6-8244e2b3d733)' voor instructies. |
 
-| ![](images/Cc747689.Important(WS.10).gif)Belangrijk                                                                                                                                                                                                           |
+| ![](/security-updates/images/Cc747689.Important(WS.10).gif)Belangrijk                                                                                                                                                                                                           |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RMS SP1 kan op een server worden geïnstalleerd waarop nu de vorige versie van RMS is geïnstalleerd. Als u RMS uit bedrijf hebt genomen, dient RMS volledig te worden verwijderd. Installeer RMS SP1 alleen als u RMS via het onderdeel Software in het Configuratiescherm hebt verwijderd. |
 
@@ -38,7 +38,7 @@ RMS met Service Pack 1 installeren
 
 6.  Als het dialoogvenster **Installatie voltooid** verschijnt, klikt u op **Sluiten**.
 
-    | ![](images/Cc747689.note(WS.10).gif)Opmerking                                                                        |
+    | ![](/security-updates/images/Cc747689.note(WS.10).gif)Opmerking                                                                        |
     |---------------------------------------------------------------------------------------------------------------------------------------------------|
     | Als het foutbericht verschijnt dat de toepassing opnieuw wordt gestart, vernieuwt u de pagina **Algemeen beheer** in Microsoft Internet Explorer. |
 

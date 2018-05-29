@@ -11,7 +11,7 @@ Intrekkingslijsten maken
 
 Wanneer u intrekking wilt implementeren, moet u een intrekkingslijst distribueren. Een intrekkingslijst is een XML-document waarin XrML-taal (eXtensible Rights Markup Language) wordt gebruikt en waarin de principals zijn opgenomen die geen toegang meer mogen krijgen tot met rechten beveiligde inhoud. Met het hulpprogramma Revocation List Signing (RLsigner.exe) dat bij RMS wordt geleverd, voorziet u de intrekkingslijsten van een tijdstempel en een correcte handtekening.
 
-| ![](images/Cc720208.Important(WS.10).gif)Belangrijk                                                      |
+| ![](/security-updates/images/Cc720208.Important(WS.10).gif)Belangrijk                                                      |
 |---------------------------------------------------------------------------------------------------------------------------------------|
 | Als u de intrekkingslijst wilt ondertekenen met RLsigner.exe, moet u het bestand met de intrekkingslijst opslaan als Unicode-bestand. |
 
@@ -31,7 +31,7 @@ Het element BODY bevat vier onderliggende elementen:
 
 Onderstaand ziet u een voorbeeld van een intrekkingslijstbestand.
 
-| ![](images/Cc720208.note(WS.10).gif)Opmerking                                                             |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Opmerking                                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------|
 ```
     <?xml version="1.0" ?> 
@@ -60,7 +60,7 @@ Onderstaand ziet u een voorbeeld van een intrekkingslijstbestand.
 ```
 
 
-| ![](images/Cc720208.Caution(WS.10).gif)Waarschuwing                                                                     |
+| ![](/security-updates/images/Cc720208.Caution(WS.10).gif)Waarschuwing                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Wanneer u in de intrekkingslijst een URL opgeeft, wordt in RMS met SP1 en RMS met SP2 niet langer een UNC-pad ondersteund. U moet een URL gebruiken. |
 
@@ -176,7 +176,7 @@ In dit voorbeeld wordt een verzameling certificaten of licenties ingetrokken op 
       </REVOKE>
 ```
 
-| ![](images/Cc720208.note(WS.10).gif)Opmerking                                                                                                                                                                    |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Opmerking                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Zorg ervoor dat u tijdens het opgeven van het ID-type niet op ENTER drukt tussen de GUID (Globally Unique Identifier) en de sluitingscode. Als u dit per ongeluk wel doet, kan de intrekkingslijst niet door de RMS-client worden geparseerd. |
 
@@ -193,7 +193,7 @@ In dit voorbeeld wordt inhoud ingetrokken op basis van de inhouds-id. Dit is de 
       </REVOKE>
 ```
 
-| ![](images/Cc720208.note(WS.10).gif)Opmerking                                                                                                                                                                    |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Opmerking                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Zorg ervoor dat u tijdens het opgeven van het ID-type niet op ENTER drukt tussen de GUID (Globally Unique Identifier) en de sluitingscode. Als u dit per ongeluk wel doet, kan de intrekkingslijst niet door de RMS-client worden geparseerd. |
 
@@ -211,7 +211,7 @@ In dit voorbeeld wordt een gebruiker of machtigingsprincipal ingetrokken op basi
       </REVOKE>
 ```
 
-| ![](images/Cc720208.note(WS.10).gif)Opmerking                                                                                                                                                             |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Opmerking                                                                                                                                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Zorg ervoor dat u tijdens het opgeven van het ID-type niet op ENTER drukt tussen de SID van de Windows-account en de sluitingscode. Als u dit per ongeluk wel doet, kan de intrekkingslijst niet door de RMS-client worden geparseerd. |
 
@@ -228,7 +228,7 @@ In dit voorbeeld wordt een gebruiker of machtigingsprincipal ingetrokken op basi
       </REVOKE>
 ```
 
-| ![](images/Cc720208.note(WS.10).gif)Opmerking                                                                                                                                                                     |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Opmerking                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Zorg ervoor dat u tijdens het opgeven van het ID-type niet op ENTER drukt tussen de PUID (Principal Unique Identifier) en de sluitingscode. Als u dit per ongeluk wel doet, kan de intrekkingslijst niet door de RMS-client worden geparseerd. |
 
@@ -259,7 +259,7 @@ Het intrekkingslijstbestand kan uitsluitend worden ondertekend met RLsigner.exe 
 
 4.  Gebruik RLsigner.exe om een handtekening in te voegen in een intrekkingslijstbestand. Dit hulpprogramma wordt meegeleverd met RMS. Standaard is dit programma opgenomen in de map %systemdrive%\\Program Files\\Windows Rights Management Services\\Tools.
 
-| ![](images/Cc720208.note(WS.10).gif)Opmerking |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Opmerking |
 |----------------------------------------------------------------------------|
 | RLsigner.exe ondersteunt geen bestandsnamen met spaties.                   |
 
@@ -269,7 +269,7 @@ Werken met RLsigner.exe
 
 Als u RLsigner.exe uitvoert, wordt eerst een handtekening gemaakt op basis van de persoonlijke sleutel in het sleutelbestand. Vervolgens wordt er een uitvoerbestand gemaakt dat is gebaseerd op het intrekkingslijstbestand dat u hebt opgegeven.
 
-| ![](images/Cc720208.Important(WS.10).gif)Belangrijk                                  |
+| ![](/security-updates/images/Cc720208.Important(WS.10).gif)Belangrijk                                  |
 |-------------------------------------------------------------------------------------------------------------------|
 | Het intrekkingslijstbestand moet zijn opgeslagen als Unicode-bestand om er met RLsigner.exe mee te kunnen werken. |
 
@@ -313,7 +313,7 @@ Gebruik de volgende informatie om de invoerparameters voor de opdracht te voltoo
 </tbody>
 </table>
   
-| ![](images/Cc720208.note(WS.10).gif)Opmerking |  
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Opmerking |  
 |----------------------------------------------------------------------------|  
 | RLsigner.exe ondersteunt geen bestandsnamen met spaties.                   |
   

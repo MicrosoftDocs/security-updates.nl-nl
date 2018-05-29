@@ -20,7 +20,7 @@ De RMS-logboekdatabase bevat logboeken met probleemoplossingen en statistische g
 
 Als u een hardwarebeveiligingsmodule gebruikt om de persoonlijke sleutels van RMS te beveiligen, moet u ook een back-up van de configuratie van de hardwarebeveiligingsmodule maken. Raadpleeg de documentatie voor de hardwarebeveiligingsmodule voor meer informatie over het maken van een back-up en het herstellen van de hardwarebeveiligingsmodule.
 
-| ![](images/Cc747745.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                            |
+| ![](/security-updates/images/Cc747745.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als u andere software dan de standaardsoftware als cryptografieprovider voor het coderen van de persoonlijke sleutels van RMS hebt gebruikt, moet u in uw organisatie procedures voor sleutelbeheer, zoals back-up- en herstelprocedures, voor de cryptografieprovider implementeren voordat u deze gebruikt met RMS. |
 

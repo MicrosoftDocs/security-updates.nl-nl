@@ -26,7 +26,7 @@ Wanneer RMS deze bestanden maakt, worden de DACL's van de bestanden zodanig inge
 
 Nadat u de groep hebt gemaakt, kunt u de DACL voor het bestand ServerCertification.asmx aanpassen zodat de groep over de machtiging Lezen & Uitvoeren voor deze service beschikt. Ook moet u de RMS-servicegroep aan de DACL toevoegen met de machtiging Lezen & Uitvoeren.
 
-| ![](images/Cc747593.note(WS.10).gif)Opmerking                                                                                    |
+| ![](/security-updates/images/Cc747593.note(WS.10).gif)Opmerking                                                                                    |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als zich meerdere RMS-servers in het cluster bevinden, moet de DACL voor het bestand ServerCertification.asmx op elke server in het cluster worden aangepast. |
 
@@ -34,6 +34,6 @@ Voor Microsoft Exchange Server 2007 moet het Active Directory-computerobject va
 
 Voor Office SharePoint Server 2007 moet u het Active Directory-computerobject van de server met Office SharePoint Server 2007 toevoegen aan de serverservicesgroep. Als uw Office SharePoint Server 2007-server is geconfigureerd voor gebruik van de standaardserver in Active Directory, moet u de RMS-servicegroep en de groep die gemaakt is voor serverservices toevoegen aan het bestand ServiceLocater.asmx en de machtiging voor Lezen & Uitvoeren toestaan.
 
-| ![](images/Cc747593.Important(WS.10).gif)Belangrijk                                                                                                                                                                   |
+| ![](/security-updates/images/Cc747593.Important(WS.10).gif)Belangrijk                                                                                                                                                                   |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Internet Information Services (IIS) moet opnieuw worden gestart nadat u de DACL hebt gewijzigd in ServerCertification.asmx en ServiceLocater.asmx. Als u IIS opnieuw wilt instellen, voert u de opdracht **iisreset** vanaf een opdrachtregel uit. |

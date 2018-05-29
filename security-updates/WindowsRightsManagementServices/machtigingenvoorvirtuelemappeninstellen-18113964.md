@@ -22,6 +22,6 @@ Voordat gebruikers de service Uit bedrijf nemen kunnen gebruiken, moet eerst de 
 4.  Klik vervolgens met de rechtermuisknop op de vermelding, selecteer **Wijzigen** en geef de waarde op die verwijst naar de service Uit bedrijf nemen:
     `http://`*uw licentieserver*`/_wmcs/decommission`
 
-| ![](images/Cc747549.note(WS.10).gif)Opmerking                                                                           |
+| ![](/security-updates/images/Cc747549.note(WS.10).gif)Opmerking                                                                           |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Onder deze sleutel kunnen meerdere vermeldingen staan als er zich meerdere RMS-servers binnen de organisatie in de modus Uit bedrijf nemen bevinden. |

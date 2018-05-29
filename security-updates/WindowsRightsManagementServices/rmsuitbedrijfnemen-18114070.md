@@ -13,11 +13,11 @@ Als u deze procedure wilt uitvoeren, moet u lokaal zijn aangemeld bij de beheerw
 
 Als u de pagina **Algemeen beheer** wilt openen, klikt u op **Start**, wijst u **Alle programma's** en **Windows RMS** aan en klikt u op **Windows RMS-beheer**.
 
-| ![](images/Cc747665.Warning(WS.10).gif)Waarschuwing                                                        |
+| ![](/security-updates/images/Cc747665.Warning(WS.10).gif)Waarschuwing                                                        |
 |-----------------------------------------------------------------------------------------------------------------------------------------|
 | Wanneer u een server uit bedrijf neemt, kan deze niet worden hersteld als standaard-RMS-configuratie. Deze procedure is onherroepelijk. |
 
-| ![](images/Cc747665.Warning(WS.10).gif)Waarschuwing                                                                                             |
+| ![](/security-updates/images/Cc747665.Warning(WS.10).gif)Waarschuwing                                                                                             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nadat u RMS uit bedrijf hebt genomen, moet u eerst RMS volledig verwijderen via Software in het Configuratiescherm, voordat u een nieuwe instantie van RMS gaat installeren. |
 

@@ -13,7 +13,7 @@ Voordat u een basiscertificeringsserver of licentieserver installeert, dient u t
 
 Met de volgende procedures worden een domeincontroller en een database op één computer in een geïsoleerd netwerk ingesteld voor testdoeleinden voor een server.
 
-| ![](images/Cc747681.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                                             |
+| ![](/security-updates/images/Cc747681.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | In dit voorbeeld wordt de databaseserver uitgevoerd op de domeincontroller. In een productieomgeving kunt u de domeincontroller beter niet laten optreden als host voor andere onderdelen. Active Directory en de databaseserver worden in dit voorbeeld op dezelfde computer geïnstalleerd zodat de volledige infrastructuur op een minimumaantal computers kan worden geïnstalleerd. |
 

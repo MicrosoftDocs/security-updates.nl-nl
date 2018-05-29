@@ -13,7 +13,7 @@ De RMS-client vormt een onderdeel van het Windows Vista®-besturingssysteem. De
 
 Bij het activeringsproces worden een lockbox en een computercertificaat voor de aangemelde gebruiker ingesteld. De activering wordt lokaal uitgevoerd. Daarvoor is dus geen netwerkverbinding nodig. Nadat RMS is geactiveerd, wordt bij het eerste verzoek om een gebruikerslicentie door een RMS-toepassing er een gebruikerscertificaat voor de gebruiker gemaakt. De RMS-client kan op elke clientcomputer in de organisatie met behulp van Groepsbeleid, Windows Update of een beheerscript worden geïnstalleerd.
 
-| ![](images/Cc720266.note(WS.10).gif)Opmerking                                                                                                                                                                                                                       |
+| ![](/security-updates/images/Cc720266.note(WS.10).gif)Opmerking                                                                                                                                                                                                                       |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ongeacht de methode waarmee de client is gedistribueerd, gebruikt de RMS-client een poort (standaard is dit poort 80 of poort 443) voor communicatie met de RMS-server. U moet controleren of de clientcomputer via deze poorten aanvragen naar de RMS-basis- en licentieclusters kan verzenden. |
 

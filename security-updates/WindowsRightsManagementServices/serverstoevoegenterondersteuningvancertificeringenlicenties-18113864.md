@@ -37,7 +37,7 @@ Als u servers aan certificerings- en licentieclusters toevoegt, moet het inricht
 -   Als u een aparte licentieserver inricht, geeft u op dezelfde wijze als voor een basiscertificeringsserver een configuratiedatabase, RMS-serviceaccount en cluster-URL op en stelt u in hoe u de persoonlijke sleutels wilt beveiligen. U hoeft echter geen intrekkingsbeleid voor serverlicentiecertificaten op te geven omdat dit beleid wordt beheerd via de basiscertificeringsserver.
 -   Als u een server inricht als een clusterlid, hoeft u tijdens het inrichten alleen maar de RMS-serviceaccount, de configuratiedatabase en het wachtwoord voor de beveiliging van persoonlijke sleutels op te geven. Desgewenst kunt u ook opgeven dat u dezelfde cryptografieprovider en persoonlijke sleutel als van het bestaande cluster wilt gebruiken. Voor alle servers in een cluster worden hetzelfde serverlicentiecertificaat en serversleutelpaar gebruikt.
 
-| ![](images/Cc720189.Important(WS.10).gif)Belangrijk                                       |
+| ![](/security-updates/images/Cc720189.Important(WS.10).gif)Belangrijk                                       |
 |------------------------------------------------------------------------------------------------------------------------|
 | Installeer RMS pas op andere servers wanneer u de inrichting en installatie van RMS op de eerste server hebt voltooid. |
 

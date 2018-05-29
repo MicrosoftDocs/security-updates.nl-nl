@@ -54,11 +54,11 @@ De volgende vijf procedures bevatten de stappen voor het configureren van uw upd
 
 Nadat u de bovenstaande configuratiestappen hebt voltooid, selecteert u de pagina **Voltooid** in de configuratiewizard. U kunt de WSUS-beheerconsole starten door het selectievakje **De invoegtoepassing voor beheer van Windows Server Update Services starten** ingeschakeld te laten en u kunt de eerste synchronisatie starten door het selectievakje **Initiële synchronisatie starten** ingeschakeld te laten.
 
-| ![](images/Cc708447.note(WS.10).gif)Opmerking                                                                                                                       |
+| ![](/security-updates/images/Cc708447.note(WS.10).gif)Opmerking                                                                                                                       |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | U kunt geen configuratiewijzigingen opslaan die worden aangebracht terwijl de server bezig is met synchroniseren. Wacht totdat de synchronisatie is voltooid voordat u de wijzigingen aanbrengt. |
 
-![](images/Cc708447.3f774fd1-af87-47d8-8f50-a5d585687d70(WS.10).gif)
+![](/security-updates/images/Cc708447.3f774fd1-af87-47d8-8f50-a5d585687d70(WS.10).gif)
 
 De volgende procedures geven aanwijzingen voor het uitvoeren van de bovenstaande configuratiestappen via de pagina **Opties** van de WSUS-beheerconsole:
 
@@ -95,7 +95,7 @@ Nadat u de netwerkverbinding hebt geconfigureerd, kunt u updates downloaden door
 
 Dit houdt in dat de WSUS-server verbinding moet maken met Microsoft Update. Nadat de verbinding tot stand is gebracht, stelt WSUS vast of er nieuwe updates beschikbaar zijn gesteld sinds de vorige keer dat u de server hebt gesynchroniseerd. Omdat dit de eerste keer is dat u de WSUS-server met Windows Update synchroniseert, zijn alle updates beschikbaar en gereed om door u voor installatie te worden goedgekeurd. De eerste synchronisatie kan redelijk lang duren.
 
-| ![](images/Cc708447.note(WS.10).gif)Opmerking                                                                                                                                               |
+| ![](/security-updates/images/Cc708447.note(WS.10).gif)Opmerking                                                                                                                                               |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | In dit document wordt beschreven hoe u de WSUS-server synchroniseert met de standaardinstellingen, maar WSUS heeft ook opties waarmee u het bandbreedtegebruik tot een minimum kunt beperken tijdens het synchroniseren. |
 
@@ -104,7 +104,7 @@ Dit houdt in dat de WSUS-server verbinding moet maken met Microsoft Update. Nada
 
 2.  Klik met de rechtermuisknop of ga naar het deelvenster **Acties** rechts in de console en klik op **Nu synchroniseren**.
 
-| ![](images/Cc708447.note(WS.10).gif)Opmerking                                                                                                                                                             |
+| ![](/security-updates/images/Cc708447.note(WS.10).gif)Opmerking                                                                                                                                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als het deelvenster **Acties** niet rechts in de console wordt weergegeven, klikt u op de werkbalk van de console op **Beeld**, klikt u op **Aanpassen** en zorgt u ervoor dat het selectievakje **Actiedeelvenster** is ingeschakeld. |
 

@@ -11,7 +11,7 @@ Een basisinfrastructuur instellen
 
 De manier waarop u de infrastructuur instelt, is afhankelijk van de systeemvereisten voor de installatie van RMS en van de meest geschikte methoden voor het instellen van de infrastructuur. De basisomgeving op de server die nodig is voor ondersteuning van RMS, is een domeincontroller, een databaseserver en een RMS-server die is geconfigureerd als een basiscertificeringsserver. De volgende onderwerpen bevatten de installatieprocedures voor deze onderdelen van uw infrastructuur, en aanvullende informatie over het implementeren van deze onderdelen.
 
-| ![](images/Cc720243.note(WS.10).gif)Opmerking                                                                                                                                                                                       |
+| ![](/security-updates/images/Cc720243.note(WS.10).gif)Opmerking                                                                                                                                                                                       |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als u RMS wilt implementeren, moet de RMS-clientsoftware zijn geïnstalleerd op de clientcomputers die met de RMS-server worden gebruikt. U kunt het RMS-clientonderdeel downloaden van de [website van Microsoft](http://go.microsoft.com/fwlink/?linkid=18134). |
 

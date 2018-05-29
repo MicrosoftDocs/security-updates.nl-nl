@@ -11,7 +11,7 @@ Een RMS-basistopologie plannen
 
 De basistopologie voor RMS bestaat uit een of meer fysieke servers die dienst doen als basiscertificeringscluster. Het cluster wordt gebruikt voor certificering, licentieverlening en uitgifte binnen de organisatie. Met uitzondering van de kleinste distributies worden meestal meerdere fysieke servers als cluster achter een enkele URL geconfigureerd. Dit cluster wordt gemaakt door de eerste server in te richten als basiscertificeringsserver en vervolgens servers aan het cluster toe te voegen tot het aantal basiscertificeringsservers de schaal heeft bereikt die nodig is om de beoogde activiteit te ondersteunen. Deze topologie wordt in de volgende afbeelding geïllustreerd.
 
-![alt text](images/Cc747755.a3332719-4d25-4694-a89a-7c31fd97ca3b(WS.10).gif "Basistopologie")
+![alt text](/security-updates/images/Cc747755.a3332719-4d25-4694-a89a-7c31fd97ca3b(WS.10).gif "Basistopologie")
 
 Wanneer u servers samenvoegt tot een cluster, delen zij dezelfde configuratie- en logboekdatabases. Dat zijn SQL Server-databases. SQL Server kan zich of op de basiscertificeringsserver of op een afzonderlijke server bevinden.
 

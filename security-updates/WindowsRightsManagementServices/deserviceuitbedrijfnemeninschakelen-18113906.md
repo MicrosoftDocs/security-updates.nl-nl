@@ -11,7 +11,7 @@ De service Uit bedrijf nemen inschakelen
 
 Voor het uit bedrijf nemen van het RMS-systeem is de persoonlijke sleutel nodig waarmee alle gepubliceerde gegevens worden beveiligd. Deze persoonlijke sleutel ligt opgeslagen in de configuratiedatabase, is gecodeerd met Data Protection API (DPAPI) en is gekoppeld aan het wachtwoord dat tijdens de inrichting is opgegeven. Als de persoonlijke sleutel van RMS op een hardwarebeveiligingsmodule (HSM) wordt opgeslagen, wordt de persoonlijke sleutel in de HSM opgeslagen in plaats van de configuratiedatabase.
 
-| ![](images/Cc720261.Caution(WS.10).gif)Waarschuwing                                                                                                                                                                                        |
+| ![](/security-updates/images/Cc720261.Caution(WS.10).gif)Waarschuwing                                                                                                                                                                                        |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Voordat u het RMS-systeem uit bedrijf neemt, moet u ervoor zorgen dat u het wachtwoord kent van uw persoonlijke sleutel. Als u dit wachtwoord niet kent, moet u het wachtwoord van de persoonlijke sleutel opnieuw instellen voordat u de RMS-server uit bedrijf neemt. |
 

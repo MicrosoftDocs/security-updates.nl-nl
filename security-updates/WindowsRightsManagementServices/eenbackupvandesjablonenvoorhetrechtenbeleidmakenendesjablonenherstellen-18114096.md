@@ -19,6 +19,6 @@ Voer een van de volgende handelingen uit:
 
 Als u de sjabloongegevens voor het rechtenbeleid in de configuratiedatabase moet herstellen, kunt u de GUID- en TemplateData-gegevens ophalen uit de tabel DRMS\_RightsTemplate in de back-up van de configuratiedatabase. Als u alleen een back-up van de sjabloongegevens hebt gemaakt, hoeft u alleen maar de gegevens uit het tekstbestand te importeren. Raadpleeg de documentatie voor SQL Server voor meer informatie over het uitvoeren van deze taken.
 
-| ![](images/Cc747625.note(WS.10).gif)Opmerking                                                        |
+| ![](/security-updates/images/Cc747625.note(WS.10).gif)Opmerking                                                        |
 |-----------------------------------------------------------------------------------------------------------------------------------|
 | Raadpleeg uw SQL Server-beheerder als u een plan wilt opstellen voor het maken van back-ups van sjablonen voor het rechtenbeleid. |

@@ -15,7 +15,7 @@ Veel organisaties willen zelf de clientsoftware op hun eigen systemen installere
 
 Voordat u begint met de implementatie, moet u eerst de RMS-client downloaden op [http://go.microsoft.com/fwlink/?LinkId=67736](http://go.microsoft.com/fwlink/?linkid=67736).
 
-| ![](images/Cc747749.Important(WS.10).gif)Belangrijk                       |
+| ![](/security-updates/images/Cc747749.Important(WS.10).gif)Belangrijk                       |
 |--------------------------------------------------------------------------------------------------------|
 | De RMS-client is geïntegreerd in Windows Vista. Daarom is geen afzonderlijke installatie meer vereist. |
 
@@ -39,7 +39,7 @@ Deze opdracht pakt de volgende bestanden in de opgegeven map uit:
 -   RMClientBackCompat.msi
     Dit is het installatiebestand dat de nieuwe RMS met SP2-client identificeert voor toepassingen met RMS-ondersteuning (zoals Microsoft Office Professional 2003 of Microsoft Office 2007) die afhankelijk zijn van de vorige versie van de RMS-client, zodat in plaats daarvan de RMS met SP2-client kan worden gebruikt. Dit programma moet pas op de clientcomputers worden geïnstalleerd als het bestand MSDrmClient.msi is geïnstalleerd.
 
-| ![](images/Cc747749.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                 |
+| ![](/security-updates/images/Cc747749.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                 |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | U moet er altijd voor zorgen dat de twee Windows-installatiebestanden goed zijn geïnstalleerd, ongeacht de installatiemethode die u gebruikt. Als er zich een fout voordoet waardoor het bestand MSDrmClient.msi niet kan worden geïnstalleerd, mag u het bestand RMClientBackCompat.msi niet installeren. |
 
@@ -52,7 +52,7 @@ Het uitpakken van de bestanden om de Windows-installatiebestanden te installeren
 
 Met deze opdracht wordt de installatie zonder toezicht van de RMS-client gestart.
 
-| ![](images/Cc747749.note(WS.10).gif)Opmerking                                                                                                                             |
+| ![](/security-updates/images/Cc747749.note(WS.10).gif)Opmerking                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Omdat dit een installatie zonder toezicht is, geeft het installatieprogramma niet aan wanneer deze is voltooid. Installaties zonder toezicht worden meestal in een batch- of scriptbestand uitgevoerd. |
 
@@ -72,7 +72,7 @@ RMS-clients met behulp van SMS implementeren
 
     -   Typ voor **Command line** (Opdrachtregel) het volgende:
         `msiexec.exe /q ALLUSERS=2 /m MSIDGHOG /i "<file_name>.msi"`
-        | ![](images/Cc747749.note(WS.10).gif)Opmerking                                                                    |
+        | ![](/security-updates/images/Cc747749.note(WS.10).gif)Opmerking                                                                    |
         |-----------------------------------------------------------------------------------------------------------------------------------------------|
         | MSIDGHOG is een willekeurige waarde. Vervang &lt;bestandsnaam&gt; door de naam van het Windows-installatiebestand dat dit pakket installeert. |
 
@@ -140,7 +140,7 @@ De volgende procedure geeft richtlijnen voor beheerders die niet weten hoe zij s
 
 11. Herhaal stap 5 tot en met 10 om een groepsbeleidsobject te maken waarmee het bestand RMClientBackCompat.msi wordt geïnstalleerd.
 
-| ![](images/Cc747749.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                                                           |
+| ![](/security-updates/images/Cc747749.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                                                           |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Deze stappen dienen alleen als richtlijn voor gebruikers die niet veel ervaring hebben met Groepsbeleid. Als u als beheerder de kneepjes van Groepsbeheer kent, kunt u aan de hand van uw eigen procedures het pakket MSDrmClient.msi distribueren. Deze stappen zijn voor een domeincontroller met Windows Server 2003. Voor een Windows 2000-domein kunnen de procedures en de termen anders zijn. |
 
@@ -172,6 +172,6 @@ wscript.echo "Geen installatie vereist"
 end if
 ```
 
-| ![](images/Cc747749.note(WS.10).gif)Opmerking                         |
+| ![](/security-updates/images/Cc747749.note(WS.10).gif)Opmerking                         |
 |----------------------------------------------------------------------------------------------------|
 | Dit script werkt niet met Windows Vista omdat de RMS-client in het besturingssysteem is ingebouwd. |

@@ -17,7 +17,7 @@ Voor RMS bestaat de basis van de vertrouwensketen, het 'vertrouwensanker', uit e
 
 In het volgende schema wordt de vertrouwenshiërarchie in een organisatie weergegeven. De vertrouwensketen kan worden herleid tot de Microsoft-services waarmee de basiscertificaten zijn uitgegeven.
 
-![alt text](images/Cc720232.6c169175-94fb-4ec0-93bc-12748aae3ac4(WS.10).gif "Vertrouwensrelatiehiërarchie")
+![alt text](/security-updates/images/Cc720232.6c169175-94fb-4ec0-93bc-12748aae3ac4(WS.10).gif "Vertrouwensrelatiehiërarchie")
 1.  Aan elke clientcomputer wordt een unieke lockbox uitgegeven waarin de openbare hoofdsleutel van Microsoft is opgenomen.
 2.  Wanneer een licentie wordt aangevraagd, worden de principals gevalideerd in RMS. Hierbij wordt in de vertrouwenshiërarchie het pad naar de basis van de vertrouwensketen gecontroleerd.
 3.  In RMS wordt de authenticiteit gecontroleerd van de vertrouwde entiteit in de licentie.

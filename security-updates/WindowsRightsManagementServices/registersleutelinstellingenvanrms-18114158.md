@@ -11,7 +11,7 @@ Registersleutelinstellingen van RMS
 
 U kunt de registersleutelinstellingen wijzigen om bepaalde aspecten van de installatie te testen en de prestatie te beheren.
 
-| ![](images/Cc747740.Caution(WS.10).gif)Waarschuwing                                                                                          |
+| ![](/security-updates/images/Cc747740.Caution(WS.10).gif)Waarschuwing                                                                                          |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als u het register onjuist bewerkt, kunt u het systeem ernstig beschadigen. Maak een back-up van alle belangrijke gegevens op de computer voordat u het register wijzigt. |
 

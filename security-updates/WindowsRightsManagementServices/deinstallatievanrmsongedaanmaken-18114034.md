@@ -20,7 +20,7 @@ De installatie van RMS ongedaan maken
 
 1.  Meld u aan bij de server waarop u de installatie van RMS ongedaan wilt maken.
 
-    | ![](images/Cc747587.Important(WS.10).gif)Belangrijk                                                                                                                                                                                                                                                                                         |
+    | ![](/security-updates/images/Cc747587.Important(WS.10).gif)Belangrijk                                                                                                                                                                                                                                                                                         |
     |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Als u RMS verwijdert van een server in het basiscertificeringscluster, moet u eerst de inrichting ervan ongedaan maken door naar de pagina **Algemeen beheer** te gaan en te klikken op **RMS van deze website verwijderen**. De inrichting van een licentieserver hoeft niet ongedaan te worden gemaakt voordat u de installatie van RMS op zo'n server ongedaan maakt. |
 

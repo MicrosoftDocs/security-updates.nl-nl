@@ -25,7 +25,7 @@ Stap 7 omvat de volgende procedures:
 
 4.  Klik in de lijst **Groepsinstellingen voor goedkeuring voor de geselecteerde updates** op **Installeren** in de kolom **Goedkeuring** voor de groep Test en klik vervolgens op **OK**.
 
-| ![](images/Cc720504.note(WS.10).gif)Opmerking                                                                                                                                                                                                 |
+| ![](/security-updates/images/Cc720504.note(WS.10).gif)Opmerking                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Voor het goedkeuren van updates kunt u vele opties instellen. U kunt bijvoorbeeld deadlines instellen of de installatie van updates ongedaan maken. Deze opties worden besproken in het Engelstalige document 'Microsoft Windows Server Update Services Operations Guide'. |
 

@@ -28,7 +28,7 @@ Als u WSUS wilt installeren met de standaardopties, moet het volgende op de comp
     U kunt ook naar http://www.windowsupdate.com gaan en zoeken naar 'essentiële update en servicepacks - microsoft net framework 1.1 service pack 1 voor windows server 2003 installatie'.
 -   BITS (Background Intelligent Transfer Service) 2.0. BITS 2.0 voor Windows Server 2003 is momenteel niet beschikbaar in het Downloadcentrum. Ga naar de [Microsoft-website](http://go.microsoft.com/fwlink/?linkid=47357) voor Windows Server Update Services Open Evaluation op http://go.microsoft.com/fwlink/?LinkId=39496 als u deze software wilt downloaden.
 
-| ![](images/Cc720547.note(WS.10).gif)Opmerking                                                                                                                                                                                   |
+| ![](/security-updates/images/Cc720547.note(WS.10).gif)Opmerking                                                                                                                                                                                   |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Hoewel er databasesoftware is vereist om WSUS te installeren, wordt deze software hier niet vermeld, omdat bij de standaardinstallatie van WSUS onder Windows Server 2003 de databasesoftware Windows SQL Server™ 2000 Desktop Engine (WMSDE) is inbegrepen. |
 

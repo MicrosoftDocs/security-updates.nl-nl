@@ -63,6 +63,6 @@ In de volgende tabel wordt de syntaxis van elke opdracht beschreven.
 </tbody>
 </table>
   
-| ![](images/Cc747733.note(WS.10).gif)Opmerking                                                                                                                                                                                                                   |  
+| ![](/security-updates/images/Cc747733.note(WS.10).gif)Opmerking                                                                                                                                                                                                                   |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | U moet er altijd voor zorgen dat de twee MSI-bestanden goed zijn geïnstalleerd, ongeacht de installatiemethode die u gebruikt. Als er zich een fout voordoet waardoor het bestand MSDrmClient.msi niet kan worden geïnstalleerd, moet u het bestand RMClientBackCompat.msi niet installeren. |

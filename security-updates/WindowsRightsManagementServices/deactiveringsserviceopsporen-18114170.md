@@ -23,6 +23,6 @@ http://*servernaam*/\_wmcs/Certification/Activation.asmx
 
 Voor clients die niet in het bedrijfsnetwerk zijn opgenomen, wordt UDDI gebruikt voor het opsporen van de activeringsservice. Zie '[Uitgifte van door Microsoft ondersteunde services](https://technet.microsoft.com/7ee8cb4d-1b46-48be-8a4c-5ff6a458231a)' eerder in dit onderwerp voor meer informatie.
 
-| ![](images/Cc747697.note(WS.10).gif)Opmerking                                     |
+| ![](/security-updates/images/Cc747697.note(WS.10).gif)Opmerking                                     |
 |----------------------------------------------------------------------------------------------------------------|
 | Als u SSL hebt ingeschakeld op de RMS-server, wordt voor deze URL's het verbindingsprotocol https:// gebruikt. |

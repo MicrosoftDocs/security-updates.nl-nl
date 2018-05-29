@@ -13,7 +13,7 @@ Als u RMS implementeert, moeten gebruikers over een toepassing met RMS-ondersteu
 
 Een toepassing biedt RMS-ondersteuning als hierin bij bewerkingen de RMS-client is geïntegreerd. Voor versies vóór Windows Vista® is de RMS-client beschikbaar als een Windows-onderdeel dat afzonderlijk via het Microsoft Downloadcentrum kan worden gedownload. Als u de client echter niet afzonderlijk naar elke clientcomputer in uw organisatie wilt downloaden, kunt u Microsoft Systems Management Server (SMS), Groepsbeleid of scripts gebruiken waarmee u de levering van de RMS-client naar de clientcomputers kunt automatiseren.
 
-| ![](images/Cc747703.Important(WS.10).gif)Belangrijk                       |
+| ![](/security-updates/images/Cc747703.Important(WS.10).gif)Belangrijk                       |
 |--------------------------------------------------------------------------------------------------------|
 | De RMS-client is geïntegreerd in Windows Vista. Daarom is geen afzonderlijke installatie meer vereist. |
 
@@ -26,7 +26,7 @@ Wanneer u de RMS-client wilt distribueren via SMS, gaat u als volgt te werk:
 -   Gebruik de Windows-installatiebestanden voor de pakketdefinitie en bron.
 -   Kondig de beschikbaarheid van de pakketten via het netwerk aan.
 
-| ![](images/Cc747703.note(WS.10).gif)Opmerking                                                                                                                                      |
+| ![](/security-updates/images/Cc747703.note(WS.10).gif)Opmerking                                                                                                                                      |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Voor het installeren van software zijn beheerdersrechten vereist. Afhankelijk van het beveiligingsbeleid van uw organisatie moet de RMS-clientsoftware mogelijk door een systeembeheerder worden geïnstalleerd. |
 
