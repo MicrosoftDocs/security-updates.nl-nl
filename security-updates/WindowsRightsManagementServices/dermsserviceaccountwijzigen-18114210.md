@@ -13,10 +13,10 @@ Tijdens de installatie van RMS wordt op de lokale computer de RMS-servicegroep g
 
 U kunt de RMS-serviceaccount op elk moment wijzigen. Wanneer u dit doet, wordt de vorige account automatisch uit de RMS-servicegroep verwijderd en wordt de nieuwe account toegevoegd aan deze groep.
 
-| ![](images/Cc747736.Important(WS.10).gif)Belangrijk                                                                                                              |
+| ![](/security-updates/images/Cc747736.Important(WS.10).gif)Belangrijk                                                                                                              |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Uit veiligheidsoverwegingen kunt u het beste een speciale gebruikersaccount maken en deze account alleen als RMS-serviceaccount gebruiken. Stel voor deze account geen extra machtigingen in. |
 
-| ![](images/Cc747736.note(WS.10).gif)Opmerking                                |
+| ![](/security-updates/images/Cc747736.note(WS.10).gif)Opmerking                                |
 |-----------------------------------------------------------------------------------------------------------|
 | Gebruik als RMS-serviceaccount niet de domeinaccount waarmee u RMS met Service Pack 1 hebt geïnstalleerd. |

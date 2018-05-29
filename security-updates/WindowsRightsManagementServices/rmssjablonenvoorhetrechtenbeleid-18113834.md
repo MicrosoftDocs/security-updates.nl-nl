@@ -33,7 +33,7 @@ De locatie van deze sjablonen wordt bepaald door de toepassing met RMS-ondersteu
 
 **HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\12.0\\Common\\DRM\\AdminTemplatePath** voor Microsoft Office 2007.
 
-| ![](images/Cc720175.note(WS.10).gif)Opmerking                                                                                                                                                                                              |
+| ![](/security-updates/images/Cc720175.note(WS.10).gif)Opmerking                                                                                                                                                                                              |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als deze vermelding naar een lokale map op de client verwijst, moeten de sjabloonbestanden op de client worden opgeslagen. Verwijst deze vermelding daarentegen naar een gedeelde map in het netwerk, dan is deze map niet beschikbaar wanneer de gebruiker offline is. |
 

@@ -26,13 +26,13 @@ Een server toevoegen aan een cluster.
 
 2.  Klik naast de website waarop u RMS wilt inrichten op **Deze server aan een cluster toevoegen**. U kunt de standaardwebsite of een andere website die u in Internet Information Services (IIS) voor dit doel hebt gemaakt, selecteren.
 
-    | ![](images/Cc747690.Warning(WS.10).gif)Waarschuwing                                                                                                                                                                                                                                    |
+    | ![](/security-updates/images/Cc747690.Warning(WS.10).gif)Waarschuwing                                                                                                                                                                                                                                    |
     |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | De uitvoering van andere websites of diensten op dezelfde server als RMS wordt niet ondersteund. Doet u dit toch, dan zouden meerdere toepassingen en services kunnen worden uitgevoerd onder dezelfde account als RMS. Hierdoor kunnen de persoonlijke sleutels worden blootgesteld aan ontoelaatbare bewerkingen. |
 
 3.  Typ in het gedeelte **RMS-serviceaccount** de accountnaam, met de indeling domeinnaam\\gebruikersnaam, en het wachtwoord van de RMS-serviceaccount waaronder RMS actief moet zijn voor de meeste normale bewerkingen. Dit moet een domeinaccount zijn. Alle servers in een cluster moeten actief zijn onder dezelfde RMS-serviceaccount.
 
-    | ![](images/Cc747690.Important(WS.10).gif)Belangrijk                                                                                                                                                                                      |
+    | ![](/security-updates/images/Cc747690.Important(WS.10).gif)Belangrijk                                                                                                                                                                                      |
     |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Uit veiligheidsoverwegingen kunt u het beste een speciale domeingebruikersaccount zonder speciale machtigingen maken die wordt gebruikt als RMS-serviceaccount. Gebruik als RMS-serviceaccount niet de domeinaccount waarmee RMS met Service Pack 1 is geïnstalleerd. |
 

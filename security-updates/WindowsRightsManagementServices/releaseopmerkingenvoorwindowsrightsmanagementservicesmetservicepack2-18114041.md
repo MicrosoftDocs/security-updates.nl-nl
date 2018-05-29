@@ -50,7 +50,7 @@ De volgende tabel bevat de hardwarevereisten voor het uitvoeren van RMS met SP2.
 </tbody>
 </table>
   
-| ![](images/Cc747637.note(WS.10).gif)Opmerking                                                                      |  
+| ![](/security-updates/images/Cc747637.note(WS.10).gif)Opmerking                                                                      |  
 |-------------------------------------------------------------------------------------------------------------------------------------------------|  
 | RMS met SP2-server is ontworpen voor een 32-bits computer. Bij installatie op een 64-bits computer wordt de server uitgevoerd in emulatiemodus. |
   
@@ -101,7 +101,7 @@ De volgende tabel bevat de softwarevereisten voor het uitvoeren van RMS met SP2.
 </table>
  
 
-| ![](images/Cc747637.note(WS.10).gif)Opmerking                                                                                                                    |
+| ![](/security-updates/images/Cc747637.note(WS.10).gif)Opmerking                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | U kunt RMS met SP2 zo configureren dat beheer op afstand mogelijk is. De computer die verbinding maakt met de RMS met SP2-beheerservice moet gebruikmaken van Internet Explorer 6.0 of later. |
 
@@ -188,7 +188,7 @@ De volgende tabel bevat de gebruikersrechten en -machtigingen die nodig zijn voo
 </tbody>
 </table>
   
-| ![](images/Cc747637.note(WS.10).gif)Opmerking                                                                                                                                                                                                               |  
+| ![](/security-updates/images/Cc747637.note(WS.10).gif)Opmerking                                                                                                                                                                                                               |  
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Raadpleeg Help en ondersteuning van Windows Server 2003 Techcenter [http://go.microsoft.com/fwlink/?LinkId=7813](http://go.microsoft.com/fwlink/?linkid=78135) voor meer informatie over de configuratie van Windows Server, Active Directory, Message Queuing, IIS en bestandssystemen. |
   
@@ -224,7 +224,7 @@ Als u RMS in een clusterinstallatie gebruikt, moet u de problemen hebben verholp
 </tbody>
 </table>
   
-| ![](images/Cc747637.Important(WS.10).gif)Belangrijk                                                                                                                                                                                                                                                                                                                                                                                                |  
+| ![](/security-updates/images/Cc747637.Important(WS.10).gif)Belangrijk                                                                                                                                                                                                                                                                                                                                                                                                |  
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Als voor het intranet geen DNS-toewijzing wordt uitgevoerd, dan mislukken interne aanvragen voor clientlicenties. Als u de DNS-instellingen niet kunt veranderen, wijzigt u de hosts-tabel van elke server in de cluster om de cluster-URL toe te wijzen aan het virtuele IP-adres van de cluster. DNS-toewijzing moet worden gedaan voordat RMS wordt ingericht. Als u de service al hebt ingericht, moet u RMS van de server verwijderen en de inrichtingsprocedure herhalen. |
   
@@ -232,7 +232,7 @@ Als u RMS in een clusterinstallatie gebruikt, moet u de problemen hebben verholp
   
 De RMS-client zonder servicepack, de RMS-client met SP1 of de RMS-client met SP2 kan worden geïnstalleerd op elke computer waarop Microsoft Windows 2000, Windows XP of Windows Server 2003 wordt uitgevoerd. Eerdere versies van het Windows-besturingssysteem worden niet ondersteund door deze versie.
   
-| ![](images/Cc747637.Caution(WS.10).gif)Waarschuwing                                                                   |  
+| ![](/security-updates/images/Cc747637.Caution(WS.10).gif)Waarschuwing                                                                   |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Als u werkt met de RMS-client zonder servicepack, is de client niet in staat online publicatie te gebruiken tegen een RMS-server met SP1 of later. |
   
@@ -265,7 +265,7 @@ Het nieuwe forest-vertrouwensuitbreidingsprotocol verbetert de betrouwbaarheid v
   
 Voor RMS met SP2 werd groepsuitbreiding over meerdere forests bereikt met externe .NET-aanroepen. In deze release is het protocol voor groepsuitbreiding over meerdere forests gewijzigd in een ASP.NET-webservice met SOAP/HTTP-aanvragen naar de pipeline van de groepsuitbreiding voor de forest-vertrouwensrelatie.
   
-| ![](images/Cc747637.note(WS.10).gif)Opmerking                                                                                                                                                                                                                     |  
+| ![](/security-updates/images/Cc747637.note(WS.10).gif)Opmerking                                                                                                                                                                                                                     |  
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Ten behoeve van de achterwaartse compatibiliteit worden externe .NET-aanroepen nog steeds ondersteund in RMS met SP2. Om echter volledig te kunnen profiteren van het nieuwe protocol voor groepsuitbreiding over meerdere forests, moeten alle RMS-clusters ten minste RMS met SP2 uitvoeren. |
   
@@ -273,7 +273,7 @@ Voor RMS met SP2 werd groepsuitbreiding over meerdere forests bereikt met extern
   
 In RMS met SP2 wordt de nieuwe pipeline voor RMS-groepsuitbreiding standaard geconfigureerd met de allerhoogste beveiligingsinstellingen. Alleen de lokale RMS-service- en Administrators-groepen hebben toegang tot die instellingen. Als u een account toegang wilt verlenen, moet u de toegangscontrolelijst wijzigen voor de pipeline van de groepsuitbreiding op wwwroot\\\_wmcs\\GroupExpansion\\GroupExpansion.asmx.
   
-| ![](images/Cc747637.Important(WS.10).gif)Belangrijk                                                                                                                                                                                                                                                                                                                                                                         |  
+| ![](/security-updates/images/Cc747637.Important(WS.10).gif)Belangrijk                                                                                                                                                                                                                                                                                                                                                                         |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Zorg ervoor dat de RMS-serviceaccount van elk Active Directory-forest toegang heeft tot de pipeline voor de groepsuitbreiding op elke RMS-server in de cluster. Als de accounts geen toegang hebben, mislukt de groepsuitbreiding. U kunt eventueel ook in elk forest dezelfde account aanmaken en hetzelfde wachtwoord toewijzen aan elke account. In dat geval hoeft u slechts die ene account toe te voegen aan de pipeline van de groepsuitbreiding. |
   
@@ -321,7 +321,7 @@ Batchverwerking in RMS maakt het mogelijk dat één aanvraag kan worden ingedien
   
 In RMS-versies ouder dan RMS met SP2 ondersteunt de RMS-cluster een maximale batchgrootte van 1. Als de maximumgrootte zou worden ingesteld op een getal hoger dan 1, zou de cluster dat negeren. In RMS met SP2 bedraagt de maximale batchomvang 100.
   
-| ![](images/Cc747637.note(WS.10).gif)Opmerking                      |  
+| ![](/security-updates/images/Cc747637.note(WS.10).gif)Opmerking                      |  
 |-------------------------------------------------------------------------------------------------|  
 | Alleen de AcquireLicense RMS-pipeline biedt ondersteuning voor in batches aangeboden aanvragen. |
   
@@ -346,7 +346,7 @@ In eerdere versies van RMS waren de gegevenstypen van een aantal parameters in d
   
 In RMS-versies ouder dan RMS met SP2 werden SQL RAISERROR-instructies gebruikt om de RMS-gebruiker te informeren dat er een fout was opgetreden. Via de RAISERROR-instructie wordt een query uitgevoerd op de sysmessages-tabel om de RMS-foutberichten op te halen die in deze tabel zijn opgeslagen. RMS met SP2 gebruikt nu een andere techniek om SQL-fouten door te geven, waarbij niet langer een afhankelijkheid bestaat van de sysmessages-tabel.
   
-| ![](images/Cc747637.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                     |  
+| ![](/security-updates/images/Cc747637.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                     |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Als u een upgrade uitvoert van RMS met SP1 naar RMS met SP2, wordt voor foutberichten geen query meer uitgevoerd op de sysmessages-tabel, maar blijven de foutberichten zelf aanwezig in de sysmessages-tabel. Met een schone installatie van RMS met SP2 worden geen nieuwe vermeldingen aan de sysmessages-tabel toegevoegd. |
   
@@ -387,7 +387,7 @@ Wanneer u RMS implementeert in een omgeving waarin de Active Directory-infrastru
   
 Er kunnen zich omstandigheden voordoen (bijvoorbeeld, database niet actief, netwerkproblemen, enzovoort) waarbij de service van de logboekregistratie-listener de database niet kan bereiken. In dat geval worden de berichten verstuurd naar een wachtrij voor onbestelbare berichten. De enige manier om deze berichten te herstellen (dat wil zeggen, te verzenden naar de logboekdatabase) is door gebruik te maken van het hulpprogramma voor RMS-wachtrijherstel dat bij de hulpprogramma's voor het beheer van RMS wordt geleverd. Ga naar [http://go.microsoft.com/fwlink/?LinkId=33841](http://go.microsoft.com/fwlink/?linkid=33841) om de hulpprogramma's voor het beheer van RMS te downloaden.
   
-| ![](images/Cc747637.note(WS.10).gif)Opmerking                                                                                                                                                 |  
+| ![](/security-updates/images/Cc747637.note(WS.10).gif)Opmerking                                                                                                                                                 |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Recover en RecoverandPurge zijn verwijderd uit LogRecoveryCmd. Hierdoor worden alle berichten terug gerouteerd via de Message Queuing-service en geverifieerd voordat het bericht naar de logboekdatabase wordt verzonden. |
   

@@ -21,7 +21,7 @@ Als u de configuratieprocedure uitvoert, moet u de volgende vragen kunnen beantw
 
 WSUS is standaard geconfigureerd om updates op te halen bij Microsoft Update. Als er een proxyserver in het netwerk aanwezig is, kunt u WSUS te configureren voor het gebruik van de proxyserver. Als er een bedrijfs-firewall aanwezig is tussen WSUS en internet, moet u de firewall mogelijk configureren om ervoor te zorgen dat WSUS updates kan ophalen.
 
-| ![](images/Cc708602.note(WS.10).gif)Opmerking                                                                                                                               |
+| ![](/security-updates/images/Cc708602.note(WS.10).gif)Opmerking                                                                                                                               |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Hoewel u verbinding moet hebben met internet om updates te kunnen downloaden van Microsoft Update, biedt WSUS u de mogelijkheid updates te importeren in netwerken die niet verbonden zijn met internet. |
 
@@ -48,7 +48,7 @@ WSUS is standaard geconfigureerd om updates op te halen bij Microsoft Update. Al
     -   http://wustat.windows.com
     -   http://ntservicepack.microsoft.com
 
-| ![](images/Cc708602.note(WS.10).gif)Opmerking                                                                                                                                                                                           |
+| ![](/security-updates/images/Cc708602.note(WS.10).gif)Opmerking                                                                                                                                                                                           |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Deze instructies voor het configureren van de firewall zijn bedoeld voor een bedrijfs-firewall die tussen WSUS en internet is geplaatst. Omdat alle WSUS-netwerkverkeer vanuit WSUS wordt gestart, hoeft u Windows Firewall niet te configureren op een WSUS-server. |
 
@@ -81,7 +81,7 @@ Bij de volgende twee procedures wordt aangenomen dat u de WSUS-beheermodule gebr
 **De WSUS-beheerconsole starten**
 -   Klik op **Start**, wijs achtereenvolgens **Alle programma's** en **Systeembeheer** aan en klik op **Microsoft Windows Server Update Services 3.0** om de WSUS-beheerconsole te starten.
 
-| ![](images/Cc708602.note(WS.10).gif)Opmerking                                                                                                                                                                                                                            |
+| ![](/security-updates/images/Cc708602.note(WS.10).gif)Opmerking                                                                                                                                                                                                                            |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als u alle functies van de WSUS-console wilt gebruiken, moet u lid zijn van de groep WSUS Administrators of van de lokale beveiligingsgroep Administrators op de server waarop WSUS is geïnstalleerd. Leden van de beveiligingsgroep WSUS-reporters hebben alleen-lezen toegang tot de beheerconsole. |
 

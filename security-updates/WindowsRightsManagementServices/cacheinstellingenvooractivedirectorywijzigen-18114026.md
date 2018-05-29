@@ -79,10 +79,10 @@ In de volgende tabel vindt u een overzicht van vermeldingen waarmee het gedrag v
 </tbody>
 </table>
   
-| ![](images/Cc747586.Caution(WS.10).gif)Waarschuwing                                                                                          |  
+| ![](/security-updates/images/Cc747586.Caution(WS.10).gif)Waarschuwing                                                                                          |  
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Als u het register onjuist bewerkt, kunt u het systeem ernstig beschadigen. Maak een back-up van alle belangrijke gegevens op de computer voordat u het register wijzigt. |
   
-| ![](images/Cc747586.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                    |  
+| ![](/security-updates/images/Cc747586.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                    |  
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | De registervermeldingen **PrincipalCacheExpireMinutes**, **GroupIDCacheExpireMinutes**, **GroupMembershipCacheExpireMinutes** en **ContactMembersofGroupCacheExpireMinutes** hebben ook betrekking op het verlopen van de lokale Active Directory-cache in de directoryservicesdatabase op uw databaseserver. |

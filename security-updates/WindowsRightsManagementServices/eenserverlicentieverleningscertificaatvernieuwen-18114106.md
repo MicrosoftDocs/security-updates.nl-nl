@@ -32,7 +32,7 @@ Serverlicentieverleningscertificaten vernieuwen
 
 5.  Klik op **Opslaan**. Het dialoogvenster **Opslaan als** wordt weergegeven.
 
-    | ![](images/Cc747636.note(WS.10).gif)Opmerking                                                                                                                     |
+    | ![](/security-updates/images/Cc747636.note(WS.10).gif)Opmerking                                                                                                                     |
     |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Klik in het dialoogvenster **Bestand downloaden** NIET op **Openen**. Als u op **Openen** zou klikken, wordt er een foutbericht weergegeven en wordt het inschrijvingsverzoek niet opgeslagen. |
 

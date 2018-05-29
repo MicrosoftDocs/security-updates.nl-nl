@@ -27,7 +27,7 @@ In deze stap keurt u een update goed voor alle testclientcomputers in de testgro
 
 5.  Het venster **Voortgang goedkeuring** wordt nu weergegeven, waarin u de voortgang van de verschillende taken met betrekking tot het goedkeuren van updates kunt volgen. Wanneer de procedure voor goedkeuring is voltooid, klikt u op **Sluiten** om dit venster te sluiten.
 
-| ![](images/Cc708475.note(WS.10).gif)Opmerking                                                                          |
+| ![](/security-updates/images/Cc708475.note(WS.10).gif)Opmerking                                                                          |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Voor het goedkeuren van updates kunt u vele opties instellen. U kunt bijvoorbeeld deadlines instellen of de installatie van updates ongedaan maken. |
 

@@ -13,7 +13,7 @@ Deze sectie bevat informatie die u kan helpen bij het inschakelen van MicrosoftÂ
 
 U kunt RMS met SP2 installeren zonder de bestaande installatie van RMS met SP1 te verwijderen. Het installatieprogramma van RMS met SP2 detecteert dat RMS met SP1 is geÃ¯nstalleerd en voegt de vereiste extra functies en instellingen toe.
 
-| ![](images/Cc720225.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                       |
+| ![](/security-updates/images/Cc720225.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                       |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Er is geen ondersteuning voor een upgradepad van RMS-server zonder servicepack naar RMS met SP2. Als u werkt met RMS-server zonder servicepack, moet u een upgrade uitvoeren naar RMS met SP1 voordat u een upgrade kunt uitvoeren naar RMS met SP2. Het uitvoeren van een upgrade van de RMS-client is mogelijk vanaf elke voorgaande versie van de RMS-client. |
 

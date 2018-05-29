@@ -25,6 +25,6 @@ Als in RMS wordt ontdekt dat het rechtenaccountcertificaat is gebaseerd op Windo
 
 Als in RMS wordt ontdekt dat het rechtenaccountcertificaat is gebaseerd op Microsoft® .NET Passport, komt de locatie van de uitgifteservice overeen met de locatie van de .NET Passport-account die is opgegeven in de door RMS beveiligde inhoud.
 
-| ![](images/Cc747580.note(WS.10).gif)Opmerking                                     |
+| ![](/security-updates/images/Cc747580.note(WS.10).gif)Opmerking                                     |
 |----------------------------------------------------------------------------------------------------------------|
 | Als u SSL hebt ingeschakeld op de RMS-server, wordt voor deze URL's het verbindingsprotocol https:// gebruikt. |

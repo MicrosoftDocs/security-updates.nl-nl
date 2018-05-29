@@ -16,7 +16,7 @@ Voor de volgende procedure worden de standaardinstallatieopties van WSUS voor Wi
 **WSUS installeren onder Windows Server 2003**
 1.  Dubbelklik op het installatieprogrammabestand **WSUSSetup.exe**.
 
-    | ![](images/Cc708622.note(WS.10).gif)Opmerking                                                                                                                                            |
+    | ![](/security-updates/images/Cc708622.note(WS.10).gif)Opmerking                                                                                                                                            |
     |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | De meest recente versie van WSUSSetup.exe is beschikbaar op de [Microsoft-website](http://go.microsoft.com/fwlink/?linkid=47374) voor Windows Server Update Services op http://go.microsoft.com/fwlink/?LinkId=24384. |
 
@@ -28,7 +28,7 @@ Voor de volgende procedure worden de standaardinstallatieopties van WSUS voor Wi
 
     Zorg ervoor dat de standaardopties geselecteerd blijven en klik op **Volgende**.
 
-    ![](images/Cc708622.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
+    ![](/security-updates/images/Cc708622.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
 
 5.  Op de pagina **Opties voor database** selecteert u de software die moet worden gebruikt om de WSUS-database te beheren. Als u WSUS installeert op een computer met Windows Server 2003, biedt het installatieprogramma van WSUS u standaard aan het programma WMSDE te installeren.
 
@@ -36,7 +36,7 @@ Voor de volgende procedure worden de standaardinstallatieopties van WSUS voor Wi
 
     Zorg ervoor dat de standaardopties geselecteerd blijven en klik op **Volgende**.
 
-    ![](images/Cc708622.bc0b73ad-b338-437c-a3c7-0299e819840d(WS.10).gif)
+    ![](/security-updates/images/Cc708622.bc0b73ad-b338-437c-a3c7-0299e819840d(WS.10).gif)
 
 6.  Op de pagina **Website selecteren** kunt u opgeven welke website WSUS moet gebruiken. Op deze pagina worden ook, op basis van de website die u selecteert, twee belangrijke URL's vermeld: de URL waarnaar u WSUS-clientcomputers verwijst voor het ophalen van updates en de URL voor de WSUS-console waar u WSUS kunt configureren.
 
@@ -44,7 +44,7 @@ Voor de volgende procedure worden de standaardinstallatieopties van WSUS voor Wi
 
     Zorg ervoor dat de standaardoptie geselecteerd blijft en klik op **Volgende**.
 
-    ![](images/Cc708622.64ed7643-a050-4f54-bf9f-04cf7931adc0(WS.10).gif)
+    ![](/security-updates/images/Cc708622.64ed7643-a050-4f54-bf9f-04cf7931adc0(WS.10).gif)
 
 7.  Op de pagina **Instellingen voor updates kopiëren** kunt u opgeven welke rol deze WSUS-server speelt bij het beheer van updates. Als dit de eerste WSUS-server in het netwerk is of als u het beheer van updates wilt spreiden, slaat u dit venster over.
 
@@ -52,10 +52,10 @@ Voor de volgende procedure worden de standaardinstallatieopties van WSUS voor Wi
 
     Zorg ervoor dat de standaardoptie geselecteerd blijft en klik op **Volgende**.
 
-    ![](images/Cc708622.f26e09d5-983c-418d-8511-8960850403ef(WS.10).gif)
+    ![](/security-updates/images/Cc708622.f26e09d5-983c-418d-8511-8960850403ef(WS.10).gif)
 
 8.  Bekijk op de pagina **Microsoft Windows Server Update Services kan nu worden geïnstalleerd** de opties die u hebt geselecteerd en klik op **Volgende**.
 
-    ![](images/Cc708622.20de7d09-3d30-4867-9253-6f353dd1923d(WS.10).gif)
+    ![](/security-updates/images/Cc708622.20de7d09-3d30-4867-9253-6f353dd1923d(WS.10).gif)
 
 9.  Als op de laatste pagina van de wizard wordt bevestigd dat WSUS is geïnstalleerd, klikt u op **Voltooien**.

@@ -23,6 +23,6 @@ http://*servernaam*/\_wmcs/Licensing/Licensing.asmx
 
 De servicelocatie is de RMS-server of de.NET Passport-account waarmee de uitgiftelicentie is uitgegeven. De URL is opgenomen in de uitgiftelicentie.
 
-| ![](images/Cc720269.note(WS.10).gif)Opmerking                                     |
+| ![](/security-updates/images/Cc720269.note(WS.10).gif)Opmerking                                     |
 |----------------------------------------------------------------------------------------------------------------|
 | Als u SSL hebt ingeschakeld op de RMS-server, wordt voor deze URL's het verbindingsprotocol https:// gebruikt. |

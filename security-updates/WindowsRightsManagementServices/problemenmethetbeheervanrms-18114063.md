@@ -143,7 +143,7 @@ Een vorige RMS-installatie herstellen
 
 Als er een fout optreedt in de hardware of software van de server, kunt u een RMS-server herstellen door een nieuw exemplaar van een server in te richten met de vorige configuratiedatabase.
 
-| ![](images/Cc747605.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                                   |
+| ![](/security-updates/images/Cc747605.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Deze procedure is alleen van toepassing als er een fout optreedt op de server waarop RMS wordt uitgevoerd. Zie 'De configuratiedatabase herstellen' eerder in dit onderwerp als er een fout optreedt op de server waarop de configuratiedatabase wordt uitgevoerd. Is de RMS-server ook de databaseserver, dan zult u de gehele server vanuit een back-up moeten herstellen. |
 
@@ -186,7 +186,7 @@ Standaard worden onderdelen zoals RMS die vanaf een ASP-pagina worden uitgevoerd
 
 U lost dit op door met de registereditor de registersleutel te wijzigen die hiervoor verantwoordelijk is.
 
-| ![](images/Cc747605.Caution(WS.10).gif)Waarschuwing                                                                                          |
+| ![](/security-updates/images/Cc747605.Caution(WS.10).gif)Waarschuwing                                                                                          |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als u het register onjuist bewerkt, kunt u het systeem ernstig beschadigen. Maak een back-up van alle belangrijke gegevens op de computer voordat u het register wijzigt. |
 
@@ -198,7 +198,7 @@ Naam: `RestrictGuestAccess`
 
 Type: `REG_DWORD`
 
-| ![](images/Cc747605.note(WS.10).gif)Opmerking                 |
+| ![](/security-updates/images/Cc747605.note(WS.10).gif)Opmerking                 |
 |--------------------------------------------------------------------------------------------|
 | Hierdoor kunnen alle gastaccounts naar het gebeurtenislogboek voor toepassingen schrijven. |
 

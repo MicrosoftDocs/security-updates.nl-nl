@@ -21,7 +21,7 @@ Gebruikers die geen andere toepassing met RMS-ondersteuning hebben voor het werk
 
 U kunt deze invoegtoepassing voor Internet Explorer downloaden van de [website van Microsoft](http://go.microsoft.com/fwlink/?linkid=14450) (http://go.microsoft.com/fwlink/?LinkId=14450).
 
-| ![](images/Cc720231.note(WS.10).gif)Opmerking                                                                                                                                            |
+| ![](/security-updates/images/Cc720231.note(WS.10).gif)Opmerking                                                                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als u de Rights Management-invoegtoepassing voor Internet Explorer bij Windows XP Service Pack 2 gebruikt, kan de verbeterde beveiligingsconfiguratie voor problemen met de compatibiliteit van de toepassing zorgen. |
 

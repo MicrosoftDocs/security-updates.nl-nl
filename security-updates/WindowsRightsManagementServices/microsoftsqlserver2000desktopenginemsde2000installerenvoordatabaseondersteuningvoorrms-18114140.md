@@ -26,7 +26,7 @@ Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) installeren voor databaseon
 
     **Setup.exe /i setup\\sqlrun10.msi INSTANCENAME=RMS DISABLEAGENTSTARTUP=1 SAPWD=***wachtwoord*
 
-    | ![](images/Cc747667.Important(WS.10).gif)Belangrijk                                                                                                                                                                                                                   |
+    | ![](/security-updates/images/Cc747667.Important(WS.10).gif)Belangrijk                                                                                                                                                                                                                   |
     |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | De MSDE-service moet worden gestart nadat hij is geïnstalleerd. U kunt de service starten vanuit **Services** in het **Configuratiescherm**. Het wordt aanbevolen de service zo te configureren dat deze automatisch start, zodat de MSDE-database altijd beschikbaar is als RMS wordt uitgevoerd. |
 

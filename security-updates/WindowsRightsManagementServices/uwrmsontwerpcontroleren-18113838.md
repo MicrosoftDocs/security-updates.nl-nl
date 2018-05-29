@@ -17,7 +17,7 @@ Voordat u met de implementatie begint, controleert u eerst of er binnen uw RMS-p
 -   Is er een RMS-topologie geselecteerd? Dit kan een basistopologie of een gedistribueerde topologie zijn.
 -   Is Active Directory geïnstalleerd op domeincontrollers met Windows 2000 Service Pack 3 (SP3) of hoger en is er voor alle gebruikers een contactobject met een e-mailkenmerk geconfigureerd? Is Windows Server 2003 met de nieuwste updates geïnstalleerd? Zijn Message Queuing, Internet Information Services en ASP.NET versie 1.1 ingeschakeld?
 
-| ![](images/Cc720185.note(WS.10).gif)Opmerking                                                                                                                                                 |
+| ![](/security-updates/images/Cc720185.note(WS.10).gif)Opmerking                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als u RMS op een 64-bits computer wilt installeren, lees dan de speciale instructies voor het instellen van een configuratie door in 'Softwarevereisten voor RMS' in 'Een RMS-implementatie plannen' in deze documentatie. |
 

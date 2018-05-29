@@ -13,7 +13,7 @@ Standaard worden in RMS geen gebruikslicenties verleend aan gebruikers met recht
 
 U kunt RMS zo configureren dat ook dit type aanvragen worden verwerkt. U importeert in dat geval het serverlicentieverleningscertificaat van het andere gebruikersdomein en voegt dit toe aan de lijst met vertrouwde gebruikersdomeinen. Als u dit doet, kunnen gebruikers met accountcertificaten die zijn uitgegeven door het vertrouwde gebruikersdomein, aanvragen voor gebruikslicenties indienen bij uw installatie. Deze gebruikslicenties worden vervolgens verwerkt alsof het aanvragen van interne gebruikers zijn.
 
-| ![](images/Cc747618.note(WS.10).gif)Opmerking                                                                              |
+| ![](/security-updates/images/Cc747618.note(WS.10).gif)Opmerking                                                                              |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Het basiscertificeringscluster wordt automatisch in de lijst met vertrouwde gebruikersdomeinen opgenomen voor alle RMS-servers in dezelfde installatie. |
 

@@ -59,7 +59,7 @@ U voert de eerste twee procedures uit op een groepsbeleidobject in een domein va
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939830.note(WS.10).gif" />Opmerking</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939830.note(WS.10).gif" />Opmerking</th>
 </tr>
 </thead>
 <tbody>

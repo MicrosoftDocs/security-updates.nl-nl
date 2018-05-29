@@ -23,6 +23,6 @@ Wanneer de subinschrijvingsservice met een licentieserver wordt aangevraagd, wor
 
 http://servernaam/\_wmcs/Certification/SubEnrollService.asmx
 
-| ![](images/Cc747641.note(WS.10).gif)Opmerking                                     |
+| ![](/security-updates/images/Cc747641.note(WS.10).gif)Opmerking                                     |
 |----------------------------------------------------------------------------------------------------------------|
 | Als u SSL hebt ingeschakeld op de RMS-server, wordt voor deze URL's het verbindingsprotocol https:// gebruikt. |

@@ -43,6 +43,6 @@ Als u op één server wilt installeren en de database zich op dezelfde computer 
 </tbody>
 </table>
   
-| ![](images/Cc720178.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                   |  
+| ![](/security-updates/images/Cc720178.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                   |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Voor de account die wordt gebruikt voor het aanmelden bij de RMS-server, is geen lidmaatschap voor de aanvullende domeingroepen zoals de groep domeinbeheerders nodig. Voor sommige beheertaken, zoals het registreren van het serviceverbindingspunt en het aanpassen van het beveiligingsbeleid, is echter een account met aanvullende bevoegdheden nodig. |

@@ -136,6 +136,6 @@ In de volgende tabel vindt u een overzicht van vermeldingen die u kunt toevoegen
 </tbody>
 </table>
   
-| ![](images/Cc747660.Caution(WS.10).gif)Waarschuwing                                                                                          |  
+| ![](/security-updates/images/Cc747660.Caution(WS.10).gif)Waarschuwing                                                                                          |  
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Als u het register onjuist bewerkt, kunt u het systeem ernstig beschadigen. Maak een back-up van alle belangrijke gegevens op de computer voordat u het register wijzigt. |

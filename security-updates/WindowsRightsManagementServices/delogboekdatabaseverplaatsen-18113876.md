@@ -19,7 +19,7 @@ Als de logboekdatabase te groot wordt, kunt u deze op elk moment naar een andere
     -   Geef de nieuwe databaseservernaam op in het beleid LoggingDatabaseServer.
     -   Geef de nieuwe databasenaam op in het beleid LoggingDatabaseName.
 
-    | ![](images/Cc720238.note(WS.10).gif)Opmerking                                                                                                                        |
+    | ![](/security-updates/images/Cc720238.note(WS.10).gif)Opmerking                                                                                                                        |
     |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | SQL Server Enterprise Manager is niet geschikt voor de velden db\_variant. Hiervoor kunt u Query Analyzer, dat bij SQL Server hoort, of een ander hulpprogramma voor databasebewerking gebruiken. |
 

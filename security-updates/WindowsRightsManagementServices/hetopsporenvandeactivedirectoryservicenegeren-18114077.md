@@ -11,7 +11,7 @@ Het opsporen van de Active Directory-service negeren
 
 RMS-services en -clients ontdekken servicelocaties door eerst het lokale register ter doorzoeken. Als bepaalde sleutels in het register geen waarde bevatten, zoeken RMS-services en -clients in Active Directory naar het serviceverbindingspunt (SCP). Dit betekent dat u de standaardinstelling Ontdekken via Active Directory kunt omzeilen als u bepaalde sleutels invult in het server- of clientregister.
 
-| ![](images/Cc747614.note(WS.10).gif)Opmerking                                                                                                                  |
+| ![](/security-updates/images/Cc747614.note(WS.10).gif)Opmerking                                                                                                                  |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als de RMS-basiscluster zo is geconfigureerd dat het SCP niet wordt gepubliceerd in Active Directory, kunt u deze sleutels gebruiken om de RMS-clients te verwijzen naar de juiste locatie. |
 
@@ -76,7 +76,7 @@ Clientzijde service ontdekken omzeilen voor uitgeven
   
 Als de gebruikers inhoud uitgeven vanaf hun computers, wilt u misschien de locaties omzeilen van de servers die worden gebruikt voor uitgeven, afhankelijk van de in de organisatie gebruikte topologie. De locaties van de servers die worden gebruikt voor uitgeven worden meestal door de client ontdekt door gebruik te maken van Active Directory. Door op de clientcomputers de juiste registersleutels toe te voegen, omzeilen de clients die methoden en gebruiken in plaats daarvan de URL's die u opgeeft als waarden voor de registervermeldingen.
   
-| ![](images/Cc747614.note(WS.10).gif)Opmerking                                                                                                                                                            |  
+| ![](/security-updates/images/Cc747614.note(WS.10).gif)Opmerking                                                                                                                                                            |  
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | De in deze sectie opgesomde toevoegingen aan het clientregister moeten worden gemaakt als sleutel en niet als afzonderlijke vermeldingen. De waarde van die sleutels moet worden gemaakt in de standaardvermelding voor elke sleutel. |
   
@@ -133,7 +133,7 @@ In de onderstaande tabel vindt u de registersleutels die u op een RMS-clientcomp
   
 We raden u aan deze registersleutels te implementeren met Systems Management Server of Groepbeleid om er zeker van te zijn dat alle clients in uw onderneming de juiste servers voor uitgeven gebruiken.
   
-| ![](images/Cc747614.Caution(WS.10).gif)Waarschuwing                                                                                           |  
+| ![](/security-updates/images/Cc747614.Caution(WS.10).gif)Waarschuwing                                                                                           |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Onjuiste bewerking van het register kan uw computer beschadigen. Maak een back-up van waardevolle gegevens op de computer voordat u wijzigingen aanbrengt in het register. |
   

@@ -25,7 +25,7 @@ In deze releaseopmerkingen worden de bekende kwesties beschreven die kunnen optr
 -   WSUS 3.0 op Windows Server® 2008
 -   WSUS 3.0 onder Windows Small Business Server 2003
 
-| ![](images/Cc708491.note(WS.10).gif)Opmerking                                                                                                                                                             |
+| ![](/security-updates/images/Cc708491.note(WS.10).gif)Opmerking                                                                                                                                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | U kunt een exemplaar van dit document downloaden via het [Downloadcentrum van Microsoft](http://go.microsoft.com/fwlink/?linkid=71220) ([http://go.microsoft.com/fwlink/?LinkId=71220](http://go.microsoft.com/fwlink/?linkid=71220)). |
 
@@ -78,11 +78,11 @@ Als er al twee of meer websites worden uitgevoerd op poort 80 (bijvoorbeeld Wind
 
 Wanneer u WSUS 3.0 wilt installeren, moet u mogelijk uw antivirusprogramma's uitschakelen voordat u de installatie kunt uitvoeren. Nadat u het antivirusprogramma hebt uitgeschakeld, moet u de computer opnieuw opstarten voordat u WSUS installeert. Hiermee voorkomt u dat bestanden worden vergrendeld wanneer de installatieprocedure toegang zoekt tot de bestanden. Vergeet niet om na het voltooien van de installatie het antivirusprogramma weer in te schakelen. Bezoek de website van de leverancier van het antivirusprogramma voor de exacte procedure voor het in- en uitschakelen van het antivirusprogramma en voor de versiegegevens.
 
-| ![](images/Cc708491.Caution(WS.10).gif)Waarschuwing                                                                                                                                                                                                                                                                             |
+| ![](/security-updates/images/Cc708491.Caution(WS.10).gif)Waarschuwing                                                                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Door deze methode kan uw computer of netwerk kwetsbaarder worden voor aanvallen door kwaadwillende gebruikers of schadelijke software, zoals virussen. Microsoft raadt deze methode niet aan, maar verschaft u deze informatie zodat u zelf kunt beslissen of u de methode al dan niet wilt uitvoeren. Het gebruik van deze methode is voor uw eigen risico. |
 
-| ![](images/Cc708491.note(WS.10).gif)Opmerking                                                                                                                                                                                                     |
+| ![](/security-updates/images/Cc708491.note(WS.10).gif)Opmerking                                                                                                                                                                                                     |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Een antivirusprogramma is ontworpen om uw computer beter te beveiligen tegen virussen. Download of open geen bestanden van bronnen die u niet vertrouwt, bezoek geen websites die u niet vertrouwt en open geen e-mailbijlagen wanneer uw antivirusprogramma is uitgeschakeld. |
 
@@ -200,7 +200,7 @@ Zie Kwestie 1: IIS moet zijn geïnstalleerd.</td>
 </tbody>
 </table>
   
-| ![](images/Cc708491.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                        |  
+| ![](/security-updates/images/Cc708491.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                        |  
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Als WSUS 2.0 al is geïnstalleerd en SQL Server 2000, SQL Server Desktop Engine 2000 of een andere SQL Server-database ouder dan SQL Server 2005 SP1 (or SQL Server 2005 SP2 op Windows Server 2008) gebruikt, wordt Windows® Internal Database geïnstalleerd door het installatieprogramma van WSUS 3.0 en wordt de database hiernaar gemigreerd. |
   
@@ -213,7 +213,7 @@ Hier volgen de minimale eisen die worden gesteld aan de schijfruimte voor het in
 -   2 GB voor het volume waarop de databasebestanden worden opgeslagen  
 -   20 GB voor het volume waarop de inhoud wordt opgeslagen
   
-| ![](images/Cc708491.Important(WS.10).gif)Belangrijk                                                             |  
+| ![](/security-updates/images/Cc708491.Important(WS.10).gif)Belangrijk                                                             |  
 |----------------------------------------------------------------------------------------------------------------------------------------------|  
 | WSUS 3.0 kan niet op gecomprimeerde stations worden geïnstalleerd. Controleer of het station dat u hebt geselecteerd, niet is gecomprimeerd. |
   
@@ -368,7 +368,7 @@ In de volgende tabel vindt u de opdrachtregeleigenschappen voor WSUS 3.0.
 ```  
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
 ```  
-| ![](images/Cc708491.Important(WS.10).gif)Belangrijk                                                                                                                                                                      |  
+| ![](/security-updates/images/Cc708491.Important(WS.10).gif)Belangrijk                                                                                                                                                                      |  
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Als u WSUS 3.0 installeert in de stille modus (/q) en niet alle vereiste onderdelen op de computer zijn geïnstalleerd, genereert het installatieprogramma een bestand met de naam WSUSPreReqCheck.xml. Dit bestand wordt opgeslagen in de map %TEMP%. |
   

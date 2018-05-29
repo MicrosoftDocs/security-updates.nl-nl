@@ -31,11 +31,11 @@ Rechtenaccountcertificaten uitsluiten
     -   Als u het accountcertificaat wilt uitsluiten op basis van de gebruikersnaam, klikt u op **Gebruikersnaam** voor het uit te sluiten rechtenaccountcertificaat. Typ de naam van de uit te sluiten gebruiker (met de indeling *gebruikersnaam*@*domeinnaam.com*) en klik op **Toevoegen**. Deze optie is bestemd voor het uitsluiten van accountcertificaten van interne gebruikers met Active Directory-gebruikersaccounts.
     -   Als u een accountcertificaat wilt uitsluiten op basis van de openbare sleutel, klikt u op **Openbare-sleuteltekenreeks** voor het uit te sluiten rechtenaccountcertificaat. Typ de openbare-sleuteltekenreeks van het betreffende rechtenaccountcertificaat en klik op **Toevoegen**. Deze optie is bestemd voor het uitsluiten van accountcertificaten van externe gebruikers zonder Active Directory-gebruikersaccounts.
 
-    | ![](images/Cc747785.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                     |
+    | ![](/security-updates/images/Cc747785.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                     |
     |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Als u een accountcertificaat wilt verwijderen uit de uitsluitingslijst, selecteert u het uitgesloten rechtenaccountcertificaat in de lijst en klikt u op **Geselecteerde openbare sleutels van de uitsluitingslijst verwijderen**. De gebruiker met het betreffende accountcertificaat kan nu een licentie krijgen voor RMS-beveiligde inhoud van deze server. |
 
-    | ![](images/Cc747785.note(WS.10).gif)Opmerking                                     |
+    | ![](/security-updates/images/Cc747785.note(WS.10).gif)Opmerking                                     |
     |----------------------------------------------------------------------------------------------------------------|
     | Als u de uitsluiting van rechtenaccountcertificaten wilt uitschakelen, dient u op **Uitschakelen** te klikken. |
 

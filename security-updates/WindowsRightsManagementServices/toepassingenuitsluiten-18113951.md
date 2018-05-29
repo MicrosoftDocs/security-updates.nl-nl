@@ -32,7 +32,7 @@ Toepassingen uitsluiten of het uitsluiten van toepassingen stoppen
 
     Als u een toepassing (of onderdeel) uit de uitsluitingslijst wilt verwijderen, selecteert u de bestandsnaam en klikt u op **Geselecteerde toepassingen van de uitsluitingslijst verwijderen**.
 
-    | ![](images/Cc720262.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                    |
+    | ![](/security-updates/images/Cc720262.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                    |
     |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | De toepassingsversie moet in RMS worden weergegeven in een viercijferige indeling met punten (\#.\#.\#.\# ). Bij sommige toepassingen wordt de versie echter weergegeven in een tweecijferige of driecijferige indeling met punten. In dat geval moet u een of twee nullen toevoegen zodat de indeling van het versienummer voldoet aan de vereisten van RMS. |
 

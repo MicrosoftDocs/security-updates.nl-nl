@@ -67,11 +67,11 @@ Als u over twee of meer websites beschikt die gebruikmaken van poort 80 (bijvoor
 
 Wanneer u WSUS 3.0 SP1 installeert, moet u mogelijk uw antivirussoftware uitschakelen voordat u de installatie kunt uitvoeren. Start nadat u uw antivirussoftware hebt uitgeschakeld, de computer eerst opnieuw op voordat u WSUS installeert. U voorkomt door de computer opnieuw op te starten dat bestanden vergrendeld zijn op het moment dat het installatieproces over toegang tot deze bestanden moet beschikken. Schakel nadat de installatie is voltooid, uw antivirussoftware opnieuw in. Bezoek de website van de leverancier van uw antivirussoftware voor informatie over de exacte procedure voor het uitschakelen en het opnieuw inschakelen van uw versie van de desbetreffende antivirussoftware.
 
-| ![](images/Cc708525.Caution(WS.10).gif)Waarschuwing                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ![](/security-updates/images/Cc708525.Caution(WS.10).gif)Waarschuwing                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Deze tijdelijke oplossing maakt uw computer of netwerk kwetsbaarder voor aanvallen van kwaadwillenden en/of voor aanvallen via schadelijke software, zoals virussen. Het gebruik van deze tijdelijke oplossing wordt niet aanbevolen. Deze informatie wordt slechts verschaft met het doel u in staat te stellen om een dergelijke tijdelijke oplossing naar eigen goeddunken wel of niet te implementeren. Het gebruik van deze tijdelijke oplossing is geheel voor eigen risico. |
 
-| ![](images/Cc708525.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                 |
+| ![](/security-updates/images/Cc708525.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Antivirussoftware is ontworpen met het oogmerk om uw computer tegen virussen te beschermen. U moet wanneer uw antivirussoftware is uitgeschakeld, geen bestanden downloaden of openen van bronnen die u niet vertrouwt. Daarnaast moet u geen websites bezoeken die u niet vertrouwt en u moet geen e-mailbijlagen openen. |
 
@@ -177,7 +177,7 @@ Controleer of de WSUS 3.0 SP1-server aan deze lijst met vereisten voldoet voorda
 </tbody>
 </table>
   
-| ![](images/Cc708525.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                                           |  
+| ![](/security-updates/images/Cc708525.note(WS.10).gif)Opmerking                                                                                                                                                                                                                                                                                                           |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Het WSUS 3.0 SP1-installatieprogramma installeert Windows® Internal Database en migreert vervolgens de database bij gevallen waarin WSUS 2.0 reeds is geïnstalleerd en als WSUS 2.0 daarbij gebruikmaakt van SQL Server 2000, SQL Server Desktop Engine 2000 of van een SQL Server-database die ouder is dan SQL Server 2005 SP1 (of SQL Server 2005 SP2 onder Windows Server 2008). |
   
@@ -190,7 +190,7 @@ Hierna worden de minimale schijfruimtevereisten voor de installatie van Windows 
 -   2 GB voor het volume waarop de databasebestanden worden opgeslagen  
 -   20 GB voor het volume waarop de inhoud wordt opgeslagen
   
-| ![](images/Cc708525.Important(WS.10).gif)Belangrijk                                                                       |  
+| ![](/security-updates/images/Cc708525.Important(WS.10).gif)Belangrijk                                                                       |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | WSUS 3.0 SP1 kan niet op een gecomprimeerd station worden geïnstalleerd. Ga na of het station waarop u de software wilt installeren, is gecomprimeerd. |
   
@@ -350,7 +350,7 @@ In de volgende tabel worden de opdrachtregeleigenschappen voor WSUS 3.0 SP1 weer
 ```  
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
 ```  
-| ![](images/Cc708525.Important(WS.10).gif)Belangrijk                                                                                                                                                                                    |  
+| ![](/security-updates/images/Cc708525.Important(WS.10).gif)Belangrijk                                                                                                                                                                                    |  
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Als u WSUS 3.0 SP1 in de stille modus (/q) installeert, terwijl niet alle vereiste software op de machine is geïnstalleerd, wordt er tijdens de installatie een bestand met de naam WSUSPreReqCheck.xml gegenereerd. Dit bestand wordt opgeslagen in de map %TEMP%. |
   

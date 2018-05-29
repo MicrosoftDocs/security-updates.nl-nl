@@ -38,6 +38,6 @@ Op de **introductiepagina van de beheerwebsite** wordt informatie over het clust
 
 In de resterende onderwerpen in dit gedeelte wordt beschreven hoe deze functies moeten worden gebruikt. Zie '[Procedures voor RMS ...](https://technet.microsoft.com/82032075-f361-438f-a2c4-93ab29ae6cff)' verderop in dit onderwerp voor stapsgewijze instructies.
 
-| ![](images/Cc720290.note(WS.10).gif)Opmerking                                                                                                                                                                                    |
+| ![](/security-updates/images/Cc720290.note(WS.10).gif)Opmerking                                                                                                                                                                                    |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | De beheerwebsite van RMS gebruikt pop-upvensters voor de configuratie van sommige functies. Als u pop-upblokkering gebruikt in uw webbrowser, moet u uw browserinstellingen dusdanig configureren dat pop-ups van de beheerwebsite van RMS worden toegestaan. |

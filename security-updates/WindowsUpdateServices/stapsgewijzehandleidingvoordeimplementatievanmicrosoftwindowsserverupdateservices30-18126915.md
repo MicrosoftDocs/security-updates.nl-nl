@@ -18,6 +18,6 @@ Microsoft WSUS 3.0 (Windows Server Update Services) biedt een veelomvattende opl
 
 Hoewel WSUS 3.0 een uitgebreide en veelzijdige oplossing voor het beheer van updates is, wordt in deze handleiding slechts één manier beschreven om deze taken uit te voeren. Als er opties beschikbaar zijn om een taak op andere manieren uit te voeren, worden deze extra opties vermeld.
 
-| ![](images/Cc708519.note(WS.10).gif)Opmerking                                                                         |
+| ![](/security-updates/images/Cc708519.note(WS.10).gif)Opmerking                                                                         |
 |----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Zie [http://go.microsoft.com/fwlink/?LinkId=71190](http://go.microsoft.com/fwlink/?linkid=71190) als u een kopie van dit document wilt downloaden. |

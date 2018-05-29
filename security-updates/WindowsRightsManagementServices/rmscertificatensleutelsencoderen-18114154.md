@@ -79,11 +79,11 @@ In een RMS-systeem worden de volgende certificaten en licenties gebruikt die in 
     Het voorvoegsel van de bestandsnaam: EUL
     Locatie: %USERPROFILE%\\Local Settings\\Application Data\\Microsoft\\DRM
 
-| ![](images/Cc747725.note(WS.10).gif)Opmerking                                                                                |
+| ![](/security-updates/images/Cc747725.note(WS.10).gif)Opmerking                                                                                |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Een gebruikersaccount heeft één computercertificaat, één GIC-bestand en één CLC-bestand, maar meerdere EUL-bestanden voor elke inhoud die wordt benaderd. |
 
-| ![](images/Cc747725.note(WS.10).gif)Opmerking                                       |
+| ![](/security-updates/images/Cc747725.note(WS.10).gif)Opmerking                                       |
 |------------------------------------------------------------------------------------------------------------------|
 | Voor de met Windows Vista® geïntegreerde RMS-client is de locatie %USERPROFILE%\\AppData\\Local\\Microsoft\\DRM. |
 

@@ -62,7 +62,7 @@ In deze sectie worden de software- en hardwarevereisten beschreven die nodig zij
         </colgroup>
         <thead>
         <tr class="header">
-        <th style="border:1px solid black;" ><img src="images/Dd939886.Warning(WS.10).gif" />Waarschuwing</th>
+        <th style="border:1px solid black;" ><img src="/security-updates/images/Dd939886.Warning(WS.10).gif" />Waarschuwing</th>
         </tr>
         </thead>
         <tbody>
@@ -97,7 +97,7 @@ In deze sectie worden de software- en hardwarevereisten beschreven die nodig zij
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Belangrijk</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939886.Important(WS.10).gif" />Belangrijk</th>
 </tr>
 </thead>
 <tbody>
@@ -134,7 +134,7 @@ De volgende lijst bevat de minimale hardwarevereisten die nodig zijn voor een ba
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Belangrijk</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939886.Important(WS.10).gif" />Belangrijk</th>
 </tr>
 </thead>
 <tbody>
@@ -176,7 +176,7 @@ Wanneer u WSUS 3.0 SP2 installeert, moet u mogelijk uw antivirusprogramma's uits
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Caution(WS.10).gif" />Let op</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939886.Caution(WS.10).gif" />Let op</th>
 </tr>
 </thead>
 <tbody>
@@ -446,7 +446,7 @@ WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (installeren in stille modus met poort 8530)
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Belangrijk</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939886.Important(WS.10).gif" />Belangrijk</th>
 </tr>
 </thead>
 <tbody>

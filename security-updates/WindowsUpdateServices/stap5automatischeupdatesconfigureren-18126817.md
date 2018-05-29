@@ -51,7 +51,7 @@ Om de beleidsinstellingen voor het beheren van WSUS te kunnen zien, moet u ervoo
 
 4.  Klik op **OK**.
 
-| ![](images/Cc720532.note(WS.10).gif)Opmerking                                                                                                            |
+| ![](/security-updates/images/Cc720532.note(WS.10).gif)Opmerking                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | De optie **Locale beheerder toestaan om instelling te kiezen** wordt alleen weergegeven als Automatische updates zichzelf heeft bijgewerkt naar de versie die compatibel is met WSUS. |
 
@@ -62,7 +62,7 @@ Om de beleidsinstellingen voor het beheren van WSUS te kunnen zien, moet u ervoo
 
 3.  Klik op **Ingeschakeld** en typ zowel in het vak **Stel de updateservice in het intranet in voor het detecteren van updates** als in het vak **Intranetserver voor statistische gegevens** de HTTP-URL van dezelfde WSUS-server. Typ bijvoorbeeld *http://servernaam* in beide vakken en klik op **OK**.
 
-| ![](images/Cc720532.note(WS.10).gif)Opmerking                                                                                                                                                                                                                               |
+| ![](/security-updates/images/Cc720532.note(WS.10).gif)Opmerking                                                                                                                                                                                                                               |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als u het lokale groepsbeleidsobject gebruikt om deze computer naar de WSUS-server te verwijzen, wordt deze instelling onmiddellijk van kracht en wordt deze computer na korte tijd in de WSUS-beheerconsole weergegeven. U kunt dit proces nog versnellen door handmatig een detectiecyclus te starten. |
 

@@ -67,11 +67,11 @@ Het aanroepen van WSUS API's (Application Programming Interfaces) veroorzaakt co
 
 Wanneer u een upgrade van WSUS uitvoert met WSUS met SP1, moet u mogelijk antivirusprogramma's uitschakelen voordat u de upgrade kunt uitvoeren of u het servicepack kunt toepassen. Nadat u de antivirusprogramma's hebt uitgeschakeld, moet u de Windows Server-computer opnieuw opstarten voordat u de upgrade of het servicepack kunt toepassen. Door deze procedure zijn bestanden voor het upgradeproces niet geblokkeerd. Schakel uw antivirusprogramma weer in nadat de installatie is voltooid. Ga naar de website van de leverancier van uw antivirusprogramma voor de exacte stappen die u moet volgen om uw antivirusprogramma en -versie in en uit te schakelen.
 
-| ![](images/Cc708486.Caution(WS.10).gif)Waarschuwing                                                                                                                                                                                                                                    |
+| ![](/security-updates/images/Cc708486.Caution(WS.10).gif)Waarschuwing                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Deze oplossing kan uw computer of netwerk kwetsbaar maken voor aanvallen van kwaadwillende gebruikers of software zoals virussen. Wij raden u deze oplossing niet aan, maar geven u deze informatie zodat u deze oplossing naar eigen goeddunken kunt toepassen. Het gebruik van deze oplossing is op eigen risico. |
 
-| ![](images/Cc708486.note(WS.10).gif)Opmerking                                                                                                                                                                                         |
+| ![](/security-updates/images/Cc708486.note(WS.10).gif)Opmerking                                                                                                                                                                                         |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Een antivirusprogramma is ontwikkeld om uw computer te helpen beschermen tegen virussen. Download en open geen bestanden van onbetrouwbare bronnen, bezoek geen onbetrouwbare websites en open geen e-mailbijlagen zolang het antivirusprogramma is uitgeschakeld. |
 
@@ -148,7 +148,7 @@ Als u de computernaam wijzigt ná de installatie van WSUS RTM en vóór de upg
 Gebruik het volgende script om de groepen Administrators ASPNET en WSUS te verwijderen en opnieuw toe te voegen. Voer de upgrade daarna opnieuw uit.
 
         ```
-| ![](images/Cc708486.note(WS.10).gif)Opmerking                                         |
+| ![](/security-updates/images/Cc708486.note(WS.10).gif)Opmerking                                         |
 |--------------------------------------------------------------------------------------------------------------------|
 | Mogelijk moet u &lt;ContentDirectory&gt; in de laatste regel vervangen door het pad naar uw huidige inhoudsopslag. |
 
@@ -340,7 +340,7 @@ Bekende problemen
 
 Als u IIS (Internet Information Services) uitvoert op een computer met Windows 2000 Server, dient u de meest recente versie van de wizard IIS-beveiliging (die URLScan bevat) te installeren vanaf de pagina IIS Lockdown Tool op Microsoft TechNet. Microsoft raadt u met klem aan dit hulpprogramma te installeren om ervoor te zorgen dat de IIS-servers goed beveiligd zijn. De wizard IIS-beveiliging schakelt functies van IIS die kunnen leiden tot beveiligingsproblemen, uit. Daarmee worden de beveiligingsrisico's verkleind.
 
-| ![](images/Cc708486.note(WS.10).gif)Opmerking                                                                                                                                                                                                    |
+| ![](/security-updates/images/Cc708486.note(WS.10).gif)Opmerking                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Setup van WSUS installeert deze onderdelen niet. U dient deze onderdelen handmatig te installeren. U hoeft de IIS-beveiliging niet te installeren op computers waarop Windows Server 2003 wordt uitgevoerd, omdat deze functionaliteit in dit besturingssysteem is ingebouwd. |
 

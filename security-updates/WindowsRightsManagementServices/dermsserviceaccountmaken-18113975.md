@@ -13,13 +13,13 @@ Tijdens de installatie van RMS wordt op de lokale computer een beveiligingsgroep
 
 Als u RMS op een server inricht, geeft u een gebruikersaccount op die moet worden gebruikt als de RMS-serviceaccount. Deze account wordt lid gemaakt van de RMS-servicegroep en aan de account worden de machtigingen toegewezen die horen bij deze groep. Tijdens normale bewerkingen wordt RMS in de meeste gevallen uitgevoerd onder de RMS-serviceaccount.
 
-| ![](images/Cc747546.note(WS.10).gif)Opmerking         |
+| ![](/security-updates/images/Cc747546.note(WS.10).gif)Opmerking         |
 |------------------------------------------------------------------------------------|
 | Gebruik als RMS-serviceaccount niet de domeinaccount waarmee RMS is geïnstalleerd. |
 
 Uit veiligheidsoverwegingen kunt u het beste een speciale gebruikersaccount maken en deze account alleen als RMS-serviceaccount gebruiken. Stel voor deze account geen extra machtigingen in.
 
-| ![](images/Cc747546.Important(WS.10).gif)Belangrijk   |
+| ![](/security-updates/images/Cc747546.Important(WS.10).gif)Belangrijk   |
 |------------------------------------------------------------------------------------|
 | U moet deze speciale gebruikersaccount maken voordat u RMS installeert en inricht. |
 
