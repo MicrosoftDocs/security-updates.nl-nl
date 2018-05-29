@@ -24,7 +24,7 @@ Intrekkingslijsten kunnen door de beheerder naar clientcomputers worden gedistri
 
 In het volgende schema wordt het bindingsproces weergegeven en wordt aangegeven welke rol intrekking in dit proces speelt.
 
-![alt text](images/Cc720263.81aa2d70-d261-49ad-b446-96a2eddba1a5(WS.10).gif "Bindproces")
+![alt text](/security-updates/images/Cc720263.81aa2d70-d261-49ad-b446-96a2eddba1a5(WS.10).gif "Bindproces")
 
 Intrekking is optioneel. De RMS-beheerder kan intrekking vereisen door dit op te geven in een of meer sjablonen voor het rechtenbeleid van de organisatie. Als intrekking vereist is, kan een licentie alleen worden gebonden als de vereiste intrekkingslijst aanwezig is, op de computer van de gebruiker is geregistreerd en niet ouder is dan het vernieuwingsinterval dat is opgegeven in de gebruikslicentie.
 

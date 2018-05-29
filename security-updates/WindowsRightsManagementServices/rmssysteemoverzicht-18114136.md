@@ -93,6 +93,6 @@ RMS gebruikt de inschrijvings- en activeringsservices waarvoor Microsoft als hos
 
 In het volgende schema worden de verschillende onderdelen van een RMS-systeem en de functies van deze onderdelen in het systeem weergegeven. De pijlen staan voor de aanvragen en antwoorden die van en naar de verschillende onderdelen worden verstuurd.
 
-![alt text](images/Cc747671.29138741-d45c-459b-8ead-b9bc3f708dd5(WS.10).gif "Onderdelen van RMS-systeem")
+![alt text](/security-updates/images/Cc747671.29138741-d45c-459b-8ead-b9bc3f708dd5(WS.10).gif "Onderdelen van RMS-systeem")
 
 Zie '[RMS-softwareonderdelen](https://technet.microsoft.com/e38a840e-f390-48fd-8354-50108a64f5ca)' verderop in dit onderwerp voor meer informatie over elk onderdeel.

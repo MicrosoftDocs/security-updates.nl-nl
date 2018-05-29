@@ -11,7 +11,7 @@ Gebruikslicentie verkrijgen
 
 Als een gebruiker wil werken met door RMS beveiligde inhoud, moet deze een gebruikslicentie verkrijgen via de licentieservice van RMS. In de volgende afbeelding wordt het proces van het aanvragen en ontvangen van een gebruikslicentie geïllustreerd.
 
-![alt text](images/Cc720194.37b8d28c-9749-4e81-bc6a-22692fefb8b6(WS.10).gif "Proces van het verkrijgen van een gebruikslicentie")
+![alt text](/security-updates/images/Cc720194.37b8d28c-9749-4e81-bc6a-22692fefb8b6(WS.10).gif "Proces van het verkrijgen van een gebruikslicentie")
 
 Het proces voor het verkrijgen van een gebruikslicentie omvat de volgende stappen:
 
