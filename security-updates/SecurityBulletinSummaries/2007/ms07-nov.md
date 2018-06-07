@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor november 2007'
 ms:assetid: 'ms07-nov'
 ms:contentKeyID: 61231951
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms07-nov(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

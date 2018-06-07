@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor oktober 2005'
 ms:assetid: 'ms05-oct'
 ms:contentKeyID: 61231928
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms05-oct(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

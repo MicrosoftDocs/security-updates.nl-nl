@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor december 2009'
 ms:assetid: 'ms09-dec'
 ms:contentKeyID: 61231968
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms09-dec(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

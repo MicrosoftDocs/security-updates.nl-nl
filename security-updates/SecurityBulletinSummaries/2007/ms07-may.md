@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor mei 2007'
 ms:assetid: 'ms07-may'
 ms:contentKeyID: 61231950
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms07-may(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

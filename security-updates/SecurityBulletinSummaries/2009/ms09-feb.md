@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor februari 2009'
 ms:assetid: 'ms09-feb'
 ms:contentKeyID: 61231969
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms09-feb(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

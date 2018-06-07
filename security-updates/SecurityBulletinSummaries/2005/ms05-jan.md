@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor januari 2005'
 ms:assetid: 'ms05-jan'
 ms:contentKeyID: 61231922
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms05-jan(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

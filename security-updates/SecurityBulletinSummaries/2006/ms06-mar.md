@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor maart 2006'
 ms:assetid: 'ms06-mar'
 ms:contentKeyID: 61231937
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms06-mar(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

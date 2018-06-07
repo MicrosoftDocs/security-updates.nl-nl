@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor maart 2010'
 ms:assetid: 'ms10-mar'
 ms:contentKeyID: 61231985
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms10-mar(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

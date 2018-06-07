@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor november 2006'
 ms:assetid: 'ms06-nov'
 ms:contentKeyID: 61231939
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms06-nov(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

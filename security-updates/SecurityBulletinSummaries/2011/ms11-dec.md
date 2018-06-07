@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor december 2011'
 ms:assetid: 'ms11-dec'
 ms:contentKeyID: 61231992
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms11-dec(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

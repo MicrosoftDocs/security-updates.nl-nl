@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor december 2005'
 ms:assetid: 'ms05-dec'
 ms:contentKeyID: 61231920
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms05-dec(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

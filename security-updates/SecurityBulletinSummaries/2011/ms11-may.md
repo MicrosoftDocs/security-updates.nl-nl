@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor mei 2011'
 ms:assetid: 'ms11-may'
 ms:contentKeyID: 61231998
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms11-may(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

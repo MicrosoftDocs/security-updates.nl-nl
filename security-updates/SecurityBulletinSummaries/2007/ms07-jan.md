@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor januari 2007'
 ms:assetid: 'ms07-jan'
 ms:contentKeyID: 61231946
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms07-jan(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

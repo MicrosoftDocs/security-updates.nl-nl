@@ -4,6 +4,8 @@ Title: 'Acknowledgments – 2016'
 ms:assetid: 'c331b884-a1a2-4177-9842-848096236a6d'
 ms:contentKeyID: 72149370
 ms:mtpsurl: 'https://technet.microsoft.com/en-us/library/Mt674627(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Acknowledgments – 2016

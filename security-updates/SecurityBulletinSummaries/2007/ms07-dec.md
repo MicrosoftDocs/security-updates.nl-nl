@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor december 2007'
 ms:assetid: 'ms07-dec'
 ms:contentKeyID: 61231944
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms07-dec(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

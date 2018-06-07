@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor februari 2010'
 ms:assetid: 'ms10-feb'
 ms:contentKeyID: 61231981
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms10-feb(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

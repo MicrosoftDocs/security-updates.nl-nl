@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor maart 2007'
 ms:assetid: 'ms07-mar'
 ms:contentKeyID: 61231949
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms07-mar(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

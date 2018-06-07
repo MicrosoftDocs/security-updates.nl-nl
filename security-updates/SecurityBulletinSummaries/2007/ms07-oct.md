@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor oktober 2007'
 ms:assetid: 'ms07-oct'
 ms:contentKeyID: 61231952
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms07-oct(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

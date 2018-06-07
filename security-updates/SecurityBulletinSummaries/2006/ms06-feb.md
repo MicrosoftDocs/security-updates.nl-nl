@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor februari 2006'
 ms:assetid: 'ms06-feb'
 ms:contentKeyID: 61231933
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms06-feb(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

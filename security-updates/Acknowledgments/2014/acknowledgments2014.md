@@ -4,6 +4,8 @@ Title: 'Acknowledgments - 2014'
 ms:assetid: '8a110d7e-7cb3-4342-9222-2d0b1d464b94'
 ms:contentKeyID: 63190094
 ms:mtpsurl: 'https://technet.microsoft.com/en-us/library/Dn820091(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Acknowledgments - 2014

@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor april 2011'
 ms:assetid: 'ms11-apr'
 ms:contentKeyID: 61231990
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms11-apr(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

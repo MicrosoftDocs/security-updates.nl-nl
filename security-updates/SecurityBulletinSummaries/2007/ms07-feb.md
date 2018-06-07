@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor februari 2007'
 ms:assetid: 'ms07-feb'
 ms:contentKeyID: 61231945
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms07-feb(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

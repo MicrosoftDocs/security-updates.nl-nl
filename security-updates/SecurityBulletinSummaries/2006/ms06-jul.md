@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor juli 2006'
 ms:assetid: 'ms06-jul'
 ms:contentKeyID: 61231935
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms06-jul(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor maart 2012'
 ms:assetid: 'ms12-mar'
 ms:contentKeyID: 61232006
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms12-mar(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary
