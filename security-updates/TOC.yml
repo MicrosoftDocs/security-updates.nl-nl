@@ -1,7 +1,7 @@
 - name: Security Updates
   href: index.md
   items:
-- name: Security Advisories
+- name: Advisories
   href: ./SecurityAdvisories/securityadvisories.md
   items:
   - name: 2012

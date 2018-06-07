@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor mei 2012'
 ms:assetid: 'ms12-may'
 ms:contentKeyID: 61232007
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms12-may(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

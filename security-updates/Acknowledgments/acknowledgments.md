@@ -4,6 +4,8 @@ Title: Acknowledgments
 ms:assetid: 'ae04ac6f-4218-4a7b-a192-a70cef55c929'
 ms:contentKeyID: 63895200
 ms:mtpsurl: 'https://technet.microsoft.com/en-us/library/Dn903703(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Acknowledgments

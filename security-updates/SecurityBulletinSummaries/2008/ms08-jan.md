@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor januari 2008'
 ms:assetid: 'ms08-jan'
 ms:contentKeyID: 61231958
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms08-jan(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor januari 2006'
 ms:assetid: 'ms06-jan'
 ms:contentKeyID: 61231934
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms06-jan(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

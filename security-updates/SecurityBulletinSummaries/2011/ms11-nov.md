@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor november 2011'
 ms:assetid: 'ms11-nov'
 ms:contentKeyID: 61231999
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms11-nov(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

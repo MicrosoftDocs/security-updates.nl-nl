@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor augustus 2011'
 ms:assetid: 'ms11-aug'
 ms:contentKeyID: 61231991
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms11-aug(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

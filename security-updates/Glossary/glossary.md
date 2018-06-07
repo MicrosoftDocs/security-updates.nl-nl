@@ -4,6 +4,8 @@ Title: Glossary
 ms:assetid: 'a7dd454f-fef8-4dab-a1c7-349f902b04ac'
 ms:contentKeyID: 63185425
 ms:mtpsurl: 'https://technet.microsoft.com/en-us/library/Dn848375(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Glossary

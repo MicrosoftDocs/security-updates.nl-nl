@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor oktober 2011'
 ms:assetid: 'ms11-oct'
 ms:contentKeyID: 61232000
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms11-oct(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

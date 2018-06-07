@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor november 2008'
 ms:assetid: 'ms08-nov'
 ms:contentKeyID: 61231963
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms08-nov(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

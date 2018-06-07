@@ -4,6 +4,8 @@ Title: 'Acknowledgments – 2015'
 ms:assetid: '5dc993bf-5c72-4667-9121-86ae9b6663f1'
 ms:contentKeyID: 63898006
 ms:mtpsurl: 'https://technet.microsoft.com/en-us/library/Dn903755(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Acknowledgments – 2015

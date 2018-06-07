@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor augustus 2010'
 ms:assetid: 'ms10-aug'
 ms:contentKeyID: 61231979
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms10-aug(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

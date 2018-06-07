@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor juni 2010'
 ms:assetid: 'ms10-jun'
 ms:contentKeyID: 61231984
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms10-jun(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

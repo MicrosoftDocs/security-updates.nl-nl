@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor april 2012'
 ms:assetid: 'ms12-apr'
 ms:contentKeyID: 61232002
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms12-apr(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

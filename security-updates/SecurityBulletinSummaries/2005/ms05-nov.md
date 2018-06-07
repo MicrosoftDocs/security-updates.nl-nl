@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor november 2005'
 ms:assetid: 'ms05-nov'
 ms:contentKeyID: 61231927
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms05-nov(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

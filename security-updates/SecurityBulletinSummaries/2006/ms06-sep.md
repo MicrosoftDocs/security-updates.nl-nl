@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor september 2006'
 ms:assetid: 'ms06-sep'
 ms:contentKeyID: 61231941
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms06-sep(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

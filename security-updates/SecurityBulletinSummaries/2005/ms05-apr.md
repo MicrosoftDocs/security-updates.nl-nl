@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor april 2005'
 ms:assetid: 'ms05-apr'
 ms:contentKeyID: 61231918
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms05-apr(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

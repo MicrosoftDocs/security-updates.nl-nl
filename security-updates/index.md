@@ -4,6 +4,8 @@ Title: Beveiligingsadviezen en beveiligingsbulletins
 ms:assetid: 'ac28e14e-994a-4fc5-bf4c-cf15bbde97fc'
 ms:contentKeyID: 62182049
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/Dn610807(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 MSRC ppDocument-sjabloon

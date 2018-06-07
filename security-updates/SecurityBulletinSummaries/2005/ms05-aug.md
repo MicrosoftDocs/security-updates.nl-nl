@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor augustus 2005'
 ms:assetid: 'ms05-aug'
 ms:contentKeyID: 61231919
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms05-aug(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

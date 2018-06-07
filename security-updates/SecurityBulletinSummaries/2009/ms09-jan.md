@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor januari 2009'
 ms:assetid: 'ms09-jan'
 ms:contentKeyID: 61231970
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms09-jan(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor september 2007'
 ms:assetid: 'ms07-sep'
 ms:contentKeyID: 61231953
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms07-sep(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

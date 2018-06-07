@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor september 2011'
 ms:assetid: 'ms11-sep'
 ms:contentKeyID: 61232001
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms11-sep(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

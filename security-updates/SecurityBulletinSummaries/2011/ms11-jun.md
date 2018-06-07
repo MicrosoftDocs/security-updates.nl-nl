@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor juni 2011'
 ms:assetid: 'ms11-jun'
 ms:contentKeyID: 61231996
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms11-jun(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

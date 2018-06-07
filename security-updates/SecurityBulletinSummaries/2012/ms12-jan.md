@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor januari 2012'
 ms:assetid: 'ms12-jan'
 ms:contentKeyID: 61232004
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms12-jan(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

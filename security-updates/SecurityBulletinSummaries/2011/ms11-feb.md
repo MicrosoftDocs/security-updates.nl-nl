@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor februari 2011'
 ms:assetid: 'ms11-feb'
 ms:contentKeyID: 61231993
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms11-feb(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

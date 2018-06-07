@@ -4,6 +4,8 @@ Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor september 2010'
 ms:assetid: 'ms10-sep'
 ms:contentKeyID: 61231989
 ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms10-sep(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary
