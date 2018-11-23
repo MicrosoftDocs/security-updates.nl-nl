@@ -1,0 +1,1811 @@
+---
+TOCTitle: 'MS10-SEP'
+Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor september 2010'
+ms:assetid: 'ms10-sep'
+ms:contentKeyID: 61231989
+ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms10-sep(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
+---
+
+Security Bulletin Summary
+
+Samenvatting van de Microsoft-beveiligingsbulletins voor september 2010
+=======================================================================
+
+Gepubliceerd: dinsdag 14 september 2010 | Bijgewerkt: woensdag 26 oktober 2011
+
+**Versie:** 6.1
+
+In dit bulletin wordt een overzicht gegeven van de beveiligingsbulletins voor september 2010.
+
+Met de bulletins voor september 2010 wordt de vooraankondiging van de bulletins, die oorspronkelijk werd uitgegeven op 9 september 2010, vervangen. Ga voor meer informatie over de vooraankondiging naar [Vooraankondiging van Microsoft-beveiligingsbulletins](http://technet.microsoft.com/security/bulletin/advance).
+
+Ga naar [de mededelingenservice voor Microsoft-beveiligingsbulletins](http://go.microsoft.com/fwlink/?linkid=21163) voor informatie over hoe u automatisch meldingen ontvangt wanneer Microsoft beveiligingsbulletins uitgeeft.
+
+Op 15 september 2010 om 11:00 AM Pacific Time (VS en Canada) zal Microsoft tijdens een webcast vragen van gebruikers over deze bulletins beantwoorden. [Schrijf u nu in voor de webcast over de beveiligingsbulletins van september.](https://msevents.microsoft.com/cui/webcasteventdetails.aspx?eventid=1032454433&eventcategory=4&culture=en-us&countrycode=us) Na deze datum is de webcast op verzoek beschikbaar. Zie [Samenvattingen van de Microsoft-beveiligingsbulletins en webcasts](http://technet.microsoft.com/security/bulletin/summary) voor meer informatie.
+
+Voor de bijzondere beveiligingsbulletins die zijn toegevoegd aan versie 3.0 van deze samenvatting van bulletins, MS10-070, zal Microsoft vragen van klanten beantwoorden op een webcast op 28 september 2010 om 1:00 PM Pacific Time (VS en Canada). [Schrijf u nu in voor de webcast op 28 september om 1:00 PM](https://msevents.microsoft.com/cui/eventdetail.aspx?eventid=1032464130&culture=en-us). Na deze datum is de webcast op verzoek beschikbaar. Zie Samenvattingen van de Microsoft-beveiligingsbulletins en webcasts voor meer informatie.
+
+Microsoft helpt haar gebruikers bij het vaststellen van het belang voor de maandelijkse beveiligingsupdates van de nieuwste belangrijkste updates die geen verband houden met beveiliging, en die op dezelfde dag als de maandelijkse beveiligingsupdates worden uitgegeven. Zie de sectie **Overige informatie**.
+
+### Bulletininformatie
+
+Samenvattingen
+--------------
+
+<span></span>
+In de volgende tabel staat de beveiligingsbulletins voor deze maand op volgorde van prioriteit.
+
+Zie de volgende sectie **Software waarin dit probleem optreedt en Downloadlocaties** voor meer informatie over software die last heeft van een probleem.
+
+ 
+<table style="border:1px solid black;">
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >Bulletin-id</th>
+<th style="border:1px solid black;" >Titel bulletin en samenvatting</th>
+<th style="border:1px solid black;" >Maximaal prioriteitsniveau en gevolgen van het beveiligingslek</th>
+<th style="border:1px solid black;" >Opnieuw opstarten vereist</th>
+<th style="border:1px solid black;" >Software waarin dit probleem optreedt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=200505">MS10-061</a></td>
+<td style="border:1px solid black;"><strong>Door een beveiligingslek in de Print Spooler-service kan externe code worden uitgevoerd (2347290)</strong><br />
+<br />
+Deze beveiligingsupdate lost een openbaar gemeld beveiligingslek in de Print Spooler-service op. Door het beveiligingslek kan externe code worden uitgevoerd als een aanvaller een speciaal vervaardigde afdrukaanvraag verzendt naar een kwetsbaar systeem met een Print Spooler-interface die beschikbaar is via RPC. Standaard worden printers niet gedeeld op huidige ondersteunde Windows-besturingssystemen.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritiek</a><br />
+Uitvoering van externe code mogelijk</td>
+<td style="border:1px solid black;">Moet opnieuw worden opgestart</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=190884">MS10-062</a></td>
+<td style="border:1px solid black;"><strong>Door een beveiligingslek in de MPEG-4-codec kan externe code worden uitgevoerd (975558)</strong><br />
+<br />
+Met deze beveiligingsupdate wordt een privé gemeld beveiligingslek in de MPEG-4-codec opgelost. Door dit beveiligingslek kan externe code worden uitgevoerd als een gebruiker een speciaal ontworpen mediabestand opent of speciaal ontworpen streaming content ontvangt van een website of een toepassing die webinhoud levert. Een aanvaller die erin slaagt misbruik te maken van dit beveiligingslek, kan dezelfde rechten over het systeem krijgen als de lokale gebruiker. Gebruikers met accounts waarvoor minder gebruikersrechten op het systeem zijn ingesteld, lopen minder risico dan gebruikers die met beheerdersrechten werken.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritiek</a><br />
+Uitvoering van externe code mogelijk</td>
+<td style="border:1px solid black;">Opnieuw starten mogelijk vereist</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=200378">MS10-063</a></td>
+<td style="border:1px solid black;"><strong>Door een beveiligingslek in de Unicode Scripts Processor kan externe code worden uitgevoerd (2320113)</strong><br />
+<br />
+Met deze beveiligingsupdate wordt een privé gemeld beveiligingslek in de Unicode Scripts Processor opgelost. Door het beveiligingslek kan externe code worden uitgevoerd als een gebruiker een speciaal vervaardigd document of een speciaal vervaardigde webpagina bekijkt met een toepassing die ondersteuning biedt voor EOT-lettertypen. Een aanvaller die erin slaagt misbruik te maken van dit beveiligingslek, kan dezelfde rechten over het systeem krijgen als de lokale gebruiker. Gebruikers met accounts waarvoor minder gebruikersrechten op het systeem zijn ingesteld, lopen minder risico dan gebruikers die met beheerdersrechten werken.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritiek</a><br />
+Uitvoering van externe code mogelijk</td>
+<td style="border:1px solid black;">Opnieuw starten mogelijk vereist</td>
+<td style="border:1px solid black;">Microsoft Windows, Microsoft Office</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=200727">MS10-064</a></td>
+<td style="border:1px solid black;"><strong>Door een beveiligingslek in Microsoft Outlook kan externe code worden uitgevoerd (2315011)</strong><br />
+<br />
+Door deze update wordt een privé gemeld beveiligingslek opgelost. Door het beveiligingslek kan externe code worden uitgevoerd als een gebruiker een speciaal vervaardigd e-mailbericht opent of bekijkt met een getroffen versie van Microsoft Outlook die verbinding maakt met een Exchange-server in de modus Online. Een aanvaller die erin slaagt misbruik te maken van dit beveiligingslek, kan dezelfde rechten over het systeem krijgen als de lokale gebruiker. Gebruikers met accounts waarvoor minder gebruikersrechten op het systeem zijn ingesteld, lopen minder risico dan gebruikers die met beheerdersrechten werken.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritiek</a><br />
+Uitvoering van externe code mogelijk</td>
+<td style="border:1px solid black;">Opnieuw starten mogelijk vereist</td>
+<td style="border:1px solid black;">Microsoft Office:</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=199537">MS10-065</a></td>
+<td style="border:1px solid black;"><strong>Door beveiligingslekken in Microsoft Internet Information Services (IIS) kan externe code worden uitgevoerd</strong> <strong>(2267960)</strong><br />
+<br />
+Met deze beveiligingsupdate worden twee privé gemelde beveiligingslekken en een openbaar gemaakt beveiligingslek in Internet Information Services (IIS) opgelost. Door het ernstigste beveiligingslek kan externe code worden uitgevoerd als een client een speciaal vervaardigde HTTP-aanvraag naar de server verzendt. Een aanvaller die misbruik weet te maken van dit beveiligingslek, kan volledige controle krijgen over een systeem waarin dit probleem optreedt.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Belangrijk</a><br />
+Uitvoering van externe code mogelijk</td>
+<td style="border:1px solid black;">Opnieuw starten mogelijk vereist</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=197105">MS10-066</a></td>
+<td style="border:1px solid black;"><strong>Door een beveiligingslek in Remote Procedure Call kan externe code worden uitgevoerd</strong> <strong>(982802)</strong><br />
+<br />
+Met deze beveiligingsupdate wordt een privé gemeld beveiligingslek in Microsoft Windows opgelost. Het prioriteitsniveau van deze beveiligingsupdate is Belangrijk voor alle ondersteunde edities van Windows XP en Windows Server 2003. Alle ondersteunde edities van Windows Vista, Windows Server 2008, Windows 7 en Windows Server 2008 R2 worden niet getroffen door het beveiligingslek.<br />
+<br />
+Als gevolg van dit beveiligingslek kan externe code worden uitgevoerd als een aanvaller een speciaal vervaardigde RPC-reactie naar een door de client gestarte RPC-aanvraag heeft verzonden. Een aanvaller die dit beveiligingslek weet te misbruiken, kan willekeurige programmacode uitvoeren en volledige controle krijgen over het systeem waarin dit probleem optreedt. Een aanvaller moet de gebruiker overhalen om een RPC-verbinding tot stand te brengen met een schadelijke server waarover de aanvaller de controle heeft. Een aanvaller kan alleen op afstand misbruik maken van dit beveiligingslek als de gebruiker een handeling uitvoert.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Belangrijk</a><br />
+Uitvoering van externe code mogelijk</td>
+<td style="border:1px solid black;">Moet opnieuw worden opgestart</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=197102">MS10-067</a></td>
+<td style="border:1px solid black;"><strong>Door een beveiligingslek in WordPad-tekstconversieprogramma's kan externe code worden uitgevoerd (2259922)</strong><br />
+<br />
+Met deze beveiligingsupdate wordt een privé gemeld beveiligingslek in Microsoft Windows opgelost. Het prioriteitsniveau van deze beveiligingsupdate is Belangrijk voor alle ondersteunde edities van Windows XP en Windows Server 2003. Alle ondersteunde edities van Windows Vista, Windows Server 2008, Windows 7 en Windows Server 2008 R2 worden niet getroffen door het beveiligingslek.<br />
+<br />
+Door het beveiligingslek kan externe code worden uitgevoerd als een gebruiker een speciaal vervaardigd bestand opent met WordPad. Een aanvaller die erin slaagt misbruik te maken van dit beveiligingslek, kan dezelfde rechten over het systeem krijgen als de lokale gebruiker. Gebruikers met accounts waarvoor minder gebruikersrechten op het systeem zijn ingesteld, lopen minder risico dan gebruikers die met beheerdersrechten werken.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Belangrijk</a><br />
+Uitvoering van externe code mogelijk</td>
+<td style="border:1px solid black;">Opnieuw starten mogelijk vereist</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=190509">MS10-068</a></td>
+<td style="border:1px solid black;"><strong>Beveiligingslek in Local Security Authority Subsystem Service kan leiden tot misbruik van bevoegdheden (983539)</strong><br />
+<br />
+Met deze beveiligingsupdate wordt een privé gemeld beveiligingslek in Active Directory, Active Directory Application Mode (ADAM) en Active Directory Lightweight Directory Service (AD LDS) opgelost. Het beveiligingslek kan leiden tot misbruik van bevoegdheden als een geverifieerde aanvaller speciaal vervaardigde LDAP-berichten (Lightweight Directory Access Protocol) verstuurt naar een luisterende LSASS-server. Een aanvaller kan dit beveiligingslek alleen misbruiken als hij een lidaccount heeft in het beoogde Windows-domein. Het werkstation van de aanvaller hoeft echter niet te zijn verbonden met het Windows-domein.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Belangrijk</a><br />
+Misbruik van bevoegdheden</td>
+<td style="border:1px solid black;">Moet opnieuw worden opgestart</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=197093">MS10-069</a></td>
+<td style="border:1px solid black;"><strong>Beveiligingslek in Windows Client/Server Runtime Subsystem kan leiden tot misbruik van bevoegdheden (2121546)</strong><br />
+<br />
+Met deze beveiligingsupdate wordt een privé gemeld beveiligingslek in Microsoft Windows opgelost. Het prioriteitsniveau van deze beveiligingsupdate is Belangrijk voor alle ondersteunde edities van Windows XP en Windows Server 2003. Alle ondersteunde edities van Windows Vista, Windows Server 2008, Windows 7 en Windows Server 2008 R2 worden niet getroffen door het beveiligingslek.<br />
+<br />
+Het beveiligingslek kan leiden tot misbruik van bevoegdheden als een aanvaller zich aanmeldt op een getroffen systeem dat is geconfigureerd met een Chinese, Japanse of Koreaanse landinstelling van het systeem. De aanvaller die dit beveiligingslek kan misbruiken, kan programma's installeren, gegevens bekijken, wijzigen of wissen, en nieuwe accounts met volledige gebruikersrechten maken.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Belangrijk</a><br />
+Misbruik van bevoegdheden</td>
+<td style="border:1px solid black;">Moet opnieuw worden opgestart</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=202409">MS10-070</a></td>
+<td style="border:1px solid black;"><strong>Beveiligingslek in ASP.NET kan leiden tot vrijgeven van informatie (2418042)</strong><br />
+<br />
+Deze beveiligingsupdate lost een openbaar gemeld beveiligingslek in ASP.NET op. Het beveiligingslek kan leiden tot het vrijgeven van informatie. Een aanvaller die misbruik weet te maken van dit beveiligingslek, kan gegevens lezen die zijn gecodeerd door de server, zoals de Weergavestatus. Dit beveiligingslek kan ook worden gebruikt voor gegevensvervalsing, waardoor de gegevens die zijn gecodeerd door de server, kunnen worden gedecodeerd en gewijzigd. Microsoft. NET Framework-versies die ouder zijn dan Microsoft .NET Framework 3.5 wordt Service Pack 1 worden niet getroffen door het gedeelte met betrekking tot het vrijgeven van bestandsinhoud van dit beveiligingslek.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Belangrijk</a><br />
+Vrijgeven van informatie</td>
+<td style="border:1px solid black;">Opnieuw starten mogelijk vereist</td>
+<td style="border:1px solid black;">Microsoft Windows, Microsoft .NET Framework</td>
+</tr>
+</tbody>
+</table>
+  
+Exploitatie-index  
+-----------------
+  
+<span></span>
+In de volgende tabel vindt u een beoordeling van de mate van misbruik van elk beveiligingslek dat deze maand wordt opgelost. De beveiligingslekken worden genoemd in afnemende volgorde van de mate van misbruik en vervolgens op CVE-id. Alleen beveiligingslekken met het prioriteitsniveau Kritiek of Belangrijk in de bulletins zijn opgenomen.
+  
+**Gebruik van** **deze tabel**?
+  
+Raadpleeg deze tabel voor informatie over de kans dat binnen 30 dagen na publicatie van beveiligingsbulletins functionerende exploitatiecode verschijnt voor elk van de beveiligingsupdates die u misschien moet installeren. Bekijk deze beoordelingen overeenkomstig de configuratie van uw computer(s) om de ernst van het probleem te kunnen vaststellen. Zie de [exploitatie-index van Microsoft](http://technet.microsoft.com/en-us/security/cc998259.aspx) voor meer informatie over de betekenis van deze prioriteitsniveaus en hoe die worden vastgesteld.
+  
+| Bulletin-id                                               | Titel van beveiligingslek                                                                                      | CVE-id                                                                           | Beoordeling van de exploitatie-index                                                                                 | Belangrijke opmerkingen                                                                          |  
+|-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|  
+| [MS10-062](http://go.microsoft.com/fwlink/?linkid=190884) | Beveiligingslek in de MPEG-4-codec                                                                             | [CVE-2010-0818](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-0818) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | Uitvoering van code is minder waarschijnlijk op Windows Vista vanwege bijkomende heapbeperkingen |  
+| [MS10-068](http://go.microsoft.com/fwlink/?linkid=190509) | Beveiligingslek met betrekking tot LSASS Heap-overloop                                                         | [CVE-2010-0820](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-0820) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | (Geen)                                                                                           |  
+| [MS10-069](http://go.microsoft.com/fwlink/?linkid=197093) | Beveiligingslek dat kan leiden tot lokaal misbruik van bevoegdheden in CSRSS                                   | [CVE-2010-1891](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-1891) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | (Geen)                                                                                           |  
+| [MS10-067](http://go.microsoft.com/fwlink/?linkid=197102) | Beveiligingslek met betrekking tot ontregeld geheugen in WordPad-Word 97-tekstconversieprogramma               | [CVE-2010-2563](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2563) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | (Geen)                                                                                           |  
+| [MS10-066](http://go.microsoft.com/fwlink/?linkid=197105) | Beveiligingslek met betrekking tot ontregeld geheugen in RPC                                                   | [CVE-2010-2567](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2567) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | (Geen)                                                                                           |  
+| [MS10-061](http://go.microsoft.com/fwlink/?linkid=200505) | Beveiligingslek in de Print Spooler-service met betrekking tot het imiteren van gebruikers                     | [CVE-2010-2729](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2729) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | **Dit beveiligingslek wordt momenteel in het** **internet-ecosysteem misbruikt**                 |  
+| [MS10-070](http://go.microsoft.com/fwlink/?linkid=202409) | Beveiligingslek in ASP.NET met betrekking tot Padding Oracle                                                   | [CVE-2010-3332](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3332) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | **Dit beveiligingslek wordt momenteel in het internet-ecosysteem misbruikt**                     |  
+| [MS10-065](http://go.microsoft.com/fwlink/?linkid=199537) | Beveiligingslek met betrekking tot het niet uitvoeren van adreslijstverificatie                                | [CVE-2010-2731](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2731) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | **Dit beveiligingslek is openbaar gemaakt.**                                                     |  
+| [MS10-063](http://go.microsoft.com/fwlink/?linkid=200378) | Beveiligingslek met betrekking tot ontregeld geheugen in de Uniscribe-engine voor het parseren van lettertypen | [CVE-2010-2738](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2738) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | (Geen)                                                                                           |  
+| [MS10-064](http://go.microsoft.com/fwlink/?linkid=200727) | Beveiligingslek in Outlook met betrekking tot een heapbufferoverloop                                           | [CVE-2010-2728](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2728) | [**2**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Inconsistente exploitatiecode is waarschijnlijk | (Geen)                                                                                           |  
+| [MS10-065](http://go.microsoft.com/fwlink/?linkid=199537) | Beveiligingslek met betrekking tot bufferoverloop door headers van aanvragen                                   | [CVE-2010-2730](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2730) | [**2**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Inconsistente exploitatiecode is waarschijnlijk | (Geen)                                                                                           |  
+| [MS10-065](http://go.microsoft.com/fwlink/?linkid=199537) | Beveiligingslek met betrekking tot herhaalde parameteraanvraag in IIS                                          | [CVE-2010-1899](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-1899) | [**3**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Kans op werkende exploitatiecode is gering      | Dit beveiligingslek heeft alleen betrekking op een denial of service                             |
+  
+Software waarin het probleem optreedt en Downloadlocaties  
+---------------------------------------------------------
+  
+<span></span>
+In de volgende tabellen staan de bulletins volgens belangrijke softwarecategorie en prioriteit.
+  
+**Gebruik van deze tabellen**
+  
+In deze tabellen vindt u informatie over de beveiligingsupdates die u mogelijk moet installeren. U moet voor elk softwareprogramma of -onderdeel in de tabel controleren of er nieuwe beveiligingsupdates zijn. Indien een softwareprogramma of onderdeel is vermeld, wordt er een hyperlink naar de verkrijgbare software-update weergegeven en wordt ook het prioriteitsniveau van de software-update vermeld.
+  
+**Opmerking** voor één beveiligingslek moet u mogelijk verschillende beveiligingsupdates installeren. Bekijk de gehele kolom van elke bulletin-id die wordt weergegeven om te controleren of de te installeren updates zijn gebaseerd op de programma's of onderdelen die u op uw systeem hebt geïnstalleerd.
+  
+#### Windows-besturingssysteem en -onderdelen
+
+ 
+<table style="border:1px solid black;">
+<tr class="thead">
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+</tr>
+<tr>
+<th colspan="10">
+Windows XP  
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Bulletin-** **id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-061**](http://go.microsoft.com/fwlink/?linkid=200505)
+</td>
+<td style="border:1px solid black;">
+[**MS10-062**](http://go.microsoft.com/fwlink/?linkid=190884)
+</td>
+<td style="border:1px solid black;">
+[**MS10-063**](http://go.microsoft.com/fwlink/?linkid=200378)
+</td>
+<td style="border:1px solid black;">
+[**MS10-065**](http://go.microsoft.com/fwlink/?linkid=199537)
+</td>
+<td style="border:1px solid black;">
+[**MS10-066**](http://go.microsoft.com/fwlink/?linkid=197105)
+</td>
+<td style="border:1px solid black;">
+[**MS10-067**](http://go.microsoft.com/fwlink/?linkid=197102)
+</td>
+<td style="border:1px solid black;">
+[**MS10-068**](http://go.microsoft.com/fwlink/?linkid=190509)
+</td>
+<td style="border:1px solid black;">
+[**MS10-069**](http://go.microsoft.com/fwlink/?linkid=197093)
+</td>
+<td style="border:1px solid black;">
+[**MS10-070**](http://go.microsoft.com/fwlink/?linkid=202409)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows XP Service Pack 3
+</td>
+<td style="border:1px solid black;">
+[Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=93faba6b-0a85-4acc-b527-a012bbf56b13)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+[Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=2084a01c-2a91-4650-8665-7053015f2083)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+[Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=a1d47f30-c1fc-4b9d-8829-3bad1224006a)  
+(KB981322)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+IIS ASP:  
+[Internet Information Services 5.1](http://www.microsoft.com/downloads/details.aspx?familyid=555864c3-9114-4988-8526-7bf545a27706)  
+(KB2124261)  
+(Belangrijk)  
+IIS-verificatie  
+[Internet Information Services 5.1](http://www.microsoft.com/downloads/details.aspx?familyid=ae55787e-4a5c-48d5-aedf-0abada514938)  
+(KB2290570)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=7ad0f2cf-03dc-49a0-a16e-17fed0c01cc6)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=fc4369ec-864a-42ae-a850-b006872241fe)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=6554f98f-4dc5-4784-b92c-b0aae1fa22ca)  
+(KB982000)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=20091358-7127-4ace-bf96-4319461ad305)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)  
+(KB2416447)  
+(Belangrijk)  
+[Microsoft .NET Framework 2.0 Service Pack 2 en Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=3d31fd37-eb58-4169-b6b9-4cf854524e46)  
+(KB2418241)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=d284237b-e4d9-460a-98f0-7a18252f5780)  
+(KB2416468)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)  
+(KB2418240)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)  
+(KB2416473)  
+(Belangrijk)  
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
+(KB2416472)  
+(Belangrijk)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows XP Professional x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=9f7f3737-056d-44bd-b644-51093b5b501b)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=284a0e80-fd03-4909-b354-0478f04585a1)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b27f310f-6ecc-4abb-8944-9fc24c66e077)  
+(KB981322)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+IIS ASP:  
+[Internet Information Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=0b28bfac-783d-4c89-988b-4123c0343855)  
+(KB2124261)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3349b12b-621e-48bc-9c57-489c7a56920d)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=7567986a-261d-4def-9fa5-c667994c7844)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=5bc00f9a-3028-4c9d-be06-f2b78fa444c4)  
+(KB982000)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=107eb958-b60f-40ae-a785-5d5b4d13d8c6)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)  
+(KB2416447)  
+(Belangrijk)  
+[Microsoft .NET Framework 2.0 Service Pack 2 en Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=3d31fd37-eb58-4169-b6b9-4cf854524e46)  
+(KB2418241)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=d284237b-e4d9-460a-98f0-7a18252f5780)  
+(KB2416468)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)  
+(KB2418240)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)  
+(KB2416473)  
+(Belangrijk)  
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
+(KB2416472)  
+(Belangrijk)
+</td>
+</tr>
+<tr>
+<th colspan="10">
+Windows Server 2003
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-061**](http://go.microsoft.com/fwlink/?linkid=200505)
+</td>
+<td style="border:1px solid black;">
+[**MS10-062**](http://go.microsoft.com/fwlink/?linkid=190884)
+</td>
+<td style="border:1px solid black;">
+[**MS10-063**](http://go.microsoft.com/fwlink/?linkid=200378)
+</td>
+<td style="border:1px solid black;">
+[**MS10-065**](http://go.microsoft.com/fwlink/?linkid=199537)
+</td>
+<td style="border:1px solid black;">
+[**MS10-066**](http://go.microsoft.com/fwlink/?linkid=197105)
+</td>
+<td style="border:1px solid black;">
+[**MS10-067**](http://go.microsoft.com/fwlink/?linkid=197102)
+</td>
+<td style="border:1px solid black;">
+[**MS10-068**](http://go.microsoft.com/fwlink/?linkid=190509)
+</td>
+<td style="border:1px solid black;">
+[**MS10-069**](http://go.microsoft.com/fwlink/?linkid=197093)
+</td>
+<td style="border:1px solid black;">
+[**MS10-070**](http://go.microsoft.com/fwlink/?linkid=202409)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3d79680b-c071-462f-9cea-551fbd42edf0)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=0a942985-081f-455c-bf9d-4345392c91b0)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=7ff7de2f-3e37-4aff-a8e4-5ed21b83575c)  
+(KB981322)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+IIS ASP:  
+[Internet Information Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=29e6cf4f-446b-461c-82f7-cfa8478cf739)  
+(KB2124261)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=f8b3004b-07db-4638-a9b7-224ff829081c)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3290e7ee-1e4a-464c-abfd-17fc4108601e)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Active Directory](http://www.microsoft.com/downloads/details.aspx?familyid=3fe6e78c-c60a-4903-9273-27b37e129f0a)  
+(KB981550)  
+(Belangrijk)  
+[Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=c42731f1-6393-42ed-b59f-5310c832fdc4)  
+(KB982000)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=fd46ba66-8ca1-4aa2-b91b-9e5861a173f7)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=71f0daad-e2df-421c-9818-58e1e40cdb65)  
+(KB2416451)  
+(Belangrijk)  
+[Microsoft .NET Framework 2.0 Service Pack 2 en Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=3d31fd37-eb58-4169-b6b9-4cf854524e46)  
+(KB2418241)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=d284237b-e4d9-460a-98f0-7a18252f5780)  
+(KB2416468)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)  
+(KB2418240)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)  
+(KB2416473)  
+(Belangrijk)  
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
+(KB2416472)  
+(Belangrijk)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2003 x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=073b3305-4a81-4ef8-b6aa-e53b31a936b4)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=284a0e80-fd03-4909-b354-0478f04585a1)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=8382c1f2-e16d-475c-a8a0-e378696808f1)  
+(KB981322)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+IIS ASP:  
+[Internet Information Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=750e4a79-11bf-4726-9eb4-5dd3d029a717)  
+(KB2124261)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=612b2096-bd82-47ca-8b99-454c2f158d39)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b21570cc-4f90-4ed8-b901-a34584d44a63)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Active Directory](http://www.microsoft.com/downloads/details.aspx?familyid=22412eed-33cd-4dfc-8ef7-b74dcd7c5faf)  
+(KB981550)  
+(Belangrijk)  
+[Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=79fb639d-2cc1-4bea-9df6-c67ed95890e3)  
+(KB982000)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=ff5976e0-579c-4e6e-a225-c0d3913cdc85)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)  
+(KB2416447)  
+(Belangrijk)  
+[Microsoft .NET Framework 2.0 Service Pack 2 en Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=3d31fd37-eb58-4169-b6b9-4cf854524e46)  
+(KB2418241)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=d284237b-e4d9-460a-98f0-7a18252f5780)  
+(KB2416468)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)  
+(KB2418240)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)  
+(KB2416473)  
+(Belangrijk)  
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
+(KB2416472)  
+(Belangrijk)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2003 met SP2 voor Itanium-systemen
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 met SP2 voor Itanium-systemen](http://www.microsoft.com/downloads/details.aspx?familyid=ca35a520-c4da-41bb-abcc-d5bc534ff19a)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 met SP2 voor Itanium-systemen](http://www.microsoft.com/downloads/details.aspx?familyid=be7b3310-ffb7-4528-9c9e-aebe14d264d6)  
+(KB981322)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+IIS ASP:  
+[Internet Information Services 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=f6841057-1745-44e9-a16a-c180dd941ddf)  
+(KB2124261)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 met SP2 voor Itanium-systemen](http://www.microsoft.com/downloads/details.aspx?familyid=1f04f151-330a-4b6c-826e-76def35daa73)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 met SP2 voor Itanium-systemen](http://www.microsoft.com/downloads/details.aspx?familyid=c9c4427d-54c8-4f3c-9a94-818196cd5180)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Active Directory](http://www.microsoft.com/downloads/details.aspx?familyid=cab75c8a-0d12-4a91-82b2-9f9b70610f67)  
+(KB981550)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 met SP2 voor Itanium-systemen](http://www.microsoft.com/downloads/details.aspx?familyid=e450ca08-1d75-4419-ad9f-c5e5efb55cd5)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)  
+(KB2416447)  
+(Belangrijk)  
+[Microsoft .NET Framework 2.0 Service Pack 2 en Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=3d31fd37-eb58-4169-b6b9-4cf854524e46)  
+(KB2418241)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=d284237b-e4d9-460a-98f0-7a18252f5780)  
+(KB2416468)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)  
+(KB2418240)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)  
+(KB2416473)  
+(Belangrijk)  
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
+(KB2416472)  
+(Belangrijk)
+</td>
+</tr>
+<tr>
+<th colspan="10">
+Windows Vista
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-061**](http://go.microsoft.com/fwlink/?linkid=200505)
+</td>
+<td style="border:1px solid black;">
+[**MS10-062**](http://go.microsoft.com/fwlink/?linkid=190884)
+</td>
+<td style="border:1px solid black;">
+[**MS10-063**](http://go.microsoft.com/fwlink/?linkid=200378)
+</td>
+<td style="border:1px solid black;">
+[**MS10-065**](http://go.microsoft.com/fwlink/?linkid=199537)
+</td>
+<td style="border:1px solid black;">
+[**MS10-066**](http://go.microsoft.com/fwlink/?linkid=197105)
+</td>
+<td style="border:1px solid black;">
+[**MS10-067**](http://go.microsoft.com/fwlink/?linkid=197102)
+</td>
+<td style="border:1px solid black;">
+[**MS10-068**](http://go.microsoft.com/fwlink/?linkid=190509)
+</td>
+<td style="border:1px solid black;">
+[**MS10-069**](http://go.microsoft.com/fwlink/?linkid=197093)
+</td>
+<td style="border:1px solid black;">
+[**MS10-070**](http://go.microsoft.com/fwlink/?linkid=202409)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+Geen
+</td>
+<td style="border:1px solid black;">
+Geen
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+Geen
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Vista Service Pack 1 en Windows Vista Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows Vista Service Pack 1 en Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=028977fd-0f39-42d4-9fee-0d90a2931cfd)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows Vista Service Pack 1 en Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=84629c25-7827-40c1-86fb-7ffa247202a0)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+[Windows Vista Service Pack 1 en Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=ac1b0260-3802-45d4-985e-ac827d784e4f)  
+(KB981322)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+IIS ASP:  
+[Internet Information Services 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=75059175-9c59-45d5-81ce-09b964640e5f)  
+(KB2124261)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Alleen Windows Vista Service Pack 2:  
+[Active Directory Lightweight Directory Service (AD LDS)](http://www.microsoft.com/downloads/details.aspx?familyid=853a71f3-fb0d-43af-a2b8-45bf8ca1a588)  
+(KB981550)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)  
+(KB2416447)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)  
+(KB2418240)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)  
+(KB2416473)  
+(Belangrijk)  
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
+(KB2416472)  
+(Belangrijk)  
+Alleen Windows Vista Service Pack 1:  
+[Microsoft .NET Framework 2.0 Service Pack 1 en Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=7ad59265-9dca-4731-ac09-46c162c1832a)  
+(KB2416469)  
+(Belangrijk)  
+Alleen Windows Vista Service Pack 1:  
+[Microsoft .NET Framework 2.0 Service Pack 2 en Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ac1c77df-34d5-48d4-9a9d-33dc017ffe93)  
+(KB2416474)  
+(Belangrijk)  
+Alleen Windows Vista Service Pack 2:  
+[Microsoft .Net Framework 2.0 Service Pack 2, Microsoft .Net Framework 3.5 en Microsoft .Net Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=45aa5666-3454-443c-a224-2076215fef04)  
+(KB2416470)  
+(Belangrijk)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Vista x64 Edition Service Pack 1 en Windows Vista x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows Vista x64 Edition Service Pack 1 en Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=c68b9337-883d-4e98-ba0a-90b5cad46184)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows Vista x64 Edition Service Pack 1 en Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=36e2a74b-e5c6-47d5-9cd9-b9171be63c7d)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+[Windows Vista x64 Edition Service Pack 1 en Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=ebfdcd6d-413e-4359-8863-e992327a607f)  
+(KB981322)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+IIS ASP:  
+[Internet Information Services 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=9864c590-10a7-4971-a717-924ed0d6cace)  
+(KB2124261)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Alleen Windows Vista x64 Edition Service Pack 2:  
+[Active Directory Lightweight Directory Service (AD LDS)](http://www.microsoft.com/downloads/details.aspx?familyid=566f468b-22b6-400a-a656-ae64cfcb52df)  
+(KB981550)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)  
+(KB2416447)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)  
+(KB2418240)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)  
+(KB2416473)  
+(Belangrijk)  
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
+(KB2416472)  
+(Belangrijk)  
+Alleen Windows Vista x64 Edition Service Pack 1:  
+[Microsoft .NET Framework 2.0 Service Pack 1 en Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=7ad59265-9dca-4731-ac09-46c162c1832a)  
+(KB2416469)  
+(Belangrijk)  
+Alleen Windows Vista x64 Edition Service Pack 1:  
+[Microsoft .NET Framework 2.0 Service Pack 2 en Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ac1c77df-34d5-48d4-9a9d-33dc017ffe93)  
+(KB2416474)  
+(Belangrijk)  
+Alleen Windows Vista x64 Edition Service Pack 2:  
+[Microsoft .Net Framework 2.0 Service Pack 2, Microsoft .Net Framework 3.5 en Microsoft .Net Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=45aa5666-3454-443c-a224-2076215fef04)  
+(KB2416470)  
+(Belangrijk)
+</td>
+</tr>
+<tr>
+<th colspan="10">
+Windows Server 2008
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-061**](http://go.microsoft.com/fwlink/?linkid=200505)
+</td>
+<td style="border:1px solid black;">
+[**MS10-062**](http://go.microsoft.com/fwlink/?linkid=190884)
+</td>
+<td style="border:1px solid black;">
+[**MS10-063**](http://go.microsoft.com/fwlink/?linkid=200378)
+</td>
+<td style="border:1px solid black;">
+[**MS10-065**](http://go.microsoft.com/fwlink/?linkid=199537)
+</td>
+<td style="border:1px solid black;">
+[**MS10-066**](http://go.microsoft.com/fwlink/?linkid=197105)
+</td>
+<td style="border:1px solid black;">
+[**MS10-067**](http://go.microsoft.com/fwlink/?linkid=197102)
+</td>
+<td style="border:1px solid black;">
+[**MS10-068**](http://go.microsoft.com/fwlink/?linkid=190509)
+</td>
+<td style="border:1px solid black;">
+[**MS10-069**](http://go.microsoft.com/fwlink/?linkid=197093)
+</td>
+<td style="border:1px solid black;">
+[**MS10-070**](http://go.microsoft.com/fwlink/?linkid=202409)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+Geen
+</td>
+<td style="border:1px solid black;">
+Geen
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+Geen
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2008 voor 32-bits systemen en Windows Server 2008 voor 32-bits systemen Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 voor 32-bits systemen en Windows Server 2008 voor 32-bits systemen Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=e2e788de-8400-4bf6-b96b-a915154aa20a)\*  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 voor 32-bits systemen en Windows Server 2008 voor 32-bits systemen Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=fdfc393e-a54d-44dd-ba45-c2a550ffd2a1)\*\*  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 voor 32-bits systemen en Windows Server 2008 voor 32-bits systemen Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b679fe0c-5498-4fc5-84c8-0cd24b625907)\*  
+(KB981322)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+IIS ASP:  
+[Internet Information Services 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=d798dc8e-ae64-4a1d-abda-f58cf69779d8)\*  
+(KB2124261)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Active Directory and Active Directory Lightweight Directory Service (AD LDS)](http://www.microsoft.com/downloads/details.aspx?familyid=1452befe-b7b8-4131-b36f-dded2bd16d5e)\*  
+(KB981550)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)\*\*  
+(KB2416447)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)\*\*  
+(KB2418240)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)\*\*  
+(KB2416473)  
+(Belangrijk)  
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)\*\*<sup>[1]</sup>
+(KB2416472)  
+(Belangrijk)  
+Alleen Windows Server 2008 voor 32-bits systemen:  
+[Microsoft .NET Framework 2.0 Service Pack 1 en Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=7ad59265-9dca-4731-ac09-46c162c1832a)\*\*  
+(KB2416469)  
+(Belangrijk)  
+Alleen Windows Server 2008 voor 32-bits systemen:  
+[Microsoft .NET Framework 2.0 Service Pack 2 en Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ac1c77df-34d5-48d4-9a9d-33dc017ffe93)\*\*  
+(KB2416474)  
+(Belangrijk)  
+Alleen Windows Server 2008 voor 32-bits systemen Service Pack 2:  
+[Microsoft .NET Framework 2.0 Service Pack 2, Microsoft .NET Framework 3.5, en Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=45aa5666-3454-443c-a224-2076215fef04)\*\*  
+(KB2416470)  
+(Belangrijk)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2008 voor x64-systemen en Windows Server 2008 voor x64-systemen Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 voor x64-systemen en Windows Server 2008 voor x64-systemen Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=e08d4f49-5a13-4e1d-b0a7-27b314c2edb5)\*  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 voor x64-systemen en Windows Server 2008 voor x64-systemen Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=1b7af424-6286-4a80-827c-c4df4f92fe43)\*\*  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 voor x64-systemen en Windows Server 2008 voor x64-systemen Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=e1b38b87-24f6-4aaa-afa9-40f4015d6694)\*  
+(KB981322)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+IIS ASP:  
+[Internet Information Services 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=e29f01dc-b00d-4c12-a13e-63aa0b09d919)\*  
+(KB2124261)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Active Directory and Active Directory Lightweight Directory Service (AD LDS)](http://www.microsoft.com/downloads/details.aspx?familyid=38eb875f-1869-401b-b7d3-9f18f4ba4f24)\*  
+(KB981550)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)\*\*  
+(KB2416447)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)\*\*  
+(KB2418240)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)\*\*  
+(KB2416473)  
+(Belangrijk)  
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)\*\*<sup>[1]</sup>
+(KB2416472)  
+(Belangrijk)  
+Alleen Windows Server 2008 voor x64-systemen:  
+[Microsoft .NET Framework 2.0 Service Pack 1 en Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=7ad59265-9dca-4731-ac09-46c162c1832a)\*\*  
+(KB2416469)  
+(Belangrijk)  
+Alleen Windows Server 2008 voor x64-systemen:  
+[Microsoft .NET Framework 2.0 Service Pack 2 en Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ac1c77df-34d5-48d4-9a9d-33dc017ffe93)\*\*  
+(KB2416474)  
+(Belangrijk)  
+Alleen Windows Server 2008 voor x64-systemen Service Pack 2:  
+[Microsoft .NET Framework 2.0 Service Pack 2, Microsoft .NET Framework 3.5, en Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=45aa5666-3454-443c-a224-2076215fef04)\*\*  
+(KB2416470)  
+(Belangrijk)  
+Alleen Windows Server 2008 voor x64-systemen Service Pack 2:  
+[Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)\*\*  
+(KB2418240)  
+(Belangrijk)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2008 voor Itanium-systemen en Windows Server 2008 voor Itanium-systemen Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 voor Itanium-systemen en Windows Server 2008 voor Itanium-systemen Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=098537d5-bf6e-4e04-ad33-1cde697e062f)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 voor Itanium-systemen en Windows Server 2008 voor Itanium-systemen Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=ceb856e8-f4a6-4229-bd26-b1a763d7d443)  
+(KB981322)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+IIS ASP:  
+[Internet Information Services 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=d595c8d2-90b1-46e4-bb9f-60efd0bf3a02)  
+(KB2124261)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)  
+(KB2416447)  
+(Belangrijk)  
+[Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)  
+(KB2416473)  
+(Belangrijk)  
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
+(KB2416472)  
+(Belangrijk)  
+Alleen Windows Server 2008 voor Itanium-systemen:  
+[Microsoft .NET Framework 2.0 Service Pack 1 en Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=7ad59265-9dca-4731-ac09-46c162c1832a)  
+(KB2416469)  
+(Belangrijk)  
+Alleen Windows Server 2008 voor Itanium-systemen:  
+[Microsoft .NET Framework 2.0 Service Pack 2 en Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ac1c77df-34d5-48d4-9a9d-33dc017ffe93)  
+(KB2416474)  
+(Belangrijk)  
+Alleen Windows Server 2008 voor Itanium-systemen Service Pack 2:  
+[Microsoft .Net Framework 2.0 Service Pack 2, Microsoft .Net Framework 3.5 en Microsoft .Net Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=45aa5666-3454-443c-a224-2076215fef04)  
+(KB2416470)  
+(Belangrijk)
+</td>
+</tr>
+<tr>
+<th colspan="10">
+Windows 7
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-061**](http://go.microsoft.com/fwlink/?linkid=200505)
+</td>
+<td style="border:1px solid black;">
+[**MS10-062**](http://go.microsoft.com/fwlink/?linkid=190884)
+</td>
+<td style="border:1px solid black;">
+[**MS10-063**](http://go.microsoft.com/fwlink/?linkid=200378)
+</td>
+<td style="border:1px solid black;">
+[**MS10-065**](http://go.microsoft.com/fwlink/?linkid=199537)
+</td>
+<td style="border:1px solid black;">
+[**MS10-066**](http://go.microsoft.com/fwlink/?linkid=197105)
+</td>
+<td style="border:1px solid black;">
+[**MS10-067**](http://go.microsoft.com/fwlink/?linkid=197102)
+</td>
+<td style="border:1px solid black;">
+[**MS10-068**](http://go.microsoft.com/fwlink/?linkid=190509)
+</td>
+<td style="border:1px solid black;">
+[**MS10-069**](http://go.microsoft.com/fwlink/?linkid=197093)
+</td>
+<td style="border:1px solid black;">
+[**MS10-070**](http://go.microsoft.com/fwlink/?linkid=202409)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+Geen
+</td>
+<td style="border:1px solid black;">
+Geen
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+Geen
+</td>
+<td style="border:1px solid black;">
+Geen
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+Geen
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows 7 voor 32-bits systemen
+</td>
+<td style="border:1px solid black;">
+[Windows 7 voor 32-bits systemen](http://www.microsoft.com/downloads/details.aspx?familyid=34619e9e-1f00-40e4-be6f-5bbf5e3c801b)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+IIS ASP:  
+[Internet Information Services 7.5](http://www.microsoft.com/downloads/details.aspx?familyid=5b2d42da-4dbc-4fbb-be22-09ca7dec5aa3)  
+(KB2124261)  
+(Belangrijk)  
+IIS FastCGI:  
+[Internet Information Services 7.5](http://www.microsoft.com/downloads/details.aspx?familyid=c843afd9-b6f2-48de-91cc-1c0d481c2be4)  
+(KB2271195)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Active Directory Lightweight Directory Service (AD LDS)](http://www.microsoft.com/downloads/details.aspx?familyid=454fc025-bfa2-4552-9522-3585f523ecb2)  
+(KB981550)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=5e7dcf51-74f1-43cc-aece-0cd5df05ddb7)  
+(KB2416471)  
+(Belangrijk)  
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
+(KB2416472)  
+(Belangrijk)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows 7 voor 32-bits systemen Service Pack 1
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
+(KB2416472)  
+(Belangrijk)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows 7 voor x64-systemen
+</td>
+<td style="border:1px solid black;">
+[Windows 7 voor x64-systemen](http://www.microsoft.com/downloads/details.aspx?familyid=dbb747a5-658d-44cf-bd49-425d1700157f)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+IIS ASP:  
+[Internet Information Services 7.5](http://www.microsoft.com/downloads/details.aspx?familyid=66b64374-95e4-4b99-80e6-98dc63cd272b)  
+(KB2124261)  
+(Belangrijk)  
+IIS FastCGI:  
+[Internet Information Services 7.5](http://www.microsoft.com/downloads/details.aspx?familyid=5f0c0454-cbb6-47ed-9227-98aa45b8cbdb)  
+(KB2271195)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Active Directory Lightweight Directory Service (AD LDS)](http://www.microsoft.com/downloads/details.aspx?familyid=b15ad533-3cf1-4dcf-847c-05ebffb84e26)  
+(KB981550)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=5e7dcf51-74f1-43cc-aece-0cd5df05ddb7)  
+(KB2416471)  
+(Belangrijk)  
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
+(KB2416472) (Belangrijk)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows 7 voor x64-systemen Service Pack 1
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
+(KB2416472) (Belangrijk)
+</td>
+</tr>
+<tr>
+<th colspan="10">
+Windows Server 2008 R2
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-061**](http://go.microsoft.com/fwlink/?linkid=200505)
+</td>
+<td style="border:1px solid black;">
+[**MS10-062**](http://go.microsoft.com/fwlink/?linkid=190884)
+</td>
+<td style="border:1px solid black;">
+[**MS10-063**](http://go.microsoft.com/fwlink/?linkid=200378)
+</td>
+<td style="border:1px solid black;">
+[**MS10-065**](http://go.microsoft.com/fwlink/?linkid=199537)
+</td>
+<td style="border:1px solid black;">
+[**MS10-066**](http://go.microsoft.com/fwlink/?linkid=197105)
+</td>
+<td style="border:1px solid black;">
+[**MS10-067**](http://go.microsoft.com/fwlink/?linkid=197102)
+</td>
+<td style="border:1px solid black;">
+[**MS10-068**](http://go.microsoft.com/fwlink/?linkid=190509)
+</td>
+<td style="border:1px solid black;">
+[**MS10-069**](http://go.microsoft.com/fwlink/?linkid=197093)
+</td>
+<td style="border:1px solid black;">
+[**MS10-070**](http://go.microsoft.com/fwlink/?linkid=202409)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+Geen
+</td>
+<td style="border:1px solid black;">
+Geen
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+Geen
+</td>
+<td style="border:1px solid black;">
+Geen
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+Geen
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2008 R2 voor x64-systemen
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 R2 voor x64-systemen](http://www.microsoft.com/downloads/details.aspx?familyid=11e20088-1be2-4166-9c97-234b7e9f1c4f)\*  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+IIS ASP:  
+[Internet Information Services 7.5](http://www.microsoft.com/downloads/details.aspx?familyid=21458cce-f67e-4e95-a067-8311afefc261)\*  
+(KB2124261)  
+(Belangrijk)  
+IIS FastCGI:  
+[Internet Information Services 7.5](http://www.microsoft.com/downloads/details.aspx?familyid=9578b1de-f2c1-4b37-9d82-69e929cab6f3)\*  
+(KB2271195)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Active Directory and Active Directory Lightweight Directory Service (AD LDS)](http://www.microsoft.com/downloads/details.aspx?familyid=54f36389-8be4-4a0c-9640-dc32addac9d7)\*  
+(KB981550)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=5e7dcf51-74f1-43cc-aece-0cd5df05ddb7)\*  
+(KB2416471)  
+(Belangrijk)  
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
+(KB2416472)  
+(Belangrijk)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2008 R2 voor x64-systemen Service Pack 1
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)\*<sup>[1]</sup>
+(KB2416472)  
+(Belangrijk)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2008 R2 voor Itanium-systemen
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 R2 voor Itanium-systemen](http://www.microsoft.com/downloads/details.aspx?familyid=d8c635f8-8978-44bf-b457-e07368f08ef4)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+IIS ASP:  
+[Internet Information Services 7.5](http://www.microsoft.com/downloads/details.aspx?familyid=3b8f3fd1-1ef4-4e9f-9bce-0c68f10519d1)  
+(KB2124261)  
+(Belangrijk)  
+IIS FastCGI:  
+[Internet Information Services 7.5](http://www.microsoft.com/downloads/details.aspx?familyid=21adf80d-267f-47cd-9c03-4b4854ba159f)  
+(KB2271195)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=5e7dcf51-74f1-43cc-aece-0cd5df05ddb7)  
+(KB2416471)  
+(Belangrijk)  
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
+(KB2416472)  
+(Belangrijk)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2008 R2 voor Itanium-systemen Service Pack 1
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
+(KB2416472)  
+(Belangrijk)
+</td>
+</tr>
+</table>
+ 
+**Opmerkingen voor Windows Server 2008 en Windows Server 2008 R2**
+
+**\*Treedt op bij Server Core-installatie.** Deze update is met hetzelfde prioriteitsniveau van toepassing op ondersteunde edities van Windows Server 2008 en Windows Server 2008 R2, zoals is aangegeven, ongeacht of deze zijn geïnstalleerd met de optie Server Core-installatie. Zie de TechNet-artikelen [Managing a Server Core Installation](http://technet.microsoft.com/en-us/library/ee441255(ws.10).aspx) en [Servicing a Server Core Installation](http://technet.microsoft.com/en-us/library/ff698994(ws.10).aspx) voor meer informatie over deze installatieoptie. De Server Core-installatieoptie kan niet worden toegepast op bepaalde edities van Windows Server 2008 en Windows Server 2008 R2. Zie hiervoor [Server Core-installatieopties vergelijken](http://www.microsoft.com/windowsserver2008/en/us/compare-core-installation.aspx).
+
+**\*\*Server Core-installatie niet getroffen.** De beveiligingslekken die in deze update worden beschreven, hebben geen invloed op de aangegeven ondersteunde edities van Windows Server 2008 als deze zijn geïnstalleerd met behulp van de Server Core-installatieoptie. Zie de TechNet-artikelen [Managing a Server Core Installation](http://technet.microsoft.com/en-us/library/ee441255(ws.10).aspx) en [Servicing a Server Core Installation](http://technet.microsoft.com/en-us/library/ff698994(ws.10).aspx) voor meer informatie over deze installatieoptie. De Server Core-installatieoptie kan niet worden toegepast op bepaalde edities van Windows Server 2008 en Windows Server 2008 R2. Zie hiervoor [Server Core-installatieopties vergelijken](http://www.microsoft.com/windowsserver2008/en/us/compare-core-installation.aspx).
+
+**Opmerking bij MS10-063**
+
+Zie ook andere softwarecategorieën onder deze sectie, Software waarin dit probleem optreedt en downloadlocaties voor meer updatebestanden onder hetzelfde identificatienummer van het bulletin. Dit bulletin geldt voor meerdere softwarecategorieën.
+
+**Opmerking voor MS10-070**
+
+<sup>[1]</sup>**.NET Framework 4.0 Client Profile niet getroffen.** De herdistribueerbare pakketten van .NET Framework versie 4 zijn beschikbaar in twee profielen: .NET Framework 4.0 en .NET Framework 4.0 Client Profile. Het .NET Framework 4.0 Client Profile is een onderdeel van .NET Framework 4.0. Het beveiligingslek dat wordt opgelost met deze update, treft alleen .NET Framework 4.0 en niet het .NET Framework 4.0 Client Profile. Voor meer informatie, zie [.NET Framework installeren](http://msdn.microsoft.com/en-us/library/5a4x27ek.aspx).
+
+#### Microsoft Office-pakketen en -software
+
+ 
+<table style="border:1px solid black;">
+<tr class="thead">
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+</tr>
+<tr>
+<th colspan="3">
+Microsoft Office-pakketten, -systemen en -onderdelen
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-063**](http://go.microsoft.com/fwlink/?linkid=200378)
+</td>
+<td style="border:1px solid black;">
+[**MS10-064**](http://go.microsoft.com/fwlink/?linkid=200727)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office XP Service Pack 3
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=0b56f85f-d39b-410a-857a-799a5d714de7)  
+(KB2288608)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Outlook 2002 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=d5e85841-9dea-4776-9e0e-3cd272066f37)  
+(KB2293422)  
+(Kritiek)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office 2003 Service Pack 3
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=bb7783b1-b396-4254-b317-f2292b305cfc)  
+(KB2288613)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Outlook 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=ec8ed81e-05d0-4c20-b5fb-ebc72230a8bd)  
+(KB2293428)  
+(Belangrijk)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office 2007 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=44c5bccf-66dd-4796-9089-e6171d8c9785)  
+(KB2288621)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Outlook 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=6009d507-135c-4ce8-a830-925134f214dc)  
+(KB2288953)  
+(Belangrijk)
+</td>
+</tr>
+</table>
+ 
+**Opmerking bij MS10-063**
+
+Zie ook andere softwarecategorieën onder deze sectie, Software waarin dit probleem optreedt en downloadlocaties voor meer updatebestanden onder hetzelfde identificatienummer van het bulletin. Dit bulletin geldt voor meerdere softwarecategorieën.
+
+Hulpmiddelen en richtlijnen voor detecteren en implementeren
+------------------------------------------------------------
+
+<span></span>
+**Beveiligingscentrum**
+
+De software- en beveiligingsupdate beheren waarmee u de servers, desktops en draagbare computers binnen uw organisatie kunt implementeren. Zie het [TechNet Update Management Center](http://go.microsoft.com/fwlink/?linkid=69903) voor meer informatie. Op de website [TechNet Security Center](http://go.microsoft.com/fwlink/?linkid=21171) staat aanvullende informatie over beveiliging in Microsoft-producten. Consumenten kunnen op de website [Beveiliging voor thuis](http://go.microsoft.com/fwlink/?linkid=85102) deze informatie ook ophalen door te klikken op "De nieuwste beveiligingsupdates".
+
+Beveiligingsupdates zijn beschikbaar op [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747) en [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130). Beveiligingsupdates zijn ook verkrijgbaar via het [Microsoft Downloadcentrum](http://go.microsoft.com/fwlink/?linkid=21129). U vindt deze updates het snelst door een zoekactie uit te voeren met als trefwoord "security update''.
+
+Ten slotte kunt u beveiligingsupdates downloaden uit de [Microsoft Update-catalogus](http://go.microsoft.com/fwlink/?linkid=96155). In de Microsoft Update-catalogus vindt u een doorzoekbare catalogus met inhoud die beschikbaar is gesteld via Windows Update en Microsoft Update, waaronder beveiligingsupdates, stuurprogramma's en service packs. Door tijdens het zoeken het nummer van het beveiligingsbulletin (bijvoorbeeld “MS07-036”) te gebruiken, kunt u alle beschikbare updates toevoegen aan uw winkelmand (waaronder de verschillende talen voor een update) en de map van uw keuze downloaden. Raadpleeg de veelgestelde vragen van de [Microsoft Windows Update-catalogus](http://go.microsoft.com/fwlink/?linkid=97900) voor meer informatie over de Microsoft Windows Update-catalogus.
+
+**Richtlijnen voor detecteren en implementeren**
+
+Microsoft biedt zoekfuncties en richtlijnen voor het implementeren van beveiligingsupdates. Deze begeleiding bevat aanbevelingen en informatie die IT-professionals kunnen helpen verschillende hulpprogramma's voor het zoeken naar en toepassen van beveiligingsupdates te gebruiken. Zie [Microsoft Knowledge Base-artikel 961747](http://support.microsoft.com/kb/961747) voor meer informatie.
+
+**Microsoft Baseline Security Analyzer**
+
+Met de Microsoft Baseline Security Analyzer (MBSA) kunnen beheerders lokale en externe systemen scannen op ontbrekende beveiligingsupdates en algemene, onjuiste beveiligingsconfiguraties. Ga naar de website [Microsoft Baseline Security Analyzer](http://go.microsoft.com/fwlink/?linkid=21134) voor meer informatie over MBSA.
+
+**Windows Server Update Services:**
+
+Als Windows Server Update Services (WSUS) wordt gebruikt, kunnen beheerders de nieuwste essentiële updates en beveiligingsupdates snel en betrouwbaar implementeren voor Microsoft Windows-besturingssysteem Windows 2000 en later, Office XP en later, Exchange Server 2003 en SQL Server 2000 voor Microsoft Windows-besturingssysteem Windows 2000 en later.
+
+Ga naar de website [Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=50120) voor meer informatie over hoe u deze beveiligingsupdate kunt implementeren met behulp van Windows Server Update Services.
+
+**Systems Management Server**
+
+Microsoft Systems Management Server (SMS) is een configureerbare bedrijfsoplossing voor het beheer van updates. Met SMS kunnen beheerders bepalen of beveiligingsupdates nodig zijn voor Windows-systemen, en deze updates in de gehele organisatie gecontroleerd implementeren met minimaal ongemak voor de eindgebruikers. De volgende release van SMS, System Center Configuration Manager 2007, is nu verkrijgbaar; zie ook [System Center Configuration Manager 2007.](http://technet.microsoft.com/en-us/library/bb735860.aspx) Ga naar de website [SMS 2003 Security Patch Management](http://go.microsoft.com/fwlink/?linkid=22939) voor meer informatie over hoe beheerders SMS 2003 kunnen gebruiken om beveiligingsupdates te implementeren. Gebruikers van SMS 2.0 kunnen ook met de Security Update Inventory Tool (SUIT) beveiligingsupdates implementeren. Ga naar de website [Microsoft Systems Management Server](http://go.microsoft.com/fwlink/?linkid=21158) voor meer informatie over SMS.
+
+**Opmerking** SMS maakt gebruik van de Microsoft Baseline Security Analyzer om brede ondersteuning te kunnen bieden voor het zoeken en installeren van beveiligingsupdates. Bepaalde software-updates worden mogelijk niet opgemerkt door deze hulpprogramma's. Beheerders kunnen in deze gevallen de inventarisatiefuncties van SMS gebruiken om de updates op bepaalde systemen uit te voeren. Zie [Software-updates implementeren met de distributiefunctie van de SMS-software](http://go.microsoft.com/fwlink/?linkid=33341) voor meer informatie over deze procedure. Voor bepaalde beveiligingsupdates zijn beheerdersrechten vereist na het opnieuw opstarten van het systeem. Beheerders kunnen voor het installeren van deze updates de Elevated Rights Deployment Tool (die deel uitmaakt van het [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161)) gebruiken.
+
+**Update Compatibility Evaluator en Application Compatibility Toolkit**
+
+Updates schrijven vaak naar de bestanden en registerinstellingen die nodig zijn om uw toepassingen te kunnen uitvoeren. Hierdoor kunnen incompatibiliteiten worden veroorzaakt en duurt het langer om beveiligingsupdates te implementeren. U kunt het testen en valideren van Windows-updates ten opzichte van geïnstalleerde toepassingen stroomlijnen met de [Update Compatibility Evaluator](http://technet2.microsoft.com/windowsvista/en/library/4279e239-37a4-44aa-aec5-4e70fe39f9de1033.mspx?mfr=true)-componenten die onderdeel zijn van [Application Compatibility Toolkit](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en).
+
+De Application Compatibility Toolkit (ACT) bevat de noodzakelijke hulpprogramma's en documentatie om problemen met de compatibiliteit van toepassingen te evalueren en te verminderen voordat Microsoft Windows Vista, een Windows-update, een Microsoft-beveiligingsupdate of een nieuwe versie van Windows Internet Explorer op uw systeem wordt geïnstalleerd.
+
+### Overige informatie
+
+#### Hulpprogramma voor het verwijderen van schadelijke software uit Microsoft Windows
+
+Microsoft heeft een bijgewerkte versie van het nieuwe Windows-programma voor het verwijderen van schadelijke software op Windows Update, Microsoft Update, Windows Server Update Services en het Downloadcentrum geplaatst.
+
+#### Belangrijke niet-beveiligingsupdates op MU, WU en WSUS:
+
+Voor informatie over andere releases voor Windows Update en Microsoft Update (geen beveiligingsreleases), verwijzen wij u naar:
+
+-   [Microsoft Knowledge Base-artikel 894199](http://support.microsoft.com/kb/894199): Beschrijving van wijzigingen in de inhoud van Software Update Services en Windows Server Update Services. Heeft betrekking op alle Windows-inhoud.
+-   [Updates van vorige maanden voor Windows Server Update Services](http://technet.microsoft.com/en-us/wsus/bb456965.aspx). Toont alle nieuwe, herziene en opnieuw uitgebrachte updates voor alle Microsoft-producten behalve Microsoft Windows.
+
+#### Microsoft Active Protections Program (MAPP)
+
+Om de beveiliging voor klanten te verbeteren, verstrekt Microsoft bij elke maandelijkse uitgifte van beveiligingsupdates informatie over beveiligingslekken aan de grote producenten van beveiligingsprogramma's. Deze producenten kunnen dan die informatie over beveiligingslekken gebruiken om hun klanten een betere beveiliging te bieden door hun software of apparatuur aan te passen, zoals antivirusprogramma's, inbraakdetectiesystemen voor netwerken of inbraakpreventiesystemen voor hosts. Op de websites van de programmapartners (zie [Microsoft Active Protections Program (MAPP)-partners](http://www.microsoft.com/security/msrc/mapp/partners.mspx)) kunt u nagaan of de leveranciers van beveiligingsprogramma's hun producten steeds aanpassen.
+
+#### Veiligheidsstrategieën en community
+
+**Strategieën voor updatebeheer**
+
+Op de website [Security Guidance for Update Management](http://go.microsoft.com/fwlink/?linkid=21168) kunt u extra informatie vinden over aanbevelingen van Microsoft voor het toepassen van beveiligingsupdates.
+
+**Verkrijgen van andere beveiligingsupdates**
+
+Op de volgende locaties zijn updates verkrijgbaar voor andere beveiligingsproblemen:
+
+-   Beveiligingsupdates zijn verkrijgbaar via het [Microsoft Downloadcentrum](http://go.microsoft.com/fwlink/?linkid=21129). U vindt deze updates het snelst door een zoekactie uit te voeren met als trefwoord "security update''.
+-   Updates voor consumentenplatforms zijn verkrijgbaar op de website [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747).
+-   U kunt de beveiligingsupdates van deze maand die op Windows Update staan, via het ISO CD-imagebestand met beveiligingsupdates en essentiële updates vanaf het Downloadcentrum ophalen. Zie [Microsoft Knowledge Base-artikel 913086](http://support.microsoft.com/kb/913086) voor meer informatie.
+
+**IT Pro Security-community**
+
+Leer de beveiliging te verbeteren en uw IT-infrastructuur te optimaliseren en bespreek beveiligingsonderwerpen met andere IT-professionals op de website [IT Pro Security Community](http://go.microsoft.com/fwlink/?linkid=21164).
+
+#### Dankbetuiging
+
+Microsoft [bedankt](http://go.microsoft.com/fwlink/?linkid=21127) de volgende partijen voor de samenwerking bij het verbeteren van de beveiliging voor klanten:
+
+-   Sergey Golovanov, Alexander Gostev, Maxim Golovkin en Alexey Monastyrsky van [Kaspersky Lab](http://www.kaspersky.com/)en Vitaly Kiktenko en Alexander Saprykin van [Design and Test Lab](http://www.dnt-lab.com/) voor het melden van een probleem dat wordt beschreven in MS10-061
+-   Liam O Morchu van [Symantec](http://www.symantec.com/index.jsp) voor het melden van een probleem dat wordt beschreven in MS10-061
+-   Matthew Watchinski van [Sourcefire VRT](http://www.sourcefire.com/services/sf_vrt.html) voor het melden van een probleem dat wordt beschreven in MS10-062
+-   Carsten Book van voor het melden van een probleem dat wordt beschreven in MS10-063
+-   Marc Schoenefeld van the Red Hat Security Response Team voor het melden van een probleem dat wordt beschreven in MS10-063
+-   Carsten H. Eiram van [Secunia](http://secunia.com/) voor het melden van informatie die heeft geleid tot het wijzigen van de exploitatie-index voor CVE-2010-2738 in MS10-063
+-   Dyon Balding van [Secunia](http://secunia.com/) voor het melden van een probleem dat wordt beschreven in MS10-064
+-   Jinsik Shim voor het melden van een probleem dat wordt beschreven in MS10-065
+-   Travis Raybold van Rubicon West voor het melden van een probleem dat wordt beschreven in MS10-065
+-   Yamata Li van [Palo Alto Networks](http://www.paloaltonetworks.com/) voor het melden van een probleem dat wordt beschreven in MS10-066
+-   S0lute van [iDefense Labs](http://labs.idefense.com/) voor het melden van een probleem dat wordt beschreven in MS10-067
+-   [IBM Japan](http://www.ibm.com/jp/ja/) voor het melden van een probleem dat wordt beschreven in MS10-069
+
+#### Ondersteuning
+
+-   De software waarin het probleem optreedt, is getest om te controleren of het probleem bij deze versies optreedt. Andere versies hebben het einde van hun ondersteuningscyclus bereikt. Ga naar [Microsoft Support Lifecycle](http://go.microsoft.com/fwlink/?linkid=21742) om de ondersteuningscyclus voor uw softwareversie te bepalen.
+-   Technische ondersteuning van [Security Support](http://go.microsoft.com/fwlink/?linkid=21131) is beschikbaar via 020-500 1005. Voor ondersteuningsverzoeken in verband met beveiligingsupdates worden geen kosten in rekening gebracht. Zie [Hulp en ondersteuning van Microsoft](http://support.microsoft.com/) voor meer informatie over de beschikbare ondersteuningsopties.
+-   Voor internationale klanten is ondersteuning verkrijgbaar bij de Microsoft-vestiging in hun land. Voor ondersteuning in verband met beveiligingsupdates worden geen kosten in rekening gebracht. Ga naar de [website voor internationale ondersteuning](http://go.microsoft.com/fwlink/?linkid=21155) voor meer informatie over hoe u contact kunt opnemen met Microsoft voor ondersteuning.
+
+#### Uitsluiting van aansprakelijkheid
+
+De informatie die wordt geboden in de Microsoft Knowledge Base, wordt geleverd 'in de huidige staat' zonder enige garantie. Microsoft wijst hierbij alle expliciete of impliciete garanties van de hand, met inbegrip van alle garanties betreffende de verhandelbaarheid en geschiktheid voor een bepaald doel. Voorzover maximaal is toegestaan op grond van toepasselijk recht zijn Microsoft Corporation en/of haar leveranciers in geen geval aansprakelijk voor enige directe, indirecte of incidentele schade, bijzondere schade, gevolgschade of schade ten gevolge van het verlies van winsten, zelfs als Microsoft Corporation of haar leveranciers van de mogelijkheid van dergelijke schade op de hoogte is gesteld. Aangezien sommige staten/rechtssystemen uitsluiting of beperking van aansprakelijkheid voor gevolgschade of incidentele schade niet toestaan, is de voorgaande beperking wellicht niet op u van toepassing.
+
+#### Revisies
+
+-   V1.0 (14 september 2010): Samenvatting van de gepubliceerde bulletins.
+-   V2.0 (22 september 2010): De beoordeling van de exploitatie-index voor CVE-2010-2738 is verhoogd, de beoordeling van de exploitatie-index voor CVE-2010-2730 is verlaagd en de belangrijke opmerking bij de exploitatie-index voor CVE-2010-0818 is gewijzigd.
+-   V3.0 (28 september 2010): Microsoft-beveiligingsbulletin MS10-070, Beveiligingslek in ASP.NET kan leiden tot vrijgeven van informatie (2418042). Ook is de webcastkoppeling voor dit bijzondere beveiligingsbulletin toegevoegd.
+-   V4.0 (30 september 2010): Dit bulletin is gewijzigd om aan te kondigen dat de updates voor MS10-070 nu verkrijgbaar zijn via alle distributiekanalen zijn, waaronder Windows Update en Microsoft Update. Ook zijn de details van updates KB2418240, KB2418241, KB2416470 en KB2416474 voor MS10-070 aangepast.
+-   V4.1 (3 november 2010): Voor MS10-070 is een opmerking toegevoegd aan de tabel met software waarin in dit probleem optreedt om aan te geven dat het .NET Framework 4.0 Client Profile niet wordt getroffen.
+-   V5.0 (14 december 2010): In deze samenvatting zijn wijzigingen aangebracht om aan te kondigen dat er voor MS10-070 nieuwe updatepakketten beschikbaar zijn voor .NET Framework 4.0 (KB2416472) om een probleem in de instellingen op te lossen dat de installatie van andere updates en/of producten kan verstoren. Klanten die hun systemen al hebben bijgewerkt, hoeven geen actie te ondernemen.
+-   V6.0 (22 februari 2011): Voor MS10-070 biedt een detectiewijziging nu de Microsoft .Net Framework 4.0 (KB2416472) updatepakketten aan aan klanten die Microsoft .Net Framework 4.0 hebben geïnstalleerd na de installatie van Windows 7 voor 32-bits systemen met Service Pack 1, Windows 7 voor x64-systemen met Service Pack 1, Windows Server 2008 R2 voor x64-systemen met Service Pack 1 of Windows Server 2008 R2 voor Itanium-systemen met Service Pack 1. Klanten die hun systemen al met succes hebben bijgewerkt, hoeven geen actie te ondernemen.
+-   V6.1 (26 oktober 2011): Voor MS10-070 is de toepasbaarheid van Server Core-installatie verbeterd voor .Net Framework 4 op Windows Server 2008 R2 voor x64-systemen.
+
+*Built at 2014-04-18T01:50:00Z-07:00*

@@ -1,0 +1,514 @@
+---
+TOCTitle: 'MS10-NOV'
+Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor november 2010'
+ms:assetid: 'ms10-nov'
+ms:contentKeyID: 61231987
+ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms10-nov(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
+---
+
+Security Bulletin Summary
+
+Samenvatting van de Microsoft-beveiligingsbulletins voor november 2010
+======================================================================
+
+Gepubliceerd: dinsdag 9 november 2010 | Bijgewerkt: woensdag 17 november 2010
+
+**Versie:** 1.2
+
+In dit bulletin wordt een overzicht gegeven van de beveiligingsbulletins voor november 2010.
+
+Met de release van de bulletins voor november 2010 vervangt deze samenvatting van de bulletins de vooraankondiging van de bulletins die oorspronkelijk werd uitgegeven op 4 november 2010. Voor meer informatie over de vooraankondiging van bulletins gaat u naar [Vooraankondiging van Microsoft-beveiligingsbulletins](http://technet.microsoft.com/security/bulletin/advance).
+
+Ga naar [de mededelingenservice voor Microsoft-beveiligingsbulletins](http://go.microsoft.com/fwlink/?linkid=21163) voor informatie over hoe u automatisch meldingen ontvangt wanneer Microsoft beveiligingsbulletins uitgeeft.
+
+Op 10 november 2010 om 11:00 AM Pacific Time (VS en Canada) zal Microsoft tijdens een webcast vragen van gebruikers over deze bulletins beantwoorden. [Schrijf u nu in voor de webcast over de beveiligingsbulletins van november](https://msevents.microsoft.com/cui/webcasteventdetails.aspx?culture=en-us&eventid=1032454441). Na deze datum is de webcast op verzoek beschikbaar. Zie [Samenvattingen van de Microsoft-beveiligingsbulletins en webcasts](http://technet.microsoft.com/security/bulletin/summary) voor meer informatie.
+
+Microsoft helpt haar gebruikers bij het vaststellen van het belang voor de maandelijkse beveiligingsupdates van de nieuwste belangrijkste updates die geen verband houden met beveiliging, en die op dezelfde dag als de maandelijkse beveiligingsupdates worden uitgegeven. Zie de sectie **Overige informatie**.
+
+### Bulletininformatie
+
+Samenvattingen
+--------------
+
+<span></span>
+In de volgende tabel staat de beveiligingsbulletins voor deze maand op volgorde van prioriteit.
+
+Zie de volgende sectie **Software waarin dit probleem optreedt en Downloadlocaties** voor meer informatie over software die last heeft van een probleem.
+
+ 
+<table style="border:1px solid black;">
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >Bulletin-id</th>
+<th style="border:1px solid black;" >Titel bulletin en samenvatting</th>
+<th style="border:1px solid black;" >Maximaal prioriteitsniveau en gevolgen van het beveiligingslek</th>
+<th style="border:1px solid black;" >Opnieuw opstarten vereist</th>
+<th style="border:1px solid black;" >Software waarin dit probleem optreedt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms10-087">MS10-087</a></td>
+<td style="border:1px solid black;"><strong>Door beveiligingslekken in Microsoft Office kan externe code worden uitgevoerd (2423930)</strong><br />
+<br />
+Met deze beveiligingsupdate worden een openbaar gemaakt beveiligingslek en vijf privé gemelde beveiligingslekken in Microsoft Office opgelost. Door het ernstigste beveiligingslek kan externe code worden uitgevoerd als een gebruiker een speciaal vervaardigd e-mailbericht in RTF-indeling opent of bekijkt. Een aanvaller die erin slaagt misbruik te maken van een van deze beveiligingslekken, kan dezelfde rechten over het systeem krijgen als de lokale gebruiker. Gebruikers met accounts waarvoor minder gebruikersrechten op het systeem zijn ingesteld, lopen minder risico dan gebruikers die met beheerdersrechten werken.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritiek</a><br />
+Uitvoering van externe code mogelijk</td>
+<td style="border:1px solid black;">Opnieuw starten mogelijk vereist</td>
+<td style="border:1px solid black;">Microsoft Office:</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms10-088">MS10-088</a></td>
+<td style="border:1px solid black;"><strong>Door beveiligingslekken in Microsoft PowerPoint kan externe code worden uitgevoerd (2293386)</strong><br />
+<br />
+Met deze beveiligingsupdate worden twee privé gemelde beveiligingslekken in Microsoft Office opgelost, waardoor externe code kan worden uitgevoerd als een gebruiker een speciaal vervaardigd PowerPoint-bestand opent. Een aanvaller die de beveiligingslekken weet te misbruiken, kan volledige controle krijgen over een systeem waarin dit probleem optreedt. De aanvaller kan vervolgens programma's installeren, gegevens bekijken, wijzigen of wissen, of nieuwe accounts met volledige gebruikersrechten maken. Gebruikers met accounts waarvoor minder gebruikersrechten op het systeem zijn ingesteld, lopen minder risico dan gebruikers die met beheerdersrechten werken.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Belangrijk</a><br />
+Uitvoering van externe code mogelijk</td>
+<td style="border:1px solid black;">Opnieuw starten mogelijk vereist</td>
+<td style="border:1px solid black;">Microsoft Office:</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms10-089">MS10-089</a></td>
+<td style="border:1px solid black;"><strong>Beveiligingslekken in Forefront Unified Access Gateway (UAG) kunnen leiden tot misbruik van bevoegdheden (2316074)</strong><br />
+<br />
+Met deze beveiligingsupdate worden vier privé gemelde beveiligingslekken in Forefront Unified Access Gateway (UAG) opgelost. Het ernstigste van deze beveiligingslekken kan leiden tot misbruik van bevoegdheden als een gebruiker een getroffen website bezoekt met een speciaal vervaardigde URL. Een aanvaller kan een gebruiker echter niet dwingen om naar een dergelijke website te gaan. De aanvaller moet een gebruiker er dus van overtuigen een bezoek te brengen aan de website. In de meeste gevallen doet de aanvaller dat door de gebruiker ertoe te bewegen op een koppeling in een e-mailbericht of een verzoek in een expresbericht te klikken waarmee de gebruiker naar de website van de aanvaller gaat.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Belangrijk</a><br />
+Misbruik van bevoegdheden</td>
+<td style="border:1px solid black;">Opnieuw starten mogelijk vereist</td>
+<td style="border:1px solid black;">Microsoft Forefront United Access Gateway</td>
+</tr>
+</tbody>
+</table>
+  
+Exploitatie-index  
+-----------------
+  
+<span></span>
+In de volgende tabel vindt u een beoordeling van de mate van misbruik van elk beveiligingslek dat deze maand wordt opgelost. De beveiligingslekken worden genoemd in afnemende volgorde van de mate van misbruik en vervolgens op CVE-id. Alleen beveiligingslekken met het prioriteitsniveau Kritiek of Belangrijk in de bulletins zijn opgenomen.
+  
+**Gebruik van deze tabel**
+  
+Raadpleeg deze tabel voor informatie over de kans dat binnen 30 dagen na publicatie van beveiligingsbulletins functionerende exploitatiecode verschijnt voor elk van de beveiligingsupdates die u misschien moet installeren. Bekijk deze beoordelingen overeenkomstig de configuratie van uw computer(s) om de ernst van het probleem te kunnen vaststellen. Zie de [exploitatie-index van Microsoft](http://technet.microsoft.com/en-us/security/cc998259.aspx) voor meer informatie over de betekenis van deze prioriteitsniveaus en hoe die worden vastgesteld.
+  
+| Bulletin-id                                                         | Titel van beveiligingslek                                                                                        | CVE-id                                                                           | Beoordeling van de exploitatie-index                                                                                 | Belangrijke opmerkingen                                                                              |  
+|---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|  
+| [MS10-088](http://technet.microsoft.com/security/bulletin/ms10-088) | Beveiligingslek in PowerPoint met betrekking tot bufferoverloop bij parseren                                     | [CVE-2010-2572](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2572) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | (Geen)                                                                                               |  
+| [MS10-089](http://technet.microsoft.com/security/bulletin/ms10-089) | Beveiligingslek in UAG XSS waardoor EOP mogelijk wordt                                                           | [CVE-2010-2733](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2733) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | (Geen)                                                                                               |  
+| [MS10-089](http://technet.microsoft.com/security/bulletin/ms10-089) | Beveiligingslek met betrekking tot XSS-probleem op UAG Mobile Portal-website in Forefront Unified Access Gateway | [CVE-2010-2734](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2734) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | (Geen)                                                                                               |  
+| [MS10-087](http://technet.microsoft.com/security/bulletin/ms10-087) | Beveiligingslek met betrekking tot RTF-stackbufferoverloop                                                       | [CVE-2010-3333](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3333) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | (Geen)                                                                                               |  
+| [MS10-087](http://technet.microsoft.com/security/bulletin/ms10-087) | Beveiligingslek met betrekking tot tekenobjecten in Office Art                                                   | [CVE-2010-3334](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3334) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | (Geen)                                                                                               |  
+| [MS10-087](http://technet.microsoft.com/security/bulletin/ms10-087) | Beveiligingslek met betrekking tot verwerking van uitzonderingen tijdens tekenen                                 | [CVE-2010-3335](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3335) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | (Geen)                                                                                               |  
+| [MS10-087](http://technet.microsoft.com/security/bulletin/ms10-087) | Beveiligingslek met betrekking tot onveilig laden van bibliotheken                                               | [CVE-2010-3337](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3337) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | **Dit beveiligingslek is openbaar gemaakt**                                                          |  
+| [MS10-089](http://technet.microsoft.com/security/bulletin/ms10-089) | Beveiligingslek met betrekking tot XSS in Signurl.asp                                                            | [CVE-2010-3936](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3936) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | (Geen)                                                                                               |  
+| [MS10-087](http://technet.microsoft.com/security/bulletin/ms10-087) | Beveiligingslek in PowerPoint doordat negatieve integeroverloop heap-corruptie veroorzaakt                       | [CVE-2010-2573](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2573) | [**2**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Inconsistente exploitatiecode is waarschijnlijk | [MS10-088](http://technet.microsoft.com/security/bulletin/ms10-088) lost ook dit beveiligingslek op. |  
+| [MS10-088](http://technet.microsoft.com/security/bulletin/ms10-088) | Beveiligingslek in PowerPoint doordat negatieve integeroverloop heap-corruptie veroorzaakt                       | [CVE-2010-2573](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2573) | [**2**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Inconsistente exploitatiecode is waarschijnlijk | [MS10-087](http://technet.microsoft.com/security/bulletin/ms10-087) lost ook dit beveiligingslek op. |  
+| [MS10-087](http://technet.microsoft.com/security/bulletin/ms10-087) | AV-beveiligingslek met betrekking tot grote SPID-leesbewerking in MSO                                            | [CVE-2010-3336](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-3336) | [**2**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Inconsistente exploitatiecode is waarschijnlijk | (Geen)                                                                                               |  
+| [MS10-089](http://technet.microsoft.com/security/bulletin/ms10-089) | Beveiligingslek met betrekking tot omleidings-spoofing in UAG                                                    | [CVE-2010-2732](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-2732) | [**3**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Kans op werkende exploitatiecode is gering      | Dit is een beveiligingslek dat alleen betrekking heeft op spoofing                                   |
+  
+Software waarin het probleem optreedt en Downloadlocaties  
+---------------------------------------------------------
+  
+<span></span>
+In de volgende tabellen staan de bulletins volgens belangrijke softwarecategorie en prioriteit.
+  
+**Gebruik van deze tabellen?**
+  
+In deze tabellen vindt u informatie over de beveiligingsupdates die u mogelijk moet installeren. U moet voor elk softwareprogramma of -onderdeel in de tabel controleren of er nieuwe beveiligingsupdates zijn. Indien een softwareprogramma of onderdeel is vermeld, wordt er een hyperlink naar de verkrijgbare software-update weergegeven en wordt ook het prioriteitsniveau van de software-update vermeld.
+  
+**Opmerking** Voor één beveiligingslek moet u mogelijk verschillende beveiligingsupdates installeren. Bekijk de gehele kolom van elke bulletin-id die wordt weergegeven om te controleren of de te installeren updates zijn gebaseerd op de programma's of onderdelen die u op uw systeem hebt geïnstalleerd.
+  
+#### Microsoft Office-pakketen en -software
+
+ 
+<table style="border:1px solid black;">
+<tr class="thead">
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+</tr>
+<tr>
+<th colspan="3">
+Microsoft Office-pakketten en -onderdelen  
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-087**](http://technet.microsoft.com/security/bulletin/ms10-087)
+</td>
+<td style="border:1px solid black;">
+[**MS10-088**](http://technet.microsoft.com/security/bulletin/ms10-088)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office XP Service Pack 3
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=f32648e3-2fb5-472c-932f-360e5d3c0931)  
+(KB2289169)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Microsoft PowerPoint 2002 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=3efbf9f6-734a-46ac-8f92-87b6ec819bfa)  
+(KB2413272)  
+(Belangrijk)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office 2003 Service Pack 3
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=07a6cf76-2cea-4c54-b66d-50e9eed108ac)  
+(KB2289187)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+[Microsoft PowerPoint 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=108286d4-fb68-40d6-a7b1-64b3a4eb87ee)  
+(KB2413304)  
+(Belangrijk)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office 2007 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=be0c5878-60c0-4700-8836-50d369b51d04)  
+(KB2289158)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office 2010 (32-bits versies)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office 2010 (32-bits edities)](http://www.microsoft.com/downloads/details.aspx?familyid=0b308508-0e1e-4e90-b2b8-7e32bfc5dbf4)  
+(KB2289161)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office 2010 (64-bits versies)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office 2010 (64-bits edities)](http://www.microsoft.com/downloads/details.aspx?familyid=534c6a2a-e7c6-4adf-8b81-e009a2b5fff4)  
+(KB2289161)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+</tr>
+<tr>
+<th colspan="3">
+Microsoft Office voor Mac
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-087**](http://technet.microsoft.com/security/bulletin/ms10-087)
+</td>
+<td style="border:1px solid black;">
+[**MS10-088**](http://technet.microsoft.com/security/bulletin/ms10-088)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office 2004 voor Mac
+</td>
+<td style="border:1px solid black;">
+Microsoft Office 2004 voor Mac<sup>[1]</sup>
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Microsoft Office 2004 voor Mac<sup>[1]</sup>
+(Belangrijk)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office 2008 voor Mac
+</td>
+<td style="border:1px solid black;">
+Microsoft Office 2008 voor Mac<sup>[1]</sup>
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office voor Mac 2011
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office voor Mac 2011](http://www.microsoft.com/downloads/details.aspx?familyid=8bd6ca3b-8004-4e8d-a09d-220dcbbce799)  
+(KB2454823)  
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Conversieprogramma voor Open XML-bestandsindeling voor Mac
+</td>
+<td style="border:1px solid black;">
+Open XML File Format Converter voor Mac<sup>[1]</sup>
+(Belangrijk)
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+</tr>
+<tr>
+<th colspan="3">
+Overige Office-software
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-087**](http://technet.microsoft.com/security/bulletin/ms10-087)
+</td>
+<td style="border:1px solid black;">
+[**MS10-088**](http://technet.microsoft.com/security/bulletin/ms10-088)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+Geen
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft PowerPoint Viewer
+</td>
+<td style="border:1px solid black;">
+Niet van toepassing
+</td>
+<td style="border:1px solid black;">
+[Microsoft PowerPoint Viewer 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=df826b79-7398-45de-943c-6f6f0af1b4e3)  
+(KB2413381)  
+(Belangrijk)
+</td>
+</tr>
+</table>
+ 
+**Opmerking bij MS10-087**
+
+<sup>[1]</sup>De beveiligingsupdates voor Microsoft Office 2004 voor Mac, Microsoft Office 2008 voor Mac en Open XML File Format Converter voor Mac zijn nu niet beschikbaar.
+
+**Opmerking bij MS10-088**
+
+<sup>[1]</sup>De beveiligingsupdate voor Microsoft Office 2004 voor Mac is nu niet beschikbaar.
+
+#### Microsoft Remote Access Software
+
+ 
+<table style="border:1px solid black;">
+<tr class="thead">
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+</tr>
+<tr>
+<th colspan="2">
+Microsoft Forefront Unified Access Gateway
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-089**](http://technet.microsoft.com/security/bulletin/ms10-089)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Forefront Unified Access Gateway
+</td>
+<td style="border:1px solid black;">
+[Forefront Unified Access Gateway 2010](http://www.microsoft.com/downloads/details.aspx?familyid=5f2ee08e-e289-47db-bd3f-7b9cfc1eb985)<sup>[1]</sup>
+(KB2433585)  
+(Belangrijk)  
+[Forefront Unified Access Gateway 2010 Update 1](http://www.microsoft.com/downloads/details.aspx?familyid=db0b70c8-1fa5-4d92-9888-3500c7566b19)<sup>[1]</sup>
+(KB2433584)  
+(Belangrijk)  
+[Forefront Unified Access Gateway 2010 Update 2](http://www.microsoft.com/downloads/details.aspx?familyid=4e3ee07a-771c-46ee-959f-82389bab67d7)<sup>[1]</sup>
+(KB2418933)  
+(Belangrijk)
+</td>
+</tr>
+</table>
+ 
+**Opmerking bij MS10-089**
+
+<sup>[1]</sup>Dit updatepakket is alleen verkrijgbaar via het Microsoft Downloadcentrum.
+
+Hulpmiddelen en richtlijnen voor detecteren en implementeren
+------------------------------------------------------------
+
+<span></span>
+**Beveiligingscentrum**
+
+De software- en beveiligingsupdate beheren waarmee u de servers, desktops en draagbare computers binnen uw organisatie kunt implementeren. Zie het [TechNet Update Management Center](http://go.microsoft.com/fwlink/?linkid=69903) voor meer informatie. Op de website [TechNet Security Center](http://go.microsoft.com/fwlink/?linkid=21171) staat aanvullende informatie over beveiliging in Microsoft-producten. Consumenten kunnen op de website [Beveiliging thuis](http://go.microsoft.com/fwlink/?linkid=85102) deze informatie ook ophalen door te klikken op "De nieuwste beveiligingsupdates".
+
+Beveiligingsupdates zijn beschikbaar op [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747) en [Windows Update.](http://go.microsoft.com/fwlink/?linkid=21130) Beveiligingsupdates zijn ook verkrijgbaar via het [Microsoft Downloadcentrum](http://go.microsoft.com/fwlink/?linkid=21129). U vindt deze updates het snelst door een zoekactie uit te voeren met als trefwoord "security update''.
+
+Ten slotte kunt u beveiligingsupdates downloaden uit de [Microsoft Update-catalogus](http://go.microsoft.com/fwlink/?linkid=96155). In de Microsoft Update-catalogus vindt u een doorzoekbare catalogus met inhoud die beschikbaar is gesteld via Windows Update en Microsoft Update, waaronder beveiligingsupdates, stuurprogramma's en service packs. Door tijdens het zoeken het nummer van het beveiligingsbulletin (bijvoorbeeld “MS07-036”) te gebruiken, kunt u alle beschikbare updates toevoegen aan uw winkelmand (waaronder de verschillende talen voor een update) en de map van uw keuze downloaden. Raadpleeg de [veelgestelde vragen van de Microsoft Windows Update-catalogus](http://go.microsoft.com/fwlink/?linkid=97900) voor meer informatie over de Microsoft Windows Update-catalogus.
+
+**Richtlijnen voor detecteren en implementeren**
+
+Microsoft biedt zoekfuncties en richtlijnen voor het implementeren van beveiligingsupdates. Deze begeleiding bevat aanbevelingen en informatie die IT-professionals kunnen helpen verschillende hulpprogramma's voor het zoeken naar en toepassen van beveiligingsupdates te gebruiken. Zie [Microsoft Knowledge Base-artikel 961747](http://support.microsoft.com/kb/961747) voor meer informatie.
+
+**Microsoft Baseline Security Analyzer**
+
+Met de Microsoft Baseline Security Analyzer (MBSA) kunnen beheerders lokale en externe systemen scannen op ontbrekende beveiligingsupdates en algemene, onjuiste beveiligingsconfiguraties. Ga naar de website [Microsoft Baseline Security Analyzer](http://go.microsoft.com/fwlink/?linkid=21134) voor meer informatie over MBSA.
+
+**Windows Server Update Services:**
+
+Als Windows Server Update Services (WSUS) wordt gebruikt, kunnen beheerders de nieuwste essentiële updates en beveiligingsupdates snel en betrouwbaar implementeren voor Microsoft Windows-besturingssysteem Windows 2000 en later, Office XP en later, Exchange Server 2003 en SQL Server 2000 voor Microsoft Windows-besturingssysteem Windows 2000 en later.
+
+Ga naar de website [Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=50120) voor meer informatie over hoe u deze beveiligingsupdate kunt implementeren met behulp van Windows Server Update Services.
+
+**Systems Management Server**
+
+Microsoft Systems Management Server (SMS) is een configureerbare bedrijfsoplossing voor het beheer van updates. Met SMS kunnen beheerders bepalen of beveiligingsupdates nodig zijn voor Windows-systemen, en deze updates in de gehele organisatie gecontroleerd implementeren met minimaal ongemak voor de eindgebruikers. De volgende release van SMS, System Center Configuration Manager 2007, is nu verkrijgbaar; zie ook [System Center Configuration Manager 2007.](http://technet.microsoft.com/en-us/library/bb735860.aspx) Ga naar de website [SMS 2003 Security Patch Management](http://go.microsoft.com/fwlink/?linkid=22939) voor meer informatie over hoe beheerders SMS 2003 kunnen gebruiken om beveiligingsupdates te implementeren. Gebruikers van SMS 2.0 kunnen ook met de Security Update Inventory Tool (SUIT) beveiligingsupdates implementeren. Ga naar de website [Microsoft Systems Management Server](http://go.microsoft.com/fwlink/?linkid=21158) voor meer informatie over SMS.
+
+**Opmerking** SMS maakt gebruik van de Microsoft Baseline Security Analyzer om brede ondersteuning te kunnen bieden voor het zoeken en installeren van beveiligingsupdates. Bepaalde software-updates worden mogelijk niet opgemerkt door deze hulpprogramma's. Beheerders kunnen in deze gevallen de inventarisatiefuncties van SMS gebruiken om de updates op bepaalde systemen uit te voeren. Zie [Software-updates implementeren met de distributiefunctie van de SMS-software](http://go.microsoft.com/fwlink/?linkid=33341) voor meer informatie over deze procedure. Voor bepaalde beveiligingsupdates zijn beheerdersrechten vereist na het opnieuw opstarten van het systeem. Beheerders kunnen voor het installeren van deze updates de Elevated Rights Deployment Tool (die deel uitmaakt van het [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161)) gebruiken.
+
+**Update Compatibility Evaluator en Application Compatibility Toolkit**
+
+Updates schrijven vaak naar de bestanden en registerinstellingen die nodig zijn om uw toepassingen te kunnen uitvoeren. Hierdoor kunnen incompatibiliteiten worden veroorzaakt en duurt het langer om beveiligingsupdates te implementeren. U kunt het testen en valideren van Windows-updates ten opzichte van geïnstalleerde toepassingen stroomlijnen met de [Update Compatibility Evaluator](http://technet2.microsoft.com/windowsvista/en/library/4279e239-37a4-44aa-aec5-4e70fe39f9de1033.mspx?mfr=true)-componenten die onderdeel zijn van [Application Compatibility Toolkit](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en).
+
+De Application Compatibility Toolkit (ACT) bevat de noodzakelijke hulpprogramma's en documentatie om problemen met de compatibiliteit van toepassingen te evalueren en te verminderen voordat Microsoft Windows Vista, een Windows-update, een Microsoft-beveiligingsupdate of een nieuwe versie van Windows Internet Explorer op uw systeem wordt geïnstalleerd.
+
+### Overige informatie
+
+#### Hulpprogramma voor het verwijderen van schadelijke software uit Microsoft Windows
+
+Microsoft heeft een bijgewerkte versie van het nieuwe Windows-programma voor het verwijderen van schadelijke software op Windows Update, Microsoft Update, Windows Server Update Services en het Downloadcentrum geplaatst.
+
+#### Belangrijke niet-beveiligingsupdates op MU, WU en WSUS:
+
+Voor informatie over andere releases voor Windows Update en Microsoft Update (geen beveiligingsreleases), verwijzen wij u naar:
+
+-   [Microsoft Knowledge Base-artikel 894199](http://support.microsoft.com/kb/894199): Beschrijving van wijzigingen in de inhoud van Software Update Services en Windows Server Update Services. Heeft betrekking op alle Windows-inhoud.
+-   [Updates van vorige maanden voor Windows Server Update Services](http://technet.microsoft.com/en-us/wsus/bb456965,aspx). Toont alle nieuwe, herziene en opnieuw uitgebrachte updates voor alle Microsoft-producten behalve Microsoft Windows.
+
+#### Microsoft Active Protections Program (MAPP)
+
+Om de beveiliging voor klanten te verbeteren, verstrekt Microsoft bij elke maandelijkse uitgifte van beveiligingsupdates informatie over beveiligingslekken aan de grote producenten van beveiligingsprogramma's. Deze producenten kunnen dan die informatie over beveiligingslekken gebruiken om hun klanten een betere beveiliging te bieden door hun software of apparatuur aan te passen, zoals antivirusprogramma's, inbraakdetectiesystemen voor netwerken of inbraakpreventiesystemen voor hosts. Op de websites van de programmapartners (zie [Microsoft Active Protections Program (MAPP)-partners](http://www.microsoft.com/security/msrc/mapp/partners.mspx)) kunt u nagaan of de leveranciers van beveiligingsprogramma's hun producten steeds aanpassen.
+
+#### Veiligheidsstrategieën en community
+
+**Strategieën voor updatebeheer:**
+
+Op de website [Security Guidance for Update Management](http://go.microsoft.com/fwlink/?linkid=21168) kunt u extra informatie vinden over aanbevelingen van Microsoft voor het toepassen van beveiligingsupdates.
+
+**Verkrijgen van andere beveiligingsupdates**
+
+Op de volgende locaties zijn updates verkrijgbaar voor andere beveiligingsproblemen:
+
+-   Beveiligingsupdates zijn verkrijgbaar via het [Microsoft Downloadcentrum](http://go.microsoft.com/fwlink/?linkid=21129). U vindt deze updates het snelst door een zoekactie uit te voeren met als trefwoord "security update''.
+-   Updates voor consumentenplatforms zijn verkrijgbaar op de website [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747).
+-   U kunt de beveiligingsupdates van deze maand die op Windows Update staan, via het ISO CD-imagebestand met beveiligingsupdates en essentiële updates vanaf het Downloadcentrum ophalen. Zie [Microsoft Knowledge Base-artikel 913086](http://support.microsoft.com/kb/913086) voor meer informatie.
+
+**IT Pro Security-community**
+
+Leer de beveiliging te verbeteren en uw IT-infrastructuur te optimaliseren en bespreek beveiligingsonderwerpen met andere IT-professionals op de website [IT Pro Security Community](http://go.microsoft.com/fwlink/?linkid=21164).
+
+#### Dankbetuiging
+
+Microsoft [bedankt](http://go.microsoft.com/fwlink/?linkid=21127) de volgende partijen voor de samenwerking bij het verbeteren van de beveiliging voor klanten:
+
+-   Een anonieme onderzoeker, werkzaam bij [Zero Day Initiative](http://www.zerodayinitiative.com/) van [TippingPoint](http://www.tippingpoint.com/), voor het melden van een probleem dat wordt beschreven in MS10-087
+-   [team509](http://www.team509.com/) in samenwerking met [VeriSign iDefense Labs](http://labs.idefense.com/) voor het melden van een probleem dat wordt beschreven in MS10-087
+-   Dyon Balding van [Secunia](http://secunia.com/) voor het melden van een probleem dat wordt beschreven in MS10-087
+-   Will Dorman van [Coordination Center](http://www.cert.org/) voor het melden van een probleem dat wordt beschreven in MS10-087
+-   Het [Zero Day Initiative](http://www.zerodayinitiative.com/) van [TippingPoint](http://www.tippingpoint.com/) voor het melden van een probleem dat wordt beschreven in MS10-087
+-   Chaouki Bekrar van het [VUPEN Vulnerability Research Team](http://www.vupen.com/) voor het melden van een probleem dat wordt beschreven in MS10-087
+-   Haifei Li van [FortiGuard Labs van Fortinet](http://www.fortiguard.com/) voor het melden van een probleem dat wordt beschreven in MS10-087
+-   Simon Raner van [ACROS Security](http://www.acrossecurity.com) voor het melden van een probleem dat wordt beschreven in MS10-087
+-   Alin Rad Pop van [Secunia Research](http://secunia.com/) voor het melden van een probleem dat wordt beschreven in MS10-088
+-   Een anonieme onderzoeker, werkzaam bij [Zero Day Initiative](http://www.zerodayinitiative.com/) van [TippingPoint](http://www.tippingpoint.com/), voor het melden van een probleem dat wordt beschreven in MS10-088
+
+#### Ondersteuning
+
+-   De software waarin het probleem optreedt, is getest om te controleren of het probleem bij deze versies optreedt. Andere versies hebben het einde van hun ondersteuningscyclus bereikt. Ga naar [Microsoft Support Lifecycle](http://go.microsoft.com/fwlink/?linkid=21742) om de ondersteuningscyclus voor uw softwareversie te bepalen.
+-   Technische ondersteuning van [Security Support](http://go.microsoft.com/fwlink/?linkid=21131) is beschikbaar via 020-500 1005. Voor ondersteuningsverzoeken in verband met beveiligingsupdates worden geen kosten in rekening gebracht. Zie [Hulp en ondersteuning van Microsoft](http://support.microsoft.com/) voor meer informatie over de beschikbare ondersteuningsopties.
+-   Voor internationale klanten is ondersteuning verkrijgbaar bij de Microsoft-vestiging in hun land. Voor ondersteuning in verband met beveiligingsupdates worden geen kosten in rekening gebracht. Ga naar de [website voor internationale ondersteuning](http://go.microsoft.com/fwlink/?linkid=21155) voor meer informatie over hoe u contact kunt opnemen met Microsoft voor ondersteuning.
+
+#### Uitsluiting van aansprakelijkheid
+
+De informatie die wordt geboden in de Microsoft Knowledge Base, wordt geleverd 'in de huidige staat' zonder enige garantie. Microsoft wijst hierbij alle expliciete of impliciete garanties van de hand, met inbegrip van alle garanties betreffende de verhandelbaarheid en geschiktheid voor een bepaald doel. Voorzover maximaal is toegestaan op grond van toepasselijk recht zijn Microsoft Corporation en/of haar leveranciers in geen geval aansprakelijk voor enige directe, indirecte of incidentele schade, bijzondere schade, gevolgschade of schade ten gevolge van het verlies van winsten, zelfs als Microsoft Corporation of haar leveranciers van de mogelijkheid van dergelijke schade op de hoogte is gesteld. Aangezien sommige staten/rechtssystemen uitsluiting of beperking van aansprakelijkheid voor gevolgschade of incidentele schade niet toestaan, is de voorgaande beperking wellicht niet op u van toepassing.
+
+#### Revisies
+
+-   V1.0 (9 november 2010): Samenvatting van de gepubliceerde bulletins.
+-   V1.1 (9 november 2010): Voor MS10-088 is de getroffen versie van "Microsoft PowerPoint Viewer" verbeterd in "Microsoft PowerPoint Viewer 2007 Service Pack 2". Het gaat alleen om een wijziging in de informatie. Klanten die hun systemen al hebben bijgewerkt, inclusief klanten die Automatische updates hebben ingeschakeld, hoeven geen actie te ondernemen. Klanten die deze update nog niet hebben geïnstalleerd, dienen aan de hand van de tabel Software waarin dit probleem optreedt na te gaan of hun systemen deze update nodig hebben.
+-   V1.2 (17 november 2010): Voor MS10-087 is de exploitatie-index gecorrigeerd om CVE-2010-2573 toe te voegen als een beveiligingslek dat met deze update is opgelost. Het gaat alleen om een wijziging in de informatie.
+
+*Built at 2014-04-18T01:50:00Z-07:00*

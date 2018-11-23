@@ -1,0 +1,652 @@
+---
+TOCTitle: 'MS10-JAN'
+Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor januari 2010'
+ms:assetid: 'ms10-jan'
+ms:contentKeyID: 61231982
+ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms10-jan(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
+---
+
+Security Bulletin Summary
+
+Samenvatting van de Microsoft-beveiligingsbulletins voor januari 2010
+=====================================================================
+
+Gepubliceerd: dinsdag 12 januari 2010 | Bijgewerkt: donderdag 21 januari 2010
+
+**Versie:** 2.0
+
+In dit bulletin wordt een overzicht gegeven van de beveiligingsbulletins voor januari 2010.
+
+Met de release van de bulletins voor januari 2010 vervangt deze samenvatting van de bulletins de vooraankondiging van de bulletins die oorspronkelijk werd uitgegeven op 20 januari 2010. Ga voor meer informatie over de vooraankondiging over bulletins naar [Vooraankondiging over Microsoft-beveiligingsbulletins](http://technet.microsoft.com/security/bulletin/advance).
+
+Ga naar [de mededelingenservice voor Microsoft-beveiligingsbulletins](http://go.microsoft.com/fwlink/?linkid=21163) voor informatie over hoe u automatisch meldingen ontvangt wanneer Microsoft beveiligingsbulletins uitgeeft.
+
+Op 13 januari 2010 om 11:00 AM Pacific Time (VS en Canada) zal Microsoft op een webcast vragen van gebruikers over deze bulletins beantwoorden. [Schrijf u nu in voor de webcast over de beveiligingsbulletins van januari](http://msevents.microsoft.com/cui/webcasteventdetails.aspx?eventid=1032427677&eventcategory=4&culture=en-us&countrycode=us). Na deze datum is de webcast op verzoek beschikbaar. Zie [Samenvattingen van de Microsoft-beveiligingsbulletins en webcasts](http://technet.microsoft.com/security/bulletin/summary) voor meer informatie.
+
+Voor de bijzondere beveiligingsbulletins die zijn toegevoegd aan versie 2.0 van deze samenvatting van bulletins, MS10-002, zal Microsoft vragen van klanten beantwoorden op een webcast op 21 januari 2010 om 1:00 PM Pacific Time (VS en Canada). [Schrijf u nu in voor de webcast op 21 januari om 1:00 PM](http://msevents.microsoft.com/cui/eventdetail.aspx?eventid=1032440627&culture=en-us). Na deze datum is de webcast op verzoek beschikbaar. Zie [Samenvattingen van de Microsoft-beveiligingsbulletins en webcasts](http://technet.microsoft.com/security/bulletin/summary) voor meer informatie.
+
+Microsoft helpt haar gebruikers bij het vaststellen van het belang voor de maandelijkse beveiligingsupdates van de nieuwste belangrijkste updates die geen verband houden met beveiliging, en die op dezelfde dag als de maandelijkse beveiligingsupdates worden uitgegeven. Zie de sectie **Overige informatie**.
+
+### Bulletininformatie
+
+Samenvattingen
+--------------
+
+<span></span>
+In de volgende tabel staat de beveiligingsbulletins voor deze maand op volgorde van prioriteit.
+
+Zie de volgende sectie **Software waarin dit probleem optreedt en Downloadlocaties** voor meer informatie over software die last heeft van een probleem.
+
+ 
+<table style="border:1px solid black;">
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >Bulletin-id</th>
+<th style="border:1px solid black;" >Titel bulletin en samenvatting</th>
+<th style="border:1px solid black;" >Maximaal prioriteitsniveau en gevolgen van het beveiligingslek</th>
+<th style="border:1px solid black;" >Opnieuw opstarten vereist</th>
+<th style="border:1px solid black;" >Software waarin dit probleem optreedt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms10-001">MS10-001</a></td>
+<td style="border:1px solid black;"><strong>Door een beveiligingslek in de engine voor Embedded OpenType-lettertypen kan externe code worden uitgevoerd (972270)</strong><br />
+<br />
+Met deze beveiligingsupdate wordt een privé gemeld beveiligingslek in Microsoft Windows opgelost. Door het beveiligingslek kan externe code worden uitgevoerd indien een gebruiker inhoud in een speciaal vervaardigd EOT-lettertype (Embedded OpenType) weergeeft in een clienttoepassing waarin EOT-lettertypen kunnen worden weergegeven, zoals Microsoft Internet Explorer, Microsoft Office PowerPoint of Microsoft Office Word. Een aanvaller die misbruik weet te maken van dit beveiligingslek, kan volledige controle krijgen over een systeem waarin dit probleem optreedt. De aanvaller kan vervolgens programma's installeren, gegevens bekijken, wijzigen of wissen, of nieuwe accounts met volledige gebruikersrechten maken. Gebruikers met accounts waarvoor minder gebruikersrechten op het systeem zijn ingesteld, lopen minder risico dan gebruikers die met beheerdersrechten werken.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritiek</a><br />
+Uitvoering van externe code mogelijk</td>
+<td style="border:1px solid black;">Opnieuw starten mogelijk vereist</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms10-002">MS10-002</a></td>
+<td style="border:1px solid black;"><strong>Cumulatieve beveiligingsupdate voor Internet Explorer (978207)</strong><br />
+<br />
+Met deze beveiligingsupdate worden zeven privé gemelde beveiligingslekken en een openbaar gemaakt beveiligingslek in Internet Explorer opgelost. In het ergste geval kan er als gevolg van het beveiligingslek externe code worden uitgevoerd als een gebruiker een speciaal ontworpen webpagina weergeeft in Internet Explorer. Gebruikers met accounts waarvoor minder gebruikersrechten op het systeem zijn ingesteld, lopen minder risico dan gebruikers die met beheerdersrechten werken.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Kritiek</a><br />
+Uitvoering van externe code mogelijk</td>
+<td style="border:1px solid black;">Moet opnieuw worden opgestart</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
+</tr>
+</tbody>
+</table>
+  
+Exploitatie-index  
+-----------------
+  
+<span></span>
+In de volgende tabel vindt u een beoordeling van de mate van misbruik van elk beveiligingslek dat deze maand wordt opgelost. De beveiligingslekken worden vermeld volgens bulletin-id en CVE-id.
+  
+**Gebruik van deze tabel**
+  
+Raadpleeg deze tabel voor informatie over de kans dat binnen 30 dagen na publicatie van beveiligingsbulletins functionerende exploitatiecode verschijnt voor elk van de beveiligingsupdates die u misschien moet installeren. Bekijk deze beoordelingen overeenkomstig de configuratie van uw computer(s) om de ernst van het probleem te kunnen vaststellen. Zie de [exploitatie-index van Microsoft](http://technet.microsoft.com/en-us/security/cc998259.aspx) voor meer informatie over de betekenis van deze prioriteitsniveaus en hoe die worden vastgesteld.
+  
+| Bulletin-id                                                         | Titel van beveiligingslek                                                                                      | CVE-id                                                                           | Beoordeling van de exploitatie-index                                                                                 | Belangrijke opmerkingen                                                                                                                                                                                                               |  
+|---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| [MS10-001](http://technet.microsoft.com/security/bulletin/ms10-001) | Beveiligingslek in Microtype Express door integerfout bij gecomprimeerde lettertypen in de LZCOMP-decompressor | [CVE-2010-0018](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-0018) | [**2**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Inconsistente exploitatiecode is waarschijnlijk | Deze beoordeling van de exploitatie-index is van toepassing op systemen waarop Microsoft Windows 2000 wordt uitgevoerd. Misbruik van systemen waarop Windows XP of een later besturingssysteem wordt uitgevoerd, is onwaarschijnlijk. |  
+| [MS10-002](http://technet.microsoft.com/security/bulletin/ms10-002) | Beveiligingslek met betrekking tot het afhandelen van XSS-filterscripts                                        | [CVE-2009-4047](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2009-4047) | Geen                                                                                                                 | Uitvoering van code is niet mogelijk met dit beveiligingslek.                                                                                                                                                                         |  
+| [MS10-002](http://technet.microsoft.com/security/bulletin/ms10-002) | Beveiligingslek met betrekking tot URL-validatie                                                               | [CVE-2010-0027](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-0027) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | (Geen)                                                                                                                                                                                                                                |  
+| [MS10-002](http://technet.microsoft.com/security/bulletin/ms10-002) | Beveiligingslek met betrekking tot beschadiging van niet-geïnitialiseerd geheugen                              | [CVE-2010-0244](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-0244) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | (Geen)                                                                                                                                                                                                                                |  
+| [MS10-002](http://technet.microsoft.com/security/bulletin/ms10-002) | Beveiligingslek met betrekking tot beschadiging van niet-geïnitialiseerd geheugen                              | [CVE-2010-0245](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-0245) | Geen                                                                                                                 | Klanten die [MS09-072](http://technet.microsoft.com/security/bulletin/ms09-072) hebben toegepast, zijn beschermd omdat dit beveiligingslek wordt geblokkeerd door wijzigingen die zijn opgenomen in de update MS09-072.               |  
+| [MS10-002](http://technet.microsoft.com/security/bulletin/ms10-002) | Beveiligingslek met betrekking tot beschadiging van niet-geïnitialiseerd geheugen                              | [CVE-2010-0246](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-0246) | Geen                                                                                                                 | Klanten die [MS09-072](http://technet.microsoft.com/security/bulletin/ms09-072) hebben toegepast, zijn beschermd omdat dit beveiligingslek wordt geblokkeerd door wijzigingen die zijn opgenomen in de update MS09-072.               |  
+| [MS10-002](http://technet.microsoft.com/security/bulletin/ms10-002) | Beveiligingslek met betrekking tot beschadiging van niet-geïnitialiseerd geheugen                              | [CVE-2010-0247](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-0247) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | (Geen)                                                                                                                                                                                                                                |  
+| [MS10-002](http://technet.microsoft.com/security/bulletin/ms10-002) | Beveiligingslek met betrekking tot beschadiging van niet-geïnitialiseerd geheugen                              | [CVE-2010-0248](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-0248) | [**2**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Inconsistente exploitatiecode is waarschijnlijk | (Geen)                                                                                                                                                                                                                                |  
+| [MS10-002](http://technet.microsoft.com/security/bulletin/ms10-002) | Beveiligingslek met betrekking tot beschadiging van niet-geïnitialiseerd geheugen                              | [CVE-2010-0249](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2010-0249) | [**1**](http://technet.microsoft.com/en-us/security/cc998259.aspx) - Consistente exploitatiecode is waarschijnlijk   | **Dit beveiligingslek wordt momenteel in internet ecosysteem misbruikt.**                                                                                                                                                             |
+  
+Software waarin het probleem optreedt en Downloadlocaties  
+---------------------------------------------------------
+  
+<span></span>
+In de volgende tabellen staan de bulletins volgens belangrijke softwarecategorie en prioriteit.
+  
+**Gebruik van deze tabellen**
+  
+In deze tabellen vindt u informatie over de beveiligingsupdates die u mogelijk moet installeren. U moet voor elk softwareprogramma of -onderdeel in de tabel controleren of er nieuwe beveiligingsupdates zijn. Indien een softwareprogramma of onderdeel is vermeld, wordt er een hyperlink naar de verkrijgbare software-update weergegeven en wordt ook het prioriteitsniveau van de software-update vermeld.
+  
+**Opmerking** voor één beveiligingslek moet u mogelijk verschillende beveiligingsupdates installeren. Bekijk de gehele kolom van elke bulletin-id die wordt weergegeven om te controleren of de te installeren updates zijn gebaseerd op de programma's of onderdelen die u op uw systeem hebt geïnstalleerd.
+  
+#### Windows-besturingssysteem en -onderdelen
+
+ 
+<table style="border:1px solid black;">
+<tr class="thead">
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+</tr>
+<tr>
+<th colspan="3">
+Microsoft Windows 2000  
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-001**](http://technet.microsoft.com/security/bulletin/ms10-001)
+</td>
+<td style="border:1px solid black;">
+[**MS10-002**](http://technet.microsoft.com/security/bulletin/ms10-002)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Windows 2000 Service Pack 4
+</td>
+<td style="border:1px solid black;">
+[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=47f85cbd-282e-4c92-9809-68bba49e0a12)  
+(Kritiek)
+</td>
+<td style="border:1px solid black;">
+[Internet Explorer 5.01 Service Pack 4 indien geïnstalleerd op Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=51e99e4f-1670-4b12-a9fe-e0ccf50cdabc)  
+(Kritiek)  
+[Internet Explorer 6 Service Pack 1 indien geïnstalleerd op Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=a38aa9d0-c3fe-4d41-8805-7d5370263c1b)  
+(Kritiek)
+</td>
+</tr>
+<tr>
+<th colspan="3">
+Windows XP
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-001**](http://technet.microsoft.com/security/bulletin/ms10-001)
+</td>
+<td style="border:1px solid black;">
+[**MS10-002**](http://technet.microsoft.com/security/bulletin/ms10-002)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Laag**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows XP Service Pack 2 en Windows XP Service Pack 3
+</td>
+<td style="border:1px solid black;">
+[Windows XP Service Pack 2 en Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=793a6b3f-7660-40be-b7d5-7b0eec55e1cd)  
+(Laag)
+</td>
+<td style="border:1px solid black;">
+[Internet Explorer 6 voor Windows XP Service Pack 2 en Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=207eecad-6e84-48e6-ae18-6794a3618ee0)  
+(Kritiek)  
+[Internet Explorer 7 voor Windows XP Service Pack 2 en Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=3510c7d8-7e8f-479e-b6f9-5745a845664d)  
+(Kritiek)  
+[Internet Explorer 8 voor Windows XP Service Pack 2 en Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=7c2948fb-f486-4801-bc21-bbf40d5a78c2)  
+(Kritiek)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows XP Professional x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=31609ce9-656a-4f7d-a501-709a31ca34c3)  
+(Laag)
+</td>
+<td style="border:1px solid black;">
+[Internet Explorer 6 voor Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=eb2d8055-4d50-4f83-82b8-055c7b8f5422)  
+(Kritiek)  
+[Internet Explorer 7 voor Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=cc5aea0b-e553-4f7f-a2cc-cba41bb87ae7)  
+(Kritiek)  
+[Internet Explorer 8 voor Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=41b83fad-948b-4a9c-80ed-9c5a60bd35b4)  
+(Kritiek)
+</td>
+</tr>
+<tr>
+<th colspan="3">
+Windows Server 2003
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-001**](http://technet.microsoft.com/security/bulletin/ms10-001)
+</td>
+<td style="border:1px solid black;">
+[**MS10-002**](http://technet.microsoft.com/security/bulletin/ms10-002)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Laag**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=e1d6e338-dea9-458e-b35d-796e069d74d7)  
+(Laag)
+</td>
+<td style="border:1px solid black;">
+[Internet Explorer 6 voor Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=fea91227-44ad-4549-8732-497a8ceff870)  
+(Gemiddeld)  
+[Internet Explorer 7 voor Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=14726445-3ff4-463c-9fc1-c9b758079aca)  
+(Kritiek)  
+[Internet Explorer 8 voor Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=7d480c87-2ca9-4505-a59d-a6d73d001fa5)  
+(Kritiek)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2003 x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=ddbcf231-9fde-4dc2-ad04-a01b69d1a980)  
+(Laag)
+</td>
+<td style="border:1px solid black;">
+[Internet Explorer 6 voor Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=633e63f4-605b-43c4-8a4b-2730312a1c72)  
+(Gemiddeld)  
+[Internet Explorer 7 voor Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=c8742230-16d8-4b2f-bd3e-8834c759856b)  
+(Kritiek)  
+[Internet Explorer 8 voor Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3e2e740b-8417-4758-8468-15221249ec71)  
+(Kritiek)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2003 met SP2 voor Itanium-systemen
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 met SP2 voor Itanium-systemen](http://www.microsoft.com/downloads/details.aspx?familyid=c71a13cf-7e2f-4b02-8684-1a4e4b46ddda)  
+(Laag)
+</td>
+<td style="border:1px solid black;">
+[Internet Explorer 6 voor Windows Server 2003 met SP2 voor Itanium systemen](http://www.microsoft.com/downloads/details.aspx?familyid=b9308d50-ca66-43ff-9dc5-d05c90baa764)  
+(Gemiddeld)  
+[Internet Explorer 7 voor Windows Server 2003 met SP2 voor Itanium-systemen](http://www.microsoft.com/downloads/details.aspx?familyid=5622f223-df9c-4a6a-bdf0-feebaf9920fd)  
+(Kritiek)
+</td>
+</tr>
+<tr>
+<th colspan="3">
+Windows Vista
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-001**](http://technet.microsoft.com/security/bulletin/ms10-001)
+</td>
+<td style="border:1px solid black;">
+[**MS10-002**](http://technet.microsoft.com/security/bulletin/ms10-002)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Laag**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Vista, Windows Vista Service Pack 1 en Windows Vista Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows Vista, Windows Vista Service Pack 1 en Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=6387228c-eedc-4511-b3c6-8922606f4c84)  
+(Laag)
+</td>
+<td style="border:1px solid black;">
+[Internet Explorer 7 in Windows Vista, Windows Vista Service Pack 1 en Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=92495551-dedd-43d4-bb3a-51028bc5c6d6)  
+(Kritiek)  
+[Internet Explorer 8 in Windows Vista, Windows Vista Service Pack 1 en Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=5e2cbd7d-f64f-49e5-a159-1965ebfe2a92)  
+(Kritiek)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 en Windows Vista x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 en Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=7b4f5089-13b1-421b-a00b-22632bba4229)  
+(Laag)
+</td>
+<td style="border:1px solid black;">
+[Internet Explorer 7 in Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 en Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3cb139b3-59f4-44ef-9911-4dd4e3b83e7d)  
+(Kritiek)  
+[Internet Explorer 8 in Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 en Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b7a7e8e7-f4c5-459d-ab6c-05a192e1e3f9)  
+(Kritiek)
+</td>
+</tr>
+<tr>
+<th colspan="3">
+Windows Server 2008
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-001**](http://technet.microsoft.com/security/bulletin/ms10-001)
+</td>
+<td style="border:1px solid black;">
+[**MS10-002**](http://technet.microsoft.com/security/bulletin/ms10-002)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Laag**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2008 voor 32-bits systemen en Windows Server 2008 voor 32-bits systemen Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 voor 32-bits systemen en Windows Server 2008 voor 32-bits systemen Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=e175c436-37e0-497f-8b7f-6cacaa25ad7c)\*\*  
+(Laag)
+</td>
+<td style="border:1px solid black;">
+[Internet Explorer 7 in Windows Server 2008 voor 32-bits systemen en Windows Server 2008 voor 32-bits systemen Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=8c4c91ec-1b2b-4176-bd77-45245b590329)\*\*  
+(Kritiek)  
+[Internet Explorer 8 in Windows Server 2008 voor 32-bits systemen en Windows Server 2008 voor 32-bits systemen Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=f5ce8582-af63-4870-bee3-0abeeefa1458)\*\*  
+(Kritiek)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2008 voor x64-systemen en Windows Server 2008 voor x64-systemen Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 voor x64-systemen en Windows Server 2008 voor x64-systemen Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=1b10a177-fd45-406f-8edc-b8d4b84881b7)\*\*  
+(Laag)
+</td>
+<td style="border:1px solid black;">
+[Internet Explorer 7 in Windows Server 2008 voor x64-systemen en Windows Server 2008 voor x64-systemen Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=4f9975b8-3f91-4116-9200-ef55ece75854)\*\*  
+(Kritiek)  
+[Internet Explorer 8 in Windows Server 2008 voor x64-systemen en Windows Server 2008 voor x64-systemen Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=be11981c-d286-4e3c-94bf-d4e67a975d5a)\*\*  
+(Kritiek)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2008 voor Itanium-systemen en Windows Server 2008 voor Itanium-systemen Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 voor Itanium-systemen en Windows Server 2008 voor Itanium-systemen Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=e8bc9a24-a794-4827-a6bb-785c6b2189f4)  
+(Laag)
+</td>
+<td style="border:1px solid black;">
+[Internet Explorer 7 in Windows Server 2008 voor Itanium-systemen en Windows Server 2008 voor Itanium-systemen Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=9395547f-b620-4cbd-9ff5-11b76cd73859)  
+(Kritiek)
+</td>
+</tr>
+<tr>
+<th colspan="3">
+Windows 7
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-001**](http://technet.microsoft.com/security/bulletin/ms10-001)
+</td>
+<td style="border:1px solid black;">
+[**MS10-002**](http://technet.microsoft.com/security/bulletin/ms10-002)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Laag**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows 7 voor 32-bits systemen
+</td>
+<td style="border:1px solid black;">
+[Windows 7 voor 32-bits systemen](http://www.microsoft.com/downloads/details.aspx?familyid=75491ad0-40a6-4efb-9574-d82210f6d0da)  
+(Laag)
+</td>
+<td style="border:1px solid black;">
+[Internet Explorer 8 in Windows 7 voor 32-bits systemen](http://www.microsoft.com/downloads/details.aspx?familyid=278443c1-15dc-436b-893b-ffea6d29d16d)  
+(Kritiek)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows 7 voor x64-systemen
+</td>
+<td style="border:1px solid black;">
+[Windows 7 voor x64-systemen](http://www.microsoft.com/downloads/details.aspx?familyid=8a53f0e9-0616-440e-90f2-a12524e1bee4)  
+(Laag)
+</td>
+<td style="border:1px solid black;">
+[Internet Explorer 8 in Windows 7 voor x64-systemen](http://www.microsoft.com/downloads/details.aspx?familyid=a584cd0f-2e05-4e36-8858-0ffead637162)  
+(Kritiek)
+</td>
+</tr>
+<tr>
+<th colspan="3">
+Windows Server 2008 R2
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS10-001**](http://technet.microsoft.com/security/bulletin/ms10-001)
+</td>
+<td style="border:1px solid black;">
+[**MS10-002**](http://technet.microsoft.com/security/bulletin/ms10-002)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Laag**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2008 R2 voor x64-systemen
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 R2 voor x64-systemen](http://www.microsoft.com/downloads/details.aspx?familyid=308166e4-571b-4d6c-bd9f-3ed4afa4eafe)\*\*  
+(Laag)
+</td>
+<td style="border:1px solid black;">
+[Internet Explorer 8 in Windows Server 2008 R2 voor x64-systemen](http://www.microsoft.com/downloads/details.aspx?familyid=d3386793-a594-4bc5-8308-28b561d43087)\*\*  
+(Kritiek)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2008 R2 voor Itanium-systemen
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 R2 voor Itanium-systemen](http://www.microsoft.com/downloads/details.aspx?familyid=1d0da42b-9755-4fd2-afd1-0d023d187133)  
+(Laag)
+</td>
+<td style="border:1px solid black;">
+[Internet Explorer 8 in Windows Server 2008 R2 voor Itanium -systemen](http://www.microsoft.com/downloads/details.aspx?familyid=9d137bab-8312-4240-af74-c65ba652fde0)  
+(Kritiek)
+</td>
+</tr>
+</table>
+ 
+**Opmerking voor Windows Server 2008 en Windows Server 2008 R2**
+
+**\*\*Server Core-installatie niet getroffen.** De beveiligingslekken die in deze update worden beschreven, hebben geen invloed op de ondersteunde edities van Windows Server 2008 of Windows Server 2008 R2, zoals is aangegeven, als deze zijn geïnstalleerd met behulp van de Server Core-installatieoptie. Zie de MSDN-artikelen [Server Core](http://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx) en [Server Core for Windows Server 2008 R2](http://msdn.microsoft.com/en-us/library/ee391631(vs.85).aspx) voor meer informatie over deze installatieoptie. De Server Core-installatieoptie kan niet worden toegepast op bepaalde edities van Windows Server 2008 en Windows Server 2008 R2. Zie hiervoor [Server Core-installatieopties vergelijken](http://www.microsoft.com/windowsserver2008/en/us/compare-core-installation.aspx).
+
+Hulpmiddelen en richtlijnen voor detecteren en implementeren
+------------------------------------------------------------
+
+<span></span>
+**Beveiligingscentrum**
+
+De software- en beveiligingsupdate beheren waarmee u de servers, desktops en draagbare computers binnen uw organisatie kunt implementeren. Zie het [TechNet Update Management Center](http://go.microsoft.com/fwlink/?linkid=69903) voor meer informatie. Op de website [TechNet Security Center](http://go.microsoft.com/fwlink/?linkid=21171) staat aanvullende informatie over beveiliging in Microsoft-producten. Consumenten kunnen op de website [Beveiliging thuis](http://go.microsoft.com/fwlink/?linkid=85102) deze informatie ook ophalen door te klikken op "De nieuwste beveiligingsupdates".
+
+Beveiligingsupdates zijn beschikbaar op [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747) en [Windows Update.](http://go.microsoft.com/fwlink/?linkid=21130) Beveiligingsupdates zijn ook verkrijgbaar via het [Microsoft Downloadcentrum](http://go.microsoft.com/fwlink/?linkid=21129). U vindt deze updates het snelst door een zoekactie uit te voeren met als trefwoord "security update''.
+
+Ten slotte kunt u beveiligingsupdates downloaden uit de [Microsoft Update-catalogus](http://go.microsoft.com/fwlink/?linkid=96155). In de Microsoft Update-catalogus vindt u een doorzoekbare catalogus met inhoud die beschikbaar is gesteld via Windows Update en Microsoft Update, waaronder beveiligingsupdates, stuurprogramma's en service packs. Door tijdens het zoeken het nummer van het beveiligingsbulletin (bijvoorbeeld “MS07-036”) te gebruiken, kunt u alle beschikbare updates toevoegen aan uw winkelmand (waaronder de verschillende talen voor een update) en de map van uw keuze downloaden. Raadpleeg de [veelgestelde vragen van de Microsoft Windows Update-catalogus](http://go.microsoft.com/fwlink/?linkid=97900) voor meer informatie over de Microsoft Windows Update-catalogus.
+
+**Opmerking** Vanaf 1 augustus 2009 biedt Microsoft niet langer ondersteuning voor Office Update en het Office Update Inventory Tool. Gebruik [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747) voor het verkrijgen van de nieuwste updates voor Microsoft Office. Zie [informatie over Microsoft Office Update: Veelgestelde vragen.](http://office.microsoft.com/en-us/downloads/fx010402221033.aspx)
+
+**Richtlijnen voor detecteren en implementeren**
+
+Microsoft biedt zoekfuncties en richtlijnen voor het implementeren van beveiligingsupdates. Deze begeleiding bevat aanbevelingen en informatie die IT-professionals kunnen helpen verschillende hulpprogramma's voor het zoeken naar en toepassen van beveiligingsupdates te gebruiken. Zie [Microsoft Knowledge Base-artikel 961747](http://support.microsoft.com/kb/961747) voor meer informatie.
+
+**Microsoft Baseline Security Analyzer**
+
+Met de Microsoft Baseline Security Analyzer (MBSA) kunnen beheerders lokale en externe systemen scannen op ontbrekende beveiligingsupdates en algemene, onjuiste beveiligingsconfiguraties. Ga naar de website [Microsoft Baseline Security Analyzer](http://go.microsoft.com/fwlink/?linkid=21134) voor meer informatie over MBSA.
+
+**Windows Server Update Services:**
+
+Als Windows Server Update Services (WSUS) wordt gebruikt, kunnen beheerders de nieuwste essentiële updates en beveiligingsupdates snel en betrouwbaar implementeren voor Microsoft Windows-besturingssysteem Windows 2000 en later, Office XP en later, Exchange Server 2003 en SQL Server 2000 voor Microsoft Windows-besturingssysteem Windows 2000 en later.
+
+Ga naar de website [Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=50120) voor meer informatie over hoe u deze beveiligingsupdate kunt implementeren met behulp van Windows Server Update Services.
+
+**Systems Management Server**
+
+Microsoft Systems Management Server (SMS) is een configureerbare bedrijfsoplossing voor het beheer van updates. Met SMS kunnen beheerders bepalen of beveiligingsupdates nodig zijn voor Windows-systemen, en deze updates in de gehele organisatie gecontroleerd implementeren met minimaal ongemak voor de eindgebruikers. De volgende release van SMS, System Center Configuration Manager 2007, is nu verkrijgbaar; zie ook [System Center Configuration Manager 2007.](http://technet.microsoft.com/en-us/library/bb735860.aspx) Ga naar de website [SMS 2003 Security Patch Management](http://go.microsoft.com/fwlink/?linkid=22939) voor meer informatie over hoe beheerders SMS 2003 kunnen gebruiken om beveiligingsupdates te implementeren. Gebruikers van SMS 2.0 kunnen ook met de Security Update Inventory Tool (SUIT) beveiligingsupdates implementeren. Ga naar de website [Microsoft Systems Management Server](http://go.microsoft.com/fwlink/?linkid=21158) voor meer informatie over SMS.
+
+**Opmerking** SMS maakt gebruik van de Microsoft Baseline Security Analyzer om brede ondersteuning te kunnen bieden voor het zoeken en installeren van beveiligingsupdates. Bepaalde software-updates worden mogelijk niet opgemerkt door deze hulpprogramma's. Beheerders kunnen in deze gevallen de inventarisatiefuncties van SMS gebruiken om de updates op bepaalde systemen uit te voeren. Zie [Software-updates implementeren met de distributiefunctie van de SMS-software](http://go.microsoft.com/fwlink/?linkid=33341) voor meer informatie over deze procedure. Voor bepaalde beveiligingsupdates zijn beheerdersrechten vereist na het opnieuw opstarten van het systeem. Beheerders kunnen voor het installeren van deze updates de Elevated Rights Deployment Tool (die deel uitmaakt van het [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161)) gebruiken.
+
+**Update Compatibility Evaluator en Application Compatibility Toolkit**
+
+Updates schrijven vaak naar de bestanden en registerinstellingen die nodig zijn om uw toepassingen te kunnen uitvoeren. Hierdoor kunnen incompatibiliteiten worden veroorzaakt en duurt het langer om beveiligingsupdates te implementeren. U kunt het testen en valideren van Windows-updates ten opzichte van geïnstalleerde toepassingen stroomlijnen met de [Update Compatibility Evaluator](http://technet2.microsoft.com/windowsvista/en/library/4279e239-37a4-44aa-aec5-4e70fe39f9de1033.mspx?mfr=true)-componenten die onderdeel zijn van [Application Compatibility Toolkit](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en).
+
+De Application Compatibility Toolkit (ACT) bevat de noodzakelijke hulpprogramma's en documentatie om problemen met de compatibiliteit van toepassingen te evalueren en te verminderen voordat Microsoft Windows Vista, een Windows-update, een Microsoft-beveiligingsupdate of een nieuwe versie van Windows Internet Explorer op uw systeem wordt geïnstalleerd.
+
+### Overige informatie
+
+#### Hulpprogramma voor het verwijderen van schadelijke software uit Microsoft Windows
+
+Microsoft heeft een bijgewerkte versie van het nieuwe Windows-programma voor het verwijderen van schadelijke software op Windows Update, Microsoft Update, Windows Server Update Services en het Downloadcentrum geplaatst.
+
+#### Belangrijke niet-beveiligingsupdates op MU, WU en WSUS:
+
+Voor informatie over andere releases voor Windows Update en Microsoft Update (geen beveiligingsreleases), verwijzen wij u naar:
+
+-   [Microsoft Knowledge Base-artikel 894199](http://support.microsoft.com/kb/894199): Beschrijving van wijzigingen in de inhoud van Software Update Services en Windows Server Update Services. Heeft betrekking op alle Windows-inhoud.
+-   [Updates van vorige maanden voor Windows Server Update Services](http://technet.microsoft.com/en-us/wsus/bb456965,aspx). Toont alle nieuwe, herziene en opnieuw uitgebrachte updates voor alle Microsoft-producten behalve Microsoft Windows.
+
+#### Microsoft Active Protections Program (MAPP)
+
+Om de beveiliging voor klanten te verbeteren, verstrekt Microsoft bij elke maandelijkse uitgifte van beveiligingsupdates informatie over beveiligingslekken aan de grote producenten van beveiligingsprogramma's. Deze producenten kunnen dan die informatie over beveiligingslekken gebruiken om hun klanten een betere beveiliging te bieden door hun software of apparatuur aan te passen, zoals antivirusprogramma's, inbraakdetectiesystemen voor netwerken of inbraakpreventiesystemen voor hosts. Op de websites van de programmapartners (zie [Microsoft Active Protections Program (MAPP)-partners](http://www.microsoft.com/security/msrc/mapp/partners.mspx)) kunt u nagaan of de leveranciers van beveiligingsprogramma's hun producten steeds aanpassen.
+
+#### Veiligheidsstrategieën en community
+
+**Strategieën voor updatebeheer**
+
+Op de website [Security Guidance for Update Management](http://go.microsoft.com/fwlink/?linkid=21168) kunt u extra informatie vinden over aanbevelingen van Microsoft voor het toepassen van beveiligingsupdates.
+
+**Verkrijgen van andere beveiligingsupdates**
+
+Op de volgende locaties zijn updates verkrijgbaar voor andere beveiligingsproblemen:
+
+-   Beveiligingsupdates zijn verkrijgbaar via het [Microsoft Downloadcentrum](http://go.microsoft.com/fwlink/?linkid=21129). U vindt deze updates het snelst door een zoekactie uit te voeren met als trefwoord "security update''.
+-   Updates voor consumentenplatforms zijn verkrijgbaar op de website [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747).
+-   U kunt de beveiligingsupdates van deze maand die op Windows Update staan, via het ISO CD-imagebestand met beveiligingsupdates en essentiële updates vanaf het Downloadcentrum ophalen. Zie [Microsoft Knowledge Base-artikel 913086](http://support.microsoft.com/kb/913086) voor meer informatie.
+
+**IT Pro Security-community**
+
+Leer de beveiliging te verbeteren en uw IT-infrastructuur te optimaliseren en bespreek beveiligingsonderwerpen met andere IT-professionals op de website [IT Pro Security Community](http://go.microsoft.com/fwlink/?linkid=21164).
+
+#### Dankbetuiging
+
+Microsoft [bedankt](http://go.microsoft.com/fwlink/?linkid=21127) de volgende partijen voor de samenwerking bij het verbeteren van de beveiliging voor klanten:
+
+-   Tavis Ormandy van [Google Inc.](http://www.google.com/) voor het melden van een probleem dat wordt beschreven in MS10-001
+-   [David Lindsay "thornmaker](http://p42.us/)" en [Eduardo A. Vela Nava "sirdarckcat](http://www.sirdarckcat.net/)" voor het melden van een probleem dat wordt beschreven in MS10-002
+-   Lostmon Lords voor het melden van een probleem dat wordt beschreven in MS10-002
+-   Brett Moore, die met [TippingPoint](http://www.tippingpoint.com/) en [Zero Day Initiative](http://www.zerodayinitiative.com/) werkt, voor het melden van een probleem dat wordt beschreven in MS10-002.
+-   Wushi van [team509](http://www.team509.com/), die met [TippingPoint](http://www.tippingpoint.com/) en [Zero Day Initiative](http://www.zerodayinitiative.com/) werkt, voor het melden van een probleem dat wordt beschreven in MS10-002
+-   Sam Thomas (http://eshu.co.uk/), die met [TippingPoint](http://www.tippingpoint.com/) en [Zero Day Initiative](http://www.zerodayinitiative.com/) werkt, voor het melden van een probleem dat wordt beschreven in MS10-002
+-   Sam Thomas (http://eshu.co.uk/), die met [TippingPoint](http://www.tippingpoint.com/) en [Zero Day Initiative](http://www.zerodayinitiative.com/) werkt, voor het melden van een probleem dat wordt beschreven in MS10-002
+-   Haifei Li van het [FortiGuard Global Security Research Team](http://www.fortiguardcenter.com/) van Fortinet voor het melden van een probleem dat wordt beschreven in MS10-002
+-   Peter Vreugdenhil van [Verisign iDefense](http://labs.idefense.com/), die met [TippingPoint](http://www.tippingpoint.com/) en [Zero Day Initiative](http://www.zerodayinitiative.com/) werkt, voor het melden van een probleem dat wordt beschreven in MS10-002
+-   Meron Sellem van [BugSec](http://www.bugsec.com/) voor het melden van een probleem dat wordt beschreven in MS10-002
+
+Microsoft [bedankt](http://go.microsoft.com/fwlink/?linkid=21127) de volgende bedrijven voor het werken met ons en voor het verzorgen van details voor een probleem beschreven in MS10-002:
+
+-   [Google Inc.](http://www.google.com/) en [MANDIANT](http://www.mandiant.com/)
+-   [Adobe](http://www.adobe.com/)
+-   [McAfee](http://www.mcafee.com/)
+
+#### Ondersteuning
+
+-   De software waarin het probleem optreedt, is getest om te controleren of het probleem bij deze versies optreedt. Andere versies hebben het einde van hun ondersteuningscyclus bereikt. Ga naar [Microsoft Support Lifecycle](http://go.microsoft.com/fwlink/?linkid=21742) om de ondersteuningscyclus voor uw softwareversie te bepalen.
+-   Technische ondersteuning van [Security Support](http://go.microsoft.com/fwlink/?linkid=21131) is beschikbaar via 020-500 1005. Voor ondersteuningsverzoeken in verband met beveiligingsupdates worden geen kosten in rekening gebracht. Zie [Hulp en ondersteuning van Microsoft](http://support.microsoft.com/) voor meer informatie over de beschikbare ondersteuningsopties.
+-   Voor internationale klanten is ondersteuning verkrijgbaar bij de Microsoft-vestiging in hun land. Voor ondersteuning in verband met beveiligingsupdates worden geen kosten in rekening gebracht. Ga naar de [website voor internationale ondersteuning](http://go.microsoft.com/fwlink/?linkid=21155) voor meer informatie over hoe u contact kunt opnemen met Microsoft voor ondersteuning.
+
+#### Uitsluiting van aansprakelijkheid
+
+De informatie die wordt geboden in de Microsoft Knowledge Base, wordt geleverd 'in de huidige staat' zonder enige garantie. Microsoft wijst hierbij alle expliciete of impliciete garanties van de hand, met inbegrip van alle garanties betreffende de verhandelbaarheid en geschiktheid voor een bepaald doel. Voorzover maximaal is toegestaan op grond van toepasselijk recht zijn Microsoft Corporation en/of haar leveranciers in geen geval aansprakelijk voor enige directe, indirecte of incidentele schade, bijzondere schade, gevolgschade of schade ten gevolge van het verlies van winsten, zelfs als Microsoft Corporation of haar leveranciers van de mogelijkheid van dergelijke schade op de hoogte is gesteld. Aangezien sommige staten/rechtssystemen uitsluiting of beperking van aansprakelijkheid voor gevolgschade of incidentele schade niet toestaan, is de voorgaande beperking wellicht niet op u van toepassing.
+
+#### Revisies
+
+-   V1.0 (12 januari 2010): Samenvatting van de gepubliceerde bulletins.
+-   V2.0 (21 januari 2010): Toegevoegd is Microsoft-beveiligingsbulletin **MS10-002, cumulatieve update voor Internet Explorer (978207)**. Ook is de webcastkoppeling voor dit bijzondere beveiligingsbulletin toegevoegd.
+
+*Built at 2014-04-18T01:50:00Z-07:00*

@@ -1,0 +1,2198 @@
+---
+TOCTitle: 'MS07-AUG'
+Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor augustus 2007'
+ms:assetid: 'ms07-aug'
+ms:contentKeyID: 61231943
+ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms07-aug(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
+---
+
+Security Bulletin Summary
+
+Samenvatting van de Microsoft-beveiligingsbulletins voor augustus 2007
+======================================================================
+
+Gepubliceerd: dinsdag 14 augustus 2007 | Bijgewerkt: dinsdag 24 juni 2008
+
+**Versie:** 4.0
+
+In dit bulletin wordt een overzicht gegeven van de beveiligingsbulletins voor augustus 2007.
+
+Met de release van de bulletins voor augustus 2007 vervangt deze samenvatting van de bulletins de aankondiging van de bulletins, die oorspronkelijk werd uitgebracht op 9 augustus 2007. Voor meer informatie over de meldingen voor bulletins gaat u naar het [bericht over Microsoft-beveiligingsbulletins](http://technet.microsoft.com/security/bulletin/advance).
+
+Ga naar [de mededelingenservice voor Microsoft-beveiligingsbulletins](http://go.microsoft.com/fwlink/?linkid=21163) voor informatie over hoe u automatisch meldingen ontvangt wanneer Microsoft beveiligingsbulletins uitgeeft.
+
+Op woensdag 15 augustus 2007 om 11:00 AM Pacific Time (VS en Canada) zal Microsoft op een webcast vragen van gebruikers over deze bulletins beantwoorden. [Schrijf u nu in voor de webcast over de beveiligingsbulletins van augustus.](http://msevents.microsoft.com/cui/webcasteventdetails.aspx?eventid=1032344688&eventcategory=4&culture=en-us&countrycode=us) Na deze datum is de webcast op verzoek beschikbaar. Zie [Samenvattingen van de Microsoft-beveiligingsbulletins en webcasts](http://technet.microsoft.com/security/bulletin/summary) voor meer informatie.
+
+Microsoft helpt haar gebruikers bij het vaststellen van het belang voor de maandelijkse beveiligingsupdates van de nieuwste belangrijkste updates die geen verband houden met beveiliging, en die op dezelfde dag als de maandelijkse beveiligingsupdates worden uitgegeven. Zie de sectie **Overige informatie**.
+
+### Bulletininformatie
+
+#### Samenvattingen
+
+De beveiligingsbulletins zijn voor deze maand als volgt, in volgorde van prioriteit:
+
+Kritiek (6)
+-----------
+
+<span></span>
+| Bulletin-id                               | Microsoft-beveiligingsbulletin MS07-042                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Titel bulletin**                        | [**Door een beveiligingslek in Microsoft XML Core Services kan externe code worden uitgevoerd (936227)**](http://technet.microsoft.com/security/bulletin/ms07-042)                                                                                                                                                                                                                                                                                                                                           |
+| **Samenvatting**                          | Met deze kritieke beveiligingsupdate wordt een privé gemeld beveiligingslek opgelost. Door dit beveiligingslek kan externe code worden uitgevoerd als een gebruiker een speciaal ontworpen webpagina heeft weergegeven in Internet Explorer. Van dit beveiligingslek kan misbruik worden gemaakt via aanvallen op Microsoft XML Core Services. Gebruikers met accounts waarvoor minder gebruikersrechten op het systeem zijn ingesteld, lopen minder risico dan gebruikers die met beheerdersrechten werken. |
+| **Maximaal prioriteitsniveau**            | [Kritiek](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Gevolgen van het beveiligingslek**      | Uitvoering van externe code mogelijk                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Detectie**                              | Met Microsoft Baseline Security kan worden vastgesteld of deze update voor uw computersysteem is vereist. Bij deze update wordt het systeem opnieuw opgestart.                                                                                                                                                                                                                                                                                                                                               |
+| **Software waarin dit probleem optreedt** | **Windows, XML Core Services.** Zie de sectie Software waarin het probleem optreedt en de sectie Downloadlocaties.                                                                                                                                                                                                                                                                                                                                                                                           |
+
+| Bulletin-id                               | Microsoft-beveiligingsbulletin MS07-043                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Titel bulletin**                        | [**Door een beveiligingslek in OLE-automatisering kan externe code worden uitgevoerd (921503)**](http://technet.microsoft.com/security/bulletin/ms07-043)                                                                                                                                                                                                                                                                                                                                      |
+| **Samenvatting**                          | Met deze kritieke beveiligingsupdate wordt een privé gemeld beveiligingslek opgelost. Door dit beveiligingslek kan externe code worden uitgevoerd als een gebruiker een speciaal ontworpen webpagina heeft weergegeven. Van dit beveiligingslek kan misbruik worden gemaakt via aanvallen op Object Linking and Embedding (OLE). Gebruikers met accounts waarvoor minder gebruikersrechten op het systeem zijn ingesteld, lopen minder risico dan gebruikers die met beheerdersrechten werken. |
+| **Maximaal prioriteitsniveau**            | [Kritiek](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Gevolgen van het beveiligingslek**      | Uitvoering van externe code mogelijk                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Detectie**                              | Met Microsoft Baseline Security kan worden vastgesteld of deze update voor uw computersysteem is vereist. Bij deze update moet het systeem opnieuw worden gestart.                                                                                                                                                                                                                                                                                                                             |
+| **Software waarin dit probleem optreedt** | **Windows, Visual Basic, Office for Mac**. Zie de sectie Software waarin het probleem optreedt en de sectie Downloadlocaties.                                                                                                                                                                                                                                                                                                                                                                  |
+
+| Bulletin-id                               | Microsoft-beveiligingsbulletin MS07-044                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Titel bulletin**                        | [**Door beveiligingslekken in Microsoft Excel kan externe code worden uitgevoerd (940965)**](http://technet.microsoft.com/security/bulletin/ms07-044)                                                                                                                                                                                                                                                                                                                                        |
+| **Samenvatting**                          | Met deze beveiligingsupdate wordt een privé gemeld beveiligingslek opgelost. Deze oplossing geldt tevens voor andere beveiligingsproblemen die in de loop van het onderzoek zijn aangetroffen. Door deze beveiligingslekken kan externe code worden uitgevoerd als een gebruiker een speciaal vervaardigd Excel-bestand opent. Gebruikers met accounts waarvoor minder gebruikersrechten op het systeem zijn ingesteld, lopen minder risico dan gebruikers die met beheerdersrechten werken. |
+| **Maximaal prioriteitsniveau**            | [Kritiek](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Gevolgen van het beveiligingslek**      | Uitvoering van externe code mogelijk                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Detectie**                              | Met Microsoft Baseline Security kan worden vastgesteld of deze update voor uw computersysteem is vereist. Bij deze update is het opnieuw starten van het systeem niet vereist.                                                                                                                                                                                                                                                                                                               |
+| **Software waarin dit probleem optreedt** | **Office**. Zie de sectie Software waarin het probleem optreedt en de sectie Downloadlocaties.                                                                                                                                                                                                                                                                                                                                                                                               |
+
+| Bulletin-id                               | Microsoft-beveiligingsbulletin MS07-045                                                                                                                                                                                                                                                                                                                                                                              |
+|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Titel bulletin**                        | [**Cumulatieve beveiligingsupdate voor Internet Explorer (937143)**](http://technet.microsoft.com/security/bulletin/ms07-045)                                                                                                                                                                                                                                                                                        |
+| **Samenvatting**                          | Met deze kritieke beveiligingsupdate worden drie privé gemelde beveiligingslekken opgelost. Door deze beveiligingslekken kan externe code worden uitgevoerd als een gebruiker een speciaal ontworpen webpagina heeft weergegeven in Internet Explorer. Gebruikers met accounts waarvoor minder gebruikersrechten op het systeem zijn ingesteld, lopen minder risico dan gebruikers die met beheerdersrechten werken. |
+| **Maximaal prioriteitsniveau**            | [Kritiek](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                                                                                                                              |
+| **Gevolgen van het beveiligingslek**      | Uitvoering van externe code mogelijk                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Detectie**                              | Met Microsoft Baseline Security kan worden vastgesteld of deze update voor uw computersysteem is vereist. Bij deze update wordt het systeem opnieuw opgestart.                                                                                                                                                                                                                                                       |
+| **Software waarin dit probleem optreedt** | **Windows, Internet Explorer**. Zie de sectie Software waarin het probleem optreedt en de sectie Downloadlocaties.                                                                                                                                                                                                                                                                                                   |
+
+| Bulletin-id                               | Microsoft-beveiligingsbulletin MS07-046                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Titel bulletin**                        | [**Door een beveiligingslek in GDI kan externe code worden uitgevoerd (938829)**](http://technet.microsoft.com/security/bulletin/ms07-046)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Samenvatting**                          | Met deze kritieke beveiligingsupdate wordt een privé gemeld beveiligingslek opgelost. De Graphics Rendering Engine bevat een beveiligingslek dat betrekking heeft op het extern uitvoeren van code waarbij gebruik wordt gemaakt van speciaal gemaakte afbeeldingen. Een aanvaller kan het beveiligingslek misbruiken door een speciale afbeelding samen te stellen die het mogelijk maakt om vanaf een externe locatie code uit te voeren nadat een gebruiker een speciaal vervaardigde bijlage in een e-mailbericht heeft geopend. Een aanvaller die misbruik weet te maken van dit beveiligingslek, kan volledige controle krijgen over een systeem waarin dit probleem optreedt. |
+| **Maximaal prioriteitsniveau**            | [Kritiek](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Gevolgen van het beveiligingslek**      | Uitvoering van externe code mogelijk                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Detectie**                              | Met Microsoft Baseline Security kan worden vastgesteld of deze update voor uw computersysteem is vereist. Bij deze update wordt het systeem opnieuw opgestart.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Software waarin dit probleem optreedt** | **Windows.** Zie de sectie Software waarin het probleem optreedt en de sectie Downloadlocaties.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+
+| Bulletin-id                               | Microsoft-beveiligingsbulletin MS07-050                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Titel bulletin**                        | [**Een beveiligingslek in Vector Markup Language kan leiden tot uitvoering van externe code (938127)**](http://technet.microsoft.com/security/bulletin/ms07-050)                                                                                                                                                                                                                                                                                             |
+| **Samenvatting**                          | Met deze beveiligingsupdate wordt een pas ontdekt beveiligingslek in de Vector Markup Language (VML)-implementatie in Windows opgelost. Door dit beveiligingslek kan externe code worden uitgevoerd als een gebruiker een speciaal ontworpen webpagina heeft weergegeven in Internet Explorer. Gebruikers met accounts waarvoor minder gebruikersrechten op het systeem zijn ingesteld, lopen minder risico dan gebruikers die met beheerdersrechten werken. |
+| **Maximaal prioriteitsniveau**            | [Kritiek](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Gevolgen van het beveiligingslek**      | Uitvoering van externe code mogelijk                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Detectie**                              | Met Microsoft Baseline Security kan worden vastgesteld of deze update voor uw computersysteem is vereist. Bij deze update wordt het systeem opnieuw opgestart.                                                                                                                                                                                                                                                                                               |
+| **Software waarin dit probleem optreedt** | **Windows, Internet Explorer**. Zie de sectie Software waarin het probleem optreedt en de sectie Downloadlocaties.                                                                                                                                                                                                                                                                                                                                           |
+
+Belangrijk (3)
+--------------
+
+<span></span>
+| Bulletin-id                               | Microsoft-beveiligingsbulletin MS07-047                                                                                                                                                                                                                                                                                                                                                                            |
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Titel bulletin**                        | [**Door een beveiligingslek in Windows Media Player kan externe programmacode worden uitgevoerd (936782)**](http://technet.microsoft.com/security/bulletin/ms07-047)                                                                                                                                                                                                                                               |
+| **Samenvatting**                          | Met deze belangrijke beveiligingsupdate worden twee privé gemelde beveiligingslekken opgelost. Door deze beveiligingslekken kan code worden uitgevoerd als een gebruiker in Windows Media Player een speciaal vervaardigd bestand heeft weergegeven. Gebruikers met accounts waarvoor minder gebruikersrechten op het systeem zijn ingesteld, lopen minder risico dan gebruikers die met beheerdersrechten werken. |
+| **Maximaal prioriteitsniveau**            | [Belangrijk](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                                                                                                                         |
+| **Gevolgen van het beveiligingslek**      | Uitvoering van externe code mogelijk                                                                                                                                                                                                                                                                                                                                                                               |
+| **Detectie**                              | Met Microsoft Baseline Security kan worden vastgesteld of deze update voor uw computersysteem is vereist. Bij deze update is het opnieuw starten van het systeem niet vereist.                                                                                                                                                                                                                                     |
+| **Software waarin dit probleem optreedt** | **Windows.** Zie de sectie Software waarin het probleem optreedt en de sectie Downloadlocaties.                                                                                                                                                                                                                                                                                                                    |
+
+| Bulletin-id                               | Microsoft-beveiligingsbulletin MS07-048                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Titel bulletin**                        | [**Door een beveiligingslek in Windows Gadgets kan externe code worden uitgevoerd (938123)**](http://technet.microsoft.com/security/bulletin/ms07-048)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Samenvatting**                          | Met deze belangrijke update worden twee privé gemelde beveiligingslekken opgelost. Deze oplossing geldt tevens voor andere beveiligingslekken die in de loop van het onderzoek zijn aangetroffen. Door deze beveiligingslekken kan een anonieme, externe aanvaller code uitvoeren met de bevoegdheden van de gebruiker die is aangemeld. Als een gebruiker is geabonneerd op een schadelijke RSS-feed van het gadget Hoofdpunten van feeds, een schadelijk bestand van contactpersonen aan het gadget Contactpersonen heeft toegevoegd, of in het gadget Weer op een schadelijke koppeling heeft geklikt, kan een aanvaller code uitvoeren op het systeem. Voor alle aanvalsvectoren geldt dat gebruikers met accounts waarvoor minder gebruikersrechten op het systeem zijn ingesteld, minder risico lopen dan gebruikers die met beheerdersrechten werken. |
+| **Maximaal prioriteitsniveau**            | [Belangrijk](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Gevolgen van het beveiligingslek**      | Uitvoering van externe code mogelijk                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Detectie**                              | Met Microsoft Baseline Security kan worden vastgesteld of deze update voor uw computersysteem is vereist. Bij deze update wordt het systeem opnieuw opgestart.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Software waarin dit probleem optreedt** | **Windows** **Vista.** Zie de sectie Software waarin het probleem optreedt en de sectie Downloadlocaties.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+
+| Bulletin-id                               | Microsoft-beveiligingsbulletin MS07-049                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Titel bulletin**                        | [**Beveiligingslek in Virtual PC en Virtual Server kan leiden tot misbruik van bevoegdheden (937986)**](http://technet.microsoft.com/security/bulletin/ms07-049)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Samenvatting**                          | Met deze belangrijke beveiligingsupdate wordt een privé gemeld beveiligingslek opgelost. Dit beveiligingslek heeft betrekking op misbruik van bevoegdheden. Door het beveiligingslek in Microsoft Virtual PC en Microsoft Virtual Server kan een gebruiker van een gastbesturingssysteem code uitvoeren op de host of op andere gastbesturingssystemen. Alleen gebruikers van gastbesturingssystemen die beheerdersmachtigingen hebben voor het gastbesturingssysteem, kunnen dit beveiligingslek misbruiken. Gebruikers van gastbesturingssystemen die geen beheerdersmachtigingen hebben voor het gastbesturingssysteem, kunnen dit beveiligingslek niet misbruiken. |
+| **Maximaal prioriteitsniveau**            | [Belangrijk](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Gevolgen van het beveiligingslek**      | Misbruik van bevoegdheden                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Detectie**                              | Met Microsoft Baseline Security kan worden vastgesteld of deze update voor uw computersysteem is vereist. Opnieuw opstarten van het systeem is niet vereist.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Software waarin dit probleem optreedt** | **Virtual PC, Virtual Server.** Zie de sectie Software waarin het probleem optreedt en de sectie Downloadlocaties.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+
+Software waarin het probleem optreedt en Downloadlocaties
+---------------------------------------------------------
+
+<span></span>
+**Gebruik van deze tabel**
+
+In deze tabel vindt u informatie over de beveiligingsupdates die u mogelijk moet installeren. U moet voor elk softwareprogramma of onderdeel in de tabel controleren of er beveiligingsupdates vereist zijn. Als een softwareprogramma of -onderdeel in de tabel voorkomt, worden de gevolgen van het beveiligingslek weergegeven en is er een koppeling naar de beschikbare software-update.
+
+**Opmerking** voor één beveiligingslek moet u mogelijk verschillende beveiligingsupdates installeren. Bekijk de gehele kolom van elke bulletin-id die wordt weergegeven om te controleren of de te installeren updates zijn gebaseerd op de programma's of onderdelen die u op uw systeem hebt geïnstalleerd.
+
+#### Software waarin het probleem optreedt, en downloadlocaties voor MS07-042 tot en met MS07-046
+
+**Software waarin het probleem optreedt en Downloadlocaties**
+
+ 
+<table style="border:1px solid black;">
+<tr class="thead">
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+Details        
+</th>
+<th style="border:1px solid black;" >
+Details        
+</th>
+<th style="border:1px solid black;" >
+Details        
+</th>
+<th style="border:1px solid black;" >
+Details        
+</th>
+<th style="border:1px solid black;" >
+Details        
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS07-042**](http://technet.microsoft.com/security/bulletin/ms07-042)
+</td>
+<td style="border:1px solid black;">
+[**MS07-043**](http://technet.microsoft.com/security/bulletin/ms07-043)
+</td>
+<td style="border:1px solid black;">
+[**MS07-044**](http://technet.microsoft.com/security/bulletin/ms07-044)
+</td>
+<td style="border:1px solid black;">
+[**MS07-045**](http://technet.microsoft.com/security/bulletin/ms07-045)
+</td>
+<td style="border:1px solid black;">
+[**MS07-046**](http://technet.microsoft.com/security/bulletin/ms07-046)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Maximaal prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<th colspan="6">
+Windows-software waarin het probleem optreedt
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Windows 2000 Service Pack 4
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=5c35b6e8-732a-4451-b5d4-23ed63e6e792)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=8fc8340b-c2b3-4559-835c-caa00cf086b9)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows XP Service Pack 2
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=6e8de050-8589-4831-ae19-075c93509485)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=dc29475d-c0bb-4d35-8dd6-4ca1cac32315)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows XP Service Pack 3
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows XP Professional x64 Edition
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=b85bb583-dc61-4d37-b458-208f5bb07ece)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=3c81730a-981a-4649-b2d9-45144230d512)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows XP Professional x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=b85bb583-dc61-4d37-b458-208f5bb07ece)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2003 Service Pack 1
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=15d4d4fa-9bab-4da5-978e-f89c78c8086a)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=5374583d-de68-4d65-bca8-598d6b98b8b3)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=15d4d4fa-9bab-4da5-978e-f89c78c8086a)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2003 x64 Edition
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=6608d722-3ef8-4085-b771-7b17bb0ba06e)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=c3359f27-e03e-4a4f-b896-3bda39f69f7e)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2003 x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=6608d722-3ef8-4085-b771-7b17bb0ba06e)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2003 met SP1 voor Itanium-systemen
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=fc04451a-0696-4a21-b2b6-f02d4e2c33bf)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=92822479-2060-4357-a340-ed096f180b2b)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2003 met SP2 voor Itanium-systemen
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=fc04451a-0696-4a21-b2b6-f02d4e2c33bf)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Vista
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Vista Service Pack 1
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Vista x64 Edition
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Vista x64 Edition Service Pack 1
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2008 voor 32-bits systemen
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2008 voor x64-systemen
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2008 voor Itanium-systemen
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<th colspan="6">
+Onderdelen van Windows waarin het probleem optreedt
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Internet Explorer 5.01 Service Pack 4 op Microsoft Windows 2000 Service Pack 4
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=fcf9440f-bb36-4ed1-9b6b-74a4f055650b)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Internet Explorer 6 Service Pack 1 indien geïnstalleerd op Microsoft Windows 2000 Service Pack 4
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=8db75461-4dca-43db-aa30-c7e67ce954ad)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Internet Explorer 6 voor Windows XP Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=5d31d916-867f-4dbf-b8a4-c75ea83f4f51)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Internet Explorer 6 voor Windows XP Professional x64 Edition en Windows XP Professional x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=b15b2442-d6da-41dd-a424-11c9893be595)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Internet Explorer 6 voor Windows Server 2003 Service Pack 1 en Windows Server 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=f2f9fb69-0399-4df0-9f5b-8f42a130c581)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Internet Explorer 6 voor Windows Server 2003 x64 Edition en Windows Server 2003 x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=d0bd886d-2c80-4dd7-82b7-1bd1f8d398cc)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Internet Explorer 6 voor Windows Server 2003 met SP1 voor Itanium-systemen en Windows Server 2003 met SP2 voor Itanium-systemen
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=bf41033a-d6f0-451e-9b69-4cbe2bb3f804)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Internet Explorer 7 voor Windows XP Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=7a2b4395-eaba-45ec-8d0c-932ebcc3d344)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Internet Explorer 7 voor Windows XP Professional x64 Edition en Windows XP Professional x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=cd7ed4d5-7790-41db-8b68-cfd59105ca36)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Internet Explorer 7 voor Windows Server 2003 Service Pack 1 en Windows Server 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Laag](http://www.microsoft.com/downloads/details.aspx?familyid=4f8daed8-9925-494d-b2f5-1e29f4040f6a)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Internet Explorer 7 voor Windows Server 2003 x64 Edition en Windows Server 2003 x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Laag](http://www.microsoft.com/downloads/details.aspx?familyid=34669ca2-46b0-4fbf-8fbd-ad7a13920103)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Internet Explorer 7 voor Windows Server 2003 met SP1 voor Itanium-systemen en Windows Server 2003 met SP2 voor Itanium-systemen
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Laag](http://www.microsoft.com/downloads/details.aspx?familyid=5bd7bcbd-528a-4a16-a39a-a5ff5f69a2e2)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Internet Explorer 7 in Windows Vista
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=9ae27b2f-aca4-4758-8ce4-a98f1ff6ba70)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Internet Explorer 7 in Windows Vista x64 Edition
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=53497e53-d10c-43af-ad56-9f07739a5284)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft XML Core Services 3.0 (KB936021) onder Microsoft Windows 2000 Service Pack 4
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=245214ea-76f9-4755-8a14-a74232e20c1c)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft XML Core Services 3.0 (KB936021) onder Windows XP Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=dea6a48f-fb00-43f3-a374-3220f9759c2d)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft XML Core Services 3.0 (KB936021) onder Windows XP Professional x64 Edition en Windows XP Professional x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=b8862ca9-1203-4056-a257-29271838ac0d)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft XML Core Services 3.0 (KB936021) onder Windows Server 2003 Service Pack 1 en Windows Server 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=12618ad0-aefd-4c9a-a769-4b14a7603d6e)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft XML Core Services 3.0 (KB936021) onder Windows Server 2003 x64 Edition en Windows Server 2003 x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=61bf00a9-aeea-431a-86d3-526a4a373bb7)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft XML Core Services 3.0 (KB936021) onder Windows Server 2003 met SP1 voor Itanium-systemen en Windows Server 2003 met SP2 voor Itanium-systemen
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=b0285dd7-bf66-4226-9948-26e8aae99046)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft XML Core Services 3.0 (KB936021) onder Windows Vista
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=c734d7de-5d87-4904-81c3-714db2cb8b0d)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft XML Core Services 3.0 (KB936021) onder Windows Vista x64 Edition
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=0a465d77-a737-4d26-82a1-570f9c788a8a)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft XML Core Services 4.0 (KB936181) indien geïnstalleerd op Microsoft Windows 2000 Service Pack 4
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=021e12f5-cb46-43df-a2b8-185639ba2807)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft XML Core Services 4.0 (KB936181) op Windows XP Service Pack 2 en Windows XP Service Pack 3
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=021e12f5-cb46-43df-a2b8-185639ba2807)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft XML Core Services 4.0 (KB936181) indien geïnstalleerd onder Windows XP Professional x64 Edition en Windows XP Professional x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=021e12f5-cb46-43df-a2b8-185639ba2807)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft XML Core Services 4.0 (KB936181) indien geïnstalleerd onder Windows Server 2003 Service Pack 1 en Windows Server 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=021e12f5-cb46-43df-a2b8-185639ba2807)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft XML Core Services 4.0 (KB936181) indien geïnstalleerd onder Windows XP Professional x64 Edition en Windows Server 2003 x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=021e12f5-cb46-43df-a2b8-185639ba2807)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft XML Core Services 4.0 (KB936181) indien geïnstalleerd onder Windows Server 2003 met SP1 voor Itanium-systemen en Windows Server 2003 met SP2 voor Itanium-systemen
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=021e12f5-cb46-43df-a2b8-185639ba2807)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft XML Core Services 4.0 (KB936181) indien geïnstalleerd op Windows Vista en Windows Vista Service Pack 1
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=021e12f5-cb46-43df-a2b8-185639ba2807)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft XML Core Services 4.0 (KB936181) indien geïnstalleerd onder Windows Vista x64 Edition of Windows Vista x64 Edition Service Pack 1
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=021e12f5-cb46-43df-a2b8-185639ba2807)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft XML Core Services 4.0 (KB936181) indien geïnstalleerd op Windows Server 2008 voor 32-bits systemen
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=021e12f5-cb46-43df-a2b8-185639ba2807)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft XML Core Services 4.0 (KB936181) indien geïnstalleerd op Windows Server 2008 voor x64-systemen
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=021e12f5-cb46-43df-a2b8-185639ba2807)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft XML Core Services 4.0 (KB936181) indien geïnstalleerd op Windows Server 2008 voor Itanium-systemen
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=021e12f5-cb46-43df-a2b8-185639ba2807)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft XML Core Services 6.0  
+(KB933579) indien geïnstalleerd op Microsoft Windows 2000 Service Pack 4
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=70c92e77-9e5a-41b1-a9d2-64443913c976)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft XML Core Services 6.0 (KB933579) indien geïnstalleerd onder Windows XP Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=70c92e77-9e5a-41b1-a9d2-64443913c976)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft XML Core Services 6.0 (KB933579) indien geïnstalleerd onder Windows XP Professional x64 Edition en Windows XP Professional x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=70c92e77-9e5a-41b1-a9d2-64443913c976)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft XML Core Services 6.0 (KB933579) indien geïnstalleerd onder Windows Server 2003 Service Pack 1 en Windows Server 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=70c92e77-9e5a-41b1-a9d2-64443913c976)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft XML Core Services 6.0 (KB933579) indien geïnstalleerd onder Windows Server 2003 x64 Edition en Windows Server 2003 x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=70c92e77-9e5a-41b1-a9d2-64443913c976)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft XML Core Services 6.0 (KB933579) indien geïnstalleerd onder Windows Server 2003 voor Itanium-systemen en Windows Server 2003 met SP2 voor Itanium-systemen
+</td>
+<td style="border:1px solid black;">
+[Matig](http://www.microsoft.com/downloads/details.aspx?familyid=70c92e77-9e5a-41b1-a9d2-64443913c976)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft XML Core Services 6.0 (KB933579) onder Windows Vista
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=14270529-3ae5-43bf-a471-722ab010d81e)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft XML Core Services 6.0 (KB933579) onder Windows Vista x64 Edition
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=928da3d2-b0b9-447a-b37a-4350497fe563)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<th colspan="6">
+Office-software waarin het probleem optreedt
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Excel 2000 Service Pack 3
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=082b98f7-9556-4f1f-823a-c41ddf5a7c9a)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Excel 2002 Service Pack 3
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=91308769-2577-4f9f-8209-06f2c8c8a86f)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=b0130e9e-8845-4d79-aaa1-a21cc9388abe)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office 2003 Service Pack 2 met Microsoft XML Core Services 5.0 (KB936048)
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=a339cb7b-e08a-47f8-ac0b-df449191424a)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Excel Viewer 2003
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=c4a87572-3128-44f7-8069-95535a78500a)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Word Viewer 2003 met Microsoft XML Core Services 5.0 (KB936048)
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=a339cb7b-e08a-47f8-ac0b-df449191424a)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office 2004 voor Mac
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/mac/downloads.aspx)
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/mac/downloads.aspx)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Office 2007 met Microsoft XML Core Services 5.0 (KB936960)
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=7a97478a-832c-4a6b-b074-0e18b1e4ed33)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office Groove Server 2007 met Microsoft XML Core Services 5.0 (KB936056)
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=e875613b-2f32-4f28-a635-664a25c95c18)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office SharePoint Server met Microsoft XML Core Services 5.0 (KB936056)
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=e875613b-2f32-4f28-a635-664a25c95c18)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<th colspan="6">
+Overige software waarin dit probleem optreedt
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Visual Basic 6.0 Service Pack 6 (KB924053)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=e1646fb0-29d5-4a6e-a8d2-304c4d7735b7)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+</table>
+ 
+**Opmerkingen**
+
+**<sup>[1]</sup>** Er is een beveiligingsupdate voor dit besturingssysteem beschikbaar. Zie de tabel voor informatie over de software of het onderdeel waarin het probleem optreedt, en het betreffende beveiligingsbulletin voor details.** **
+
+#### Software waarin het probleem optreedt en downloadlocaties voor MS07-047 tot en met MS07-050
+
+**Software waarin het probleem optreedt en Downloadlocaties**
+
+ 
+<table style="border:1px solid black;">
+<tr class="thead">
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+Details        
+</th>
+<th style="border:1px solid black;" >
+Details        
+</th>
+<th style="border:1px solid black;" >
+Details        
+</th>
+<th style="border:1px solid black;" >
+Details        
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Bulletin-id**
+</td>
+<td style="border:1px solid black;">
+[**MS07-047**](http://technet.microsoft.com/security/bulletin/ms07-047)
+</td>
+<td style="border:1px solid black;">
+[**MS07-048**](http://technet.microsoft.com/security/bulletin/ms07-048)
+</td>
+<td style="border:1px solid black;">
+[**MS07-049**](http://technet.microsoft.com/security/bulletin/ms07-049)
+</td>
+<td style="border:1px solid black;">
+[**MS07-050**](http://technet.microsoft.com/security/bulletin/ms07-050)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Maximaal prioriteitsniveau**
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Belangrijk**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Kritiek**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<th colspan="5">
+Windows-software waarin het probleem optreedt
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Windows 2000 Service Pack 4
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows XP Service Pack 2
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows XP Professional x64 Edition
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows XP Professional x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2003 Service Pack 1
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2003 x64 Edition
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2003 x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2003 met SP1 voor Itanium-systemen
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2003 met SP2 voor Itanium-systemen
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Vista
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=49a5bd84-da71-4529-b4d3-ac57dab59e01)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Vista x64 Edition
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=24443f59-b908-480b-9b72-7094d4b5e128)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr>
+<th colspan="5">
+Onderdelen van Windows waarin het probleem optreedt
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Internet Explorer 5.01 Service Pack 4 op Microsoft Windows 2000 Service Pack 4
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=31e63d6f-b6b7-41d7-8ae6-dd7fcf89d477)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Internet Explorer 6 Service Pack 1 indien geïnstalleerd op Microsoft Windows 2000 Service Pack 4
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=7099d33a-0ef6-423f-824e-757482517612)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Internet Explorer 6 voor Windows XP Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=4447d74f-09ea-4be0-9dae-c243ce657fb7)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Internet Explorer 6 voor Windows XP Professional x64 Edition en Windows XP Professional x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=98ccd207-f4d0-4625-aeab-0ebf1643a5fd)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Internet Explorer 6 voor Windows Server 2003 Service Pack 1 en Windows Server 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=463535aa-e04e-4a30-b3ab-8cd6d8cdd13c)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Internet Explorer 6 voor Windows Server 2003 x64 Edition en Windows Server 2003 x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=9d4375d4-fb9b-4771-bd6f-e5d23eedbc6b)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Internet Explorer 6 voor Windows Server 2003 met SP1 voor Itanium-systemen en Windows Server 2003 met SP2 voor Itanium-systemen
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=c7be313b-3405-42e1-9e4b-0cb6bf3d2cb1)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Internet Explorer 7 voor Windows XP Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=9f5da816-194c-478e-8a96-9421a0c52c9f)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Internet Explorer 7 voor Windows XP Professional x64 Edition en Windows XP Professional x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=1c3168a9-d959-4137-868a-ec70da737c21)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Internet Explorer 7 voor Windows Server 2003 Service Pack 1 en Windows Server 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=59884e97-4912-4a9a-8a31-8182ea2d24db)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Internet Explorer 7 voor Windows Server 2003 x64 Edition en Windows Server 2003 x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=42060e27-de14-4d0c-92a0-138cb57fe2b5)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Internet Explorer 7 voor Windows Server 2003 met SP1 voor Itanium-systemen en Windows Server 2003 met SP2 voor Itanium-systemen
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=a536206e-9d1b-49a8-81a1-53d46f2de973)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Internet Explorer 7 in Windows Vista
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=2dd908a4-6152-4976-aaaa-01f5f37c9143)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Internet Explorer 7 in Windows Vista x64 Edition
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Kritiek](http://www.microsoft.com/downloads/details.aspx?familyid=592435bc-1d43-4544-bd8a-4a2d829dc1a1)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Media Player 7.1 op Microsoft Windows 2000 Service Pack 4
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=9f46b1fc-ee7b-437f-9492-67d003711021)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Media Player 9 indien geïnstalleerd onder Microsoft Windows 2000 Service Pack 4
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=bd4a6474-5fde-415e-840e-7d973cb71c95)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Media Player 9 op Windows XP Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=bd4a6474-5fde-415e-840e-7d973cb71c95)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Media Player 10 indien geïnstalleerd onder Windows XP Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=48f5a9d3-b859-4cb6-a68e-abde76a14782)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Media Player 10 op Windows XP Professional x64 Edition en Windows XP Professional x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=949580be-cbb3-4271-8ca0-0ead7f2d8801)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Media Player 10 op Windows Server 2003 Service Pack 1 en Windows Server 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=8d9f1fdf-6d4c-44d4-9b5f-bdbe8ac28d7f)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Media Player 10 op Windows Server 2003 x64 Edition en Windows Server 2003 x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=2c04c7f2-728e-43bd-8574-26e411fcd129)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Media Player 11 indien geïnstalleerd op Windows XP Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=a690d042-1137-4aaf-bd0e-565ea04d1f2b)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Media Player 11 op Windows XP Professional x64 Edition en Windows XP Professional x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=bdc89f34-c1ff-46ab-b52d-c02d51c5c373)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Media Player 11 in Windows Vista
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=80e5167c-4f75-4ce3-8b15-2f50958deec8)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Media Player 11 in Windows Vista x64 Edition
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=bf30b714-d6e7-47ea-b79e-84c18370a661)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<th colspan="5">
+Overige software waarin dit probleem optreedt
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Virtual PC 2004
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=cbdeaa50-7115-4673-97c4-10009f9c5c42)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Virtual PC 2004 Service Pack 1
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=17ffe5a2-3551-4858-93b6-5e25af87d808)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Virtual Server 2005 Standard Edition
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=bc02ea6d-2884-4637-9894-3413a71329ee)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Virtual Server 2005 Enterprise Edition
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=da474b6f-9f0c-43f6-b432-050f7e76967d)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Virtual Server 2005 R2 Standard Edition
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=43fa1327-8e5e-4c92-901f-1ff2a0a087b4)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Virtual Server 2005 R2 Enterprise Edition
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/downloads/details.aspx?familyid=c2fc16c4-1fb0-4c09-b04a-684b40df8517)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Virtual PC voor Mac versie 6.1
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/mac/downloads.aspx)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Virtual PC voor Mac versie 7
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Belangrijk](http://www.microsoft.com/mac/downloads.aspx)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+</table>
+ 
+**Opmerkingen**
+
+**<sup>[1]</sup>** Er is een beveiligingsupdate voor dit besturingssysteem beschikbaar. Zie de tabel voor informatie over de software of het onderdeel waarin het probleem optreedt, en het betreffende beveiligingsbulletin voor details.** **
+
+Hulpmiddelen en richtlijnen voor detecteren en implementeren
+------------------------------------------------------------
+
+<span></span>
+**Beveiligingscentrum**
+
+De software- en beveiligingsupdate beheren waarmee u de servers, desktops en draagbare computers binnen uw organisatie kunt implementeren. Zie het [TechNet Update Management Center](http://go.microsoft.com/fwlink/?linkid=69903) voor meer informatie. Op de website [TechNet Security Center](http://go.microsoft.com/fwlink/?linkid=21171) staat aanvullende informatie over beveiliging in Microsoft-producten. Consumenten kunnen op de website [Beveiliging voor thuis](http://go.microsoft.com/fwlink/?linkid=85102) deze informatie ook ophalen door te klikken op "De nieuwste beveiligingsupdates".
+
+Beveiligingsupdates zijn verkrijgbaar via [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747), [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130) en [Office Update](http://go.microsoft.com/fwlink/?linkid=21135). Beveiligingsupdates zijn ook verkrijgbaar via het [Microsoft Downloadcentrum](http://go.microsoft.com/fwlink/?linkid=21129). U vindt deze updates het snelst door een zoekactie uit te voeren met als trefwoord "security\_patch''. Ten slotte kunt u beveiligingsupdates downloaden uit de Windows Update-catalogus. Zie [Microsoft Knowledge Base-artikel 323166](http://support.microsoft.com/kb/323166) voor meer informatie over de Windows Update-catalogus.
+
+**Richtlijnen voor detecteren en implementeren**
+
+Microsoft heeft richtlijnen voor detecteren en implementeren uitgebracht voor de beveiligingsupdates van deze maand. Aan de hand van deze richtlijnen kunnen IT-professionals zien hoe zij met de diverse hulpprogramma's de beveiligingsupdate moeten implementeren, zoals Windows Update, Microsoft Update, Office Update, de Microsoft Baseline Security Analyzer (MBSA), de Office Detection Tool, Microsoft Systems Management Server (SMS), de Extended Security Update Inventory Tool en de Enterprise Update Scan Tool (EST). Zie [Microsoft Knowledge Base-artikel 910723](http://support.microsoft.com/kb/910723) voor meer informatie.
+
+**Microsoft Baseline Security Analyzer en** **Enterprise** **Update Scan Tool**
+
+Met de Microsoft Baseline Security Analyzer (MBSA) kunnen beheerders lokale en externe systemen scannen op ontbrekende beveiligingsupdates en algemene, onjuiste beveiligingsconfiguraties. Ga naar de website [Microsoft Baseline Security Analyzer](http://go.microsoft.com/fwlink/?linkid=21134) voor meer informatie over MBSA.
+
+Als MBSA 1.2.1 detectie voor een bepaalde beveiligingsupdate niet kan ondersteunen, geeft Microsoft een versie van Enterprise Update Scan Tool (EST) voor de desbetreffende beveiligingsupdate uit. Ga voor meer informatie over EST naar [Enterprise Update Scan Tool](http://support.microsoft.com/default.aspx?id=894193).
+
+**Opmerking** Na 9 oktober 2007 zal het bestand MSSecure.XML, dat door MBSA 1.2.1 wordt gebruikt, niet langer worden bijgewerkt. Na deze datum zullen geen nieuwe beveiligingsupdates worden toegevoegd aan het bestand MSSecure.XML, dat door MBSA 1.2.1 wordt gebruikt, en zullen geen nieuwe versies van Enterprise Scan Tool meer worden uitgegeven. Ga naar de website [Microsoft Baseline Security Analyzer](http://go.microsoft.com/fwlink/?linkid=21134) voor meer informatie.
+
+**Windows Server Update Services:**
+
+Als Windows Server Update Services (WSUS) wordt gebruikt, kunnen beheerders snel en betrouwbaar de nieuwste essentiële updates en beveiligingsupdates implementeren voor Windows-besturingssysteem Windows 2000 en later, Office XP en later, Exchange Server 2003 en SQL Server 2000 en later.
+
+Ga naar de website [Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=50120) voor meer informatie over hoe u deze beveiligingsupdate kunt implementeren met behulp van Windows Server Update Services.
+
+**Systems Management Server**
+
+Microsoft Systems Management Server (SMS) is een configureerbare bedrijfsoplossing voor het beheer van updates. Met SMS kunnen beheerders bepalen of beveiligingsupdates nodig zijn voor Windows-systemen, en deze updates in de gehele organisatie gecontroleerd implementeren met minimaal ongemak voor de eindgebruikers. Ga naar de website [SMS 2003 Security Patch Management](http://go.microsoft.com/fwlink/?linkid=22939) voor meer informatie over hoe beheerders met SMS 2003 beveiligingsupdates kunnen implementeren. SMS 2.0-gebruikers kunnen ook het [Software Updates Service Feature Pack](http://go.microsoft.com/fwlink/?linkid=33340) gebruiken voor de implementatie van beveiligingsupdates. Ga naar de website [Microsoft Systems Management Server](http://go.microsoft.com/fwlink/?linkid=21158) voor meer informatie over SMS.
+
+**Opmerking:** SMS maakt gebruik van de Microsoft Baseline Security Analyzer en de Microsoft Office Detection Tool om brede ondersteuning te kunnen bieden voor het zoeken en uitvoeren van beveiligingsupdates. Bepaalde software-updates worden mogelijk niet opgemerkt door deze hulpprogramma's. Beheerders kunnen in deze gevallen de inventarisatiefuncties van SMS gebruiken om de updates op bepaalde systemen uit te voeren. Zie [Software-updates implementeren met de distributiefunctie van de SMS-software](http://go.microsoft.com/fwlink/?linkid=33341) voor meer informatie over deze procedure. Voor bepaalde beveiligingsupdates zijn beheerdersrechten vereist na het opnieuw opstarten van het systeem. Beheerders kunnen voor het installeren van deze updates de Elevated Rights Deployment Tool gebruiken (die deel uitmaakt van het [SMS 2003 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=33387) en het [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161)).
+
+### Overige informatie
+
+#### Hulpprogramma voor het verwijderen van schadelijke software uit Microsoft Windows
+
+Microsoft heeft een bijgewerkte versie van het nieuwe Windows-programma voor het verwijderen van schadelijke software op Windows Update, Microsoft Update, Windows Server Update Services en het Downloadcentrum geplaatst.
+
+#### Belangrijke niet-beveiligingsupdates op MU, WU en WSUS:
+
+Planning voor deze maand:
+
+-   Microsoft heeft op Microsoft Update (MU) en Windows Server Update Services (WSUS) vier belangrijke updates uitgegeven die **geen beveiligingsupdates** zijn.
+-   Microsoft heeft twee **niet-beveiligingsupdates**, maar wel belangrijke updates voor Windows op Windows Update (WU) vrijgegeven.
+
+De informatie geldt **alleen** voor belangrijke **niet-beveiligingsupdates** op Microsoft Update, Windows Update en Windows Server Update Services, die op dezelfde dag als de samenvatting van de beveiligingsbulletins zijn uitgegeven. Er wordt **geen** informatie gegeven over **niet-beveiligingsupdates** die op andere dagen zijn uitgegeven.
+
+#### Veiligheidsstrategieën en community
+
+**Strategieën voor updatebeheer**
+
+Op de website [Security Guidance for Patch Management](http://go.microsoft.com/fwlink/?linkid=21168) kunt u extra informatie vinden over aanbevelingen van Microsoft voor het toepassen van beveiligingsupdates.
+
+**Verkrijgen van andere beveiligingsupdates**
+
+Op de volgende locaties zijn updates verkrijgbaar voor andere beveiligingsproblemen:
+
+-   Beveiligingsupdates zijn verkrijgbaar via het [Microsoft Downloadcentrum](http://go.microsoft.com/fwlink/?linkid=21129). U vindt deze updates het snelst door een zoekactie uit te voeren met als trefwoord 'security\_patch'.
+-   Updates voor consumentenplatforms zijn verkrijgbaar op de website [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747).
+-   U kunt de beveiligingsupdates van deze maand die op Windows Update staan, via het ISO CD-imagebestand met beveiligingsupdates en essentiële updates vanaf het Downloadcentrum ophalen. Zie [Microsoft Knowledge Base-artikel 913086](http://support.microsoft.com/kb/913086) voor meer informatie.
+
+**IT Pro Security-community**
+
+Leer de beveiliging te verbeteren en uw IT-infrastructuur te optimaliseren en bespreek beveiligingsonderwerpen met andere IT-professionals op de website [IT Pro Security Community](http://go.microsoft.com/fwlink/?linkid=21164).
+
+#### Dankbetuiging
+
+Microsoft [bedankt](http://go.microsoft.com/fwlink/?linkid=21127) de volgende partijen voor de samenwerking bij het verbeteren van de beveiliging voor klanten:
+
+-   Een anonieme onderzoeker die bij [VeriSign iDefense VCP](http://idefense.com/) werkt voor het melden van een probleem dat in [MS07-042](http://technet.microsoft.com/security/bulletin/ms07-042) is beschreven.
+-   Een anonieme onderzoeker die bij [Zero Day Initiative](http://www.zerodayinitiative.com/) werkt voor het melden van een probleem dat in [MS07-042](http://technet.microsoft.com/security/bulletin/ms07-042) is beschreven.
+-   Een anonieme onderzoeker die bij [VeriSign iDefense VCP](http://idefense.com/) werkt voor het melden van een probleem dat in [MS07-043](http://technet.microsoft.com/security/bulletin/ms07-043) is beschreven.
+-   Een anonieme onderzoeker die bij [Zero Day Initiative](http://www.zerodayinitiative.com/) werkt voor het melden van een probleem dat in [MS07-043](http://technet.microsoft.com/security/bulletin/ms07-043) is beschreven.
+-   Dyon Balding van [Secunia](http://secunia.com/) voor het melden van een probleem dat wordt beschreven in [MS07-044](http://technet.microsoft.com/security/bulletin/ms07-044).
+-   [NSFocus Security Team](http://www.nsfocus.com/) voor het melden van een probleem dat wordt beschreven in [MS07-045](http://technet.microsoft.com/security/bulletin/ms07-045).
+-   Brett Moore van [Security-Assessment.com](http://www.security-assessment.com/) voor het melden van een probleem dat wordt beschreven in [MS07-045](http://technet.microsoft.com/security/bulletin/ms07-045).
+-   [eEye Digital Security](http://www.eeye.com/) voor het melden van een probleem dat wordt beschreven in [MS07-046](http://technet.microsoft.com/security/bulletin/ms07-046).
+-   Piotr Bania, die samenwerkt met [TippingPoint](http://www.tippingpoint.com/) en het [Zero Day Initiative](http://www.zerodayintiative.com/), voor het melden van een probleem dat wordt beschreven in [MS07-047](http://technet.microsoft.com/security/bulletin/ms07-047).
+-   Aviv Raff van [Finjan](http://www.finjan.com/) voor het melden van een probleem dat wordt beschreven in [MS07-048](http://technet.microsoft.com/security/bulletin/ms07-048).
+-   Aviv Raff van [iDefense Labs](http://labs.idefense.com/) voor het melden van een probleem dat wordt beschreven in [MS07-048](http://technet.microsoft.com/security/bulletin/ms07-048).
+-   Rafal Wojtczuk van [McAfee Avert Labs](http://www.avertlabs.com/) voor het samenwerken met Microsoft aan een probleem dat wordt beschreven in [MS07-049](http://technet.microsoft.com/security/bulletin/ms07-049).
+-   [eEye Digital Security](http://www.eeye.com/) voor het melden van een probleem dat wordt beschreven in [MS07-050](http://technet.microsoft.com/security/bulletin/ms07-050).
+
+#### Ondersteuning
+
+-   De software waarin het probleem optreedt, is getest om te controleren of het probleem bij deze versies optreedt. Andere versies hebben het einde van hun ondersteuningscyclus bereikt. Ga naar [Microsoft Support Lifecycle](http://go.microsoft.com/fwlink/?linkid=21742) om de ondersteuningscyclus voor uw softwareversie te bepalen.
+-   Technische ondersteuning van [Microsoft Product Support Services](http://support.microsoft.com/?ln=nl) is beschikbaar via 020-500 1005. Voor ondersteuningsverzoeken in verband met beveiligingsupdates worden geen kosten in rekening gebracht.
+-   Voor internationale klanten is ondersteuning verkrijgbaar bij de Microsoft-vestiging in hun land. Voor ondersteuning in verband met beveiligingsupdates worden geen kosten in rekening gebracht. Ga naar de [website voor internationale ondersteuning](http://go.microsoft.com/fwlink/?linkid=21155) voor meer informatie over hoe u contact kunt opnemen met Microsoft voor ondersteuning.
+
+#### Uitsluiting van aansprakelijkheid
+
+De informatie die wordt geboden in de Microsoft Knowledge Base, wordt geleverd 'in de huidige staat' zonder enige garantie. Microsoft wijst hierbij alle expliciete of impliciete garanties van de hand, met inbegrip van alle garanties betreffende de verhandelbaarheid en geschiktheid voor een bepaald doel. Voorzover maximaal is toegestaan op grond van toepasselijk recht zijn Microsoft Corporation en/of haar leveranciers in geen geval aansprakelijk voor enige directe, indirecte of incidentele schade, bijzondere schade, gevolgschade of schade ten gevolge van het verlies van winsten, zelfs als Microsoft Corporation of haar leveranciers van de mogelijkheid van dergelijke schade op de hoogte is gesteld. Aangezien sommige staten/rechtssystemen uitsluiting of beperking van aansprakelijkheid voor gevolgschade of incidentele schade niet toestaan, is de voorgaande beperking wellicht niet op u van toepassing.
+
+#### Revisies
+
+-   V1.0 (14 augustus 2007): Samenvatting van de gepubliceerde bulletins.
+-   V1.1 (29 augustus 2007): De sectie 'Office-software waarin het probleem optreedt' in de tabel 'Software waarin dit probleem optreedt' in MS07-044 is bijgewerkt; "Office 2000," "Office XP" en "Office 2003” zijn gewijzigd in respectievelijk “Excel 2000,” “Excel 2002,” en “Excel 2003”.
+-   V2.0 (13 november 2007): Tabel met software waarin dit probleem optreedt bijgewerkt met koppelingen naar downloads voor MS07-049. Er kan een herziene beveiligingsupdate worden geïnstalleerd voor Microsoft Virtual PC 2004, Microsoft Virtual PC 2004 Service Pack 1, Microsoft Virtual Server 2005 Standard Edition, Microsoft Virtual Server 2005 Enterprise Edition, Microsoft Virtual Server 2005 R2 Standard Edition, Microsoft Virtual Server 2005 R2 Enterprise Edition.
+-   V3.0 (9 januari 2008): Microsoft Word Viewer 2003 is aan MS07-042 toegevoegd als product waarin dit probleem optreedt. De update voor Microsoft Office 2003 Service Pack 2 is ook van toepassing op Microsoft Word Viewer 2003.
+-   V4.0 (24 juni 2008): De tabel met software waarin dit probleem optreedt is aangevuld met Windows XP Service Pack 3, Windows Vista Service Pack 1, Windows Vista x64 Edition Service Pack 1, Windows Server 2008 voor 32-bits systemen, Windows Server 2008 voor x64-systemen en Windows Server 2008 voor Itanium-systemen onder MS07-042 voor de KB936181-update voor Microsoft XML Core Services 4.0. Dit is alleen een detectieverandering. De binaire bestanden zijn niet gewijzigd.
+
+*Built at 2014-04-18T01:50:00Z-07:00*

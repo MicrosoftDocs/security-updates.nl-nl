@@ -1,0 +1,259 @@
+---
+TOCTitle: 'MS06-MAY'
+Title: 'Samenvatting van de Microsoft-beveiligingsbulletins voor mei 2006'
+ms:assetid: 'ms06-may'
+ms:contentKeyID: 61231938
+ms:mtpsurl: 'https://technet.microsoft.com/nl-NL/library/ms06-may(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
+---
+
+Security Bulletin Summary
+
+Samenvatting van de Microsoft-beveiligingsbulletins voor mei 2006
+=================================================================
+
+Gepubliceerd: dinsdag 9 mei 2006
+
+**Versie:** 1.0
+
+Van dit bulletin is een eindgebruikersversie verkrijgbaar op de volgende [website](http://www.microsoft.com/nl-nl/security/default.aspx).
+
+**Beveilig uw pc:** Microsoft biedt op de volgende locaties informatie over de beveiliging van uw pc:
+
+-   Eindgebruikers kunnen naar de volgende website gaan: [Beveilig uw pc](http://go.microsoft.com/fwlink/?linkid=21169).
+-   IT-professionals kunnen naar de volgende website gaan: [Security Guidance Center](http://go.microsoft.com/fwlink/?linkid=21171).
+
+**Strategieën voor updatebeheer:** Op de website [Patch Management, Security Updates, and Downloads](http://go.microsoft.com/fwlink/?linkid=21168) kunt u extra informatie vinden over aanbevelingen van Microsoft voor het toepassen van beveiligingsupdates.
+
+**IT Pro Security Zone-community:** Leer de beveiliging te verbeteren en uw IT-infrastructuur te optimaliseren en bespreek beveiligingsonderwerpen met andere IT-professionals op de website [IT Pro Security Zone](http://go.microsoft.com/fwlink/?linkid=21164).
+
+**Microsoft Security Notification Service:** Als u automatisch een e-mailbericht wilt ontvangen wanneer er een Microsoft-beveiligingsbulletin uitkomt, schrijft u zich in voor de [Microsoft Security Notification Service](http://go.microsoft.com/fwlink/?linkid=21163).
+
+#### Samenvatting
+
+Dit document beschrijft updates voor pas ontdekte beveiligingslekken. Deze beveiligingslekken zijn (op volgorde van prioriteit):
+
+Kritiek (2)
+-----------
+
+<span></span>
+| Bulletin-id                                | Microsoft-beveiligingsbulletin MS06-019                                                                                                                                   |
+|--------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Titel bulletin**                         | [**Door een beveiligingslek in Microsoft Exchange kan programmacode vanaf een externe locatie worden uitgevoerd (916803)**](http://go.microsoft.com/fwlink/?linkid=66352) |
+| **Samenvatting**                           | In Microsoft Exchange komt een beveiligingslek voor waardoor externe code kan worden uitgevoerd.                                                                          |
+| **Maximaal prioriteitsniveau**             | [Kritiek](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                   |
+| **Gevolgen van het beveiligingslek:**      | Uitvoering van externe code mogelijk                                                                                                                                      |
+| **Software waarin dit probleem optreedt:** | **Exchange.** Zie de sectie Software waarin het probleem optreedt en de sectie Downloadlocaties.                                                                          |
+
+| Bulletin-id                                | Microsoft-beveiligingsbulletin MS06-020                                                                                                                                                  |
+|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Titel bulletin**                         | [**Door een beveiligingslek in Macromedia Flash Player van Adobe kan programmacode vanaf een externe locatie worden uitgevoerd (913433)**](http://go.microsoft.com/fwlink/?linkid=59989) |
+| **Samenvatting**                           | In Macromedia Flash Player van Adobe komt een beveiligingslek voor waardoor externe code kan worden uitgevoerd.                                                                          |
+| **Maximaal prioriteitsniveau**             | [Kritiek](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                  |
+| **Gevolgen van het beveiligingslek:**      | Uitvoering van externe code mogelijk                                                                                                                                                     |
+| **Software waarin dit probleem optreedt:** | **Windows.** Zie de sectie Software waarin het probleem optreedt en de sectie Downloadlocaties.                                                                                          |
+
+Matig (1)
+---------
+
+<span></span>
+| Bulletin-id                                | Microsoft-beveiligingsbulletin MS06-018                                                                                                                                                                                                                                                                  |
+|--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Titel bulletin**                         | [**Door een beveiligingslek in Microsoft Distributed Transaction Coordinator kan denial of service optreden (913580)**](http://go.microsoft.com/fwlink/?linkid=62071)                                                                                                                                    |
+| **Samenvatting**                           | Dit beveiligingslek heeft betrekking op een denial of service, waardoor een aanvaller een speciaal gemaakt netwerkbericht kan verzenden naar een systeem waarin dit probleem optreedt.  Een aanvaller kan ervoor zorgen dat de Microsoft Distributed Transaction Coordinator (MSDTC) niet meer reageert. |
+| **Maximaal prioriteitsniveau**             | [Matig](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                    |
+| **Gevolgen van het beveiligingslek:**      | Denial of service                                                                                                                                                                                                                                                                                        |
+| **Software waarin dit probleem optreedt:** | **Windows.** Zie de sectie Software waarin het probleem optreedt en de sectie Downloadlocaties.                                                                                                                                                                                                          |
+
+Software waarin het probleem optreedt en Downloadlocaties
+---------------------------------------------------------
+
+<span></span>
+**Gebruik van deze tabel**
+
+In deze tabel vindt u informatie over de beveiligingsupdates die u mogelijk moet installeren. Bekijk elk softwareprogramma of -onderdeel in de tabel en controleer of er vereiste beveiligingsupdates zijn. Als een softwareprogramma of -onderdeel in de tabel voorkomt, worden de gevolgen van het beveiligingslek weergegeven en is er een koppeling naar de beschikbare software-update.
+
+**Software waarin het probleem optreedt en downloadlocaties**
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ></th>
+<th style="border:1px solid black;" >Details        </th>
+<th style="border:1px solid black;" >Details</th>
+<th style="border:1px solid black;" >Details</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><strong>Bulletin-id</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=62071"><strong>MS06-018</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=66352"><strong>MS06-019</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=59989"><strong>MS06-020</strong></a></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><strong>Maximaal prioriteitsniveau</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Belangrijk</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritiek</strong></a></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritiek</strong></a></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><strong>Windows-software waarin het probleem optreedt:</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Windows Server 2003</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e70515c7-8924-46da-8573-457957eea0d7">Laag</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Microsoft Windows Server 2003 voor Itanium-systemen</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7bd81335-79ea-46ce-8d3c-0aa91eefff02">Laag</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Windows XP Service Pack 1</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d80b43b2-727b-46b6-82d1-f2cbd916fe32">Laag</a></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b2b8f9a8-4874-405a-9f0c-768b2631673a">Kritiek</a></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Windows XP Service Pack 2</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d80b43b2-727b-46b6-82d1-f2cbd916fe32">Laag</a></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b2b8f9a8-4874-405a-9f0c-768b2631673a">Kritiek</a></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Windows 2000 Service Pack 4</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8b98f380-0e5c-4b80-9710-95e1b35afd83">Matig</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><strong>Software van Exchange waarin het probleem optreedt:</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Microsoft Exchange Server 2003 Service Pack 1</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0a8df1c3-abf9-4a21-9b49-81fa362b251f">Kritiek</a></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Microsoft Exchange Server 2003 Service Pack 2</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0a8df1c3-abf9-4a21-9b49-81fa362b251f">Kritiek</a></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Microsoft Exchange Server 2000 met de update van augustus 2004 voor Exchange 2000 Post-Service Pack 3</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0a8df1c3-abf9-4a21-9b49-81fa362b251f">Kritiek</a></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+</tbody>
+</table>
+  
+Implementatie  
+-------------
+  
+<span></span>
+**Software Update Services:**
+  
+Met Microsoft Software Update Services (SUS) kunnen beheerders snel en betrouwbaar de meest recente essentiële updates en beveiligingsupdates implementeren voor Windows 2000- en Windows Server 2003-servers, alsmede voor desktopsystemen met Windows 2000 Professional of Windows XP Professional.
+  
+Ga naar de website [Software Update Services](http://go.microsoft.com/fwlink/?linkid=21133) voor meer informatie over de implementatie van deze beveiligingsupdate met Software Update Services.
+  
+**Windows Server Update Services:**
+  
+Als Windows Server Update Services (WSUS) wordt gebruikt, kunnen beheerders snel en betrouwbaar de nieuwste essentiële updates en beveiligingsupdates implementeren voor Windows-besturingssysteem Windows 2000 en later, Office XP en later, Exchange Server 2003 en SQL Server 2000 en later.
+  
+Ga naar de website [Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=50120) voor meer informatie over hoe u deze beveiligingsupdate kunt implementeren met behulp van Windows Server Update Services.
+  
+**Systems Management Server:**
+  
+Microsoft Systems Management Server (SMS) is een configureerbare bedrijfsoplossing voor het beheer van updates. Met SMS kunnen beheerders bepalen of beveiligingsupdates nodig zijn voor Windows-systemen, en deze updates in de gehele organisatie gecontroleerd implementeren met minimaal ongemak voor de eindgebruikers. Ga naar de website [SMS 2003 Security Patch Management](http://go.microsoft.com/fwlink/?linkid=22939) voor meer informatie over hoe beheerders met SMS 2003 beveiligingsupdates kunnen implementeren. SMS 2.0-gebruikers kunnen ook [Software Updates Service Feature Pack](http://go.microsoft.com/fwlink/?linkid=33340) gebruiken voor het implementeren van beveiligingsupdates. Ga naar de [SMS-website](http://go.microsoft.com/fwlink/?linkid=21158) voor informatie over SMS.
+  
+**Opmerking** SMS maakt gebruik van de Microsoft Baseline Security Analyzer en de Microsoft Office Detection Tool om brede ondersteuning te kunnen bieden voor het zoeken en installeren van beveiligingsupdates. Bepaalde software-updates worden mogelijk niet opgemerkt door deze hulpprogramma's. Beheerders kunnen in deze gevallen de inventarisatiefuncties van SMS gebruiken om de updates op bepaalde systemen uit te voeren. Zie de volgende [website](http://go.microsoft.com/fwlink/?linkid=33341) voor meer informatie over deze procedure. Voor bepaalde beveiligingsupdates zijn beheerdersrechten vereist na het opnieuw opstarten van het systeem. Beheerders kunnen voor het installeren van deze updates de Elevated Rights Deployment Tool gebruiken (die deel uitmaakt van het [SMS 2003 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=33387) en het [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161)).
+  
+**QChain.exe en Update.exe:**
+  
+Microsoft heeft een opdrachtregelhulpprogramma uitgebracht met de naam QChain.exe, waarmee beheerders beveiligingsupdates veilig aan elkaar kunnen koppelen (chaining). *Chaining* houdt in dat u meerdere updates kunt installeren zonder na elke installatie de computer opnieuw te hoeven opstarten. Update.exe, dat wordt gebruikt in de updates die in dit document worden beschreven, heeft een ingebouwde chaining-functionaliteit. Voor klanten die Windows 2000 Service Pack 2 of hoger, Windows XP of Windows Server 2003 gebruiken, is Qchain.exe niet vereist om deze updates aan elkaar te koppelen. Qchain.exe ondersteunt het koppelen van deze Windows-updates nog steeds, zodat een beheerder een consistent implementatiescript kan maken voor alle platformen. Ga naar deze [website](http://go.microsoft.com/fwlink/?linkid=21156) voor meer informatie over Qchain.
+  
+**Microsoft Baseline Security Analyzer:**
+  
+Met de Microsoft Baseline Security Analyzer (MBSA) kunnen beheerders lokale en externe systemen scannen op ontbrekende beveiligingsupdates en algemene, onjuiste beveiligingsconfiguraties. Ga naar de website [Microsoft Baseline Security Analyzer](http://go.microsoft.com/fwlink/?linkid=21134) voor meer informatie over MBSA.
+  
+**Richtlijnen voor detecteren en implementeren:**
+  
+Microsoft heeft richtlijnen voor detecteren en implementeren uitgebracht voor de beveiligingsupdates van deze maand. Aan de hand van deze richtlijnen kunnen IT-professionals zien hoe zij met de diverse hulpprogramma's de beveiligingsupdate moeten implementeren, zoals Windows Update, Microsoft Update, Office Update, de Microsoft Baseline Security Analyzer (MBSA), de Office Detection Tool, Microsoft Systems Management Server (SMS), de Extended Security Update Inventory Tool en de Enterprise Update Scan Tool (EST). Zie [Microsoft Knowledge Base-artikel 910723](http://support.microsoft.com/kb/910723) voor meer informatie.
+  
+#### Overige informatie:
+  
+**Dankbetuiging**
+  
+Microsoft [bedankt](http://go.microsoft.com/fwlink/?linkid=21127) de volgende partijen voor de samenwerking bij het verbeteren van de beveiliging voor klanten:
+  
+-   [eEye Digital Security](http://www.eeye.com/html/) voor het melden van een probleem dat wordt beschreven in [MS06-018](http://go.microsoft.com/fwlink/?linkid=54734).  
+-   Xiao Chen van [McAfee](http://www.mcafee.com) voor het melden van een probleem dat wordt beschreven in [MS06-018](http://go.microsoft.com/fwlink/?linkid=54734).  
+-   Kai Zhang van [VenusTech](http://www.venustech.com.cn) voor het melden van een probleem dat wordt beschreven in [MS06-018](http://go.microsoft.com/fwlink/?linkid=54734).
+  
+**Andere beveiligingsupdates:**
+  
+Op de volgende locaties zijn updates verkrijgbaar voor andere beveiligingsproblemen:
+  
+-   Beveiligingsupdates zijn verkrijgbaar via het [Microsoft Downloadcentrum](http://go.microsoft.com/fwlink/?linkid=21129). U vindt deze updates het snelst door een zoekactie uit te voeren met als trefwoord 'security\_patch'.  
+-   Updates voor consumentenplatforms zijn verkrijgbaar op de website [Windows Update](http://go.microsoft.com/fwlink/?linkid=40747).  
+-   U kunt de beveiligingsupdates van deze maand die via Windows Update worden aangeboden, via het ISO-beeldbestand met beveiligingsupdates en essentiële updates ophalen. Zie [Microsoft Knowledge Base-artikel 913086](http://support.microsoft.com/kb/913086) voor meer informatie.
+  
+**Ondersteuning:**
+  
+-   Technische ondersteuning van [Microsoft Product Support Services](http://support.microsoft.com/?ln=nl) is beschikbaar via 020-500 1005. Voor ondersteuningsverzoeken in verband met beveiligingsupdates worden geen kosten in rekening gebracht.  
+-   Voor internationale klanten is ondersteuning verkrijgbaar bij de Microsoft-vestiging in hun land. Voor ondersteuning in verband met beveiligingsupdates worden geen kosten in rekening gebracht. Ga naar de [website voor internationale ondersteuning](http://go.microsoft.com/fwlink/?linkid=21155) voor meer informatie over hoe u contact kunt opnemen met Microsoft voor ondersteuning.
+  
+**Beveiligingsinformatie:**
+  
+-   Op de website [Microsoft TechNet Security](http://go.microsoft.com/fwlink/?linkid=21132) vindt u extra informatie over beveiliging in Microsoft-producten.  
+-   [Microsoft Software Update Services](http://go.microsoft.com/fwlink/?linkid=21133)  
+-   [Microsoft Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=50120)  
+-   [Microsoft Baseline Security Analyzer](http://go.microsoft.com/fwlink/?linkid=21134) (MBSA)  
+-   [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130)  
+-   [Microsoft Update](http://update.microsoft.com/microsoftupdate)  
+-   Windows Update-catalogus: Zie Microsoft Knowledge Base-artikel [323166](http://support.microsoft.com/default.aspx?scid=kb;nl;323166) voor meer informatie over de Windows Update-catalogus.  
+-   [Office Update ](http://go.microsoft.com/fwlink/?linkid=21135)
+  
+**Uitsluiting van aansprakelijkheid:**
+  
+De informatie die wordt geboden in de Microsoft Knowledge Base, wordt geleverd 'in de huidige staat' zonder enige garantie. Microsoft wijst hierbij alle expliciete of impliciete garanties van de hand, met inbegrip van alle garanties betreffende de verhandelbaarheid en geschiktheid voor een bepaald doel. Voorzover maximaal is toegestaan op grond van toepasselijk recht zijn Microsoft Corporation en/of haar leveranciers in geen geval aansprakelijk voor enige directe, indirecte of incidentele schade, bijzondere schade, gevolgschade of schade ten gevolge van het verlies van winsten, zelfs als Microsoft Corporation of haar leveranciers van de mogelijkheid van dergelijke schade op de hoogte is gesteld. Aangezien sommige staten/rechtssystemen uitsluiting of beperking van aansprakelijkheid voor gevolgschade of incidentele schade niet toestaan, is de voorgaande beperking wellicht niet op u van toepassing.
+  
+**Revisies:**
+  
+-   V1.0 (9 mei 2006): Bulletin gepubliceerd.
+  
+*Built at 2014-04-18T01:50:00Z-07:00*
